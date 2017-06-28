@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.6.22)  28 JUN 2017 12:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.6.22)  28 JUN 2017 16:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -652,25 +652,25 @@ LaTeX Warning: Label `chp:DEM' multiply defined.
 ) (./contents/App-1.aux))
 \openout1 = `USthesis_Masters.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 110.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 110.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 107.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 107.
 
  (c:/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    ... okay on input line 107.
 (c:/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count158
@@ -729,10 +729,10 @@ e
 <UScrest-WM.jpg, id=1, 49.8663pt x 69.3792pt>
 File: UScrest-WM.jpg Graphic file (type jpg)
 <use UScrest-WM.jpg>
-Package pdftex.def Info: UScrest-WM.jpg  used on input line 115. on input line 
-115.
+Package pdftex.def Info: UScrest-WM.jpg  used on input line 112. on input line 
+112.
 Package pdftex.def Info: Requested size: 89.70789pt x 124.82738pt on input line
- 115.
+ 112.
  [1
 
 
@@ -786,50 +786,59 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
 
 
-]) [2]
+] [2]
+<figs/TraditionalICU.png, id=66, 504.6855pt x 240.9pt>
+File: figs/TraditionalICU.png Graphic file (type png)
+<use figs/TraditionalICU.png>
+Package pdftex.def Info: figs/TraditionalICU.png  used on input line 54. on inp
+ut line 54.
+Package pdftex.def Info: Requested size: 353.27744pt x 168.62883pt on input lin
+e 54.
+) [3 <./figs/TraditionalICU.png>]
 \openout2 = `contents/Chap-2.aux'.
 
- (./contents/Chap-2.tex
-<figs/AuricleLabel.png, id=66, 178.86826pt x 151.767pt>
+
+(./contents/Chap-2.tex
+<figs/AuricleLabel.png, id=74, 178.86826pt x 151.767pt>
 File: figs/AuricleLabel.png Graphic file (type png)
 <use figs/AuricleLabel.png>
 Package pdftex.def Info: figs/AuricleLabel.png  used on input line 15. on input
  line 15.
 Package pdftex.def Info: Requested size: 178.86781pt x 151.76662pt on input lin
 e 15.
- [3
+ [4
 
 
 
 ]
 
-LaTeX Warning: Reference `' on page 4 undefined on input line 24.
+LaTeX Warning: Reference `' on page 5 undefined on input line 24.
 
-<figs/EarSection.pdf, id=70, pagebox=cropbox, 451.6875pt x 294.34969pt>
+<figs/EarSection.pdf, id=78, pagebox=cropbox, 451.6875pt x 294.34969pt>
 File: figs/EarSection.pdf Graphic file (type pdf)
 <use figs/EarSection.pdf>
 Package pdftex.def Info: figs/EarSection.pdf  used on input line 31. on input l
 ine 31.
 Package pdftex.def Info: Requested size: 316.17908pt x 206.04337pt on input lin
 e 31.
-[4 <./figs/AuricleLabel.png>] [5 <./figs/EarSection.pdf>]
-<figs/VariationsInTemp.pdf, id=82, pagebox=cropbox, 603.75563pt x 432.11438pt>
+[5 <./figs/AuricleLabel.png>] [6 <./figs/EarSection.pdf>]
+<figs/VariationsInTemp.pdf, id=88, pagebox=cropbox, 603.75563pt x 432.11438pt>
 File: figs/VariationsInTemp.pdf Graphic file (type pdf)
 <use figs/VariationsInTemp.pdf>
 Package pdftex.def Info: figs/VariationsInTemp.pdf  used on input line 56. on i
 nput line 56.
 Package pdftex.def Info: Requested size: 181.12808pt x 129.6353pt on input line
  56.
- [6] [7 <./figs/VariationsInTemp.pdf>] [8]
-<figs/IR_Thermometer.pdf, id=95, pagebox=cropbox, 437.38406pt x 252.19218pt>
+ [7] [8 <./figs/VariationsInTemp.pdf>] [9]
+<figs/IR_Thermometer.pdf, id=101, pagebox=cropbox, 437.38406pt x 252.19218pt>
 File: figs/IR_Thermometer.pdf Graphic file (type pdf)
 <use figs/IR_Thermometer.pdf>
 Package pdftex.def Info: figs/IR_Thermometer.pdf  used on input line 126. on in
 put line 126.
 Package pdftex.def Info: Requested size: 131.21622pt x 75.65823pt on input line
  126.
- [9] [10 <./figs/IR_Thermometer.pdf>] [11]
-<figs/PulseOxiModes.pdf, id=108, pagebox=cropbox, 303.38344pt x 117.43875pt>
+ [10] [11 <./figs/IR_Thermometer.pdf>] [12]
+<figs/PulseOxiModes.pdf, id=114, pagebox=cropbox, 303.38344pt x 117.43875pt>
 File: figs/PulseOxiModes.pdf Graphic file (type pdf)
 <use figs/PulseOxiModes.pdf>
 Package pdftex.def Info: figs/PulseOxiModes.pdf  used on input line 179. on inp
@@ -838,16 +847,16 @@ Package pdftex.def Info: Requested size: 303.38269pt x 117.43845pt on input lin
 e 179.
 
 
-Package natbib Warning: Citation `tavakoli2006analog' on page 12 undefined on i
+Package natbib Warning: Citation `tavakoli2006analog' on page 13 undefined on i
 nput line 184.
 
-[12 <./figs/PulseOxiModes.pdf>] [13] [14]
+[13 <./figs/PulseOxiModes.pdf>] [14] [15]
 Overfull \hbox (22.20064pt too wide) in paragraph at lines 234--235
 \T1/cmr/m/n/12 http://www.iosrjournals.org/iosr-jeee/Papers/Vol8-issue1/D081222
 6.pdf?id=7592 
  []
 
-<figs/AbsorptionSpectra.pdf, id=123, pagebox=cropbox, 426.09187pt x 290.58563pt
+<figs/AbsorptionSpectra.pdf, id=129, pagebox=cropbox, 426.09187pt x 290.58563pt
 >
 File: figs/AbsorptionSpectra.pdf Graphic file (type pdf)
 <use figs/AbsorptionSpectra.pdf>
@@ -855,23 +864,23 @@ Package pdftex.def Info: figs/AbsorptionSpectra.pdf  used on input line 238. on
  input line 238.
 Package pdftex.def Info: Requested size: 340.87395pt x 232.46881pt on input lin
 e 238.
-) [15] [16 <./figs/AbsorptionSpectra.pdf>]
+) [16] [17 <./figs/AbsorptionSpectra.pdf>]
 \openout2 = `contents/Chap-3.aux'.
 
- (./contents/Chap-3.tex [17
+ (./contents/Chap-3.tex [18
 
 
 
-] [18]
-[19] [20] [21] [22] [23]) [24]
+] [19]
+[20] [21] [22] [23] [24]) [25]
 \openout2 = `contents/Chap-4.aux'.
 
- (./contents/Chap-4.tex [25
+ (./contents/Chap-4.tex [26
 
 
 
 ]
-<figs/PulseOxiConfiguration.pdf, id=163, pagebox=cropbox, 659.46375pt x 239.394
+<figs/PulseOxiConfiguration.pdf, id=170, pagebox=cropbox, 659.46375pt x 239.394
 38pt>
 File: figs/PulseOxiConfiguration.pdf Graphic file (type pdf)
 <use figs/PulseOxiConfiguration.pdf>
@@ -885,29 +894,29 @@ Overfull \hbox (0.38347pt too wide) in paragraph at lines 50--51
 ory of IR thermo-
  []
 
-[26 <./figs/PulseOxiConfiguration.pdf>] [27]) [28]
+[27 <./figs/PulseOxiConfiguration.pdf>] [28]) [29]
 \openout2 = `contents/Chap-5.aux'.
 
  (./contents/Chap-5.tex
-[29
+[30
 
 
 
-]) [30] [31] [32
+]) [31] [32] [33
 
 
 ]
 \openout2 = `contents/App-1.aux'.
 
  (./contents/App-1.tex
-<figs/DEM-Def-Ball.pdf, id=190, pagebox=cropbox, 237.88875pt x 172.645pt>
+<figs/DEM-Def-Ball.pdf, id=196, pagebox=cropbox, 237.88875pt x 172.645pt>
 File: figs/DEM-Def-Ball.pdf Graphic file (type pdf)
 <use figs/DEM-Def-Ball.pdf>
 Package pdftex.def Info: figs/DEM-Def-Ball.pdf  used on input line 9. on input 
 line 9.
 Package pdftex.def Info: Requested size: 237.88815pt x 172.64456pt on input lin
 e 9.
-) [33
+) [34
 
 
  <./figs/DEM-Def-Ball.pdf>]
@@ -923,7 +932,7 @@ Overfull \hbox (21.21725pt too wide) in paragraph at lines 88--91
 m/science/external-auditory-canal 
  []
 
-[34
+[35
 
 
 
@@ -938,7 +947,7 @@ fety/safesurgery/pulse_oximetry/who_ps_pulse_oxymetry_tutorial2_advanced_en.pdf
 
 Package natbib Warning: There were undefined citations.
 
-[35]
+[36]
 \tf@toc=\write4
 \openout4 = `USthesis_Masters.toc'.
 
@@ -960,13 +969,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7928 strings out of 492995
- 108665 string characters out of 6136402
- 213178 words of memory out of 5000000
- 11261 multiletter control sequences out of 15000+600000
+ 7934 strings out of 492995
+ 108814 string characters out of 6136402
+ 213432 words of memory out of 5000000
+ 11266 multiletter control sequences out of 15000+600000
  31889 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,16n,46p,1093b,481s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,16n,46p,1297b,481s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
 ive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2017/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2017/texmf-dis
@@ -996,10 +1005,10 @@ texmf-dist/fonts/type1/public/cm-super/sfsl1440.pfb><c:/texlive/2017/texmf-dist
 /fonts/type1/public/cm-super/sfti1095.pfb><c:/texlive/2017/texmf-dist/fonts/typ
 e1/public/cm-super/sfti1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/
 cm-super/sftt1095.pfb>
-Output written on USthesis_Masters.pdf (46 pages, 809720 bytes).
+Output written on USthesis_Masters.pdf (47 pages, 936253 bytes).
 PDF statistics:
- 319 PDF objects out of 1000 (max. 8388607)
- 222 compressed objects within 3 object streams
+ 325 PDF objects out of 1000 (max. 8388607)
+ 225 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
