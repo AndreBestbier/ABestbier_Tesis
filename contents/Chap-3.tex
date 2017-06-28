@@ -1,208 +1,178 @@
-\chapter{Concept Design}
-\label{chp:DEM}
-This chapter will document the process of designing and developing the device and supporting software needed to answer the research question. The design process will combine the knowledge gained in the literature study chapter with engineering methods to find a unique solution to the stated problem. A classical engineering design approach will be taken: starting with determining the system requirements, using these requirements to set up a list of quantitative design specifications, developing concepts so meet these specifications and finally choosing the best concept through some evaluation process. After the best solutions has been identified, a detailed design phase will commence. Detailed design will consist of component selection, hardware integration and software design. In this chapter 'system' will refer to the device n development along with its supporting software.
+\chapter{Theory Literature Review}
+\label{chp:TheoryLit}
+This chapter will focus on the theory and current technology relevant to the measurement of each medical sign required of the Ear-Monitor. Attention will be given to the different bio-signals available to determine each medical sign and the different methods of transducing and measuring these bio-signals. This section will also make reference to various articles and studies done by other researchers in this field of study. The aim is to gather all the relevant information in order to make an informed selection of the methods and sensors the Ear-Monitor will use to measure each medical sign.
 
-\section{System requirements}
-In order to ensure that the device can be used in a study to determine if the ear canal is a feasible location for vital sign extraction, it must satisfy the a set of high level requirements. The "system" refers to the device along with the supporting software. These requirements will act as guidelines to the rest of the design process. The system should be designed to satisfy the following requirements:
+\section{Core Temperature}
+Various methods are available for measuring core temperature. Non-electric, fluid-filled thermometers was the first to be used. The mercury-filled thermometer was used by early physicians to study the thermoregulation of the human body and crudely identify fevers. Since then, the mercury has been replaced by coloured alcohol or another heat sensitive liquid, due to toxicity of mercury.
 
-\begin{itemize}
-%%First three requirements comes from the title and are the most important
-	\item The device must be able to measure the vital signs mentioned:
-	\begin{itemize}
-		\item core body temperature
-		\item heart rate
-		\item respiratory rate
-		\item Blood oxygen saturation
-		\item EEG signals
-	\end{itemize}  
-	\item  The devise should have an ear probe with embedded sensors to measure the mentioned vital signs from the ear canal
-	\item Data captured should be sent to a nearby PC through a wireless connection
-	%%The following requirements comes from discussuins this the proposar
-	\item It should be able for a person to wear the device without it obstructing normal movements
-	\item The device should be mobile an no wires should extend beyond the wearer
-	\item The device should be safe for the user to ware
-	\item Vital sign measurement methods should not require the penetration or removal of tissue or fluid from the wearer
-	\item 
-  	\item The supportive software must:
-  	\begin{itemize}
-  		\item store data
-  		\item extract useful vital sign information from the data
-  		\item detect when vital signs indicate abnormal trends via an 	 			algorithmic support platform
-  	\end{itemize}
-\end{itemize}
+\medskip
 
-\section{Quantitative Design Specifications}
-In order to go from system requirements to a concept, design specifications are needed. Where possible, quantitative goals will be set for different aspects of the design. These specifications will guide the selection of components for the device and the development of software to interface with the components.
+Another type of fluid-filled thermometer is the liquid-crystal thermometer. It contains liquid crystals that changes colour when at different temperatures. The use of these two types of fluid-filled thermometers has decreased significantly due to the accuracy, speed and connivance of digital thermometers.
 
-\subsection{Sensors}
-The most important requirements of the device is to measure the five vital signs mentioned. As seen during the literature review, there are many different methods of measuring the same physiological sign. To help in the selection of the most appropriate measuring method for each vital sign, a understanding is needed to exactly what will be required of each method this system. A "method" in this section, it refers to the set of steps or laws of physics that will be used to measure a specific vital sign. While component will refer to the physical structure that will incorporate the method to make the measurement. For example, a method can be measuring temperature by using the the physical phenomena of heat conduction, and the component that will realize this method will be a thermocouple. Specifications for the accurate monitoring of each vital sign will be discussed in the following paragraphs.
+\medskip
 
-\subsubsection{Temperature}
-A method is needed to monitor the core body temperature (or an acceptable approximation thereof) in the ear canal canal. The method and component to measure the temperature should meet the following goals:
-\begin{itemize}
-  \item Sampling frequency: faster than 10 samples per minute
-  \item Resolution: smaller than 0.01 $^{\circ}$C
-  \item Error: smaller than 0.1 $^{\circ}$C
-  \item Measurement range: further than 5 mm
-  \item Overall compact shape in order to fit inside the ear canal
-  \item Sensor diameter: smaller than 5 mm
-  \item No contact should be made with the tympanic membrane
-  \item Low pass filter: filter out high frequency noise
-  \item The sensor must be able to compensate for the ambient temperature
-\end{itemize}
+Electrical thermometers are now the industry standard of measuring core temperature. Central to any digital thermometer lies a transducer that convert temperature to an electrical signal. Resistance temperature detectors, thermocouples thermistor and thermopiles will be discussed. They can be divided into contact and non-contact thermometers.
 
-\subsubsection{Heart Rate}
-A method is needed to measure the heart rate of the patient through the ear canal. The following goals should be met to ensue a accurate heart rate monitoring:
+\subsection{Contact Thermometers}
+These are a family of thermometers that measure their own temperature with the assumption they and the object whose temperature are of interest are in thermal equilibrium. Therefore, they are usually placed in contact with the object. When using a contact thermometer n the ear, the sensor part of the thermometer can be placed in contact with the ear canal wall, the air inside the canal or with the tympanic membrane self.
 
-The primary goal of the pulse oximetry sensor is to monitor the pulse rate of the patient for this on of the vital signs specified by the system requirements. SpO2 measurement is a secondary goal. The required hardware for measuring the SpO2 must be included in the device. The pulse oximeter will consist of two light emitters with wavelengths of 660 nm and 940 nm respectively. One or two photodetectors will be used to measure the light passing through the tissue. The photodetector that collects the emitted light will output a low voltage signal. This signal must be amplified to a range there it can by digitalized accurately. The sensor mush be able to compensate for the ambient lighting conditions. Further specifications are as follows:
+\subsubsection{Resistance Temperature Detector}
 
-\begin{itemize}
-  \item Sampling frequency: faster than 50 Hz
-  \item Photodetector wavelength range: 650 to 950 nm
-  \item Photodetector and emitters size: thinner than 2 mm
-  \item Low pass filter: filter out high frequency noise
-  \item High pass filter: filter out low frequency motion artefacts
-\end{itemize}
+Resistance temperature detectors (RTDs) uses the temperature-resistance relationship for metals to measure temperature. Thin wire coils or films of platinum, copper or nickel are usually preferred for they have a stable and repeatable temperature-resistance relationship over a large temperature range.
 
+\subsubsection{Thermocouple}
+Thermocouples make use of the thermo-electric effect to make a temperature measurement. They consist of two dissimilar conductors connected at the one end, knows as the hot junction (measuring junction). The other ends of the two wires are known as the cold junction (reference junction) and are connected to a voltage meter via common conductors. A voltage is generated dependant to the temperature difference between the measuring- and reference junctions. Thermocouples do not respond to absolute temperature; therefore, their accuracy depends on how well the reference temperature can be defined. Reference temperatures are usually determined by a precise thermistor. Thermocouples are very versatile and widely used in clinical applications, but the downsides are that their output signal is low and non-linear, therefore requiring a sensitive and stable voltage measuring device \citep{jones2010biomedical}.
 
+\medskip
 
+Thermocouples can be connected in series and are then called thermopiles. This configuration sums the output voltages, resulting in temperature averaging. This method improves accuracy by reducing noise. 
 
+\subsubsection{Thermistor}
+A thermistor is a type of semiconductor whose resistance varies with changes in temperature. They differ from RTDs in that they are usually made of ceramics, they have higher precision over a smaller temperature range and they can have a negative relation to temperature. Thermistors are preferred above RTDs and thermocouples for use as biomedical sensors due to their faster response time and higher sensitivity over a smaller range and. The smaller range does not matter, for the temperature range of interest in biosensors are small and well defined. 
 
+\subsubsection{Contact Thermometer Application}
+In the case of RTDs and thermistors, the measuring element is placed in position and a current is sent through the sensor. By measuring the voltage across the resistive element, it is possibly to calculate the voltage and subsequently determine the temperature. In the case of the thermocouple, the hot junction can be placed in contact with the canal wall or tympanum. Typically, the hot junction will be enclosed with a soft material to protect the canal and tympanum. The canal is sealed off and time is allowed for the area to equilibrate to tympanic temperature. Commercial devices like Novatemp\textsuperscript \textregistered and Starboard\textsuperscript \textregistered claims a $\pm$ 0.2 $^{\circ}C$ accuracy.
 
+\medskip
 
+Placing a thermometer in contact with the tympanic membrane will give an accurate measurement, but can cause discomfort to the wearer. There is also a risk of harming the tympanic membrane. Sensors in contact with the ear canal wall or the air inside the canal run the risk of making errors by measuring the temperature of objects that are not in thermal equilibrium with the tympanic membrane. Therefore, non-contact thermometers will be considered.
 
+\subsection{Non-contact Thermometers}
+Thermopiles can be used to detect thermal radiation without being I contact with the object. All matter with temperatures above 0 K radiates electromagnetic radiation according to the Stefan-Boltzman law. The thermal radiation, $Q$, per unit area is given by the equation:
 
-\subsubsection{Respiratory rate}
+$$Q=\varepsilon \sigma T^4.$$
 
-\subsubsection{Blood Oxygen Saturation}
+Where $\varepsilon$ is the emissivity, $\sigma$ the Stefan-Boltzman constant and T the temperature of the object.
 
-\subsubsection{EEG}
-Design specifications are proposed for the EEG part of the project in order to ensure that the devise being designed by M Rabie can be integrated later on. It is important that the rest of the hardware and software being developed in this project is compatible with a basic EEG sensor. The EEG system that must be made provision for has the following specifications:
-\begin{itemize}
-  \item Number of electrodes: 3
-  \item Sampling frequency: faster than 200 Hz
-  \item Amplifier gain: 100 - 100000
-  \item Amplifier common-mode rejection ratio: larger than 100 dB
-  \item Amplifier input impedance: larger than 100 M$\Omega$
-  \item A/D converted resolution: smaller than 0.5 $\mu$V
-\end{itemize}
+The wavelength distribution varies according to the temperature of the object and is described by Planck's law:
 
+$$B_\lambda (\lambda ,T)=\frac{2hc^2}{\lambda ^5}\frac{1}{e^\frac{hc}{\lambda k_B T} -1}.$$
+ 
+Where $B_\lambda$ is the spectral radiance, $\lambda$ the radiation wavelength, $h$ Planck's constant, $k_B$ Boltzman's constant $c$ the speed of light and $T$ the object's temperature. Through maximizing $B_\lambda$ , it is possible to find the dominant wavelength that is emitted at a certain temperature. Figure~\ref{fig:PlancksLaw} shows a plot made of spectral radiance versus wavelength at $T=$ 37 $^{\circ}C$, the core temperature of humans. It can be seen that the dominant wavelength is at 9.35 $\mu$m. This is in the infrared range, and therefore this type of thermal radiation thermometer is called an infrared thermometer.
 
+ \begin{figure}[h]
+   \centering
+   \includegraphics[scale=0.6]{figs/PlancksLaw}
+   \caption{Plot showing how Planck's law can be used to determine the dominant radiation wavelength at certain temperature}
+   \label{fig:PlancksLaw}
+\end{figure}
 
-The design will consist of three different types of sensors to record three biosignals. All sensors will be located in the probe that enters the ear canal. The three sensors are:
-\begin{itemize}
-  \item Infra-red sensor to measure tympanic membrane temperature
-  \item Pulse oximeter to measure pulse rate
-  \item Electroencephalogram electrodes to measure electrical brain activity
-\end{itemize}
+In the case of measuring the temperature of the tympanic membrane, the hot junction's temperature will be determined by the radiation received from the tympanum minus the radiation radiated by the sensor self.
 
-\subsection{Dimensions}
-The prototype should have a probe that fits into the ear canal of the test subject to take the required measurements. The casing of the probe should be of biocompatible material. The probe shape should place the sensors in the correct positions in the ear canal to take the readings. The probe should connect with the remainder of the onboard electronics. Size requirements of the probe is as follows:
-\begin{itemize}
-  \item Probe diameter: smaller than 5 mm
-  \item Probe length: shorter than 10 mm
-\end{itemize}
+\medskip
 
-\subsection{Power}
-The device should be battery powered. A trade-off will exist between battery size, capacity and charging time. The battery life is selected to be practical for the user. The battery pack should be removable and replaceable to allow for the minimum interruption in the monitoring of vital signs. A low power warning system should be implemented. Design specifications for the power system include:
-\begin{itemize}
-  \item Battery life: 48 hours
-  \item Charging time: 4 hours
-\end{itemize}
+When talking about thermal radiation, an important aspect is emissivity. Emissivity is the ability of an object to radiate thermal energy. It is quantified as a ratio of thermal energy emitted by a surface relative to the thermal energy emitted by an ideal black body at the same temperature. A black body is an idealized surface that reflects no radiation, meaning all energy radiated from the surface are due to the temperature of the surface. Thus, a black body have an emissivity of 1 and have the maximum theoretical radiation at a given temperature. The accuracy of an infrared sensor depends on the ability of the object to emit sufficient thermal radiation for the sensor to detect. Cross-referencing various emissivity tables, it was found that the emissivity of human skin is 0.98, meaning that it is an excellent emitter of thermal energy \citep{stumme2003emissivity} \citep{EmissivityThermoWorks} \citep{EmissivityOptotherm}. The ear drum is covered with skin, making it an ideal target object for a non-contact thermometer.
 
-\subsection{Microcontroller specifications}
-The sensor probe will connect to an onboard microcontroller. Storage and communication modules will also be needed. The probe and processing electronics should be able to function as a stand-alone devise with a mobile power pack, onboard processing capabilities and wireless connectivity. The controller must be able to handle the processing needs of the device. The maximum amount of signal processing should be done by the onboard processor to minimize the load on the wireless network. The following are the main needs:
-\begin{itemize}
-  \item Number of signals to sample: 5 (2 photodetectors and 3 EEG electrodes)
-  \item Sampling speed: faster than 1 kHz (Sequential sampling)
-  \item Analog to digital converter: more than 10 bit
-  \item Onboard storage: more than 32 kB
-  \item I/O ports: more than 10
-  \item Communication ports: multiple UART, I2C and PWM
-  \item Asynchronous internal clock
-  \item Low power consumption
-  \item Multiple power modes for power saving
-  \item Signal processing capabilities
-  \item High level of robustness and fault tolerance
-\end{itemize}
+\medskip
 
-\subsection{Communication}
-The device must be able to connect to the internet through a wireless network. Collected information must be sent to a cloud hosted platform to do the final processing and run the warning system. The onboard communication module must be able to connect to the internet through a wireless local area network (WLAN) and upload data. This connection must be fast enough to stream real time data from the device. Data must be made available to the involved parties and they should be warned if alarm conditions is sensed. Requirements for the communication system includes:
-\begin{itemize}
-  \item Onboard communication speed: faster than 1kB per second
-  \item Onboard communication range: farther than 10 m
-  \item Capable of cloud connectivity
-  \item Cloud data storage: more the 1 month of collected data
-  \item Cloud update speed: faster than 5 seconds
-\end{itemize}
+An infrared thermometer generally consists out of a thermophile attached to a blackbody and shielded by an infrared filter that also acts as a lens to focus infrared waves \citep{irTempSensors}. This setup, shows in Figure \ref{fig:IR_Thermometer}, allows for the non-contact temperature sensing of the tympanic membrane. Unlike pulse rate, breathing and electrical brain activity, the core body temperature varies slowly. It takes minutes to vary significantly. Therefore, the sampling period of core temperature can be as long as 10 seconds.
 
-\subsection{Pulse oximeter}
+\medskip
+
+\begin{figure}[h]
+   \centering
+   \includegraphics[scale=0.5]{figs/IR_Thermometer}
+   \caption{IR Thermometer diagram (V Polyzoev et al: Demystifying Thermopile IR Temp Sensors)}
+   \label{fig:IR_Thermometer}
+\end{figure}
+
+\subsection{Commercial Devices}
+The \textit{degree}$^{\circ}$, Figure \ref{fig:Degree}, is a continuous in-ear thermometer for children, developed by \textit{cosinuss}$^{\circ}$, a company specialising in wearable sensors. The bulk of the device is worn behind the ear, and there is a wire running over the auricle to the ear canal, in which a probe is placed. The device takes its temperature measurements with a sensor placed in contact with the canal wall. The manufacturer claims an accuracy of $\pm$0.1 $^{\circ}C$. It monitors temperature continuously and sends real time data to a mobile phone.
+
+\medskip
+
+\begin{figure}[h]
+   \centering
+   \includegraphics[scale=0.65]{figs/Degree}
+   \caption{CAD model of the \textit{degree}$^{\circ}$ from the \textit{cosinuss}$^{\circ}$ website (include ref)}
+   \label{fig:Degree}
+\end{figure}
+
+Apart from the \textit{degree}$^{\circ}$, there are not much literature on wearable ear thermometers. Two patents were found describing similar devices: US 6556852 B1 and US 20090221888 A1. The first of which proposes the use of an infrared sensor pointed at the tympanic membrane, and the latter not specifying the method of measuring. Hopefully, the tests planned for this study can add to this insufficient body of knowledge.
+
+\section{Heart Rate}
+The presence of a heart beat is a paramount to the sustain the vital cardiac output supplying blood to the whole body. Heart  rate can be controlled or maintained through two different regulatory systems: The intrinsic conduction system and the nervous system. The intrinsic conduction system works through the rhythmic contraction and relaxation of the heart muscle tissue. The heart rhythm is regulated by the sinoatrial node. The nervous system can influence the heart rate through sympathetic and parasympathetic nerves running from the cardiovascular centres in the medulla oblongata to the heart. The heart beat rate is varied to control the blood flow and blood pressure in the body.
+
+Heart rate is influenced by numerous physiological factors including $O_2$, $CO_2$, $H^+$ levels, blood pressure, stress and exercise. Pathological factors can include fever, sepsis, heart disease and anaemia. Tachycardia is abnormally high resting heart rate, generally above 100 bpm, whereas bradycardia is an lower then normal resting heart rate, usually below 60 bpm. Although these two conditions are not necessarily danger signs, it may be an indication of health problems and therefore heart rate measurement is part of any medical examination and one of the vital signs in humans.
+
+Heart rate can be measured in a variety of ways. Electronic ways of measuring heart rate include electrocardiography (ECG), photoplethysmography (PPG), ballistocardiography(BCG), electronic stethoscopes and Doppler flow-meters.
+
+\subsection{Electrocardiography}
+ECG records the electrical activity of the heart over a period of time. It is the the recommended way of monitoring heart rate in most intensive care units. A cardiologist will use a 12 lead ECG with 10 electrodes placed in a specific configuration on the chest. Various wearible devices use ECG to measure heart rate. Fitness monitors normally uses a chest strap with electrodes to detect the heart's electrical activity. Studies have been done developing wearable ECGs for clinical use.
+
+The typical telemedicine set-up of a wearable ECG is a signal acquisition module, collecting and sending data by means of a wireless transceiver to a smart-phone, which then uploads the data to a healthcare server \citep{wang2010wearable} and/or \citep{prawiro2016integrated}. %Maybe put this paragraph in a design related chapter
+
+The latest in wearable ECK systems is the use of Dry Polymer-based electrodes \citep{wang2010wearable} or non-contact electrodes that can be place on top of clouthing \citep{lin2013development}. This is an improvement above the standard conductive gels or adhesives and can be used repeatedly. But these electrods still needs to be place on the chest. An ear located ECG monitor have been developed by \cite{winokur2012wearable}. This device uses an one lead set-up with on electrode place on the mastoid bone and one on the neck. This configuration relies on the conductive properties of human tissue to carry electrical charges form the heart to the location of the ear. (See also: Bluetooth Low Energy (BLE) Based Mobile Electrocardiogram Monitoring System; 
+
+\subsection{Photoplethysmography}
+Photoplethysmography (PPG) is an optically obtained  plethysmogram (volume change of an organ). PPG can be used to measure the change in volume of blood vessels close to the skin surface. When the left ventricle contracts a pressure pulse propagates through the arteries from the heart to the extremities of the body. This wave corresponds to the systolic blood pressure. Blood vessels walls contain elastic fibres that allow them to stretch. This means that the diameter of vessels will increase when the blood pressure increase, causing   arteries so to stretch and contract with each heartbeat. A PPG can be used to measure this variation.
+
+According to Lambert's law, the amount of light absorbed is proportional to the length of the path that the light has to travel in the absorbing substance. Therefore a change in blood vessel diameter will cause a change in tissue absorption. Light shined through the skin to illuminate the underlying subcutaneous tissue can either be reflected, absorbed or allowed to transmit through the tissue. Changes in the light absorption of the tissue can be detected by measuring this reflected or transmitted light. As defined by Lambert's law: changes in absorbed light is due to the changes in arterial diameter and thus, an indication of the pulse. Figure of reflective and transmittance PPG.
+
+A photoplethysmogram of blood vessels is obtained through pulse oximetry. A pulse oximeter consiste of a light emitter and detector. It can operate in reflectance or transmittance modes as shown in Figure~\ref{fig:PulseOxiModes}. Transmittance pulse oximetry measures the light that is allowed to transmit through the tissue. It is more common, but its placement is restricted to a thin part of the patient's body that will allow light through. Reflectance pulse oximetry has no such restrictions for it measures the light that is reflected by the tissue.
+
+\begin{figure}
+   \centering
+   \includegraphics[scale=1]{figs/PulseOxiModes}
+   \caption{Pulse oximetry in reflective or transmittance modes}
+   \label{fig:PulseOxiModes}
+\end{figure}
+
+The signal read by the photo detector of the pulse oximeter consists of a AC component superimposed on a DC signal. The DC component is the constant reflection of light by the body's tissue: skin, fat, venous blood and the non-pulsating arterial blood. The AC components is the variation in reflected light due to the change in diameter of the arteries and is usually between 0.5 - 2\% of the DC component  \citep{tavakoli2006analog}. Therefore the frequency of the AC component is synchronised to the heart rate.
+
+\subsection{Ballistocardiography}
+Ballistocardiography (BCG), also known as a seismocardiogram, is the measurement of the mechanical effects of the beating heart. Typically accelerometers or pressure sensors will be used to measure movement or forces on the surface of the body. BCG has been researched for use in ear heart rate extraction. In a wearable device proposed by \cite{da2010ear}, mechanical vibrations associated with heart rate are converted to electronic signals through capacitive sensing electrodes. This method works my measuring the change in capacitance between the two electrods as the distance between them changes due to heart rate vibrations. A study by \cite{winokur2012wearable} proposed measuring the head-to-foot axis recoil during the principal blood-volume shift during cardiac ejection. This is done by placing an MEMS accelerometer behind the auricle. Due to the movement dependent method of operation this technology is extremely susceptible to motion artefacts and it can only be used during which the body is stationary.
 
 
-\subsection{EEG}
+The traditional and simplest of which is placing an index and middle finger on the wrist and counting the arterial pulses felt per minute. In fact, heart rate pulse can be felt throughout the body where large arteries are close to the skin.
+
+A variation of this technology is discussed in a article by \cite{park2015wearable}. They propose using a scissor shaped hinge mechanism in the ear canal that measures the change in the canal size due to the in-ear blood pulse waves. The mechanical movement it converted to an electrical signal through a piezoelectric film sensor.
+
+\subsection{Other Heart Rate Methods}
+Electronic stethoscopes uses an microphone to record heart sounds. The hears makes a distinct series of sounds during the cardiac cycle due to blood turbulence and the shutting of heart valves. The period of this sound series can be used to determine heart rate and does not require skin-contact.
+
+A Doppler flow-meter can be used to detect the alternating blood current component in near-surface arteries. This component is synchronised to the heart rate frequency. The device can use ultrasound, microwaves of light to achieve the Doppler shift.
+
+\section{Respiratory Rate}
+Breathing is a process critical for life. Respiration is the first step in the chain of events to get oxygen to the body's cells for metabolism to provide the body with energy. Breathing and plus it the first signs of life to check for in a medical emergency. %Say this better
+
+How is the RR controlled
+
+Appart form the obvious face that a lack of breathing is a problem, the RR can divulge some information about a persons health. What does the RR tell us about health
 
 
-\subsection{Software}
-The software side must consist of the onboard microcontroller software, communication module firmware and the cloud base platform software. All software should be robust and include error handling and troubleshooting methods.  The functionality requirements for the onboard microcontroller include:
-\begin{itemize}
-  \item Structures to store a number of digitalized data points
-  \item FFT calculation capabilities
-  \item Digital filtering capabilities
-  \item Extraction of pulse rate from photodetectors
-  \item Extraction of temperature from Infra-red sensor
-  \item Extraction of breathing rate from pulse rate by means of respiratory sinus arrhythmia
-  \item Extraction of EEG signal from electrodes
-  \item Sending processed data to the wireless module
-  \item Power management algorithms
-\end{itemize}
+Measure through baseline oscillations of BCG signal (see The Ear as a Location for Wearable Vital Signs Monitoring \citep{da2010ear})
 
-The communication module firmware should contain AT commands to connect to a WLAN and upload processed data to the cloud based platform. Specifications for the cloud based platform:
-\begin{itemize}
-  \item It must have storage for the data that the device uploads
-  \item Some final processing should be done on the data
-  \item Detect when measured parameters are outside the pre-set limits
-  \item Send a warning to the physician and caretakers phone
-  \item Smartphone application with easy to use user interface for the monitoring of infant vitals
-\end{itemize}
+Respiratory rate is the rate at which ventilation takes place in the lunge. One inhalation and exhalation cycle is counted a breath and respiratory rate is usually measured in breaths per minute. Healthy adults have an resting respiratory rate of between 12 and 18 breaths per minute., This can vary drastically if a the body is experiencing physical or emotional stress.
 
-\section{Concept Generation}
-Various methods available to measure different vital signs were described during the literature review stage of this project. In this step, the most suitable vital sign monitoring methods will be selected for the concept.
+It is important to monitor breathing, for irregular breathing or difficulty to breathing may be an induction of healthy problems. Apnoea is when breathing stops completely. This is especially an danger in infants and patients in the ICU.
 
-The next step will be to generate a number of conceptual solutions to satisfy the design specifications set in the previous section. Solutions will be in the form of components and methods selected to meet the set requirements.
+Traditionally, respiratory rate is measured by counting the number of timer the chest visibly rises as a person inhales. Other methods include listening to the chest with a stethoscope and counting audible breaths, fixing an accelerometer to the chest, measuring CO\textsubscript{2} levels in the respiratory gases and looking at variations in heart rate.
 
-Concept generation will start of with the decomposition of the system. This step involves breaking the complex system into its basic functional and physical subsystems. Individual subsystems will be handled as problems and methods of realizing these subsystems will be seen as the solutions. For example, measuring temperature is a functional subsystems and handled as a problem. Subsequently, a thermometer is a way to realise this subsystem and therefore seen as a solution to the problem.
-
-\subsection{Functional Decomposition}
-Functional decomposition is used to simplify the system, by isolating its various functions and giving attention to each one separately. This is an ideal method for generating physical concepts for the device in development, for the functional boundaries are very distinct and functions are well defined. The function of the ear vital sign monitor is so monitor the mentioned vital signs, some data processing, communication and holding the sensors in place. A detailed functional decomposition will follow.  Suitable solutions will be found for each problems and the best solution will be determined by means of some evaluations method. All the selected solutions will then be combined to form the final design. (Or various combinations will be evaluated)
-
-\begin{itemize}
-\item Measure temperature
-\item Measure heart rate
-\item Measure breathing
-\item Measure Sp02
-\item Measure EEG
-\item Interfacing with peripheral components (pre-BT processing)
-\item Send data to PC
-\item Process data
-\end{itemize}
+Caretakers are usually very concerned about sleep apnoea in infants, as cause a risk for infant mortality. Apnoea monitors are available to warn caretakers if breathing halts. These monitors usually measure force or acceleration caused by the breathing of the sleeping infant. The device can be worn by the infant or can by placed in the cot.
 
 
+All respiratory related measurements in the reviewed products rely on movement sensors attached to the body of the infant that senses its movement. Sensors include accelerometers and the \textit{BreathOptic}\textsuperscript{\texttrademark} sensor used by Sleep-Mat. These sensors detect the chest movement produced by the infant while breathing. In some cases, like Mimo and Sleep-Mat, these sensors are sensitive enough to determine the infant's respiratory rate from this movement. In other products, such as Anglecare and Monbaby, the sensors are sensitive enough to register the movement due to breathing, but not sensitive enough the extract the rate of breathing.
+Alerts are sent wirelessly to the cellphone of the caretaker if the movement stops for a certain amount of time. This may indicate that the infant has stopped breathing. The problem with this method is that products like Monbaby, Anglecare and Mimo will only alert the caretakers once the infant has stopped breathing completely for 15 or 20 seconds. This may be too late to prevent an infant mortality. A product is needed that can accurately monitor the respiratory rate and warn the doctor or caretakers if the respiratory rate drops or becomes irregular.
+Respiratory sinus arrhythmia (RSA) is the baseline oscillation in heart rate in synchrony with the respiratory rate. It is observed as an increase in heartrate during inspiration and a decrease during expiration. According to a study done by Stratton JR et al, the variation in heart rate due to RSA is higher in younger test subjects with 74\% increase in children vs. 52\% increase in adults [5]. These findings support the use of RSA to determine the infant's respiratory rate. A study has been done by D da He investigating the use of ballistocardiogram heart rate measurements to detect RSA [6]. This project will attempt to detect RSA in pulse oximetry heart rate measurements. This is a unique approach in wearable monitoring devices. The advantage is that no extra sensors, like accelerometers, are needed for the measurement of respiratory rate.
+
+\section{Blood Oxygen Saturation}
+Oxygen saturation can be measured by means of an arterial blood gas test resulting an arterial oxygen saturation reading. An alternative method is pulse oximetry. This method measures peripheral capillary oxygen saturation (Sp02). This is a clinically excepted estimation of the arterial oxygen saturation.
+
+Various devices are available for measuring blood oxygen saturation. Elaborate...
+
+Blood oxygen saturation calculation through pulse oximetry relies on the different adsorption spectra of oxyhaemoglobi) and deoxyhaemoglobin. Figure~\ref{fig:AbsorptionSpectra} shows the absorption spectra of oxy- and deoxyhaemoglobin. It can be noted that deoxyhaemoglobin has a significantly higher absorption of red light (600 - 750 nm wavelength) while oxyhaemoglobin has a slightly higher absorption of infrared light (850 - 1000 nm wavelength). This explains the fact that oxyginated blood apperas bright red and deoxygineted blood is a darker shade of red. (find a source for the image) (What is on y-axis and what is NIR region). Literature usually uses 660 nm (red) and 940 nm (near infrared) http://www.iosrjournals.org/iosr-jeee/Papers/Vol8-issue1/D0812226.pdf?id=7592
+
+\begin{figure}
+   \centering
+   \includegraphics[scale=0.8]{figs/AbsorptionSpectra}
+   \caption{Absorption spectra of oxy- and deoxyhemoglobin}
+   \label{fig:AbsorptionSpectra}
+\end{figure}
+
+From the Figure~\ref{fig:AbsorptionSpectra} it can be seen that the ratio of absorbed red light to absorbed infra-red light is unique to a certain level of blood oxygen saturation. Therefore this ration can be used to estimate blood oxygen saturation. To account for different DC absorption between patients, a modulated ratio ($R$) is used:
+$$R = \frac{\left(\frac{AC}{DC}\right)\textsubscript{red}}{\left(\frac{AC}{DC}\right)\textsubscript{IR}} $$
+This ensures that the $ O_2 $ saturation of only the arterial blood is calculated. The ration can be checked against an empirical determined curve. The standard formula for this curve is found in literature as $ \% SpO_2 = 110-25R $, (http://www.ti.com/lit/an/slaa655/slaa655.pdf) but it can vary from device to device. 
 
 
-
-
-\subsubsection{Wireless Communication}
-
-\subsection{Physical Decomposition}
-Physical decomposition is used to simplify the system, by breaking it into its various physical parts. This step only concerns the hardware part od the device. This will determine the size, shape and material of the device.
-
-\subsection{Form}
-\subsection{Material}
-
-\section{Concept Selection}
-\section{Hardware Selection}
-
-
-
-
-
+\section{Electrical Brain Activity}

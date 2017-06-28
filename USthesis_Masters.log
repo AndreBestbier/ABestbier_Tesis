@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.6.22)  28 JUN 2017 22:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.6.22)  28 JUN 2017 22:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -641,11 +641,11 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )))
 (./USthesis_Masters.aux (./frontmatter/Chap-Front.aux)
 (./frontmatter/Nomencl.aux) (./contents/Chap-1.aux) (./contents/Chap-2.aux)
-(./contents/Chap-3.aux) (./contents/Chap-4.aux
+(./contents/Chap-3.aux) (./contents/Chap-4.aux) (./contents/Chap-5.aux
 
 LaTeX Warning: Label `chp:DEM' multiply defined.
 
-) (./contents/Chap-5.aux
+) (./contents/Chap-6.aux
 
 LaTeX Warning: Label `chp:DEM' multiply defined.
 
@@ -825,7 +825,15 @@ Package pdftex.def Info: figs/VariationsInTemp.pdf  used on input line 80. on i
 nput line 80.
 Package pdftex.def Info: Requested size: 181.12808pt x 129.6353pt on input line
  80.
- [8 <./figs/VariationsInTemp.pdf>] [9] [10] [11] [12]
+ [8 <./figs/VariationsInTemp.pdf>] [9]) [10]
+\openout2 = `contents/Chap-3.aux'.
+
+ (./contents/Chap-3.tex
+[11
+
+
+
+] [12]
 Package epstopdf Info: Source file: <figs/PlancksLaw.eps>
 (epstopdf)                    date: 2017-06-28 21:29:43
 (epstopdf)                    size: 197822 bytes
@@ -834,46 +842,55 @@ Package epstopdf Info: Source file: <figs/PlancksLaw.eps>
 (epstopdf)                    size: 68827 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/PlancksLaw-eps-conver
 ted-to.pdf figs/PlancksLaw.eps>
-(epstopdf)             \includegraphics on input line 187.
+(epstopdf)             \includegraphics on input line 55.
 Package epstopdf Info: Output file is already uptodate.
-<figs/PlancksLaw-eps-converted-to.pdf, id=111, pagebox=cropbox, 466.74374pt x 3
+<figs/PlancksLaw-eps-converted-to.pdf, id=110, pagebox=cropbox, 466.74374pt x 3
 02.12875pt>
 File: figs/PlancksLaw-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/PlancksLaw-eps-converted-to.pdf>
 Package pdftex.def Info: figs/PlancksLaw-eps-converted-to.pdf  used on input li
-ne 187. on input line 187.
+ne 55. on input line 55.
 Package pdftex.def Info: Requested size: 280.0484pt x 181.27864pt on input line
- 187.
- [13 <./figs/PlancksLaw-eps-converted-to.pdf>]
-<figs/IR_Thermometer.pdf, id=127, pagebox=cropbox, 437.38406pt x 252.19218pt>
+ 55.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[13]
+<figs/IR_Thermometer.pdf, id=117, pagebox=cropbox, 437.38406pt x 252.19218pt>
 File: figs/IR_Thermometer.pdf Graphic file (type pdf)
 <use figs/IR_Thermometer.pdf>
-Package pdftex.def Info: figs/IR_Thermometer.pdf  used on input line 206. on in
-put line 206.
+Package pdftex.def Info: figs/IR_Thermometer.pdf  used on input line 74. on inp
+ut line 74.
 Package pdftex.def Info: Requested size: 218.69148pt x 126.09578pt on input lin
-e 206.
-<figs/Degree.png, id=128, 210.18526pt x 252.945pt>
+e 74.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[14 <./figs/PlancksLaw-eps-converted-to.pdf>]
+<figs/Degree.png, id=132, 210.18526pt x 252.945pt>
 File: figs/Degree.png Graphic file (type png)
 <use figs/Degree.png>
-Package pdftex.def Info: figs/Degree.png  used on input line 218. on input line
- 218.
+Package pdftex.def Info: figs/Degree.png  used on input line 86. on input line 
+86.
 Package pdftex.def Info: Requested size: 136.61879pt x 164.4123pt on input line
- 218.
- [14 <./figs/IR_Thermometer.pdf>] [15 <./figs/Degree.png>] [16]
+ 86.
+ [15 <./figs/IR_Thermometer.pdf> <./figs/Degree.png>] [16]
 <figs/PulseOxiModes.pdf, id=142, pagebox=cropbox, 303.38344pt x 117.43875pt>
 File: figs/PulseOxiModes.pdf Graphic file (type pdf)
 <use figs/PulseOxiModes.pdf>
-Package pdftex.def Info: figs/PulseOxiModes.pdf  used on input line 248. on inp
-ut line 248.
+Package pdftex.def Info: figs/PulseOxiModes.pdf  used on input line 116. on inp
+ut line 116.
 Package pdftex.def Info: Requested size: 303.38269pt x 117.43845pt on input lin
-e 248.
+e 116.
 
 
 Package natbib Warning: Citation `tavakoli2006analog' on page 17 undefined on i
-nput line 253.
+nput line 121.
 
 [17 <./figs/PulseOxiModes.pdf>] [18] [19]
-Overfull \hbox (22.20064pt too wide) in paragraph at lines 303--304
+Overfull \hbox (22.20064pt too wide) in paragraph at lines 164--165
 \T1/cmr/m/n/12 http://www.iosrjournals.org/iosr-jeee/Papers/Vol8-issue1/D081222
 6.pdf?id=7592 
  []
@@ -882,22 +899,22 @@ Overfull \hbox (22.20064pt too wide) in paragraph at lines 303--304
 >
 File: figs/AbsorptionSpectra.pdf Graphic file (type pdf)
 <use figs/AbsorptionSpectra.pdf>
-Package pdftex.def Info: figs/AbsorptionSpectra.pdf  used on input line 307. on
- input line 307.
+Package pdftex.def Info: figs/AbsorptionSpectra.pdf  used on input line 168. on
+ input line 168.
 Package pdftex.def Info: Requested size: 340.87395pt x 232.46881pt on input lin
-e 307.
-) [20] [21 <./figs/AbsorptionSpectra.pdf>]
-\openout2 = `contents/Chap-3.aux'.
+e 168.
+[20]) [21 <./figs/AbsorptionSpectra.pdf>]
+\openout2 = `contents/Chap-4.aux'.
 
- (./contents/Chap-3.tex [22
+ (./contents/Chap-4.tex [22
 
 
 
 ] [23]
 [24] [25] [26] [27] [28]) [29]
-\openout2 = `contents/Chap-4.aux'.
+\openout2 = `contents/Chap-5.aux'.
 
- (./contents/Chap-4.tex [30
+ (./contents/Chap-5.tex [30
 
 
 
@@ -917,9 +934,9 @@ ory of IR thermo-
  []
 
 [31 <./figs/PulseOxiConfiguration.pdf>] [32]) [33]
-\openout2 = `contents/Chap-5.aux'.
+\openout2 = `contents/Chap-6.aux'.
 
- (./contents/Chap-5.tex
+ (./contents/Chap-6.tex
 [34
 
 
@@ -1000,16 +1017,16 @@ Package natbib Warning: There were undefined citations.
  (./USthesis_Masters.aux (./frontmatter/Chap-Front.aux)
 (./frontmatter/Nomencl.aux) (./contents/Chap-1.aux) (./contents/Chap-2.aux)
 (./contents/Chap-3.aux) (./contents/Chap-4.aux) (./contents/Chap-5.aux)
-(./contents/App-1.aux))
+(./contents/Chap-6.aux) (./contents/App-1.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7981 strings out of 492995
- 109821 string characters out of 6136402
- 213946 words of memory out of 5000000
- 11300 multiletter control sequences out of 15000+600000
+ 7992 strings out of 492995
+ 110031 string characters out of 6136402
+ 215910 words of memory out of 5000000
+ 11304 multiletter control sequences out of 15000+600000
  31889 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,16n,46p,1297b,483s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1043,7 +1060,7 @@ texmf-dist/fonts/type1/public/cm-super/sfsl1095.pfb><c:/texlive/2017/texmf-dist
 e1/public/cm-super/sfti1095.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/
 cm-super/sfti1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/s
 ftt1095.pfb>
-Output written on USthesis_Masters.pdf (51 pages, 1115840 bytes).
+Output written on USthesis_Masters.pdf (51 pages, 1114410 bytes).
 PDF statistics:
  354 PDF objects out of 1000 (max. 8388607)
  244 compressed objects within 3 object streams
