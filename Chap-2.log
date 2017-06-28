@@ -1,0 +1,15 @@
+This is MetaPost, version 2.000 (TeX Live 2017/W32TeX) (kpathsea version 6.2.3)  27 JUN 2017 14:35
+**Chap-2.tex
+(c:/texlive/2017/texmf-dist/metapost/base/mpost.mp
+(c:/texlive/2017/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) )
+! I can't open file `Chap-2.tex'.
+<*> Chap-2.tex
+              
+Please type another input file name
+! Emergency stop.
+<*> Chap-2.tex
+              
+*** (job aborted, file error in nonstop mode)
+
+

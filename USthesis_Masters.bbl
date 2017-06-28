@@ -1,0 +1,165 @@
+\begin{thebibliography}{14}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname bibnamefont\endcsname\relax
+  \def\bibnamefont#1{#1}\fi
+\expandafter\ifx\csname bibfnamefont\endcsname\relax
+  \def\bibfnamefont#1{#1}\fi
+\expandafter\ifx\csname citenamefont\endcsname\relax
+  \def\citenamefont#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\providecommand{\selectlanguage}[1]{\relax}
+\edef\AFRstr{\string afrikaans}
+\ifx\AFRstr\languagename
+   \input{usbib.afr}%
+ \else
+   \input{usbib.eng}%
+\fi
+\newcommand{\Capitalize}[1]{\uppercase{#1}}
+\newcommand{\capitalize}[1]{\expandafter\Capitalize#1}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{\citenamefont{Alvord} \protect\BIBand{}
+  \citenamefont{Farmer}(1997)}]{alvord1997anatomy}
+\bibnamefont{Alvord}, \bibfnamefont{L.S.} \protect\BIBand{}
+  \bibnamefont{Farmer}, \bibfnamefont{B.L.} (1997).
+\newblock Anatomy and orientation of the human external ear.
+\newblock \emph{Journal-American academy of audiology}, \bblvol{}~8, \bblpp{}
+  383--390.
+
+\bibitem[{\citenamefont{Da~He} \emph{\bbletal{}}(2010)\citenamefont{Da~He},
+  \citenamefont{Winokur}, \citenamefont{Heldt} \protect\BIBand{}
+  \citenamefont{Sodini}}]{da2010ear}
+\bibnamefont{Da~He}, \bibfnamefont{D.}, \bibnamefont{Winokur},
+  \bibfnamefont{E.S.}, \bibnamefont{Heldt}, \bibfnamefont{T.} \protect\BIBand{}
+  \bibnamefont{Sodini}, \bibfnamefont{C.G.} (2010).
+\newblock The ear as a location for wearable vital signs monitoring.
+\newblock \capitalize\bblin{}: \emph{Engineering in Medicine and Biology
+  Society (EMBC), 2010 Annual International Conference of the IEEE}, \bblpp{}
+  6389--6392. IEEE.
+
+\bibitem[{\citenamefont{Erickson} \protect\BIBand{}
+  \citenamefont{Kirklin}(1993)}]{erickson1993comparison}
+\bibnamefont{Erickson}, \bibfnamefont{R.S.} \protect\BIBand{}
+  \bibnamefont{Kirklin}, \bibfnamefont{S.K.} (1993).
+\newblock Comparison of ear-based, bladder, oral, and axillary methods for core
+  temperature measurement.
+\newblock \emph{Critical care medicine}, \bblvol{}~21, \bblno{}~10, \bblpp{}
+  1528--1534.
+
+\bibitem[{\citenamefont{Lefrant} \emph{\bbletal{}}(2003)\citenamefont{Lefrant},
+  \citenamefont{Muller}, \citenamefont{de~La~Coussaye},
+  \citenamefont{Benbabaali}, \citenamefont{Lebris}, \citenamefont{Zeitoun},
+  \citenamefont{Mari}, \citenamefont{Saissi}, \citenamefont{Ripart}
+  \protect\BIBand{} \citenamefont{Eledjam}}]{lefrant2003temperature}
+\bibnamefont{Lefrant}, \bibfnamefont{J.-Y.}, \bibnamefont{Muller},
+  \bibfnamefont{L.}, \bibnamefont{de~La~Coussaye}, \bibfnamefont{J.E.},
+  \bibnamefont{Benbabaali}, \bibfnamefont{M.}, \bibnamefont{Lebris},
+  \bibfnamefont{C.}, \bibnamefont{Zeitoun}, \bibfnamefont{N.},
+  \bibnamefont{Mari}, \bibfnamefont{C.}, \bibnamefont{Saissi},
+  \bibfnamefont{G.}, \bibnamefont{Ripart}, \bibfnamefont{J.} \protect\BIBand{}
+  \bibnamefont{Eledjam}, \bibfnamefont{J.-J.} (2003).
+\newblock Temperature measurement in intensive care patients: comparison of
+  urinary bladder, oesophageal, rectal, axillary, and inguinal methods versus
+  pulmonary artery core method.
+\newblock \emph{Intensive care medicine}, \bblvol{}~29, \bblno{}~3, \bblpp{}
+  414--418.
+
+\bibitem[{\citenamefont{Lin} \emph{\bbletal{}}(2013)\citenamefont{Lin},
+  \citenamefont{Chou}, \citenamefont{Wang}, \citenamefont{Huang}
+  \protect\BIBand{} \citenamefont{Pan}}]{lin2013development}
+\bibnamefont{Lin}, \bibfnamefont{B.-S.}, \bibnamefont{Chou}, \bibfnamefont{W.},
+  \bibnamefont{Wang}, \bibfnamefont{H.-Y.}, \bibnamefont{Huang},
+  \bibfnamefont{Y.-J.} \protect\BIBand{} \bibnamefont{Pan},
+  \bibfnamefont{J.-S.} (2013).
+\newblock Development of novel non-contact electrodes for mobile
+  electrocardiogram monitoring system.
+\newblock \emph{IEEE journal of translational engineering in health and
+  medicine}, \bblvol{}~1, \bblpp{} 1--8.
+
+\bibitem[{\citenamefont{Nunez} \protect\BIBand{}
+  \citenamefont{Srinivasan}(2006)}]{nunez2006electric}
+\bibnamefont{Nunez}, \bibfnamefont{P.L.} \protect\BIBand{}
+  \bibnamefont{Srinivasan}, \bibfnamefont{R.} (2006).
+\newblock \emph{Electric fields of the brain: the neurophysics of EEG}.
+\newblock Oxford University Press, USA.
+
+\bibitem[{\citenamefont{of~Encyclop\ae{}dia~Britannica}(2015)}]{ExternalAuditoryCanal}
+\bibnamefont{of~Encyclop\ae{}dia~Britannica}, \bibfnamefont{T.E.} (2015 01).
+\newblock External auditory canal.
+\newline\bblurlpre\url{https://global.britannica.com/science/external-auditory-canal}
+
+\bibitem[{\citenamefont{Park} \emph{\bbletal{}}(2015)\citenamefont{Park},
+  \citenamefont{Jang}, \citenamefont{Park} \protect\BIBand{}
+  \citenamefont{Youm}}]{park2015wearable}
+\bibnamefont{Park}, \bibfnamefont{J.-H.}, \bibnamefont{Jang},
+  \bibfnamefont{D.-G.}, \bibnamefont{Park}, \bibfnamefont{J.W.}
+  \protect\BIBand{} \bibnamefont{Youm}, \bibfnamefont{S.-K.} (2015).
+\newblock Wearable sensing of in-ear pressure for heart rate monitoring with a
+  piezoelectric sensor.
+\newblock \emph{Sensors}, \bblvol{}~15, \bblno{}~9, \bblpp{} 23402--23417.
+
+\bibitem[{\citenamefont{Poh} \emph{\bbletal{}}(2010)\citenamefont{Poh},
+  \citenamefont{Swenson} \protect\BIBand{}
+  \citenamefont{Picard}}]{poh2010motion}
+\bibnamefont{Poh}, \bibfnamefont{M.-Z.}, \bibnamefont{Swenson},
+  \bibfnamefont{N.C.} \protect\BIBand{} \bibnamefont{Picard},
+  \bibfnamefont{R.W.} (2010).
+\newblock Motion-tolerant magnetic earring sensor and wireless earpiece for
+  wearable photoplethysmography.
+\newblock \emph{IEEE Transactions on Information Technology in Biomedicine},
+  \bblvol{}~14, \bblno{}~3, \bblpp{} 786--794.
+
+\bibitem[{\citenamefont{Prawiro} \emph{\bbletal{}}(2016)\citenamefont{Prawiro},
+  \citenamefont{Yeh}, \citenamefont{Chou}, \citenamefont{Lee} \protect\BIBand{}
+  \citenamefont{Lin}}]{prawiro2016integrated}
+\bibnamefont{Prawiro}, \bibfnamefont{E.A.P.J.}, \bibnamefont{Yeh},
+  \bibfnamefont{C.-I.}, \bibnamefont{Chou}, \bibfnamefont{N.-K.},
+  \bibnamefont{Lee}, \bibfnamefont{M.-W.} \protect\BIBand{} \bibnamefont{Lin},
+  \bibfnamefont{Y.-H.} (2016).
+\newblock Integrated wearable system for monitoring heart rate and step during
+  physical activity.
+\newblock \emph{Mobile Information Systems}, \bblvol{} 2016.
+
+\bibitem[{\citenamefont{Sund-Levander}
+  \emph{\bbletal{}}(2002)\citenamefont{Sund-Levander}, \citenamefont{Forsberg}
+  \protect\BIBand{} \citenamefont{Wahren}}]{sund2002normal}
+\bibnamefont{Sund-Levander}, \bibfnamefont{M.}, \bibnamefont{Forsberg},
+  \bibfnamefont{C.} \protect\BIBand{} \bibnamefont{Wahren}, \bibfnamefont{L.K.}
+  (2002).
+\newblock Normal oral, rectal, tympanic and axillary body temperature in adult
+  men and women: a systematic literature review.
+\newblock \emph{Scandinavian journal of caring sciences}, \bblvol{}~16,
+  \bblno{}~2, \bblpp{} 122--128.
+
+\bibitem[{\citenamefont{Wang} \emph{\bbletal{}}(2010)\citenamefont{Wang},
+  \citenamefont{Liao}, \citenamefont{Wang}, \citenamefont{Chen},
+  \citenamefont{Lin}, \citenamefont{Lu} \protect\BIBand{}
+  \citenamefont{Lin}}]{wang2010wearable}
+\bibnamefont{Wang}, \bibfnamefont{I.-J.}, \bibnamefont{Liao},
+  \bibfnamefont{L.-D.}, \bibnamefont{Wang}, \bibfnamefont{Y.-T.},
+  \bibnamefont{Chen}, \bibfnamefont{C.-Y.}, \bibnamefont{Lin},
+  \bibfnamefont{B.-S.}, \bibnamefont{Lu}, \bibfnamefont{S.-W.}
+  \protect\BIBand{} \bibnamefont{Lin}, \bibfnamefont{C.-T.} (2010).
+\newblock A wearable mobile electrocardiogram measurement device with novel dry
+  polymer-based electrodes.
+\newblock \bblpp{} 379--384.
+
+\bibitem[{\citenamefont{Winokur} \emph{\bbletal{}}(2012)\citenamefont{Winokur},
+  \citenamefont{Da~He} \protect\BIBand{}
+  \citenamefont{Sodini}}]{winokur2012wearable}
+\bibnamefont{Winokur}, \bibfnamefont{E.S.}, \bibnamefont{Da~He},
+  \bibfnamefont{D.} \protect\BIBand{} \bibnamefont{Sodini}, \bibfnamefont{C.G.}
+  (2012).
+\newblock A wearable vital signs monitor at the ear for continuous heart rate
+  and pulse transit time measurements.
+\newblock \capitalize\bblin{}: \emph{Engineering in Medicine and Biology
+  Society (EMBC), 2012 Annual International Conference of the IEEE}, \bblpp{}
+  2724--2727. IEEE.
+
+\bibitem[{\citenamefont{WorldHealthOrganization}(2011)}]{WHO2011UsingPulseOxi}
+\bibnamefont{WorldHealthOrganization} (2011).
+\newblock Using the pulse oximeter.
+\newline\bblurlpre\url{http://www.who.int/patientsafety/safesurgery/pulse\_oximetry/who\_ps\_pulse\_oxymetry\_tutorial2\_advanced\_en.pdf?ua=1}
+
+\end{thebibliography}

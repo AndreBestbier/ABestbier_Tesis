@@ -1,0 +1,223 @@
+%=======================================GENERAL INFANT MORTALITY STATS==========================================
+
+
+@ARTICLE{stats2015population,
+  author    = {Statistics, SA},
+  title     = {Mid-year population estimates},
+  year      = {2015},
+  pages     = {1--6},
+  note		= {cat. no. P0302},
+  url		= {www.statssa.gov.za/publications/P0302/P03022015.pdf},
+  urldate 	= {06-06-2016}
+}
+
+@ARTICLE{stats2013mortality,
+  author    = {Statistics, SA},
+  title     = {Mortality and causes of death in South Africa, 2013: Findings from death notification},
+  year      = {2013},
+  pages     = {34},
+  note		= {cat. no. P0309.3},
+  url		= {http://www.statssa.gov.za/publications/P03093/P030932013.pdf},
+  urldate 	= {06-06-2016}
+}
+
+
+
+@article{kinney2009sudden,
+  title={The sudden infant death syndrome},
+  author={Kinney, Hannah C and Thach, Bradley T},
+  journal={New England Journal of Medicine},
+  volume={361},
+  number={8},
+  pages={795--805},
+  year={2009},
+  publisher={Mass Medical Soc}
+}
+
+@techreport{unicef2015committing,
+  title={Committing to child survival: a promise renewed},
+  author={Unicef and others},
+  year={2015},
+  institution={eSocialSciences}
+}
+
+
+
+@techreport{unicef2015levels,
+  title={Levels and trends in child mortality},
+  author={Unicef and others},
+  year={2015},
+  institution={eSocialSciences}
+}
+
+%=======================================SIDS==========================================
+
+@article{willinger1994infant,
+  title={Infant sleep position and risk for sudden infant death syndrome: report of meeting held January 13 and 14, 1994, National Institutes of Health, Bethesda, MD},
+  author={Willinger, Marian and Hoffman, Howard J and Hartford, Robert B},
+  journal={Pediatrics},
+  volume={93},
+  number={5},
+  pages={814--819},
+  year={1994},
+  publisher={Am Acad Pediatrics}
+}
+
+@article{krous2008intrathoracic,
+  title={Intrathoracic petechiae in SIDS: a retrospective population-based 15-year study},
+  author={Krous, Henry F and Haas, Elisabeth A and Chadwick, Amy E and Masoumi, Homeyra and Stanley, Christina},
+  journal={Forensic science, medicine, and pathology},
+  volume={4},
+  number={4},
+  pages={234--239},
+  year={2008},
+  publisher={Springer}
+}
+
+@article{vennemann2007risk,
+  title={Do risk factors differ between explained sudden unexpected death in infancy and sudden infant death syndrome?},
+  author={Vennemann, Mechtild and Bajanowski, Thomas and Butterfa{\ss}-Bahloul, Trude and Sauerland, Christina and Jorch, Gerhard and Brinkmann, Bernd and Mitchell, Edwin A},
+  journal={Archives of disease in childhood},
+  volume={92},
+  number={2},
+  pages={133--136},
+  year={2007},
+  publisher={BMJ Publishing Group Ltd and Royal College of Paediatrics and Child Health}
+}
+
+@article{filiano1994perspective,
+  title={A perspective on neuropathologic findings in victims of the sudden infant death syndrome: the triple-risk model},
+  author={Filiano, JJ and Kinney, HC},
+  journal={Neonatology},
+  volume={65},
+  number={3-4},
+  pages={194--197},
+  year={1994},
+  publisher={Karger Publishers}
+}
+
+%===============================TEMPERATURE==================================
+
+@article{erickson1993comparison,
+  title={Comparison of ear-based, bladder, oral, and axillary methods for core temperature measurement.},
+  author={Erickson, Roberta S and Kirklin, Sharon K},
+  journal={Critical care medicine},
+  volume={21},
+  number={10},
+  pages={1528--1534},
+  year={1993},
+  publisher={LWW}
+}
+
+@article{lefrant2003temperature,
+  title={Temperature measurement in intensive care patients: comparison of urinary bladder, oesophageal, rectal, axillary, and inguinal methods versus pulmonary artery core method},
+  author={Lefrant, J-Y and Muller, L and de La Coussaye, J Emmanuel and Benbabaali, M and Lebris, C and Zeitoun, N and Mari, C and Saissi, G and Ripart, J and Eledjam, J-J},
+  journal={Intensive care medicine},
+  volume={29},
+  number={3},
+  pages={414--418},
+  year={2003},
+  publisher={Springer}
+}
+
+@article{sund2002normal,
+  title={Normal oral, rectal, tympanic and axillary body temperature in adult men and women: a systematic literature review},
+  author={Sund-Levander, M{\"a}rtha and Forsberg, Christina and Wahren, Lis Karin},
+  journal={Scandinavian journal of caring sciences},
+  volume={16},
+  number={2},
+  pages={122--128},
+  year={2002},
+  publisher={Wiley Online Library}
+}
+
+@article{gerstcomparison,
+  title={Comparison of Core Temperature Measurement from Bladder Temperature and ARC Devices InstaTemp MD},
+  author={Gerst, Steven and MBA, MPH and CHE, Birgitta Gleeson and CEng, Finbar Dolan PhD and Eng, Martin Crawley B}
+}
+
+@phdthesis{nascimento2012evaluation,
+  title={Evaluation of thermometers for ear temperature measurement at the wards in a university hospital},
+  author={Nascimento, V{\'\i}tor Rodrigues do},
+  year={2012},
+  school={Faculdade de Ci{\^e}ncias e Tecnologia}
+}
+
+%===============HR================
+@INPROCEEDINGS{wang2010wearable,
+  title={A Wearable Mobile Electrocardiogram measurement device with novel dry polymer-based electrodes},
+  author={Wang, I-Jan and Liao, Lun-De and Wang, Yu-Te and Chen, Chi-Yu and Lin, Bor-Shyh and Lu, Shao-Wei and Lin, Chin-Teng},
+  booktitle={TENCON 2010-2010 IEEE Region 10 Conference},
+  pages={379--384},
+  year={2010},
+  organization={IEEE}
+}
+
+@inproceedings{winokur2012wearable,
+  title={A wearable vital signs monitor at the ear for continuous heart rate and pulse transit time measurements},
+  author={Winokur, Eric S and Da He, David and Sodini, Charles G},
+  booktitle={Engineering in Medicine and Biology Society (EMBC), 2012 Annual International Conference of the IEEE},
+  pages={2724--2727},
+  year={2012},
+  organization={IEEE}
+}
+
+@article{lin2013development,
+  title={Development of novel non-contact electrodes for mobile electrocardiogram monitoring system},
+  author={Lin, Bor-Shyh and Chou, Willy and Wang, Hsing-Yu and Huang, Yan-Jun and Pan, Jeng-Shyang},
+  journal={IEEE journal of translational engineering in health and medicine},
+  volume={1},
+  pages={1--8},
+  year={2013},
+  publisher={IEEE}
+}
+
+@article{park2015wearable,
+  title={Wearable sensing of in-ear pressure for heart rate monitoring with a piezoelectric sensor},
+  author={Park, Jang-Ho and Jang, Dae-Geun and Park, Jung Wook and Youm, Se-Kyoung},
+  journal={Sensors},
+  volume={15},
+  number={9},
+  pages={23402--23417},
+  year={2015},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+
+%===============EXAMPLES================
+
+@ARTICLE{Cundall-1979,
+  author    = {Cundall, P. A. and Strack, O. D. L.},
+  title     = {A discrete numerical model for granular assemblies},
+  journal   = {G\'eotechnique},
+  year      = {1979},
+  volume    = {29},
+  pages     = {47--65},
+  number    = {1}
+}
+
+@PHDTHESIS{Luding-1994,
+  author    = {Luding, S.},
+  title     = {Models and Simulations of Granular Materials},
+  school    = {Universit�t Freiburg},
+  year      = {1994},
+  type      = {PhD}
+}
+
+@INPROCEEDINGS{Luding-2004,
+  author    = {Luding, S.},
+  title     = {Molecular Dynamics Simulations of Granular Materials},
+  booktitle = {The Physics of Granular Media},
+  year      = {2004},
+  editor    = {Hinrichsen, H. and Wolf, D.},
+  pages     = {299--324},
+  address   = {Weinheim},
+  publisher = {Wiley-VCH}
+}
+
+@online{strokecenter,
+author={Internet Stroke Center},
+title={Internet Stroke Center},
+year={2015},
+url={http://www.strokecenter.org},
+urldate = {2015-03-03}
+}
