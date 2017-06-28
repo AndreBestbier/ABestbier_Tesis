@@ -13,49 +13,61 @@ A level-1 auxiliary file: contents/App-1.aux
 Database file #1: backmatter/USbib-sample.bib
 Warning--entry type for "ExternalAuditoryCanal" isn't style-file defined
 --line 97 of file backmatter/USbib-sample.bib
+Warning--entry type for "EmissivityThermoWorks" isn't style-file defined
+--line 182 of file backmatter/USbib-sample.bib
+Warning--entry type for "EmissivityOptotherm" isn't style-file defined
+--line 189 of file backmatter/USbib-sample.bib
+Warning--entry type for "irTempSensors" isn't style-file defined
+--line 197 of file backmatter/USbib-sample.bib
+Warning--entry type for "normalRestingHR" isn't style-file defined
+--line 208 of file backmatter/USbib-sample.bib
+Warning--entry type for "webMDSleepApnoea" isn't style-file defined
+--line 319 of file backmatter/USbib-sample.bib
+Warning--entry type for "medscapeBreathingRate" isn't style-file defined
+--line 329 of file backmatter/USbib-sample.bib
 Warning--I didn't find a database entry for "tavakoli2006analog"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty journal in wang2010wearable
-You've used 14 entries,
+You've used 22 entries,
             3324 wiz_defined-function locations,
-            753 strings with 8653 characters,
-and the built_in function-call counts, 15605 in all, are:
-= -- 1314
-> -- 444
-< -- 28
-+ -- 176
-- -- 156
-* -- 1543
-:= -- 1828
-add.period$ -- 42
-call.type$ -- 14
-change.case$ -- 121
-chr.to.int$ -- 14
-cite$ -- 15
-duplicate$ -- 1558
-empty$ -- 1369
-format.name$ -- 304
-if$ -- 3217
+            798 strings with 9776 characters,
+and the built_in function-call counts, 20347 in all, are:
+= -- 1700
+> -- 556
+< -- 36
++ -- 220
+- -- 192
+* -- 1939
+:= -- 2496
+add.period$ -- 62
+call.type$ -- 22
+change.case$ -- 172
+chr.to.int$ -- 22
+cite$ -- 23
+duplicate$ -- 2010
+empty$ -- 1814
+format.name$ -- 378
+if$ -- 4167
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 164
-newline$ -- 92
-num.names$ -- 56
-pop$ -- 391
+missing$ -- 216
+newline$ -- 134
+num.names$ -- 88
+pop$ -- 535
 preamble$ -- 1
-purify$ -- 108
+purify$ -- 152
 quote$ -- 0
-skip$ -- 389
+skip$ -- 523
 stack$ -- 0
-substring$ -- 1060
-swap$ -- 715
-text.length$ -- 23
+substring$ -- 1310
+swap$ -- 881
+text.length$ -- 24
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 123
+type$ -- 192
 warning$ -- 1
-while$ -- 138
+while$ -- 185
 width$ -- 0
-write$ -- 199
-(There were 3 warnings)
+write$ -- 294
+(There were 9 warnings)

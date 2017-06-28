@@ -2,30 +2,40 @@
 \label{chp:LitReview}
 This chapter aims to describe the context within which the project is undertaken. The purpose of this literature review is to accumulate a thorough understanding of the current state of technology relevant to the project. Attention will be given to technical theory and work done by others in this field of research.
 
+\medskip
+
 An overview will be given about the anatomy of the ear which is relevant to this study. Next, background will be given about each vital sign. Thereafter, the current technology available for monitoring vital signs will be reviewed.
 
-\section{Ear Anatomy}
-The area of the ear that is relevant to this study is the external ear. It includes the auricle, ear canal with surrounding tissue and the lateral side of the tympanum. This is the area available for the device to take the bio-signal measurement. Each part of the ear anatomy will be described, especially with regards to its ability to emit bio-signals or support the device in another way.
+\section{Ear Anatomy} %----------------------------------------------------------------------------------
+The area of the ear that is relevant to this study is the external ear. It includes the auricle, ear canal with surrounding tissue and the lateral side of the tympanum. This is the area available for the Ear-Monitor to take the bio-signal measurements. Each part of the ear anatomy will be described, especially with regards to its ability to emit bio-signals or support the device in another way.
 
 \subsection{Auricle}
 The auricle is the visible part of the ear. It forms a C-shaped funnel that protrudes from the scull. Its structure is predominantly formed by yellow elastic cartilage covered in skin. Its complex folded shape differs from person to person, but certain structures are present in all normal auricles and have been named. As can be seen on Figure~\ref{fig:AuricleLabel} the concha is the indented part next to the ear canal. This area is an ideal location for a wearable device. The device can be held in place by the tragus and a probe can easily extend into the ear canal.
 
-\begin{figure}
-   \centering
-   \includegraphics[scale=1]{figs/AuricleLabel}
-   \caption{Drawing of the auricle (goo.gl/mmLnFx)}
-   \label{fig:AuricleLabel}
-\end{figure}
+\medskip
 
 The external ear is supplied with blood from the auricular arteries. These arteries branch from the carotid artery which supplies the rest of the brain with blood. Being made mostly of cartilage and being at an extremity of the body, the auricle is not a suitable location for taking temperature measurements for its temperature is easily influenced by the ambient conditions.
 
-The layer of skin covering the auricle contains blood vessels. It is possible to detect a pulse in the auricle, in fact, the ear lobe is a prime location for traditional pulse oximetry measurements. This is a possible location for a ear-worn device to make a heart rate measurement \citep{poh2010motion}. The ear lobe's blood vessels are, however, susceptible to vasoconstriction due to cold or hypovolaemia \citep{WHO2011UsingPulseOxi}. This will make is harder to get accurate heart rate measurements.
+\medskip
 
-The auricle is used in EEG systems as a location for a reference electrode. It is far enough from the brain for it to have an extremely small electrical potential \citep{nunez2006electric}. More will be said about EEG referencing in Section \ref{}
+\begin{figure}
+   \centering
+   \includegraphics[scale=1]{figs/AuricleLabel}
+   \caption{Drawing of the auricle (Get source from: goo.gl/mmLnFx)}
+   \label{fig:AuricleLabel}
+\end{figure}
+
+The layer of skin covering the auricle contains blood vessels. It is possible to detect a pulse in the auricle, in fact, the ear lobe is a popular location for traditional pulse oximetry measurements. This is a possible location for a ear-worn device to make a heart rate measurement \citep{poh2010motion}. The ear lobe's blood vessels are, however, susceptible to vasoconstriction due to cold or hypovolaemia \citep{WHO2011UsingPulseOxi}. This will reduce the blood perfusion of the subcutaneous tissue making it harder to get accurate heart rate and blood oxygen saturation measurements.
+
+\medskip
+
+The auricle is used in EEG systems as a location for a reference electrode. It is far enough from the brain for it to have an extremely small electrical potential \citep{nunez2006electric}.
 
 \subsection{Ear Canal}
-The external ear canal is the tube running from the floor of the auricle to the middle ear, ending blindly at the tympanic membrane or tympanum. Figure~\ref{fig:EarSection} depicts the structure of the ear as seen from a coronal plane section.
- 
+The external ear canal is the tube running from the floor of the auricle to the middle ear, ending blindly at the tympanic membrane or tympanum. Figure~\ref{fig:EarSection} depicts the structure of the ear as seen from a coronal plane section. The auricle is visible and the shape and relative size of the canal can be observed.
+
+\medskip
+
 \begin{figure}
    \centering
    \includegraphics[scale=0.7]{figs/EarSection}
@@ -33,21 +43,35 @@ The external ear canal is the tube running from the floor of the auricle to the 
    \label{fig:EarSection}
 \end{figure}
  
-The ear canal in adults is approximately 25 mm long and have a diameter of 5 to 7 mm \citep{alvord1997anatomy}. The outer third of the external ear canal is surrounded by cartilage and fibrous tissue \citep{ExternalAuditoryCanal}. The inner two thirds are surrounded by the temporal bone. Thin skin from the lining of the canal and contains glands secreting ear wax. Hairs are found in the outer part of the canal. The ear canal of infants starts out relatively straight, but obtains a definite S-shape as the head develops \citep{alvord1997anatomy}. Ear canal shape varies from person to person. Therefore, an ear probe should be able to adjust to variation in ear canal shape and size.
+The ear canal in adults is approximately 25 mm long and have a diameter of 5 to 7 mm \citep{alvord1997anatomy}. The outer third of the external ear canal is surrounded by cartilage and fibrous tissue \citep{ExternalAuditoryCanal}. The inner two thirds are surrounded by the temporal bone. Thin skin from the lining of the canal and contains glands secreting ear wax. Hairs are found in the outer part of the canal. The ear canal of infants starts out relatively straight, but obtains a definite S-shape as the head develops \citep{alvord1997anatomy}. This S-shape is important to keep in mind while placing a sensor to measure tympanic temperature. Ear canal size also varies from person to person. Therefore, an ear probe should be designed to fit in a variety of in ear canal shapes and sizes.
 
-The secluded nature of the ear canal means that it has a relative constant temperature. As with the auricle, the canal wall temperature will also be influenced by the ambient temperature, but to a much lesser extent. The wall of the ear canal is well supplied with blood. Blood vessels just beneath the thin layer of skin makes the ear canal a possible location for measuring heart rate and blood oxygen saturation. The ear canal extend toward the brain and electrical brain activity is present due to the conductive nature of the tissue. According to \cite{nunez2006electric} currents from brain potentials can be focused through holes in the scull, like the ear and nose. The farther away the origin of the signal is from the electrode, the weaker the measured signal will be. Therefore, an electrode in the ear canal will detect electrical brain activity near the ear better, including the temporal lobe and brain stem.
+\medskip
+
+The secluded nature of the ear canal means that it has a relative constant temperature. Air trapped in the canal by a plug of high thermal resistance will reach thermal equilibrium close to the temperature of the canal wall and tympanum. This is a better location for a core temperature measurement, but will still be influenced by the ambient temperature.
+
+\medskip
+
+The wall of the ear canal is well supplied with blood. Blood vessels just beneath the thin layer of skin makes the ear canal a possible location for measuring heart rate and blood oxygen saturation. The still nature of the head will minimize movement artefacts.
+
+\medskip
+
+The ear canal extend toward the brain and electrical brain activity is present due to the conductive nature of the tissue. According to \cite{nunez2006electric} currents from brain potentials can be focused through holes in the scull, like the ear and nose. The farther away the origin of the signal is from the electrode, the weaker the measured signal will be. Therefore, an electrode in the ear canal will detect electrical brain activity near the ear better, including the temporal lobe and brain stem.
 
 \subsection{Tympanum}
-The tympanum forms the medial boundary of the external ear canal. It is a smooth elliptical membrane with a thickness of about 0.074 mm \citep{alvord1997anatomy}. The membrane is slanted with regards to the external ear canal. The tympanum is also supplied with blood from a branch of the carotid artery, therefore sharing its supply with the brain including the hypothalamus, the thermoregulation centre of the body. It is the most medial part of the external ear, and is therefore the least susceptible to influence by the ambient temperature. This is the reason that the tympanum is one of the best locations to measure core body temperature. The location is used by physicians to measure core temperature for it is quick and minimally invasive. Variations in body temp can be sensed faster on the tympanic membrane than on other locations on the body.  Contact with the tympanum can cause discomfort and harm to the patient, so non-contact infra-red thermometers are usually used.
+The tympanum forms the medial boundary of the external ear canal. It is a smooth elliptical membrane with a thickness of about 0.074 mm \citep{alvord1997anatomy}. The membrane is slanted with regards to the external ear canal.
+
+\medskip
+
+As with the rest of the external ear, the tympanum is supplied with blood from a branch of the carotid artery, therefore sharing its supply with the brain including the hypothalamus, the thermoregulation centre of the body. It is the most medial part of the external ear, and is therefore the least susceptible to influence by the ambient temperature. This is the reason that the tympanum is one of the best locations to measure core body temperature. The location is used by physicians to measure core temperature for it is quick and minimally invasive. Variations in body temp can be sensed faster on the tympanic membrane than on other locations on the body. Contact with the tympanum can cause discomfort and harm to the patient, so non-contact infra-red thermometers are usually used.
 
 
-\section{Bio-signal Physiology}
-This section reviews the theory and research done about the physiological aspects of bio-signals. The origin and importance of measuring bio-signals will be discussed. This includes the typical readings expected from healthy adults, as well as the causes and implications of deviations from these healthy bio-signals.
-
-The body constantly strives to maintain its internal environment at a stable state, suitable for its various physiological processes. Deviations from this stable state...
+\section{Medical Sign Physiology} %----------------------------------------------------------------------------------
+This section reviews the theory and research done about the physiological aspects of each medical sign that the Ear-Monitor is required to measure. The importance of each of the five medical sign will be discussed, as well as the bio-signals that are used to detect them. This includes the typical range of measurements expected from healthy adults, as well as the causes and implications of deviations from these healthy measurements.
 
 \subsection{Core Temperature}
-Thermoregulation is the body's way of keeping its internal temperature within certain bounds to create a favourable environment for chemical reactions to take place. The temperature control centre of the body is in the hypothalamus and it regulates temperature by maintaining a fine balance between heat production and heat loss. Normal human core temperature varies between $36.5^{\circ}C$ and $37.5^{\circ}C$ (jones2010biomedical). Inability to maintain this balance may indicate problems in the well-being of a person. Elevated temperature (hyperthermia) due to a fever can indicate the presents of an infectious disease. Abnormally low temperature (hypothermia) can be caused by cold exposure, metabolic disorders or infection. Both hyper- and hypothermia can be life threatening. A core temperature measurement is often a key indication to start a treatment or not. Therefore, temperature measurement is part of a full clinical examination and part of the vital sings group.
+Thermoregulation is the body's way of keeping its internal temperature within certain bounds to create a favourable environment for chemical reactions to take place. The temperature control centre of the body is in the hypothalamus and it regulates temperature by maintaining a fine balance between heat production and heat loss. Normal human core temperature varies between $36.5^{\circ}C$ and $37.5^{\circ}C$ \citep{jones2010biomedical}. Inability to maintain this balance may indicate problems in the well-being of a person. Elevated temperature (hyperthermia) due to a fever can indicate the presents of an infectious disease. Abnormally low temperature (hypothermia) can be caused by cold exposure, metabolic disorders or infection. Both hyper- and hypothermia can be life threatening. A core temperature measurement is often a key indication to start a treatment or not. Therefore, temperature measurement is part of a full clinical examination and part of the vital sings group of medical signs.
+
+\medskip
 
 The location where temperature is measured is a key factor, for temperature is not constant throughout the body. This is because heat production and heat loss are not constant throughout the body, meaning extremities are usually cooler than the core. Traditional locations for measuring temperature are the tympanic membrane, axilla, mouth, rectum, oesophagus, forehead and urinary bladder. The mean temperature of these areas varies as well. A systematic literature review done by \cite{sund2002normal} combined the results of 20 studies to identify oral, rectal, tympanic and axillary temperature ranges in healthy humans. Table~\ref{fig:VariationsInTemp} shows the results.
 
@@ -60,98 +84,143 @@ The location where temperature is measured is a key factor, for temperature is n
 
 Studies have also been done comparing measurements at distinct locations to pulmonary artery temperature in ill patients. A study has shown ear-based  $0.07\pm 0.41$  $^{\circ}C$; urinary bladder  $0.03\pm 0.23^{\circ}C$; oral  $0.05\pm 0.26^{\circ}C$; and axillary $-0.68\pm 0.57 ^{\circ}C$. The accuracy of each method varied with the level of pulmonary artery temperature. Repeated measurements with all four methods had mean standard deviation values within $\pm 0.2^{\circ}C$ \citep{erickson1993comparison}.
 
+\medskip
+
 A second study done by \cite{lefrant2003temperature} showed the following results: oesophageal  $0.11 \pm 0.30^{\circ}C$, rectal $-0.07 \pm 0.40^{\circ}C$, axillary $0.27\pm 0.45^{\circ}C$, inguinal $0.17 \pm 0.48^{\circ}C$, urinary bladder $-0.21 \pm 0.20^{\circ}C$.
+
+\medskip
 
 The location of the device in development is restricted to the ear, therefore the tympanic membrane is the preferred location to take temperature measurements. The referenced studies show that the tympanic membrane is a valid location to measure accurate core temperature.
 
+\subsection{Heart Rate}
+The presence of a heart beat is paramount to sustain the vital cardiac output, supplying blood to the whole body. Heart rate can be controlled or maintained through two different regulatory systems: The intrinsic conduction system and the nervous system. The intrinsic conduction system works through the rhythmic contraction and relaxation of the heart muscle tissue. The heart rhythm is regulated by the sinoatrial node. The nervous system can influence the heart rate through sympathetic and parasympathetic nerves running from the cardiovascular centres in the medulla oblongata to the heart. The heart beat rate is varied to control the blood flow and blood pressure in the body.
 
-\subsection{Tympanum}
+\medskip
 
-\subsection{Tympanum}
+The heart is the source of a group of bio-signals. The firing of nodes and propagation of electrical charges through neurons and the conductive cardiac muscle gives of an electrical signals that can be detected. The contraction of the  ventricles forces blood into the arteries, causing a temporary increase in blood pressure. This pressure increase propagates though the arteries as a wave, causing a temporary local increase on blood volume. Pressure- and volume changes can be detected. Blood turbulence and the opening and closing of heart valves causes the characteristic heart sound and chest movements, both sources of bio-signals.
 
-\subsection{Tympanum}
+\medskip
 
-\subsection{Tympanum}
+Heart rate is influenced by numerous physiological factors including $O_2$, $CO_2$, $H^+$ levels, blood pressure, stress and exercise. Pathological factors can include fever, sepsis, heart disease and anaemia. Tachycardia is abnormally high resting heart rate, generally above 100 bpm, whereas bradycardia is a lower than normal resting heart rate, usually below 60 bpm \citep{normalRestingHR}. Although these two conditions are not necessarily danger signs, it may be an indication of health problems and therefore heart rate measurement is part of any medical examination and one of the vital signs group of bio-signals.
+
+\subsection{Respiratory Rate}
+Respiration is the first step in the chain of events to get oxygen to the body's cells for metabolism to provide the body with energy. Respiration ventilates the lungs with air through inhalation and exhalation. The respiratory rate of a healthy adult at rest is usually between 12 and 20 breaths per minute \citep{medscapeBreathingRate}. This can vary drastically if the body is experiencing physical or emotional stress. In increase in respiratory rate can be cause by a fever, pulmonary dysfunction or any one of numerous medical conditions. Respiratory rate is also part of the vital signs group of bio-signals.
+
+\medskip
+
+Respiratory rate monitoring is especially useful for diagnosing sleep apnoea. Symptoms include regular pauses in respiration or periods of shallow breathing (hypopnea) during sleep. This causes an oxygen deficiency in the body and lowers the quality of sleep. Short term symptoms include excessive daytime sleepiness, morning headaches, impaired alertness, and vision problems. If left untreated sleep apnoea can lead to high blood pressure, diabetes, depression, worsening of ADHD, stroke, heart failure, irregular heartbeats, and heart attacks \citep{webMDSleepApnoea}. Sufferers may be unaware of their condition and a sure-fire method of diagnosing it is my monitoring respirator rate during sleep, traditionally done during an overnight sleep study.
+
+\subsection{Blood Oxygen Saturation}
+
+Haemoglobin is the oxygen transporter protein found in the red blood cells of blood. Blood gets oxygenated in the lungs and then carries $O_2$ to the rest of the body for aerobic respiration necessary to produce energy. The correct levels of oxygen in the blood is vital to the health of the individual.
+
+\medskip
+
+Oxygen saturation, $SO_2$, refers to the concentration fraction of oxygenated haemoglobin to total concentration of haemoglobin in the blood:
+
+$$SO_2  =  \frac{C(HbO_2)}{C(HbO_2)+C(Hb)}$$
+
+Where $C(HbO_2)$ is the concentration of deoxygenated haemoglobin (deoxyhaemoglobin) and $C(Hb)$ is the concentration of oxygenated haemoglobin (oxyhaemoglobin).
+
+\medskip
+
+Blood oxygen saturation of 95-100\% is normal in healthy humans. Hypoxaemia is the condition when the saturation is below 90\%. This can be an indication of circulatory or ventilatory problems, anaemia or sleep apnoea. Levels below 80\% can hinder organ function and can lead to organ failure and cardiac- or respiratory arrest. The brain in extremely susceptible to damage due to a lack of oxygen. Cerebral hypoxia is the insufficient supply of oxygen to the brain. This can cause brain damage and in severe cases, brain death.
+
+\subsection{Electrical Brain Activity}
+EEG, or electroencephalography, is the recording of the electrical activity in the brain. The neurons in the brain
 
 
 
-
-
-
-
-
-
+\section{Bio-signals Measurement Theory} %-----------------------------------------------------------------------------
+This section will focus on the theory and current technology relevant to the measurement of each medical sign required of the Ear-Monitor. Attention will be given to the different bio-signals available to determine each medical sign and the different methods of transducing and measuring these bio-signals. This section will also make reference to various articles and studies done by other researchers in this field of study. The aim is to gather all the relevant information in order to make an informed selection of the methods and sensors the Ear-Monitor will use to measure each medical sign.
 
 \subsection{Core Temperature}
-Thermoregulation is the body's way of keeping its internal temperature within certain bounds to create a favourable environment for chemical reactions to take place. Temperature is controlled by the hypothalamus. Core body temperature is an indication of overall health. Elevated temperature due to a fever can indicate the presents of an infectious disease. It is often the key indication to start treatment or not. Therefore, core temperature measurement is part of a full clinical examination and part of the vital sings group.
-
-The location where temperature is measured is an important factor, for temperature is not constant throughout the body. This is because heat production and heat loss are not constant throughout the body. Extremities are usually cooler than the core. Traditional locations for measuring temperature are the tympanic membrane, axilla, mouth, rectum, oesophagus, forehead and urinary bladder. The mean temperature of these areas varies as well. A systematic literature review done by \cite{sund2002normal} combined the results of 20 studies to identify oral, rectal, tympanic and axillary temperature ranges in healthy humans. Table~\ref{fig:VariationsInTemp} shows the results.
-
-
-
-Studies have also been done comparing measurements at different locations to pulmonary artery temperature in ill patients. A study have shown ear-based 0.07 $\pm 1$ 0.41 $^{\circ}$C; urinary bladder 0.03 $\pm 1$ 0.23 $^{\circ}$C; oral 0.05 $\pm 1$ 0.26 $^{\circ}$C; and axillary -0.68 $\pm 1$ 0.57 $^{\circ}$C. The accuracy of each method varied with the level of pulmonary artery temperature. Repeated measurements with all four methods had mean SD values within $\pm 1$ 0.2 $^{\circ}$C \citep{erickson1993comparison}.
-
-A second study done by \cite{lefrant2003temperature} showed the following results: esophageal 0.11 $\pm 1$ 0.30 $^{\circ}$C, rectal -0.07 $\pm 1$ 0.40 $^{\circ}$C,axillary 0.27 $\pm 1$ 0.45 $^{\circ}$C, inguinal 0.17 $\pm 1$ 0.48 $^{\circ}$C, urinary bladder -0.21 $\pm 1$ 0.20 $^{\circ}$C.
-
-According to Harrison's Principles of Internal Medicine (18th ed., normal internal body temperature is 37.0 $^{\circ}$C.
-
-
-
-\subsubsection{Temperature Measurement Theory}
 Various methods are available for measuring core temperature. Non-electric, fluid-filled thermometers was the first to be used. The mercury-filled thermometer was used by early physicians to study the thermoregulation of the human body and crudely identify fevers. Since then, the mercury has been replaced by coloured alcohol or another heat sensitive liquid, due to toxicity of mercury.
+
+\medskip
 
 Another type of fluid-filled thermometer is the liquid-crystal thermometer. It contains liquid crystals that changes colour when at different temperatures. The use of these two types of fluid-filled thermometers has decreased significantly due to the accuracy, speed and connivance of digital thermometers.
 
-Electrical thermometers are now the industry standard of measuring core temperature. Medical thermometers are usually classified by the location that they use to make there measurement. For the sake of this study it is also important to obtain an understanding of how they make their measurements. Central to any  thermometer lies a electrical temperature transducer/sensor. Various temperature sensors are available, but the following three are the most commonly used.
+\medskip
 
-Two methods are generally available to capture the temperature of the tympanic membrane. Firstly a contact thermistor and secondly an infra-red sensor. Placing a thermistor in contact with the membrane can cause discomfort and injury to the patient. The infra-red sensor is therefore a better option for is can measure the temperature without making contact with the tympanic membrane.
+Electrical thermometers are now the industry standard of measuring core temperature. Central to any digital thermometer lies a transducer that convert temperature to an electrical signal. Resistance temperature detectors, thermocouples thermistor and thermopiles will be discussed. They can be divided into contact and non-contact thermometers.
 
-\subsubsection{Thermocouples}
-Thermocouples make use of the thermo-electric effect to make a temperature measurement. They consist of two dissimilar conductors connected at the one end, knows as the measuring junction. The other ends of the two wire are known as the reference junction and are connected to a voltage meter via common conductors. A voltage is generated dependant to the temperature difference between the measuring- and reference junctions.
+\subsubsection{Contact Thermometers}
+These are a family of thermometers that measure their own temperature with the assumption they and the object whose temperature are of interest are in thermal equilibrium. Therefore, they are usually placed in contact with the object. When using a contact thermometer n the ear, the sensor part of the thermometer can be placed in contact with the ear canal wall, the air inside the canal or with the tympanic membrane self.
 
-Thermocouples do not respond to absolute temperature, therefore their accuracy depends on how well the reference temperature can be defined.
+\subsubsection{Resistance Temperature Detector}
 
-Thermocouples can be connected in series and are then called thermopiles. This amplifies the output voltages, resulting 'n a average temperature reading across many sensors (temperature averaging).
+Resistance temperature detectors (RTDs) uses the temperature-resistance relationship for metals to measure temperature. Thin wire coils or films of platinum, copper or nickel are usually preferred for they have a stable and repeatable temperature-resistance relationship over a large temperature range.
 
-Thermopiles can be used to detect thermal radiation. All matter with temperatures above 0K radiates electromagnetic radiation. The wavelength distribution varies according to the temperature of the matter and is described by Planck's law. The temperatures relevant to this study is the core temperature of humans, which is around 37 $^{\circ}$C. According to Planck's law, the theoretical peak density wavelength will be at 12 um (verify ad include formule). This is in the infra red range, and therefore this type of thermal radiation thermometer is called a Infra-Red thermometer.
+\subsubsection{Thermocouple}
+Thermocouples make use of the thermo-electric effect to make a temperature measurement. They consist of two dissimilar conductors connected at the one end, knows as the hot junction (measuring junction). The other ends of the two wires are known as the cold junction (reference junction) and are connected to a voltage meter via common conductors. A voltage is generated dependant to the temperature difference between the measuring- and reference junctions. Thermocouples do not respond to absolute temperature; therefore, their accuracy depends on how well the reference temperature can be defined. Reference temperatures are usually determined by a precise thermistor. Thermocouples are very versatile and widely used in clinical applications, but the downsides are that their output signal is low and non-linear, therefore requiring a sensitive and stable voltage measuring device \citep{jones2010biomedical}.
 
-Emissivity is the ability of an object to radiate thermal energy. Emissivity is a material-dependent property. It is quantified as a ratio of thermal energy emitted by a surface relative to the thermal energy emitted by an ideal black body at the same temperature. A black body is an idealized surface that reflects no radiation, meaning all energy radiated from the surface are due to the temperature of the surface. Thus, a black body have an emissivity of 1 and have the maximum theoretical radiation at a given temperature. The accuracy of an IR sensor depends on the ability of the target object to emit sufficient thermal radiation for the sensor to detect. Therefore, the emissivity of the target object should be close to one.
+\medskip
 
-According to \textbf{source} the emissivity of skin is 0.98.
+Thermocouples can be connected in series and are then called thermopiles. This configuration sums the output voltages, resulting in temperature averaging. This method improves accuracy by reducing noise. 
 
-An IR thermometer generally consists out of a thermophile attached to a blackbody and shielded by an IR filter that also acts as a lens to focus IR waves [16]. This setup, shows in Figure\ref{fig:IR_Thermometer}, allows for the non-contact temperature sensing of the tympanic membrane. Unlike pulse rate, breathing and electrical brain activity, the core body temperature varies slowly. It takes minutes to vary significantly. Therefore, the sampling rate of body temperature can be as slow as 0.5 Hz.
+\subsubsection{Thermistor}
+A thermistor is a type of semiconductor whose resistance varies with changes in temperature. They differ from RTDs in that they are usually made of ceramics, they have higher precision over a smaller temperature range and they can have a negative relation to temperature. Thermistors are preferred above RTDs and thermocouples for use as biomedical sensors due to their faster response time and higher sensitivity over a smaller range and. The smaller range does not matter, for the temperature range of interest in biosensors are small and well defined. 
 
- \begin{figure}
+\subsubsection{Application}
+In the case of RTDs and thermistors, the measuring element is placed in position and a current is sent through the sensor. By measuring the voltage across the resistive element, it is possibly to calculate the voltage and subsequently determine the temperature. In the case of the thermocouple, the hot junction can be placed in contact with the canal wall or tympanum. Typically, the hot junction will be enclosed with a soft material to protect the canal and tympanum. The canal is sealed off and time is allowed for the area to equilibrate to tympanic temperature. Commercial devices like Novatemp\textsuperscript \textregistered and Starboard\textsuperscript \textregistered claims a $\pm$ 0.2 $^{\circ}C$ accuracy.
+
+\medskip
+
+Placing a thermometer in contact with the tympanic membrane will give an accurate measurement, but can cause discomfort to the wearer. There is also a risk of harming the tympanic membrane. Sensors in contact with the ear canal wall or the air inside the canal run the risk of making errors by measuring the temperature of objects that are not in thermal equilibrium with the tympanic membrane. Therefore, non-contact thermometers will be considered.
+
+\subsection{Non-contact Thermometers}
+Thermopiles can be used to detect thermal radiation without being I contact with the object. All matter with temperatures above 0 K radiates electromagnetic radiation according to the Stefan-Boltzman law. The thermal radiation, $Q$, per unit area is given by the equation:
+
+$$Q=\varepsilon \sigma T^4.$$
+
+Where $\varepsilon$ is the emissivity, $\sigma$ the Stefan-Boltzman constant and T the temperature of the object.
+
+The wavelength distribution varies according to the temperature of the object and is described by Planck's law:
+
+$$B_\lambda (\lambda ,T)=\frac{2hc^2}{\lambda ^5}\frac{1}{e^\frac{hc}{\lambda k_B T} -1}.$$
+ 
+Where $B_\lambda$ is the spectral radiance, $\lambda$ the radiation wavelength, $h$ Planck's constant, $k_B$ Boltzman's constant $c$ the speed of light and $T$ the object's temperature. Through maximizing $B_\lambda$ , it is possible to find the dominant wavelength that is emitted at a certain temperature. Figure~\ref{fig:PlancksLaw} shows a plot made of spectral radiance versus wavelength at $T=$ 37 $^{\circ}C$, the core temperature of humans. It can be seen that the dominant wavelength is at 9.35 $\mu$m. This is in the infrared range, and therefore this type of thermal radiation thermometer is called an infrared thermometer.
+
+ \begin{figure}[h]
    \centering
-   \includegraphics[scale=0.3]{figs/IR_Thermometer}
+   \includegraphics[scale=0.6]{figs/PlancksLaw}
+   \caption{Plot showing how Planck's law can be used to determine the dominant radiation wavelength at certain temperature}
+   \label{fig:PlancksLaw}
+\end{figure}
+
+In the case of measuring the temperature of the tympanic membrane, the hot junction's temperature will be determined by the radiation received from the tympanum minus the radiation radiated by the sensor self.
+
+\medskip
+
+When talking about thermal radiation, an important aspect is emissivity. Emissivity is the ability of an object to radiate thermal energy. It is quantified as a ratio of thermal energy emitted by a surface relative to the thermal energy emitted by an ideal black body at the same temperature. A black body is an idealized surface that reflects no radiation, meaning all energy radiated from the surface are due to the temperature of the surface. Thus, a black body have an emissivity of 1 and have the maximum theoretical radiation at a given temperature. The accuracy of an infrared sensor depends on the ability of the object to emit sufficient thermal radiation for the sensor to detect. Cross-referencing various emissivity tables, it was found that the emissivity of human skin is 0.98, meaning that it is an excellent emitter of thermal energy \citep{stumme2003emissivity} \citep{EmissivityThermoWorks} \citep{EmissivityOptotherm}. The ear drum is covered with skin, making it an ideal target object for a non-contact thermometer.
+
+\medskip
+
+An infrared thermometer generally consists out of a thermophile attached to a blackbody and shielded by an infrared filter that also acts as a lens to focus infrared waves \citep{irTempSensors}. This setup, shows in Figure \ref{fig:IR_Thermometer}, allows for the non-contact temperature sensing of the tympanic membrane. Unlike pulse rate, breathing and electrical brain activity, the core body temperature varies slowly. It takes minutes to vary significantly. Therefore, the sampling period of core temperature can be as long as 10 seconds.
+
+\medskip
+
+\begin{figure}[h]
+   \centering
+   \includegraphics[scale=0.5]{figs/IR_Thermometer}
    \caption{IR Thermometer diagram (V Polyzoev et al: Demystifying Thermopile IR Temp Sensors)}
    \label{fig:IR_Thermometer}
 \end{figure}
 
+\subsection{Commercial Devices}
+The \textit{degree}$^{\circ}$, Figure \ref{fig:Degree}, is a continuous in-ear thermometer for children, developed by \textit{cosinuss}$^{\circ}$, a company specialising in wearable sensors. The bulk of the device is worn behind the ear, and there is a wire running over the auricle to the ear canal, in which a probe is placed. The device takes its temperature measurements with a sensor placed in contact with the canal wall. The manufacturer claims an accuracy of $\pm$0.1 $^{\circ}C$. It monitors temperature continuously and sends real time data to a mobile phone.
 
-Thermocouples are widely used in medical thermometers due to their 
+\medskip
 
-\subsubsection{Thermistors}
-Thermistors
+\begin{figure}
+   \centering
+   \includegraphics[scale=0.65]{figs/Degree}
+   \caption{CAD model of the \textit{degree}$^{\circ}$ from the \textit{cosinuss}$^{\circ}$ website (include ref)}
+   \label{fig:Degree}
+\end{figure}
 
-\subsubsection{Resistance temperature detectors}
-Resistance temperature detectors (RTD) 
-
-
-
-
-
-
-Another important aspect is the way in with the ele temperature measurement in set op 
-
-Other methods used by the literature
-
-Devices used by literature
-
-
-
-
-enter the test of the TMP006 subsystem word doc that is applicable here...
+Apart from the \textit{degree}$^{\circ}$, there are not much literature on wearable ear thermometers. Two patents were found describing similar devices: US 6556852 B1 and US 20090221888 A1. The first of which proposes the use of an infrared sensor pointed at the tympanic membrane, and the latter not specifying the method of measuring. Hopefully, the tests planned for this study can add to this insufficient body of knowledge.
 
 \subsection{Heart Rate}
 The presence of a heart beat is a paramount to the sustain the vital cardiac output supplying blood to the whole body. Heart  rate can be controlled or maintained through two different regulatory systems: The intrinsic conduction system and the nervous system. The intrinsic conduction system works through the rhythmic contraction and relaxation of the heart muscle tissue. The heart rhythm is regulated by the sinoatrial node. The nervous system can influence the heart rate through sympathetic and parasympathetic nerves running from the cardiovascular centres in the medulla oblongata to the heart. The heart beat rate is varied to control the blood flow and blood pressure in the body.

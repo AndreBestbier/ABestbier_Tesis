@@ -1,4 +1,4 @@
-\begin{thebibliography}{14}
+\begin{thebibliography}{22}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -27,6 +27,16 @@
 \newblock \emph{Journal-American academy of audiology}, \bblvol{}~8, \bblpp{}
   383--390.
 
+\bibitem[{\citenamefont{Blahd}(2016)}]{webMDSleepApnoea}
+\bibnamefont{Blahd}, \bibfnamefont{W.} (2016 09).
+\newblock Mebmd sleep apnea.
+\newline\bblurlpre\url{http://www.webmd.com/sleep-disorders/sleep-apnea/sleep-apnea}
+
+\bibitem[{\citenamefont{Charbek}(2015)}]{medscapeBreathingRate}
+\bibnamefont{Charbek}, \bibfnamefont{E.} (2015 08).
+\newblock Medscape normal vital vigns.
+\newline\bblurlpre\url{http://emedicine.medscape.com/article/2172054-overview}
+
 \bibitem[{\citenamefont{Da~He} \emph{\bbletal{}}(2010)\citenamefont{Da~He},
   \citenamefont{Winokur}, \citenamefont{Heldt} \protect\BIBand{}
   \citenamefont{Sodini}}]{da2010ear}
@@ -46,6 +56,25 @@
   temperature measurement.
 \newblock \emph{Critical care medicine}, \bblvol{}~21, \bblno{}~10, \bblpp{}
   1528--1534.
+
+\bibitem[{\citenamefont{Jones}(2010)}]{jones2010biomedical}
+\bibnamefont{Jones}, \bibfnamefont{D.} (2010).
+\newblock \emph{Biomedical Sensors}.
+\newblock Sensor technology series. Momentum Press.
+\newblock ISBN 9781606500569.
+\newline\bblurlpre\url{https://books.google.co.za/books?id=7cI83YOIUTkC}
+
+\bibitem[{\citenamefont{Karaki} \protect\BIBand{}
+  \citenamefont{Polyziev}(2014)}]{irTempSensors}
+\bibnamefont{Karaki}, \bibfnamefont{H.} \protect\BIBand{}
+  \bibnamefont{Polyziev}, \bibfnamefont{V.} (2014).
+\newblock Demystifying thermopile ir temp sensors.
+\newline\bblurlpre\url{http://www.sensorsmag.com/components/demystifying-thermopile-ir-temp-sensors}
+
+\bibitem[{\citenamefont{Laskowski}(2015)}]{normalRestingHR}
+\bibnamefont{Laskowski}, \bibfnamefont{E.R.} (2015).
+\newblock What's a normal resting heart rate?
+\newline\bblurlpre\url{http://www.mayoclinic.org/healthy-lifestyle/fitness/expert-answers/heart-rate/faq-20057979}
 
 \bibitem[{\citenamefont{Lefrant} \emph{\bbletal{}}(2003)\citenamefont{Lefrant},
   \citenamefont{Muller}, \citenamefont{de~La~Coussaye},
@@ -89,6 +118,11 @@
 \newblock External auditory canal.
 \newline\bblurlpre\url{https://global.britannica.com/science/external-auditory-canal}
 
+\bibitem[{\citenamefont{Optotherm}(2017)}]{EmissivityOptotherm}
+\bibnamefont{Optotherm} (2017).
+\newblock Emissivity table.
+\newline\bblurlpre\url{http://www.optotherm.com/emiss-table.htm}
+
 \bibitem[{\citenamefont{Park} \emph{\bbletal{}}(2015)\citenamefont{Park},
   \citenamefont{Jang}, \citenamefont{Park} \protect\BIBand{}
   \citenamefont{Youm}}]{park2015wearable}
@@ -121,6 +155,16 @@
   physical activity.
 \newblock \emph{Mobile Information Systems}, \bblvol{} 2016.
 
+\bibitem[{\citenamefont{Stumme} \emph{\bbletal{}}(2003)\citenamefont{Stumme},
+  \citenamefont{Baldini}, \citenamefont{Jonassen} \protect\BIBand{}
+  \citenamefont{Bach}}]{stumme2003emissivity}
+\bibnamefont{Stumme}, \bibfnamefont{L.D.}, \bibnamefont{Baldini},
+  \bibfnamefont{T.H.}, \bibnamefont{Jonassen}, \bibfnamefont{E.A.}
+  \protect\BIBand{} \bibnamefont{Bach}, \bibfnamefont{J.M.} (2003).
+\newblock Emissivity of bone.
+\newblock \capitalize\bblin{}: \emph{Summer Bioengineering Conference},
+  \bblpp{} 25--29.
+
 \bibitem[{\citenamefont{Sund-Levander}
   \emph{\bbletal{}}(2002)\citenamefont{Sund-Levander}, \citenamefont{Forsberg}
   \protect\BIBand{} \citenamefont{Wahren}}]{sund2002normal}
@@ -131,6 +175,11 @@
   men and women: a systematic literature review.
 \newblock \emph{Scandinavian journal of caring sciences}, \bblvol{}~16,
   \bblno{}~2, \bblpp{} 122--128.
+
+\bibitem[{\citenamefont{ThermoWorks}()}]{EmissivityThermoWorks}
+\bibnamefont{ThermoWorks} ().
+\newblock Emissivity table.
+\newline\bblurlpre\url{http://www.thermoworks.com/learning/emissivity\_table}
 
 \bibitem[{\citenamefont{Wang} \emph{\bbletal{}}(2010)\citenamefont{Wang},
   \citenamefont{Liao}, \citenamefont{Wang}, \citenamefont{Chen},
