@@ -89,7 +89,7 @@ The \textit{degree}$^{\circ}$, Figure \ref{fig:Degree}, is a continuous in-ear t
 
 \begin{figure}[h]
    \centering
-   \includegraphics[scale=0.65]{figs/Degree}
+   \includegraphics[scale=0.5]{figs/Degree}
    \caption{CAD model of the \textit{degree}$^{\circ}$ from the \textit{cosinuss}$^{\circ}$ website (include ref)}
    \label{fig:Degree}
 \end{figure}
@@ -110,9 +110,9 @@ An ear located ECG monitor have been developed by \cite{winokur2012wearable}. Th
 
 \medskip
 
-\begin{figure}[h]
+\begin{figure}[hb]
    \centering
-   \includegraphics[scale=0.9]{figs/Winokur}
+   \includegraphics[scale=0.5]{figs/Winokur}
    \caption{Ear-worn device developed by \cite{winokur2012wearable}}
    \label{fig:Winokur}
 \end{figure}
@@ -155,7 +155,7 @@ The signal read by the photo detector of the pulse oximeter consists of a AC com
    \label{fig:PPG}
 \end{figure}
 
-\subsubsection{Other Ear Monitor Research}
+\subsubsection{Other Ear PPG Research}
 At this point, PPG is the most attractive option for the Ear-Monitor to measure heart rate and it is given extra attention during the literature review.  A review of work done by others in the field of ear PPG revealed six devices relevant to this study.
 
 \medskip
@@ -201,15 +201,21 @@ The \textit{cosinuss}$^{\circ}$ \textit{one}\textsuperscript \textregistered is 
 
 
 \subsection{Ballistocardiography}
-BCG is the measurement of the mechanical effects of the beating heart on the body over time. Typically accelerometers or pressure sensors will be used to measure movement or forces on the surface of the body. BCG has been researched for use in ear heart rate extraction. In a wearable device proposed by \cite{da2010ear}, mechanical vibrations associated with heart rate are converted to electronic signals through capacitive sensing electrodes. This method works by measuring the change in capacitance between the two electrods as the distance between them changes due to heart rate vibrations. A study by \cite{winokur2012wearable} proposed measuring the head-to-foot axis recoil during the principal blood-volume shift during cardiac ejection. This is done by placing an MEMS accelerometer behind the auricle. Due to the movement dependent method of operation this technology is extremely susceptible to motion artefacts and it can only be used during which the body is stationary.
+BCG is the measurement of the mechanical effects of the beating heart on the body over time. Typically accelerometers or pressure sensors will be used to measure movement or forces on the surface of the body. BCG has been researched for use in ear heart rate extraction.
 
 \medskip
-A variation of this technology is discussed in a article by \cite{park2015wearable}. They propose using a scissor shaped hinge mechanism in the ear canal that measures the change in the canal size due to the in-ear blood pulse waves. The mechanical movement it converted to an electrical signal through a piezoelectric film sensor. Figure \ref{fig:BCGsensor} shows an drawing of this device from \cite{park2015wearable}'s article.
+In a wearable device proposed by \cite{da2010ear}, mechanical vibrations associated with heart rate are converted to electronic signals through capacitive sensing electrodes placed behind the ear. This method works by measuring the change in capacitance between the two electrodes as the distance between them changes due to heart rate vibrations.
+
+\medskip
+A study by \cite{winokur2012wearable} proposed measuring the head-to-foot axis recoil due to the blood-volume shift during cardiac ejection. This is done by placing an MEMS accelerometer behind the auricle. Due to the movement dependent method of operation this technology is extremely susceptible to motion artefacts and it can only be used during which the body is stationary.
+
+\medskip
+A variation of this technology is discussed in a article by \cite{park2015wearable}. They propose using a scissor shaped hinge mechanism in the ear canal that measures the change in the canal size due to the in-ear blood pulse waves. The mechanical movement is converted to an electrical signal through a piezoelectric film sensor. Figure \ref{fig:BCGsensor} shows an drawing of this device from Park's 2015 article.
 
 \begin{figure}[h]
    \centering
    \includegraphics[scale=0.8]{figs/BCGsensor}
-   \caption{\cite{park2015wearable}}
+   \caption{Device to measure in ear pulse waves due to the heart beat \citep{park2015wearable}}
    \label{fig:BCGsensor}
 \end{figure}
 
@@ -220,34 +226,63 @@ Electronic stethoscopes uses an microphone to record heart sounds. The hears mak
 A Doppler flow-meter can be used to detect the alternating blood current component in near-surface arteries. This component is synchronised to the heart rate frequency. The device can use ultrasound, microwaves of light to achieve the Doppler shift.
 
 \section{Respiratory Rate}
-Breathing is a process critical for life. Respiration is the first step in the chain of events to get oxygen to the body's cells for metabolism to provide the body with energy. Breathing and plus it the first signs of life to check for in a medical emergency. %Say this better
+Unlike the other medical signs, a person cannot measure his or her own respiratory rate. As soon as a person is consciously thinking about respiration, breathing usually slows. Measuring needs to happen while the person's thoughts are otherwise occupied. Therefore, a continuous measuring method are preferred. Typically, a nasal mask or chest strap will be used to measure respiration. 
 
-How is the RR controlled
+\subsection{Ear Respiratory Rate Sensors}
+Ear located devices that extract respiration information are rare, but some literature sources are available.
 
-Appart form the obvious face that a lack of breathing is a problem, the RR can divulge some information about a persons health. What does the RR tell us about health
+\medskip
+\cite{goverdovsky2016hearables} tested an ear probe with two embedded microphones. The microphones could detect the sound created by turbulence in the airways for breathing rates higher than 12 breaths per minute. Figure \ref{fig:BreathingSound} shows a plot of the normalised sound amplitude at two different breathing rates. Variation during breathing can be seen in both recordings.
 
+\begin{figure}[h]
+   \centering
+   \includegraphics[scale=0.8]{figs/BreathingSound}
+   \caption{Breathing detected through microphones inside the ear canal \citep{goverdovsky2016hearables}}
+   \label{fig:BreathingSound}
+\end{figure}
 
-Measure through baseline oscillations of BCG signal (see The Ear as a Location for Wearable Vital Signs Monitoring \citep{da2010ear})
+\cite{da2010ear} did extensive research on the ear as a location for medical sign monitoring. They extracted respiratory rate from baseline oscillations in a BCG signal recorded by capacitive electrodes placed behind the ear. Mechanical movement is converted to electrical signals by these electrodes. Therefore, the movement of the head due to respiration is seen on the BCG as baseline oscillations, Figure \ref{fig:BCGbreathing}.
 
-Respiratory rate is the rate at which ventilation takes place in the lunge. One inhalation and exhalation cycle is counted a breath and respiratory rate is usually measured in breaths per minute. Healthy adults have an resting respiratory rate of between 12 and 18 breaths per minute., This can vary drastically if a the body is experiencing physical or emotional stress.
+\begin{figure}[h]
+   \centering
+   \includegraphics[scale=0.3]{figs/BCGbreathing}
+   \caption{Baseline osculations in behind the ear BCG due to breathing \citep{da2010ear}}
+   \label{fig:BCGbreathing}
+\end{figure}
 
-It is important to monitor breathing, for irregular breathing or difficulty to breathing may be an induction of healthy problems. Apnoea is when breathing stops completely. This is especially an danger in infants and patients in the ICU.
+\subsection{Respiratory Related Heart Rate Characteristics}
+A different approach is to extract respiratory rate by looking at the heart rate. A PPG signal contains three distinct respiratory related characteristics: amplitude modulation (AM), respiratory-induced intensity variation (RIIV) and frequency modulation \citep{johansson2003neural}.
 
-Traditionally, respiratory rate is measured by counting the number of timer the chest visibly rises as a person inhales. Other methods include listening to the chest with a stethoscope and counting audible breaths, fixing an accelerometer to the chest, measuring CO\textsubscript{2} levels in the respiratory gases and looking at variations in heart rate.
+\medskip
+Amplitude modulation is due to blood pressure changes during the respiratory cycle called Pulsus Paradoxus. RIIV is chances in the volume of the dermis and subcutaneous capillary bed. It is visible as baseline variation in the PPG signal.  Frequency modulation of the heart rate synchronised to respiration rate, called respiratory sinus arrhythmia (RSA).
 
-Caretakers are usually very concerned about sleep apnoea in infants, as cause a risk for infant mortality. Apnoea monitors are available to warn caretakers if breathing halts. These monitors usually measure force or acceleration caused by the breathing of the sleeping infant. The device can be worn by the infant or can by placed in the cot.
+\medskip
+RSA can also be detected in ECG, but differ from the fluctuations seen in chest ECG, due to electrodes movement relative to the heart and changes in chest impedance during the respiratory cycle \citep{moody1986clinical}. These fluctuations cannot be detected in the ear. RSA is observed as baseline oscillation in heart rate in synchrony with the respiratory rate. Heart rate increase during inspiration and a decrease during expiration \citep{yasuma2004_RSA}. According to a study done by \cite{stratton2003effects}, the variation in heart rate due to RSA is higher in younger test subjects with 74\% increase in children vs. 52\% increase in adults.
 
+\medskip
+Research was been done to develop algorithms to utilise these characteristics to extract respiratory rate from PPG signals. \cite{clifton2007measurement} used wavelet analysis, achieved a respiratory rate accurate to within 1 breath per minute and \cite{leonard2006fully} documented a respiratory rate error of 7.9\%. \cite{johansson2003neural} developed two neural network algorithms that uses the different respiratory related characteristics of PPG signals to detect breaths. Table \ref{table:RRC} shows the results of the best algorithm.
 
-All respiratory related measurements in the reviewed products rely on movement sensors attached to the body of the infant that senses its movement. Sensors include accelerometers and the \textit{BreathOptic}\textsuperscript{\texttrademark} sensor used by Sleep-Mat. These sensors detect the chest movement produced by the infant while breathing. In some cases, like Mimo and Sleep-Mat, these sensors are sensitive enough to determine the infant's respiratory rate from this movement. In other products, such as Anglecare and Monbaby, the sensors are sensitive enough to register the movement due to breathing, but not sensitive enough the extract the rate of breathing.
-Alerts are sent wirelessly to the cellphone of the caretaker if the movement stops for a certain amount of time. This may indicate that the infant has stopped breathing. The problem with this method is that products like Monbaby, Anglecare and Mimo will only alert the caretakers once the infant has stopped breathing completely for 15 or 20 seconds. This may be too late to prevent an infant mortality. A product is needed that can accurately monitor the respiratory rate and warn the doctor or caretakers if the respiratory rate drops or becomes irregular.
-Respiratory sinus arrhythmia (RSA) is the baseline oscillation in heart rate in synchrony with the respiratory rate. It is observed as an increase in heartrate during inspiration and a decrease during expiration. According to a study done by Stratton JR et al, the variation in heart rate due to RSA is higher in younger test subjects with 74\% increase in children vs. 52\% increase in adults [5]. These findings support the use of RSA to determine the infant's respiratory rate. A study has been done by D da He investigating the use of ballistocardiogram heart rate measurements to detect RSA [6]. This project will attempt to detect RSA in pulse oximetry heart rate measurements. This is a unique approach in wearable monitoring devices. The advantage is that no extra sensors, like accelerometers, are needed for the measurement of respiratory rate.
+\begin{table}
+\centering
+\caption{Results of the respiratory rate extraction through neural networks \citep{johansson2003neural}}
+\begin{tabular}{P{5cm}P{3cm}P{3cm}}
+ \hline
+ Respiratory Related Characteristics & False Positive (\%) & False Negative (\%) \\ 
+ \hline
+ RSA  	& 	3.7 	& 	6.9 \\  
+ AM 	& 	5.2 	& 	4.7 \\
+ RIIV 	&	5.2		&	5.9 \\
+ \hline
+\end{tabular}
+\label{table:RRC}
+\end{table}
+
 
 \section{Blood Oxygen Saturation}
-Oxygen saturation can be measured by means of an arterial blood gas test resulting an arterial oxygen saturation reading. An alternative method is pulse oximetry. This method measures peripheral capillary oxygen saturation (Sp02). This is a clinically excepted estimation of the arterial oxygen saturation.
+Oxygen saturation can be measured by means of an arterial blood gas test resulting an arterial oxygen saturation reading. This requires drawing a blood sample for testing and therefore is not relevant to this study. An alternative method is pulse oximetry. This method estimates peripheral capillary oxygen saturation, $SpO_2$, through the spectrophotometric analysis of PPG signals captured at two different wavelengths. This is a clinically excepted estimation of the arterial oxygen saturation.
 
-Various devices are available for measuring blood oxygen saturation. Elaborate...
-
-Blood oxygen saturation calculation through pulse oximetry relies on the different adsorption spectra of oxyhaemoglobi) and deoxyhaemoglobin. Figure~\ref{fig:AbsorptionSpectra} shows the absorption spectra of oxy- and deoxyhaemoglobin. It can be noted that deoxyhaemoglobin has a significantly higher absorption of red light (600 - 750 nm wavelength) while oxyhaemoglobin has a slightly higher absorption of infrared light (850 - 1000 nm wavelength). This explains the fact that oxyginated blood apperas bright red and deoxygineted blood is a darker shade of red. (find a source for the image) (What is on y-axis and what is NIR region). Literature usually uses 660 nm (red) and 940 nm (near infrared) http://www.iosrjournals.org/iosr-jeee/Papers/Vol8-issue1/D0812226.pdf?id=7592
+\subsection{Pulse Oximetry Theory}
+Blood oxygen saturation estimation through pulse oximetry relies on the different adsorption spectra of oxyhaemoglobin and deoxyhaemoglobin. Figure \ref{fig:AbsorptionSpectra} shows the absorption spectra of oxy- and deoxyhaemoglobin. (Get a picture with lines at 660 and 940nm). 
 
 \begin{figure}
    \centering
@@ -256,9 +291,58 @@ Blood oxygen saturation calculation through pulse oximetry relies on the differe
    \label{fig:AbsorptionSpectra}
 \end{figure}
 
-From the Figure~\ref{fig:AbsorptionSpectra} it can be seen that the ratio of absorbed red light to absorbed infra-red light is unique to a certain level of blood oxygen saturation. Therefore this ration can be used to estimate blood oxygen saturation. To account for different DC absorption between patients, a modulated ratio ($R$) is used:
-$$R = \frac{\left(\frac{AC}{DC}\right)\textsubscript{red}}{\left(\frac{AC}{DC}\right)\textsubscript{IR}} $$
-This ensures that the $ O_2 $ saturation of only the arterial blood is calculated. The ration can be checked against an empirical determined curve. The standard formula for this curve is found in literature as $ \% SpO_2 = 110-25R $, (http://www.ti.com/lit/an/slaa655/slaa655.pdf) but it can vary from device to device. 
+It can be noted that deoxyhaemoglobin has a significantly higher absorption of red light while oxyhaemoglobin has a slightly higher absorption of infrared light.
 
+\medskip
+According to Beers law, the amount of light absorbed by a dissolved substance is proportional to its concentration \citep{lambertANDbeer}. Therefore, oxygenated blood (with a higher concentration of oxyhaemoglobin) will absorb more infrared light and reflect more red light. Whereas deoxygenated blood (with a higher concentration of deoxyhaemoglobin) will absorb more red light and reflect more infrared light. This explains why oxygenated blood appears bright red, while deoxygenated blood is a darker shade of red.
+
+\medskip
+Red and infrared light is shined into the peripheral tissue and the light reflected or transmitted is measured for both wavelengths. Literature and commercial devices usually uses wavelengths of 660 nm (red) and 940 nm (near infrared) \citep{tytler1986nellcor} \citep{ti2012datasheet} \citep{bagha2011real} \citep{bheema2013spo2} \citep{duun2007novel}. The ratio of reflected or transmitted light is unique to a certain level of blood oxygen saturation and is used to estimate blood oxygen saturation.
+
+\medskip
+The Beer-Lambert law describes the absorption of a specific wavelength of light by a substance in a homogeneous solution \citep{bagha2011real}. 
+
+$$A=\varepsilon cL=ln\left( \frac{I_o}{I}\right) $$
+$$I=I_o e^{-\varepsilon _\lambda cL}$$
+
+\medskip
+Where $A$ is the dimensionless adsorption, $\varepsilon$ is the wavelength dependant molar absorptivity, $c$ is the concentration of the substance and $L$ is the path length the light needs to travel through the substance. $I_o$ is the intensity of the light entering the solution and $I$ is the intensity of light passing though the solution.
+
+\medskip
+When applying this law to measuring $O_2$ saturation, a concentration ratio can be calculated. Factoring out $L$, $I_o$, and the constants in $\varepsilon$, the ration can be written as:
+
+$$R=\frac{log\left( I_{red} \right)\cdot\lambda _{red}}{log\left( I_{ir} \right)\cdot\lambda _{ir}}$$
+
+\medskip
+Where $I$ is the light intensities and $\lambda$ is the wavelength \citep{ti2012datasheet}.  Red and infrared light sources are alternated and intensity measurements are made for both separately.
+
+\medskip
+In practice, a different modulated relationship is used to compensate for the different DC absorption between patients \citep{konig1998reflectance} \citep{duun2007novel} \citep{bheema2013spo2}   \citep{bagha2011real}  \citep{nitzan2014calibration} \citep{ti2012application}
+
+$$R = \frac{\left(\frac{AC}{DC}\right)\textsubscript{red}}{\left(\frac{AC}{DC}\right)\textsubscript{IR}} $$
+
+\medskip
+This ensures that the $O_2$ saturation of only the arterial blood is calculated. The ration can be checked against an empirical determined curve. The standard formula for this curve is found in literature as \% $SpO_2  = 110-25R$, \citep{ti2012application} but it can vary from device to device.
+
+\medskip
+As mentioned, $SpO_2$ can be calculated using reflected or transmitted light. Light that is not absorbed or scattered by tissue can be either reflected, or transmitted. Thus, both reflected and transmitted light is proportional to the mount of light absorbed. Transmittance mode pulse oximeters are more common, but their use is restricted to parts of the body that will allow for light to pass through, like a fingertip or earlobe.
+
+\medskip
+A big challenge to conventional pulse oximeters is noise due to movement \citep{spo2Motion}.
+
+\subsection{Work done by others in ear pulse oximetry}
+Standard locations for pulse oximetry includes the fingertip, earlobe, ankle and forehead. A study comparing fingertip and earlobe pulse oximetry to an arterial blood gas test found that finger pulse oximetry differed by a mean of -0,71\% and earlobe pulse oximetry differed by a mean of +4.2\% \citep{olive2016comparison}. Literature and commercial wearable pulse oximeters typically utilise a finger clip to measuring $SpO_2$ \citep{watthanawisuth2010wireless} \citep{pujary2003photodetector} \citep{huang2014novel} \citep{khalifa2014development}. This location is not ideal for continuous monitoring and is especially susceptible to motion artefacts. Although the fingertip location is not of interest to this study, the literature is still reviewed for similar principals can be applies to ear pulse oximetry.
+
+\medskip
+Ear lobe pulse oximetry usually done through a sensor that clips to the ear lobe, which is attached to a stationary device. Wearable ear pulse oximetry, is still novel and not well covered in literature. There are some patients filled for such devices (US 20050177034 A1) (US 4086915 A) (US 3412729 A) (US 6556852 B1) and commercial devices like but little academic material is available.
+
+\medskip
+A study done by \citep{aziz2006pervasive} tested a wireless earlobe-mounted pulse oximeter on a group of subjects. Subjects were tested while sitting, walking and running. During the sitting and walking phases they recorded an SpO2 reading of above 95\%, which is \enquote{as expected} according to them. But during the running phase they could not obtain any accurate reading. 
+
+\medskip
+During running, they could not take an $SpO_2$ reading, but Literature on ear PPG, only uses infrared light to determine heart rate. Theoretically, infrared light can be added in the same way to produce and red PPG and a R value can be calculated to estimate $SpO_2$.
+
+\medskip
+Pulse oximetry patch
 
 \section{Electrical Brain Activity}

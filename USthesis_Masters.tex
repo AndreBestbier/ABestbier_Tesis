@@ -28,13 +28,16 @@
 %==== Ref's, Bib's and Nomencl ======================================
  \usepackage{usnomencl}%.......................... List of symbols (in usthesis pack)
   
-  
- \usepackage[numbers]{natbib} %%<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Vancouver
- 
+  \usepackage{array} %%<<<<<<<<<<<Tables
+  \newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}%centering
+% \usepackage[numbers]{natbib} %%<<<<<<<<<< Vancouver
+
+\usepackage[justification=centering]{caption}%<<Centering captions
+ \usepackage{csquotes} %<<<<<Quotes
  
  \usepackage{usbib}%.............................. Bibliography    (in usthesis pack)
-    %\bibliographystyle{usmeg-a}
-    \bibliographystyle{IEEEtran}
+    \bibliographystyle{usmeg-a}
+    %\bibliographystyle{IEEEtran}
     \renewcommand\bibfont{\small}
     
     
@@ -46,6 +49,7 @@
 
 %==== Graphics and Color ============================================
 \usepackage{graphicx}%........................... Graphicx loaded in usthesis
+\usepackage{float}%>>>>>>>>>>>Trying ti fix figure pos
 \usepackage{color}%.............................. Color setup
 \usepackage{eso-pic}%............................ Shipout commands for watermark
     \newcommand*{\WaterMark}[2][0.15\paperwidth]{%
