@@ -15,11 +15,11 @@
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Aim/Research Question}{2}
 \contentsline {section}{\numberline {1.2}Motivation}{2}
-\contentsline {chapter}{\chapternumberline {2}Anatomy Literature Review}{4}
+\contentsline {chapter}{\chapternumberline {2}Biology Literature Review}{4}
 \contentsline {section}{\numberline {2.1}Ear Anatomy}{4}
 \contentsline {subsection}{\numberline {2.1.1}Auricle}{4}
 \contentsline {subsection}{\numberline {2.1.2}Ear Canal}{5}
-\contentsline {subsection}{\numberline {2.1.3}Tympanum}{6}
+\contentsline {subsection}{\numberline {2.1.3}Tympanic Membrane}{6}
 \contentsline {section}{\numberline {2.2}Medical Sign Physiology}{7}
 \contentsline {subsection}{\numberline {2.2.1}Core Temperature}{7}
 \contentsline {subsection}{\numberline {2.2.2}Heart Rate}{8}
@@ -38,7 +38,7 @@
 \contentsline {section}{\numberline {3.2}Heart Rate}{16}
 \contentsline {subsection}{\numberline {3.2.1}Electrocardiography}{16}
 \contentsline {subsection}{\numberline {3.2.2}Photoplethysmography}{17}
-\contentsline {subsubsection}{\numberline {3.2.2.1}Other Ear PPG Research}{18}
+\contentsline {subsubsection}{\numberline {3.2.2.1}Work done by others in Ear PPG}{18}
 \contentsline {subsection}{\numberline {3.2.3}Ballistocardiography}{20}
 \contentsline {subsection}{\numberline {3.2.4}Other Heart Rate Methods}{21}
 \contentsline {section}{\numberline {3.3}Respiratory Rate}{22}

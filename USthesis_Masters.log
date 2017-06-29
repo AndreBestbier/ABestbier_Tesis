@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.6.29)  29 JUN 2017 23:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.6.29)  30 JUN 2017 00:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -833,7 +833,13 @@ Overfull \hbox (0.16243pt too wide) detected at line 12
 
 
 ]) [7] (./USthesis_Masters.lof
-Overfull \hbox (5.23994pt too wide) in paragraph at lines 26--26
+Overfull \hbox (10.68289pt too wide) in paragraph at lines 11--11
+ [][] []\T1/cmr/m/n/12 Anatomical struc-tures of the au-ri-cle (Get source from
+: goo.gl/mmLnFx) []  
+ []
+
+
+Overfull \hbox (5.23994pt too wide) in paragraph at lines 25--25
  [][] []\T1/cmr/m/n/12 Breathing de-tected through mi-cro-phones in-side the ea
 r canal (Gover- 
  []
@@ -862,51 +868,58 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
 
 
-] [2]
-<figs/TraditionalICU.png, id=66, 504.6855pt x 240.9pt>
-File: figs/TraditionalICU.png Graphic file (type png)
-<use figs/TraditionalICU.png>
-Package pdftex.def Info: figs/TraditionalICU.png  used on input line 58. on inp
-ut line 58.
-Package pdftex.def Info: Requested size: 151.40681pt x 72.27055pt on input line
- 58.
-) [3 <./figs/TraditionalICU.png>]
+] [2]) [3]
 \openout2 = `contents/Chap-2.aux'.
 
+ (./contents/Chap-2.tex
+(./figs/Auricle.pdf_tex
+<figs/Auricle.pdf, id=69, page=1, pagebox=cropbox, 238.31786pt x 234.8775pt>
+File: figs/Auricle.pdf Graphic file (type pdf)
+<use figs/Auricle.pdf, page 1>
+Package pdftex.def Info: figs/Auricle.pdf , page1 used on input line 52. on inp
+ut line 52.
+Package pdftex.def Info: Requested size: 200.0pt x 197.11655pt on input line 52
+.
+<figs/Auricle.pdf, id=70, page=2, pagebox=cropbox, 238.31786pt x 234.8775pt>
+File: figs/Auricle.pdf Graphic file (type pdf)
+<use figs/Auricle.pdf, page 2>
+Package pdftex.def Info: figs/Auricle.pdf , page2 used on input line 56. on inp
+ut line 56.
+Package pdftex.def Info: Requested size: 200.0pt x 197.11655pt on input line 56
+.
+)
 
-(./contents/Chap-2.tex
-<figs/AuricleLabel.png, id=72, 178.86826pt x 151.767pt>
-File: figs/AuricleLabel.png Graphic file (type png)
-<use figs/AuricleLabel.png>
-Package pdftex.def Info: figs/AuricleLabel.png  used on input line 19. on input
- line 19.
-Package pdftex.def Info: Requested size: 178.86781pt x 151.76662pt on input lin
-e 19.
- [4
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4
 
 
 
 ]
-<figs/EarSection.pdf, id=76, pagebox=cropbox, 451.6875pt x 294.34969pt>
+<figs/EarSection.pdf, id=74, pagebox=cropbox, 451.6875pt x 294.34969pt>
 File: figs/EarSection.pdf Graphic file (type pdf)
 <use figs/EarSection.pdf>
-Package pdftex.def Info: figs/EarSection.pdf  used on input line 37. on input l
-ine 37.
+Package pdftex.def Info: figs/EarSection.pdf  used on input line 38. on input l
+ine 38.
 Package pdftex.def Info: Requested size: 316.17908pt x 206.04337pt on input lin
-e 37.
- [5 <./figs/AuricleLabel.png>] [6 <./figs/EarSection.pdf>]
-<figs/VariationsInTemp.pdf, id=86, pagebox=cropbox, 603.75563pt x 432.11438pt>
+e 38.
+ [5 <./figs/Auricle.pdf> <./figs/Auricle.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figs/Auricle.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
+>] [6 <./figs/EarSection.pdf>]
+<figs/VariationsInTemp.pdf, id=88, pagebox=cropbox, 603.75563pt x 432.11438pt>
 File: figs/VariationsInTemp.pdf Graphic file (type pdf)
 <use figs/VariationsInTemp.pdf>
-Package pdftex.def Info: figs/VariationsInTemp.pdf  used on input line 76. on i
-nput line 76.
+Package pdftex.def Info: figs/VariationsInTemp.pdf  used on input line 72. on i
+nput line 72.
 Package pdftex.def Info: Requested size: 181.12808pt x 129.6353pt on input line
- 76.
- [7] [8 <./figs/VariationsInTemp.pdf>] [9]) [10]
+ 72.
+ [7] [8 <./figs/VariationsInTemp.pdf>] [9])
+[10]
 \openout2 = `contents/Chap-3.aux'.
 
- (./contents/Chap-3.tex
-[11
+ (./contents/Chap-3.tex [11
 
 
 
@@ -921,7 +934,7 @@ Package epstopdf Info: Source file: <figs/PlancksLaw.eps>
 ted-to.pdf figs/PlancksLaw.eps>
 (epstopdf)             \includegraphics on input line 57.
 Package epstopdf Info: Output file is already uptodate.
-<figs/PlancksLaw-eps-converted-to.pdf, id=108, pagebox=cropbox, 466.74374pt x 3
+<figs/PlancksLaw-eps-converted-to.pdf, id=110, pagebox=cropbox, 466.74374pt x 3
 02.12875pt>
 File: figs/PlancksLaw-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/PlancksLaw-eps-converted-to.pdf>
@@ -934,7 +947,7 @@ Package pdftex.def Info: Requested size: 280.0484pt x 181.27864pt on input line
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [13]
-<figs/IR_Thermometer.pdf, id=114, pagebox=cropbox, 437.38406pt x 252.19218pt>
+<figs/IR_Thermometer.pdf, id=116, pagebox=cropbox, 437.38406pt x 252.19218pt>
 File: figs/IR_Thermometer.pdf Graphic file (type pdf)
 <use figs/IR_Thermometer.pdf>
 Package pdftex.def Info: figs/IR_Thermometer.pdf  used on input line 76. on inp
@@ -942,7 +955,7 @@ ut line 76.
 Package pdftex.def Info: Requested size: 218.69148pt x 126.09578pt on input lin
 e 76.
  [14 <./figs/PlancksLaw-eps-converted-to.pdf>]
-<figs/Degree.png, id=130, 210.18526pt x 252.945pt>
+<figs/Degree.png, id=132, 210.18526pt x 252.945pt>
 File: figs/Degree.png Graphic file (type png)
 <use figs/Degree.png>
 Package pdftex.def Info: figs/Degree.png  used on input line 92. on input line 
@@ -950,7 +963,7 @@ Package pdftex.def Info: figs/Degree.png  used on input line 92. on input line
 Package pdftex.def Info: Requested size: 105.09236pt x 126.47218pt on input lin
 e 92.
  [15 <./figs/IR_Thermometer.pdf> <./figs/Degree.png>]
-<figs/Winokur.png, id=137, 322.9155pt x 134.3565pt>
+<figs/Winokur.png, id=139, 322.9155pt x 134.3565pt>
 File: figs/Winokur.png Graphic file (type png)
 <use figs/Winokur.png>
 Package pdftex.def Info: figs/Winokur.png  used on input line 115. on input lin
@@ -958,7 +971,7 @@ e 115.
 Package pdftex.def Info: Requested size: 161.45735pt x 67.17809pt on input line
  115.
  [16 <./figs/Winokur.png>] (./figs/PPGModes.pdf_tex
-<figs/PPGModes.pdf, id=142, page=1, pagebox=cropbox, 242.70676pt x 105.62978pt>
+<figs/PPGModes.pdf, id=145, page=1, pagebox=cropbox, 242.70676pt x 105.62978pt>
 
 File: figs/PPGModes.pdf Graphic file (type pdf)
 <use figs/PPGModes.pdf, page 1>
@@ -966,7 +979,7 @@ Package pdftex.def Info: figs/PPGModes.pdf , page1 used on input line 52. on in
 put line 52.
 Package pdftex.def Info: Requested size: 242.70674pt x 105.6295pt on input line
  52.
-<figs/PPGModes.pdf, id=143, page=2, pagebox=cropbox, 242.70676pt x 105.62978pt>
+<figs/PPGModes.pdf, id=146, page=2, pagebox=cropbox, 242.70676pt x 105.62978pt>
 
 File: figs/PPGModes.pdf Graphic file (type pdf)
 <use figs/PPGModes.pdf, page 2>
@@ -974,7 +987,7 @@ Package pdftex.def Info: figs/PPGModes.pdf , page2 used on input line 55. on in
 put line 55.
 Package pdftex.def Info: Requested size: 242.70674pt x 105.6295pt on input line
  55.
-<figs/PPGModes.pdf, id=144, page=3, pagebox=cropbox, 242.70676pt x 105.62978pt>
+<figs/PPGModes.pdf, id=147, page=3, pagebox=cropbox, 242.70676pt x 105.62978pt>
 
 File: figs/PPGModes.pdf Graphic file (type pdf)
 <use figs/PPGModes.pdf, page 3>
@@ -992,7 +1005,7 @@ e pdfs with page group included in a single page
 pdfTeX warning: pdflatex.exe (file ./figs/PPGModes.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
 >]
-<figs/PPG.png, id=152, 123.3408pt x 117.8001pt>
+<figs/PPG.png, id=155, 123.3408pt x 117.8001pt>
 File: figs/PPG.png Graphic file (type png)
 <use figs/PPG.png>
 Package pdftex.def Info: figs/PPG.png  used on input line 153. on input line 15
@@ -1000,14 +1013,14 @@ Package pdftex.def Info: figs/PPG.png  used on input line 153. on input line 15
 Package pdftex.def Info: Requested size: 197.34552pt x 188.48038pt on input lin
 e 153.
  [18 <./figs/PPG.png>]
-<figs/poh.png, id=156, 195.786pt x 120.5595pt>
+<figs/poh.png, id=159, 195.786pt x 120.5595pt>
 File: figs/poh.png Graphic file (type png)
 <use figs/poh.png>
 Package pdftex.def Info: figs/poh.png  used on input line 171. on input line 17
 1.
 Package pdftex.def Info: Requested size: 234.942pt x 144.67064pt on input line 
 171.
-<figs/DaHe.png, id=157, 1705.572pt x 1295.43974pt>
+<figs/DaHe.png, id=160, 1705.572pt x 1295.43974pt>
 File: figs/DaHe.png Graphic file (type png)
 <use figs/DaHe.png>
 Package pdftex.def Info: figs/DaHe.png  used on input line 182. on input line 1
@@ -1019,7 +1032,7 @@ e 182.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [19 <./figs/poh.png>]
-<figs/cosinuss.png, id=161, 211.554pt x 210.5685pt>
+<figs/cosinuss.png, id=164, 211.554pt x 210.5685pt>
 File: figs/cosinuss.png Graphic file (type png)
 <use figs/cosinuss.png>
 Package pdftex.def Info: figs/cosinuss.png  used on input line 197. on input li
@@ -1027,7 +1040,7 @@ ne 197.
 Package pdftex.def Info: Requested size: 169.24342pt x 168.455pt on input line 
 197.
  [20 <./figs/DaHe.png> <./figs/cosinuss.png>]
-<figs/BCGsensor.png, id=167, 247.52475pt x 175.857pt>
+<figs/BCGsensor.png, id=170, 247.52475pt x 175.857pt>
 File: figs/BCGsensor.png Graphic file (type png)
 <use figs/BCGsensor.png>
 Package pdftex.def Info: figs/BCGsensor.png  used on input line 217. on input l
@@ -1035,14 +1048,14 @@ ine 217.
 Package pdftex.def Info: Requested size: 198.02007pt x 140.68578pt on input lin
 e 217.
  [21 <./figs/BCGsensor.png>]
-<figs/BreathingSound.png, id=171, 309.5565pt x 91.542pt>
+<figs/BreathingSound.png, id=174, 309.5565pt x 91.542pt>
 File: figs/BreathingSound.png Graphic file (type png)
 <use figs/BreathingSound.png>
 Package pdftex.def Info: figs/BreathingSound.png  used on input line 239. on in
 put line 239.
 Package pdftex.def Info: Requested size: 247.64552pt x 73.23369pt on input line
  239.
-<figs/BCGbreathing.png, id=172, 1185.228pt x 398.6895pt>
+<figs/BCGbreathing.png, id=175, 1185.228pt x 398.6895pt>
 File: figs/BCGbreathing.png Graphic file (type png)
 <use figs/BCGbreathing.png>
 Package pdftex.def Info: figs/BCGbreathing.png  used on input line 248. on inpu
@@ -1054,23 +1067,22 @@ e 248.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [22 <./figs/BreathingSound.png>] [23 <./figs/BCGbreathing.png>]
-<figs/AbsorptionSpectra.pdf, id=179, pagebox=cropbox, 426.09187pt x 290.58563pt
->
-File: figs/AbsorptionSpectra.pdf Graphic file (type pdf)
-<use figs/AbsorptionSpectra.pdf>
-Package pdftex.def Info: figs/AbsorptionSpectra.pdf  used on input line 289. on
- input line 289.
+<figs/AbsorptionSpectra_Edit.png, id=182, 426.09187pt x 290.58563pt>
+File: figs/AbsorptionSpectra_Edit.png Graphic file (type png)
+<use figs/AbsorptionSpectra_Edit.png>
+Package pdftex.def Info: figs/AbsorptionSpectra_Edit.png  used on input line 29
+0. on input line 290.
 Package pdftex.def Info: Requested size: 340.87395pt x 232.46881pt on input lin
-e 289.
- [24 <./figs/AbsorptionSpectra.pdf>] [25]) [26] [27]
+e 290.
+ [24 <./figs/AbsorptionSpectra_Edit.png>] [25]) [26] [27]
 \openout2 = `contents/Chap-4.aux'.
 
  (./contents/Chap-4.tex [28
 
 
 
-] [29] [30]
-[31] [32] [33] [34]) [35]
+] [29]
+[30] [31] [32] [33] [34]) [35]
 \openout2 = `contents/Chap-5.aux'.
 
  (./contents/Chap-5.tex [36
@@ -1078,7 +1090,7 @@ e 289.
 
 
 ]
-<figs/PulseOxiConfiguration.pdf, id=226, pagebox=cropbox, 659.46375pt x 239.394
+<figs/PulseOxiConfiguration.pdf, id=227, pagebox=cropbox, 659.46375pt x 239.394
 38pt>
 File: figs/PulseOxiConfiguration.pdf Graphic file (type pdf)
 <use figs/PulseOxiConfiguration.pdf>
@@ -1107,7 +1119,7 @@ ory of IR thermo-
 \openout2 = `contents/App-1.aux'.
 
  (./contents/App-1.tex
-<figs/DEM-Def-Ball.pdf, id=252, pagebox=cropbox, 237.88875pt x 172.645pt>
+<figs/DEM-Def-Ball.pdf, id=253, pagebox=cropbox, 237.88875pt x 172.645pt>
 File: figs/DEM-Def-Ball.pdf Graphic file (type pdf)
 <use figs/DEM-Def-Ball.pdf>
 Package pdftex.def Info: figs/DEM-Def-Ball.pdf  used on input line 9. on input 
@@ -1178,13 +1190,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10085 strings out of 492990
- 145433 string characters out of 6136334
- 257450 words of memory out of 5000000
+ 10086 strings out of 492990
+ 145482 string characters out of 6136334
+ 257474 words of memory out of 5000000
  13368 multiletter control sequences out of 15000+600000
  28999 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,16n,46p,1299b,636s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,16n,46p,1304b,636s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
 ive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2017/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2017/texmf-dis
@@ -1214,10 +1226,10 @@ texmf-dist/fonts/type1/public/cm-super/sfsl1440.pfb><c:/texlive/2017/texmf-dist
 /fonts/type1/public/cm-super/sfti1095.pfb><c:/texlive/2017/texmf-dist/fonts/typ
 e1/public/cm-super/sfti1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/
 cm-super/sftt1095.pfb>
-Output written on USthesis_Masters.pdf (59 pages, 2719159 bytes).
+Output written on USthesis_Masters.pdf (59 pages, 2579684 bytes).
 PDF statistics:
- 388 PDF objects out of 1000 (max. 8388607)
- 259 compressed objects within 3 object streams
+ 389 PDF objects out of 1000 (max. 8388607)
+ 260 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
