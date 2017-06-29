@@ -1,7 +1,7 @@
 This is BibTeX, Version 0.99d (TeX Live 2017/W32TeX)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: USthesis_Masters.aux
-The style file: usmeg-a.bst
+The style file: IEEEtran.bst
 A level-1 auxiliary file: frontmatter/Chap-Front.aux
 A level-1 auxiliary file: frontmatter/Nomencl.aux
 A level-1 auxiliary file: contents/Chap-1.aux
@@ -11,66 +11,63 @@ A level-1 auxiliary file: contents/Chap-4.aux
 A level-1 auxiliary file: contents/Chap-5.aux
 A level-1 auxiliary file: contents/Chap-6.aux
 A level-1 auxiliary file: contents/App-1.aux
-Database file #1: backmatter/USbib-sample.bib
-Warning--entry type for "ExternalAuditoryCanal" isn't style-file defined
---line 97 of file backmatter/USbib-sample.bib
-Warning--entry type for "EmissivityThermoWorks" isn't style-file defined
---line 182 of file backmatter/USbib-sample.bib
-Warning--entry type for "EmissivityOptotherm" isn't style-file defined
---line 189 of file backmatter/USbib-sample.bib
-Warning--entry type for "irTempSensors" isn't style-file defined
---line 197 of file backmatter/USbib-sample.bib
-Warning--entry type for "normalRestingHR" isn't style-file defined
---line 208 of file backmatter/USbib-sample.bib
-Warning--entry type for "webMDSleepApnoea" isn't style-file defined
---line 326 of file backmatter/USbib-sample.bib
-Warning--entry type for "medscapeBreathingRate" isn't style-file defined
---line 336 of file backmatter/USbib-sample.bib
-Warning--entry type for "lambertANDbeer" isn't style-file defined
---line 416 of file backmatter/USbib-sample.bib
+Illegal, another \bibstyle command---line 52 of file USthesis_Masters.aux
+ : \bibstyle
+ :          {srtnat}
+I'm skipping whatever remains of this command
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Warning--empty journal in buskeheartbeat
+Database file #1: backmatter/USbib-sample.bib
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 Warning--empty journal in wang2010wearable
+Warning--empty journal in buskeheartbeat
+Warning--empty year in buskeheartbeat
+
+Done.
 You've used 26 entries,
-            3324 wiz_defined-function locations,
-            816 strings with 10277 characters,
-and the built_in function-call counts, 23186 in all, are:
-= -- 1909
-> -- 636
-< -- 41
-+ -- 255
-- -- 219
-* -- 2198
-:= -- 2870
-add.period$ -- 73
+            4087 wiz_defined-function locations,
+            988 strings with 12549 characters,
+and the built_in function-call counts, 17459 in all, are:
+= -- 1381
+> -- 416
+< -- 135
++ -- 232
+- -- 79
+* -- 794
+:= -- 2660
+add.period$ -- 55
 call.type$ -- 26
-change.case$ -- 200
-chr.to.int$ -- 26
-cite$ -- 28
-duplicate$ -- 2262
-empty$ -- 2073
-format.name$ -- 431
-if$ -- 4734
-int.to.chr$ -- 1
-int.to.str$ -- 1
-missing$ -- 251
-newline$ -- 153
-num.names$ -- 104
-pop$ -- 632
+change.case$ -- 24
+chr.to.int$ -- 324
+cite$ -- 29
+duplicate$ -- 1225
+empty$ -- 1414
+format.name$ -- 89
+if$ -- 4023
+int.to.chr$ -- 0
+int.to.str$ -- 26
+missing$ -- 232
+newline$ -- 121
+num.names$ -- 26
+pop$ -- 593
 preamble$ -- 1
-purify$ -- 177
-quote$ -- 0
-skip$ -- 611
+purify$ -- 0
+quote$ -- 2
+skip$ -- 1334
 stack$ -- 0
-substring$ -- 1444
-swap$ -- 1015
+substring$ -- 788
+swap$ -- 990
 text.length$ -- 27
 text.prefix$ -- 0
-top$ -- 0
-type$ -- 228
-warning$ -- 2
-while$ -- 216
-width$ -- 0
-write$ -- 342
-(There were 10 warnings)
+top$ -- 5
+type$ -- 26
+warning$ -- 3
+while$ -- 78
+width$ -- 28
+write$ -- 273
+(There was 1 error message)

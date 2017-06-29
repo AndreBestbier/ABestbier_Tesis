@@ -79,7 +79,7 @@ An infrared thermometer generally consists out of a thermophile attached to a bl
 \end{figure}
 
 \subsection{Commercial Temperature Monitoring Devices}
-Ear thermometers are widely used at home and in hospitals. Ear contact thermometers like Novatemp\textsuperscript \textregistered and Starboard\textsuperscript \textregistered claims a $\pm$ 0.2 $^{\circ}C$ accuracy. Non-contact infrared ear thermometers usually have a similar rated accuracy. None of these are, however, wearable devices. 
+Ear thermometers are widely used at home and in hospitals. Ear contact thermometers like Novatemp\textsuperscript \textregistered{} and Starboard\textsuperscript \textregistered{} claims a $\pm$0.2 $^{\circ}C$ accuracy. Non-contact infrared ear thermometers usually have a similar rated accuracy. None of these are, however, wearable devices. 
 
 \medskip
  
@@ -97,70 +97,72 @@ The \textit{degree}$^{\circ}$, Figure \ref{fig:Degree}, is a continuous in-ear t
 Apart from the \textit{degree}$^{\circ}$, there are not much literature on wearable ear thermometers. Two patents were found describing similar devices: US 6556852 B1 and US 20090221888 A1. The first of which proposes the use of an infrared sensor pointed at the tympanic membrane, and the latter not specifying the method of measuring. Hopefully, the tests planned for this study can add to this insufficient body of knowledge.
 
 \section{Heart Rate}
-The hear is a very dynamic organ whose influence can be felt throughout the body. Therfore there are many options available to monitor heart rate.
-
-\medskip
-
-Electronic ways of measuring heart rate include electrocardiography (ECG), photoplethysmography (PPG), ballistocardiography(BCG), phonocardiography and doppler flow-meters.
+The heart is a very dynamic organ whose influence can be felt throughout the body. Therfore there are many options available to monitor heart rate. Electronic monitoring methods include electrocardiography (ECG), photoplethysmography (PPG), ballistocardiography(BCG), phonocardiography and doppler flow-meters.
 
 \subsection{Electrocardiography}
-ECG records the electrical activity of the heart over a period of time. These electrical charges arise from the depolarization and repolarization to the heart muscle tissue during the cardiac cycle. The most prominent characteristic of a electrocardiogram is the QRS complex, corresponding to ventricular depolarization and peaking in the millivolt range. ECG is the the recommended way of monitoring heart rate in most intensive care units. A cardiologist will use a 12 lead ECG with 10 electrodes placed in a specific configuration on the chest. Various wearable devices use ECG to measure heart rate. Fitness monitors normally uses a chest strap with electrodes to detect the heart's electrical activity. Studies have been done developing wearable ECG devices for clinical use.
+ECG is a recording of the electrical activity of the heart over a period of time. Electrical activity arise from the depolarization and repolarization of the heart muscle during the cardiac cycle. The most prominent electrical charge is the QRS complex, which corresponds to the ventricular depolarization and is visible on the electrocardiogram as a sharp peak in the millivolt range. ECG is the the recommended way of monitoring heart rate in most intensive care units. A cardiologist will use a 12 lead ECG with 10 electrodes placed in a specific configuration on the chest. Various wearable devices use ECG to measure heart rate. Fitness monitors normally uses a chest strap with electrodes to detect the heart's electrical activity. Studies have been done developing wearable ECG devices for clinical use.
 
 \medskip
+The latest in wearable ECG electrodes is the use of dry polymer-based materials \citep{wang2010wearable} or non-contact electrodes that can be place on top of clothing \citep{lin2013development}. This is an improvement above the standard conductive gels or adhesives and can be used repeatedly. But these electrods still needs to be place on the chest.
 
-The latest in wearable ECG electrodes is the use of dry polymer-based materials \citep{wang2010wearable} or non-contact electrodes that can be place on top of clouthing \citep{lin2013development}. This is an improvement above the standard conductive gels or adhesives and can be used repeatedly. But these electrods still needs to be place on the chest. An ear located ECG monitor have been developed by \cite{winokur2012wearable}. This device uses a single lead set-up with one electrode place on the mastoid bone behind the ear and a reference electrode on the neck. This configuration relies on the conductive properties of human tissue to carry electrical charges form the heart to the location of the ear. They where able to used the electrocardiogram in conjunction with other recordings to determine various heart intervals and track changes in mean arterial blood pressure. Figure \ref{fig:Winokur} shows \cite{winokur2012wearable} s device and a plot of their electrocardiogram. No heart rate information was extracted.
+\medskip
+An ear located ECG monitor have been developed by \cite{winokur2012wearable}. This device uses a single lead set-up with one electrode place on the mastoid bone behind the ear and a reference electrode placed on the neck. This configuration relies on the conductive properties of human tissue to carry electrical charges form the heart to the ear. They where able to used the electrocardiogram in conjunction with PPG and BCG to determine various heart intervals and track changes in mean arterial blood pressure. Figure \ref{fig:Winokur} shows \cite{winokur2012wearable}'s device and a plot of its electrocardiogram. No heart rate information was extracted.
+
+\medskip
 
 \begin{figure}[h]
    \centering
-   \includegraphics[scale=0.65]{figs/Winokur}
+   \includegraphics[scale=0.9]{figs/Winokur}
    \caption{Ear-worn device developed by \cite{winokur2012wearable}}
    \label{fig:Winokur}
 \end{figure}
 
 \subsection{Photoplethysmography}
-PPG produces an optically obtained plethysmogram, which is a plot of volume change of an organ over time. PPG can be used to measure the change in volume of blood vessels close to the skin surface. When the left ventricle contracts a pressure pulse propagates through the arteries from the heart to the extremities of the body. This wave corresponds to the systolic blood pressure. Blood vessels walls contain elastic fibres that allow them to stretch. This means that the diameter of vessels will increase when the blood pressure increase, causing   arteries so to stretch and contract with each heartbeat. A PPG can be used to measure this variation.
+PPG produces an optically obtained plethysmogram, which is a plot of volume the change of an organ over time. PPG can be used to measure the change in the volume of blood vessels close to the skin surface. When the left ventricle contracts a pressure pulse propagates through the arteries from the heart to the extremities of the body. This wave corresponds to the systolic blood pressure. Blood vessels walls contain elastic fibres that allow them to stretch. This means that the diameter of vessels will increase when the blood pressure increase, causing arteries to stretch and contract with each cardiac cycle. PPG can be used to determine heart rate by measuring this volumetric variation.
 
 \medskip
-
-A photoplethysmograph can non-invasively determine peripheral arterial blood volume by shining light through the skin surface, into the dermis and subcutaneous tissue and collecting the light transmitter or reflected. Light shined into the tissue can either be reflected, absorbed or allowed to transmit through. This leads to the two modes of PPG operation depicted by Figure \ref{fig:PulseOxiModes}.
+A photoplethysmograph can non-invasively determine peripheral arterial blood volume by shining light through the skin surface, into the dermis and subcutaneous tissue and collecting the light transmitter or reflected. Light shined into the tissue can either be reflected, absorbed or allowed to transmit through. This leads to the two modes of PPG operation depicted by Figure \ref{fig:PPGModes}.
 
 \medskip
  
 \begin{figure}[h]
-   \centering
-   \includegraphics[scale=0.8]{figs/PulseOxiModes}
-   \caption{Pulse oximetry in reflective or transmittance modes (Source: tamura2014wearable)}
-   \label{fig:PulseOxiModes}
+\centering
+\graphicspath{{figs/}}
+%\def\svgwidth{200pt}
+\input{figs/PPGModes.pdf_tex}
+\caption{The two modes of Photoplethysmography \citep{tamura2014wearable}}
+\label{fig:PPGModes}
 \end{figure}
 
-In (a) the emitter and detector faces each other and are separated by tissue that can transmit the light, leading to a transmission mode PPG. Transmittance mode PPG is limited to locations on the body where transmitted light can be detected, like the ear lobe, concha and tragus. These locations have limited blood profusion, especially at low temperatures. In (b) the emitter and detector is placed on the same plane and both faces toward the tissue. Light from the emitter is reflected and captured by the detector, leading the reflection mode PPG. The emitter and collector needs to be optically isolated so that light cannot pass from the one to the other without going through the ear canal tissue. Reflectance mode PPG can be used at more locations, but they are more susceptible to motion artefacts \citep{tamura2014wearable}.
+In (a) the emitter and detector faces each other and are separated by tissue that can transmit the light, leading to a transmission mode PPG. Transmittance mode PPG is limited to locations on the body where transmitted light can be detected, like the finger, ear lobe, concha and tragus. These locations have limited blood profusion, especially at low temperatures. In (b) the emitter and detector is placed on the same plane and both faces toward the tissue. Light from the emitter is reflected by the tissue and captured by the detector, leading the reflection mode PPG. The emitter and collector needs to be optically isolated so that light cannot pass from the one to the other without going through the tissue. Reflectance mode PPG can be used at more locations, but they are more susceptible to motion artefacts \citep{tamura2014wearable}.
+
+\medskip
+According to Lambert's law, the amount of light absorbed is proportional to the length of the path that the light must travel in the absorbing substance \citep{lambertANDbeer}. Therefore, a change in blood vessel diameter will increase the distance the light must travel causing a change in light absorption. This can be detected by measuring reflected or transmitted light. Variation in the light reflected or transmitted will be synchronised with the heart rate.
+
+\medskip
+Shorter light wavelengths are mostly absorbed by the tissue, while longer wavelengths can penetrate deeper. Red and near infrared light are preferred for transmission PPG. While green light is becoming more popular for shallow reflectance PPG, due to larger light variations during the cardiac cycle and less noise than near infrared PPG \citep{tamura2014wearable}.
 
 \medskip
 
-According to Lambert's law, the amount of light absorbed is proportional to the length of the path that the light must travel in the absorbing substance \citep{lambertANDbeer}. Therefore, a change in blood vessel diameter will cause a change in light absorption and this can be detected by measuring this reflected or transmitted light. Variation in the light reflected or transmitted will be synchronised with the heart rate.
-
-\medskip
-
-Shorter light wavelengths are mostly absorbed by the tissue, while longer wavelengths can penetrate deeper. Red and near infrared light are preferred for transmission PPG. While green light is becoming more popular for shallow reflectance PPG, due to larger variations during the cardiac cycle and less noise than near infrared PPG \citep{tamura2014wearable}.
-
-\medskip
-
-The signal read by the photo detector of the pulse oximeter consists of a AC component superimposed on a DC signal. The DC component is the constant reflection of light by the body's tissue: skin, fat, venous blood and the non-pulsating arterial blood. The AC components is the variation in reflected light due to the change in diameter of the arteries and therefore, synchronised to the heart rate. The AC component is usually between 0.5 - 2\% of the DC component \citep{tavakoli2006analog}. Figure \ref{fig:PPG} illustrates the way in which a PPG signal is measured. It can be seen that the blood volume increase with each heartbeat, and that this causes more light to be absorbed, thus less detected by the photodiode.
+The signal read by the photo detector of the pulse oximeter consists of a AC component superimposed on a DC signal. The DC component is the due to the constant transmission or reflection of light by the body's tissue: skin, fat, venous blood and the non-pulsating arterial blood. The AC components is the variation in transmitted or reflected light due to the change in diameter of the arteries and therefore, synchronised to the heart rate. The AC component is usually between 0.5 - 2\% of the DC component \citep{tavakoli2006analog}. Figure \ref{fig:PPG} illustrates the way in which which the heart rate is visible in a photoplethysmograph. It can be seen that the blood volume increase with each heartbeat, and that this causes more light to be absorbed, thus less detected by the photodiode.
 
 \medskip
 
 \begin{figure}[h]
    \centering
-   \includegraphics[scale=1.2]{figs/PPG}
+   \includegraphics[scale=1.6]{figs/PPG}
    \caption{Pulse oximetry diagram (Source: tamura2014wearable)}
    \label{fig:PPG}
 \end{figure}
 
+\subsubsection{Other Ear Monitor Research}
+At this point, PPG is the most attractive option for the Ear-Monitor to measure heart rate and it is given extra attention during the literature review.  A review of work done by others in the field of ear PPG revealed six devices relevant to this study.
+
+\medskip
 \cite{shin2009novel} presents a wearable music headset with an integrated transmission PPG ear clip that attaches to the ear lobe. The device includes an accelerometer to aid in the removal of motion artefacts. Evaluation was done through a study comparing the HR from the devise to that made with a conventional ECG recorder. This study revealed a heart rate error of 0.6\% was found.
 
 \medskip
-
-\cite{poh2010motion} designed a wearable PPG with a magnetic earring sensor. The bulk device sits in front ear canal and held in place by the auricle. A reflective PPG sensor is held against the ear lobe by placing a magnet on the opposite side. The device also includes an accelerometer to make baseline measurements for motion artefact cancellation. A study was conducted to compare the PPG signals measured by the wearable device to chest ECG signals collected by a FDA-approved commercial system. Whilst standing motionless, the study found a very high agreement between the ear PPG and the chest ECG with a mean bias of 0.62 $\pm$ 4.51\% with ECG reference measurements.
+\cite{poh2010motion} designed a wearable PPG with a magnetic earring sensor. The bulk of device sits in front ear canal and held in place by the auricle. A reflective PPG sensor is held against the ear lobe by placing a magnet on the opposite side. The device also includes an accelerometer to make baseline measurements for motion artefact cancellation. A study was conducted to compare the PPG signals measured by the wearable device to chest ECG signals collected by a FDA-approved commercial system. Whilst standing motionless, the study found a very high agreement between the ear PPG and the chest ECG with a mean bias of 0.62 $\pm$ 4.51\% with ECG reference measurements.
 
 \medskip
 
@@ -182,24 +184,13 @@ The signal read by the photo detector of the pulse oximeter consists of a AC com
    \label{fig:DaHe}
 \end{figure}
 
-\cite{winokur2012wearable} developed a similar device that shines 660nm and 940nm light waves through tissue at the mastoid bone and collecting the reflected light with 4 photodetectors. A PPG front end conditioned the signals and their device sent the raw heart beat information to a PC through a radio connection. Figure X shows their prototype.
+\cite{winokur2012wearable} developed a similar device that shines 660nm and 940nm light waves through tissue at the mastoid bone and collecting the reflected light with 4 photodetectors. A PPG front end conditioned the signals and their device sent the raw heart beat information to a PC through a radio connection. This is the same device that records ECG and is used to analyse heart intervals and mean blood pressure rather than heart rate.
 
 \medskip
-
-\begin{figure}[h]
-   \centering
-   \includegraphics[scale=1]{figs/winokur}
-   \caption{Pulse oximetry diagram (Source: tamura2014wearable)}
-   \label{fig:winokur}
-\end{figure}
-
-\cite{buskeheartbeat} proposed yet another location. They modified a pair of headphones to measure a transmission PPG from the concha. During the testing phase, the device showed an average accuracy of around 85\% when compared to an ECG.
+\cite{buskeheartbeat} proposed yet another location. They modified a pair of headphones to measure a transmission PPG from the concha. During the testing phase, the device showed an average heart rate accuracy of around 85\% when compared to an ECG.
 
 \medskip
-
-The \textit{cosinuss}$^{\circ}$ \textit{one}\textsuperscript \textregistered is a commercial device the monitors heart rate through the ear canal. The earpiece presses against the ear canal wall and records a PPG in reflection mode. It is marketed to athletes that want to monitor their bodies during exercise. The Ear-Monitor will be a proof of concept of a similar device, but with added functionality, which can measure more bio-signals.
-
-\medskip
+The \textit{cosinuss}$^{\circ}$ \textit{one}\textsuperscript \textregistered is a commercial device the monitors heart rate through the ear canal. The earpiece presses against the ear canal wall and records a PPG in reflection mode. It is marketed to athletes that want to monitor their bodies during exercise.
 
 \begin{figure}[h]
    \centering
@@ -210,16 +201,22 @@ The \textit{cosinuss}$^{\circ}$ \textit{one}\textsuperscript \textregistered is 
 
 
 \subsection{Ballistocardiography}
-Ballistocardiography (BCG), also known as a seismocardiogram, is the measurement of the mechanical effects of the beating heart. Typically accelerometers or pressure sensors will be used to measure movement or forces on the surface of the body. BCG has been researched for use in ear heart rate extraction. In a wearable device proposed by \cite{da2010ear}, mechanical vibrations associated with heart rate are converted to electronic signals through capacitive sensing electrodes. This method works my measuring the change in capacitance between the two electrods as the distance between them changes due to heart rate vibrations. A study by \cite{winokur2012wearable} proposed measuring the head-to-foot axis recoil during the principal blood-volume shift during cardiac ejection. This is done by placing an MEMS accelerometer behind the auricle. Due to the movement dependent method of operation this technology is extremely susceptible to motion artefacts and it can only be used during which the body is stationary.
+BCG is the measurement of the mechanical effects of the beating heart on the body over time. Typically accelerometers or pressure sensors will be used to measure movement or forces on the surface of the body. BCG has been researched for use in ear heart rate extraction. In a wearable device proposed by \cite{da2010ear}, mechanical vibrations associated with heart rate are converted to electronic signals through capacitive sensing electrodes. This method works by measuring the change in capacitance between the two electrods as the distance between them changes due to heart rate vibrations. A study by \cite{winokur2012wearable} proposed measuring the head-to-foot axis recoil during the principal blood-volume shift during cardiac ejection. This is done by placing an MEMS accelerometer behind the auricle. Due to the movement dependent method of operation this technology is extremely susceptible to motion artefacts and it can only be used during which the body is stationary.
 
+\medskip
+A variation of this technology is discussed in a article by \cite{park2015wearable}. They propose using a scissor shaped hinge mechanism in the ear canal that measures the change in the canal size due to the in-ear blood pulse waves. The mechanical movement it converted to an electrical signal through a piezoelectric film sensor. Figure \ref{fig:BCGsensor} shows an drawing of this device from \cite{park2015wearable}'s article.
 
-The traditional and simplest of which is placing an index and middle finger on the wrist and counting the arterial pulses felt per minute. In fact, heart rate pulse can be felt throughout the body where large arteries are close to the skin.
-
-A variation of this technology is discussed in a article by \cite{park2015wearable}. They propose using a scissor shaped hinge mechanism in the ear canal that measures the change in the canal size due to the in-ear blood pulse waves. The mechanical movement it converted to an electrical signal through a piezoelectric film sensor.
+\begin{figure}[h]
+   \centering
+   \includegraphics[scale=0.8]{figs/BCGsensor}
+   \caption{\cite{park2015wearable}}
+   \label{fig:BCGsensor}
+\end{figure}
 
 \subsection{Other Heart Rate Methods}
 Electronic stethoscopes uses an microphone to record heart sounds. The hears makes a distinct series of sounds during the cardiac cycle due to blood turbulence and the shutting of heart valves. The period of this sound series can be used to determine heart rate and does not require skin-contact.
 
+\medskip
 A Doppler flow-meter can be used to detect the alternating blood current component in near-surface arteries. This component is synchronised to the heart rate frequency. The device can use ultrasound, microwaves of light to achieve the Doppler shift.
 
 \section{Respiratory Rate}
