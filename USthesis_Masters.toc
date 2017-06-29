@@ -15,81 +15,81 @@
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Aim/Research Question}{2}
 \contentsline {section}{\numberline {1.2}Motivation}{2}
-\contentsline {chapter}{\chapternumberline {2}Anatomy Literature Review}{4}
-\contentsline {section}{\numberline {2.1}Ear Anatomy}{4}
-\contentsline {subsection}{\numberline {2.1.1}Auricle}{4}
-\contentsline {subsection}{\numberline {2.1.2}Ear Canal}{5}
-\contentsline {subsection}{\numberline {2.1.3}Tympanum}{6}
-\contentsline {section}{\numberline {2.2}Medical Sign Physiology}{7}
-\contentsline {subsection}{\numberline {2.2.1}Core Temperature}{7}
-\contentsline {subsection}{\numberline {2.2.2}Heart Rate}{8}
-\contentsline {subsection}{\numberline {2.2.3}Respiratory Rate}{9}
+\contentsline {chapter}{\chapternumberline {2}Anatomy Literature Review}{5}
+\contentsline {section}{\numberline {2.1}Ear Anatomy}{5}
+\contentsline {subsection}{\numberline {2.1.1}Auricle}{5}
+\contentsline {subsection}{\numberline {2.1.2}Ear Canal}{6}
+\contentsline {subsection}{\numberline {2.1.3}Tympanum}{7}
+\contentsline {section}{\numberline {2.2}Medical Sign Physiology}{8}
+\contentsline {subsection}{\numberline {2.2.1}Core Temperature}{8}
+\contentsline {subsection}{\numberline {2.2.2}Heart Rate}{9}
+\contentsline {subsection}{\numberline {2.2.3}Respiratory Rate}{10}
 \contentsline {subsection}{\numberline {2.2.4}Blood Oxygen Saturation}{10}
-\contentsline {subsection}{\numberline {2.2.5}Electrical Brain Activity}{10}
-\contentsline {chapter}{\chapternumberline {3}Theory Literature Review}{11}
-\contentsline {section}{\numberline {3.1}Core Temperature}{11}
-\contentsline {subsection}{\numberline {3.1.1}Contact Thermometers}{12}
-\contentsline {subsubsection}{\numberline {3.1.1.1}Resistance Temperature Detector}{12}
-\contentsline {subsubsection}{\numberline {3.1.1.2}Thermocouple}{12}
-\contentsline {subsubsection}{\numberline {3.1.1.3}Thermistor}{12}
-\contentsline {subsubsection}{\numberline {3.1.1.4}Contact Thermometer Application}{13}
-\contentsline {subsection}{\numberline {3.1.2}Non-contact Thermometers}{13}
-\contentsline {subsection}{\numberline {3.1.3}Commercial Devices}{15}
-\contentsline {section}{\numberline {3.2}Heart Rate}{16}
-\contentsline {subsection}{\numberline {3.2.1}Electrocardiography}{16}
-\contentsline {subsection}{\numberline {3.2.2}Photoplethysmography}{17}
-\contentsline {subsection}{\numberline {3.2.3}Ballistocardiography}{18}
-\contentsline {subsection}{\numberline {3.2.4}Other Heart Rate Methods}{18}
-\contentsline {section}{\numberline {3.3}Respiratory Rate}{19}
-\contentsline {section}{\numberline {3.4}Blood Oxygen Saturation}{20}
-\contentsline {section}{\numberline {3.5}Electrical Brain Activity}{21}
-\contentsline {chapter}{\chapternumberline {4}Concept Design}{22}
-\contentsline {section}{\numberline {4.1}System requirements}{22}
-\contentsline {section}{\numberline {4.2}Quantitative Design Specifications}{23}
-\contentsline {subsection}{\numberline {4.2.1}Sensors}{23}
-\contentsline {subsubsection}{\numberline {4.2.1.1}Temperature}{24}
-\contentsline {subsubsection}{\numberline {4.2.1.2}Heart Rate}{24}
-\contentsline {subsubsection}{\numberline {4.2.1.3}Respiratory rate}{25}
-\contentsline {subsubsection}{\numberline {4.2.1.4}Blood Oxygen Saturation}{25}
-\contentsline {subsubsection}{\numberline {4.2.1.5}EEG}{25}
-\contentsline {subsection}{\numberline {4.2.2}Dimensions}{25}
-\contentsline {subsection}{\numberline {4.2.3}Power}{26}
-\contentsline {subsection}{\numberline {4.2.4}Microcontroller specifications}{26}
-\contentsline {subsection}{\numberline {4.2.5}Communication}{27}
-\contentsline {subsection}{\numberline {4.2.6}Pulse oximeter}{27}
-\contentsline {subsection}{\numberline {4.2.7}EEG}{27}
-\contentsline {subsection}{\numberline {4.2.8}Software}{27}
-\contentsline {section}{\numberline {4.3}Concept Generation}{28}
-\contentsline {subsection}{\numberline {4.3.1}Functional Decomposition}{28}
-\contentsline {subsubsection}{\numberline {4.3.1.1}Wireless Communication}{29}
-\contentsline {subsection}{\numberline {4.3.2}Physical Decomposition}{29}
-\contentsline {subsection}{\numberline {4.3.3}Form}{29}
-\contentsline {subsection}{\numberline {4.3.4}Material}{29}
-\contentsline {section}{\numberline {4.4}Concept Selection}{29}
-\contentsline {section}{\numberline {4.5}Hardware Selection}{29}
-\contentsline {chapter}{\chapternumberline {5}Hardware Design}{30}
-\contentsline {section}{\numberline {5.1}Measure Heat Rate and Sp02}{30}
-\contentsline {subsection}{\numberline {5.1.1}Thermometer Design}{31}
-\contentsline {subsection}{\numberline {5.1.2}MAX30100 flow of data}{32}
-\contentsline {subsubsection}{\numberline {5.1.2.1}AC and DC Extraction}{32}
-\contentsline {subsubsection}{\numberline {5.1.2.2}Dynamic LED Current Adjustment}{32}
-\contentsline {subsubsection}{\numberline {5.1.2.3}Beat Detection}{32}
-\contentsline {subsubsection}{\numberline {5.1.2.4}Sp02 Calculation}{32}
-\contentsline {subsubsection}{\numberline {5.1.2.5}Measure Heat Rate and Sp02}{33}
-\contentsline {subsubsection}{\numberline {5.1.2.6}Measure Breathing Rate}{33}
-\contentsline {subsubsection}{\numberline {5.1.2.7}Measure EEG}{33}
-\contentsline {chapter}{\chapternumberline {6}Experimental Procedure}{34}
-\contentsline {section}{\numberline {6.1}Overview}{34}
-\contentsline {section}{\numberline {6.2}Theory}{35}
-\contentsline {section}{\numberline {6.3}Ethical Consent}{35}
-\contentsline {section}{\numberline {6.4}Subjects}{35}
-\contentsline {section}{\numberline {6.5}Benchmark Validation}{35}
-\contentsline {section}{\numberline {6.6}Method}{35}
-\contentsline {subsection}{\numberline {6.6.1}Benchmark Apparatus}{35}
-\contentsline {subsection}{\numberline {6.6.2}Comparing Data}{35}
-\contentsline {section}{\numberline {6.7}Results}{36}
-\contentsline {chapter}{Appendices}{37}
-\contentsline {appendix}{\chapternumberline {A}Discrete Element Method Theory}{38}
-\contentsline {section}{\numberline {A.1}Ball elements}{38}
-\contentsline {subsection}{\numberline {A.1.1}Ball mass and inertia parameters}{38}
-\contentsline {chapter}{List of References}{39}
+\contentsline {subsection}{\numberline {2.2.5}Electrical Brain Activity}{11}
+\contentsline {chapter}{\chapternumberline {3}Theory Literature Review}{12}
+\contentsline {section}{\numberline {3.1}Core Temperature}{12}
+\contentsline {subsection}{\numberline {3.1.1}Contact Thermometers}{13}
+\contentsline {subsubsection}{\numberline {3.1.1.1}Resistance Temperature Detector}{13}
+\contentsline {subsubsection}{\numberline {3.1.1.2}Thermocouple}{13}
+\contentsline {subsubsection}{\numberline {3.1.1.3}Thermistor}{13}
+\contentsline {subsubsection}{\numberline {3.1.1.4}Contact Thermometer Application}{14}
+\contentsline {subsection}{\numberline {3.1.2}Non-contact Thermometers}{14}
+\contentsline {subsection}{\numberline {3.1.3}Commercial Temperature Monitoring Devices}{15}
+\contentsline {section}{\numberline {3.2}Heart Rate}{17}
+\contentsline {subsection}{\numberline {3.2.1}Electrocardiography}{17}
+\contentsline {subsection}{\numberline {3.2.2}Photoplethysmography}{18}
+\contentsline {subsection}{\numberline {3.2.3}Ballistocardiography}{22}
+\contentsline {subsection}{\numberline {3.2.4}Other Heart Rate Methods}{22}
+\contentsline {section}{\numberline {3.3}Respiratory Rate}{22}
+\contentsline {section}{\numberline {3.4}Blood Oxygen Saturation}{24}
+\contentsline {section}{\numberline {3.5}Electrical Brain Activity}{24}
+\contentsline {chapter}{\chapternumberline {4}Concept Design}{26}
+\contentsline {section}{\numberline {4.1}System requirements}{26}
+\contentsline {section}{\numberline {4.2}Quantitative Design Specifications}{27}
+\contentsline {subsection}{\numberline {4.2.1}Sensors}{27}
+\contentsline {subsubsection}{\numberline {4.2.1.1}Temperature}{28}
+\contentsline {subsubsection}{\numberline {4.2.1.2}Heart Rate}{28}
+\contentsline {subsubsection}{\numberline {4.2.1.3}Respiratory rate}{29}
+\contentsline {subsubsection}{\numberline {4.2.1.4}Blood Oxygen Saturation}{29}
+\contentsline {subsubsection}{\numberline {4.2.1.5}EEG}{29}
+\contentsline {subsection}{\numberline {4.2.2}Dimensions}{29}
+\contentsline {subsection}{\numberline {4.2.3}Power}{30}
+\contentsline {subsection}{\numberline {4.2.4}Microcontroller specifications}{30}
+\contentsline {subsection}{\numberline {4.2.5}Communication}{31}
+\contentsline {subsection}{\numberline {4.2.6}Pulse oximeter}{31}
+\contentsline {subsection}{\numberline {4.2.7}EEG}{31}
+\contentsline {subsection}{\numberline {4.2.8}Software}{31}
+\contentsline {section}{\numberline {4.3}Concept Generation}{32}
+\contentsline {subsection}{\numberline {4.3.1}Functional Decomposition}{32}
+\contentsline {subsubsection}{\numberline {4.3.1.1}Wireless Communication}{33}
+\contentsline {subsection}{\numberline {4.3.2}Physical Decomposition}{33}
+\contentsline {subsection}{\numberline {4.3.3}Form}{33}
+\contentsline {subsection}{\numberline {4.3.4}Material}{33}
+\contentsline {section}{\numberline {4.4}Concept Selection}{33}
+\contentsline {section}{\numberline {4.5}Hardware Selection}{33}
+\contentsline {chapter}{\chapternumberline {5}Hardware Design}{34}
+\contentsline {section}{\numberline {5.1}Measure Heat Rate and Sp02}{34}
+\contentsline {subsection}{\numberline {5.1.1}Thermometer Design}{35}
+\contentsline {subsection}{\numberline {5.1.2}MAX30100 flow of data}{36}
+\contentsline {subsubsection}{\numberline {5.1.2.1}AC and DC Extraction}{36}
+\contentsline {subsubsection}{\numberline {5.1.2.2}Dynamic LED Current Adjustment}{36}
+\contentsline {subsubsection}{\numberline {5.1.2.3}Beat Detection}{36}
+\contentsline {subsubsection}{\numberline {5.1.2.4}Sp02 Calculation}{36}
+\contentsline {subsubsection}{\numberline {5.1.2.5}Measure Heat Rate and Sp02}{37}
+\contentsline {subsubsection}{\numberline {5.1.2.6}Measure Breathing Rate}{37}
+\contentsline {subsubsection}{\numberline {5.1.2.7}Measure EEG}{37}
+\contentsline {chapter}{\chapternumberline {6}Experimental Procedure}{38}
+\contentsline {section}{\numberline {6.1}Overview}{38}
+\contentsline {section}{\numberline {6.2}Theory}{39}
+\contentsline {section}{\numberline {6.3}Ethical Consent}{39}
+\contentsline {section}{\numberline {6.4}Subjects}{39}
+\contentsline {section}{\numberline {6.5}Benchmark Validation}{39}
+\contentsline {section}{\numberline {6.6}Method}{39}
+\contentsline {subsection}{\numberline {6.6.1}Benchmark Apparatus}{39}
+\contentsline {subsection}{\numberline {6.6.2}Comparing Data}{39}
+\contentsline {section}{\numberline {6.7}Results}{40}
+\contentsline {chapter}{Appendices}{41}
+\contentsline {appendix}{\chapternumberline {A}Discrete Element Method Theory}{42}
+\contentsline {section}{\numberline {A.1}Ball elements}{42}
+\contentsline {subsection}{\numberline {A.1.1}Ball mass and inertia parameters}{42}
+\contentsline {chapter}{List of References}{43}

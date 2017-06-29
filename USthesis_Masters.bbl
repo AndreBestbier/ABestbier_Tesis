@@ -1,4 +1,4 @@
-\begin{thebibliography}{22}
+\begin{thebibliography}{26}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -32,6 +32,13 @@
 \newblock Mebmd sleep apnea.
 \newline\bblurlpre\url{http://www.webmd.com/sleep-disorders/sleep-apnea/sleep-apnea}
 
+\bibitem[{\citenamefont{Buske} \emph{\bbletal{}}()\citenamefont{Buske},
+  \citenamefont{Neils} \protect\BIBand{}
+  \citenamefont{Regnier}}]{buskeheartbeat}
+\bibnamefont{Buske}, \bibfnamefont{O.}, \bibnamefont{Neils}, \bibfnamefont{C.}
+  \protect\BIBand{} \bibnamefont{Regnier}, \bibfnamefont{M.} ().
+\newblock Heartbeat: Design and development of a headphone.
+
 \bibitem[{\citenamefont{Charbek}(2015)}]{medscapeBreathingRate}
 \bibnamefont{Charbek}, \bibfnamefont{E.} (2015 08).
 \newblock Medscape normal vital vigns.
@@ -47,6 +54,11 @@
 \newblock \capitalize\bblin{}: \emph{Engineering in Medicine and Biology
   Society (EMBC), 2010 Annual International Conference of the IEEE}, \bblpp{}
   6389--6392. IEEE.
+
+\bibitem[{\citenamefont{Encyclop\ae{}dia-Britannica}()}]{lambertANDbeer}
+\bibnamefont{Encyclop\ae{}dia-Britannica}, \bibfnamefont{T.E.O.} ().
+\newblock Spectrophotometry.
+\newline\bblurlpre\url{https://www.britannica.com/science/spectrophotometry}
 
 \bibitem[{\citenamefont{Erickson} \protect\BIBand{}
   \citenamefont{Kirklin}(1993)}]{erickson1993comparison}
@@ -144,16 +156,16 @@
 \newblock \emph{IEEE Transactions on Information Technology in Biomedicine},
   \bblvol{}~14, \bblno{}~3, \bblpp{} 786--794.
 
-\bibitem[{\citenamefont{Prawiro} \emph{\bbletal{}}(2016)\citenamefont{Prawiro},
-  \citenamefont{Yeh}, \citenamefont{Chou}, \citenamefont{Lee} \protect\BIBand{}
-  \citenamefont{Lin}}]{prawiro2016integrated}
-\bibnamefont{Prawiro}, \bibfnamefont{E.A.P.J.}, \bibnamefont{Yeh},
-  \bibfnamefont{C.-I.}, \bibnamefont{Chou}, \bibfnamefont{N.-K.},
-  \bibnamefont{Lee}, \bibfnamefont{M.-W.} \protect\BIBand{} \bibnamefont{Lin},
-  \bibfnamefont{Y.-H.} (2016).
-\newblock Integrated wearable system for monitoring heart rate and step during
-  physical activity.
-\newblock \emph{Mobile Information Systems}, \bblvol{} 2016.
+\bibitem[{\citenamefont{Shin} \emph{\bbletal{}}(2009)\citenamefont{Shin},
+  \citenamefont{Kim}, \citenamefont{Bae}, \citenamefont{Park} \protect\BIBand{}
+  \citenamefont{Kim}}]{shin2009novel}
+\bibnamefont{Shin}, \bibfnamefont{K.}, \bibnamefont{Kim}, \bibfnamefont{Y.},
+  \bibnamefont{Bae}, \bibfnamefont{S.}, \bibnamefont{Park}, \bibfnamefont{K.}
+  \protect\BIBand{} \bibnamefont{Kim}, \bibfnamefont{S.} (2009).
+\newblock A novel headset with a transmissive ppg sensor for heart rate
+  measurement.
+\newblock \capitalize\bblin{}: \emph{13th International Conference on
+  Biomedical Engineering}, \bblpp{} 519--522. Springer.
 
 \bibitem[{\citenamefont{Stumme} \emph{\bbletal{}}(2003)\citenamefont{Stumme},
   \citenamefont{Baldini}, \citenamefont{Jonassen} \protect\BIBand{}
@@ -175,6 +187,20 @@
   men and women: a systematic literature review.
 \newblock \emph{Scandinavian journal of caring sciences}, \bblvol{}~16,
   \bblno{}~2, \bblpp{} 122--128.
+
+\bibitem[{\citenamefont{Tamura} \emph{\bbletal{}}(2014)\citenamefont{Tamura},
+  \citenamefont{Maeda}, \citenamefont{Sekine} \protect\BIBand{}
+  \citenamefont{Yoshida}}]{tamura2014wearable}
+\bibnamefont{Tamura}, \bibfnamefont{T.}, \bibnamefont{Maeda},
+  \bibfnamefont{Y.}, \bibnamefont{Sekine}, \bibfnamefont{M.} \protect\BIBand{}
+  \bibnamefont{Yoshida}, \bibfnamefont{M.} (2014).
+\newblock Wearable photoplethysmographic sensors-past and present.
+\newblock \emph{Electronics}, \bblvol{}~3, \bblno{}~2, \bblpp{} 282--302.
+
+\bibitem[{\citenamefont{Tavakoli~Dastjerdi}(2006)}]{tavakoli2006analog}
+\bibnamefont{Tavakoli~Dastjerdi}, \bibfnamefont{M.} (2006).
+\newblock \emph{An analog VLSI front end for pulse oximetry}.
+\newblock \bblphdthesis{}, Massachusetts Institute of Technology.
 
 \bibitem[{\citenamefont{ThermoWorks}()}]{EmissivityThermoWorks}
 \bibnamefont{ThermoWorks} ().
