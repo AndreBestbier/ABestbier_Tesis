@@ -17,27 +17,20 @@
 
 %==== Math setup ====================================================
  \usepackage{amsmath}%............................ Advanced math (before fonts)
- %\usepackage{amssymb}%............................ AMS Symbol fonts
+ %\usepackage{amssymb}%............................AMS Symbol fonts
 
 %==== Font setup (default is Computer Modern) =======================
  \usepackage[T1]{fontenc}%........................ Type 1 fonts
- %\usepackage{fourier}
  \usepackage{textcomp}%........................... Additional text character
  \usepackage{bm}%................................. Bold math symbols (after fonts)
 
 %==== Ref's, Bib's and Nomencl ======================================
  \usepackage{usnomencl}%.......................... List of symbols (in usthesis pack)
+ %\usepackage[numbers]{natbib}%___________________ Vancouver style referencing
   
-  \usepackage{array} %%<<<<<<<<<<<Tables
-  \newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}%centering
-% \usepackage[numbers]{natbib} %%<<<<<<<<<< Vancouver
-
-\usepackage[justification=centering]{caption}%<<Centering captions
- \usepackage{csquotes} %<<<<<Quotes
- 
  \usepackage{usbib}%.............................. Bibliography    (in usthesis pack)
     \bibliographystyle{usmeg-a}
-    %\bibliographystyle{IEEEtran}
+    %\bibliographystyle{IEEEtran}%________________ Arranging vancuver references numerically
     \renewcommand\bibfont{\small}
     
     
@@ -49,7 +42,7 @@
 
 %==== Graphics and Color ============================================
 \usepackage{graphicx}%........................... Graphicx loaded in usthesis
-\usepackage{float}%>>>>>>>>>>>Trying ti fix figure pos
+\usepackage{float}%___________Trying ti fix figure pos
 \usepackage{color}%.............................. Color setup
 \usepackage{eso-pic}%............................ Shipout commands for watermark
     \newcommand*{\WaterMark}[2][0.15\paperwidth]{%
@@ -57,14 +50,21 @@
                 \parbox[c]{0pt}{\makebox[0pt][c]{%
                     \includegraphics[width=#1]{#2}}}}}}
 
+
+%==== Tables ========================================================
+ \usepackage{array} %%______________________________________ Tables
+ \newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}%___ Centering cell entries
+ \usepackage[justification=centering]{caption}%_____________ Centering captions of tables and figures
+
+%==== Other =======================================================
+ \usepackage{csquotes} %____________________________________ Used for quotation marks
+
+
 %==== Local Defs ====================================================
 \makeatletter
-
 % "to adjust category codes so as not to use \"
 % Please insert user defined commands here
 % and NOT in the document itself!
-%
-
 \makeatother
 
 %==== TITLE PAGE ====================================================
@@ -107,7 +107,12 @@
 %     MAIN DOCUMENT
 %====================================================================
 \maxsecnumdepth{subsubsection}
-\maxtocdepth{section}
+\maxtocdepth{subsection}
+
+%\setcounter{tocdepth}{2}
+%\setcounter{secnumdepth}{2}
+
+
 
 \begin{document}
 
@@ -122,6 +127,7 @@
  \include{frontmatter/Chap-Front}
 
  \tableofcontents
+ 
  \clearpage
 
  \setcounter{lofdepth}{2}

@@ -9,9 +9,9 @@
 \select@language {afrikaans}
 \select@language {english}
 \contentsline {chapter}{Contents}{vi}
-\contentsline {chapter}{List of Figures}{viii}
-\contentsline {chapter}{List of Tables}{ix}
-\contentsline {chapter}{Nomenclature}{x}
+\contentsline {chapter}{List of Figures}{ix}
+\contentsline {chapter}{List of Tables}{x}
+\contentsline {chapter}{Nomenclature}{xi}
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Aim/Research Question}{2}
 \contentsline {section}{\numberline {1.2}Motivation}{2}
@@ -42,8 +42,8 @@
 \contentsline {subsection}{\numberline {3.2.3}Ballistocardiography}{20}
 \contentsline {subsection}{\numberline {3.2.4}Other Heart Rate Methods}{21}
 \contentsline {section}{\numberline {3.3}Respiratory Rate}{22}
-\contentsline {subsection}{\numberline {3.3.1}Ear Respiratory Rate Sensors}{22}
-\contentsline {subsection}{\numberline {3.3.2}Respiratory Related Heart Rate Characteristics}{22}
+\contentsline {subsection}{\numberline {3.3.1}Respiratory Rate Ear Sensors}{22}
+\contentsline {subsection}{\numberline {3.3.2}Respiratory related Heart Rate Characteristics}{22}
 \contentsline {section}{\numberline {3.4}Blood Oxygen Saturation}{23}
 \contentsline {subsection}{\numberline {3.4.1}Pulse Oximetry Theory}{24}
 \contentsline {subsection}{\numberline {3.4.2}Work done by others in ear pulse oximetry}{26}
