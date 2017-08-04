@@ -10,8 +10,8 @@
 \select@language {english}
 \contentsline {chapter}{Contents}{vi}
 \contentsline {chapter}{List of Figures}{ix}
-\contentsline {chapter}{List of Tables}{x}
-\contentsline {chapter}{Nomenclature}{xi}
+\contentsline {chapter}{List of Tables}{xi}
+\contentsline {chapter}{Nomenclature}{xii}
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Aim/Research Question}{2}
 \contentsline {section}{\numberline {1.2}Motivation}{2}
