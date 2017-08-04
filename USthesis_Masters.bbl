@@ -1,4 +1,4 @@
-\begin{thebibliography}{49}
+\begin{thebibliography}{50}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -344,6 +344,17 @@
   wearable photoplethysmography.
 \newblock \emph{IEEE Transactions on Information Technology in Biomedicine},
   \bblvol{}~14, \bblno{}~3, \bblpp{} 786--794.
+
+\bibitem[{\citenamefont{Prawiro} \emph{\bbletal{}}(2016)\citenamefont{Prawiro},
+  \citenamefont{Yeh}, \citenamefont{Chou}, \citenamefont{Lee} \protect\BIBand{}
+  \citenamefont{Lin}}]{prawiro2016integrated}
+\bibnamefont{Prawiro}, \bibfnamefont{E.A.P.J.}, \bibnamefont{Yeh},
+  \bibfnamefont{C.-I.}, \bibnamefont{Chou}, \bibfnamefont{N.-K.},
+  \bibnamefont{Lee}, \bibfnamefont{M.-W.} \protect\BIBand{} \bibnamefont{Lin},
+  \bibfnamefont{Y.-H.} (2016).
+\newblock Integrated wearable system for monitoring heart rate and step during
+  physical activity.
+\newblock \emph{Mobile Information Systems}, \bblvol{} 2016.
 
 \bibitem[{\citenamefont{Pujary} \emph{\bbletal{}}(2003)\citenamefont{Pujary},
   \citenamefont{Savage} \protect\BIBand{}

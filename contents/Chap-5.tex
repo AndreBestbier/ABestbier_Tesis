@@ -1,103 +1,54 @@
-\chapter{Hardware Design}
-\label{chp:DEM}
-This chapter will discuss the detailed design of the device. Attention will be given to implementation of each component selected in the consent generation stage. The interface between the various sensors and the MCU will be discussed. The communication between the device and the PC and the software running on the MCU and on the PC will be laid out.
+\chapter{Detailed Design}
+\label{chp:DetailedDesign}
+This chapter documents the detailed design of the subsystems of the Ear-Monitor. The hardware and software sides are discussed separately. 
 
-\section{Measure Heat Rate and Sp02}
-Heart rate and \( SpO_2 \) will be measured with the same sensor: A pulse oximeter. 
+\section{Hardware}
 
-As stated in the literature study, blood oxygen saturation can be measured through an arterial blood gas test or through pulse oximetry. Arterial blood gas test involves drawing a blood sample and doing in vitro tests on the sample. This method can be rejected, for it is in obvious violation of the system requirements. Pulse oximitry is therefore the preferred method for measuring \( SpO_2 \).
+A typical telemedicine configuration is used for the Ear-Monitor and its supporting system. Similar to that used in \cite{wang2010wearable} and \cite{prawiro2016integrated}. The ear-probe is the signal acquisition module, data is sent by means of a wireless transceiver to a device running supporting software and finally used data is stored for later access. Figure X illustrates the flow of information through the hardware set-up.
 
-A pulse oximeter consists of two LEDs (emittors) and a photo detector. There are an few possible solutions that needs to be considered. Three set-ups are considered.
-
-Firstly, the pulse oximeter in transmittance mode. The transmittance mode will require the emitters and detector to sit on opposite sides of a thin piece of tissue. A suitable location for this will be the ear lobule or the tragus. The cartilaginous pinna will not be ideal, for is contains less blood vessels.
-
-Secondly, the inside of the ear canal is also considered. This set-up will consist of placing the emitters and detector on opposite walls of the ear canal. This set-up will combine reflective and transmittance modes, for light will be reflected and transmitted through the tissue around the ear canal from the ons side to the other. Figure X.
-
-Lastly the pulse oxymeter in reflective mode. This mode allows the emitters and detector to be place next to each other. It need not be paced on a thin part of tissue. This means that the pulse oxymeter can be place against on side of the ear canal wall.
-
-
-
-Figure~\ref{fig:PulseOxiConfiguration}
-
-\begin{figure}
-   \centering
-   \includegraphics[scale=0.6]{figs/PulseOxiConfiguration}
-   \caption{Drawing of the auricle (goo.gl/mmLnFx)}
-   \label{fig:PulseOxiConfiguration}
+\begin{figure}[h]
+\centering
+\graphicspath{{figs/}}
+%\def\svgwidth{200pt}
+\input{figs/HardwareFlowchart.pdf_tex}
+\caption{Flow of information in a typical telemedicine set-up}
+\label{fig:HardwareFlowchart}
 \end{figure}
 
-The pulse oxymeter in reflective mode was selecte.
+This section documents the detailed design of each of the key parts of hardware found in the Ear-Monitor.
 
-Three hardware options: Custom components, NJL5501R and MAX30100
+\subsection{Temperature sensor}
+The non-contact, infrared TMP006 is selected to measure tympanic membrane temperature in the Ear-Monitor. Four wires are connected for power and communication. The package has eight solder balls for surface mounting on a PCB. A big challenge was to mount this micro-component. Various methods were tested. 
 
-What methods and sensors was regarded. How was die MAX30100 selected at the end.
+\medskip
 
+First, a PCB was designed and manufactured. Mounting the TMP006 on this PCB proved to be problematic. Next, the device footprint and wire connection pads were etched into copper clad flexible PCB sheets. Solder paste and a heat gun was used to mount the TMP006. This method worked, but mounting proved to be unreliable, for connections were sometimes not made properly. Finally, it was decided to buy pre-mounted boards, cut away excess material and solder wires to the exposed tracks. This method was necessitated by the lack of advanced facilities to mount micro SMT components. The flex PCB method will be preferable when a SMT component placement system is available. Figure \ref{fig:TMP006_Breakout} shows the bought, pre-mounted boards and the cut-out component along with the four connections.
 
+\begin{figure}[h]
+   \centering
+   \includegraphics[scale=0.8]{figs/TMP006_Breakout}
+   \caption{TMP006 pre-mounted boards, cut-out and four connections}
+   \label{fig:TMP006_Breakout}
+\end{figure}
 
-modulation ratio between red and infrared LED signals
+According to the TMP006 used guide, the sensor captures radiation form almost its entire 180\textdegree{} field of view, but the majority of the received signal comes from sources that are parallel to and precisely in front of the sensor. The final target object temperature is an integration of all the radiation signals captured across the field of view of the sensor.
 
+\medskip
 
-\subsection{Thermometer Design}
+The user guide also states that the smaller the object is the closer it should be placed to the sensor to prevent other objects from entering the field of vision. It is suggested that a round object be placed at a distance of one halve of its radius from the sensor, relating to 1.75 mm in the case of the tympanic membrane. This is not nor practical or necessary in the case of the Ear-Monitor.  
 
-Copy the Thermometer Subsystem word doc info in here, and the images.
+\medskip
 
-Calibration information
+The goal is to place the sensor at least 5mm from the membrane. This will remove the risk of contact with the membrane, while still ensuring thermal radiation from the canal is detected. Energy from the ear canal self will inevitably be detected by the sensor, but it is assumed that the wall near the membrane is in thermal equilibrium with the membrane with in an acceptable margin.
 
-Software design
+\medskip
 
-The advantages of measuring the temperature of the tympanum has been discussed during the literature review. It has also been mentioned that measuring temperature through a thermistor (thermopile) in contact with the membrane can cause discomfort and harm to the wearer. Therefore an IR temperature sensor will be used to measure the tympanic temperature.
+It is suggested that the sensor be placed at a distance no further than one-half of the radius of the target object. The minimum ear canal diameter of the test population will be 5mm, therefore the sensor must be placed 1.75 mm from the eardrum. Figure X shows the relationship between the target object size, distance from the sensor and percentage radiation captured from target object.
 
-An understanding has been obtained about the general theory of IR thermo-sensing. This allows for the selection of a sensor to measure the tympanic temperature.
+\medskip
 
-Various IR sensors are available. The main constraint for the sensor is the size. The sensor must be able to fit inside the ear canal of the wearer in order to have an unobstructed view of the tympanic membrane. This limits the options considerably. Two sensors were seriously considered: The TMP006 and the ...... The TMP006 is an non-contact IR sensor with a digital interface. (More general sensor description information from the data sheet here)
+Energy radiated or conducted between the PCB and the sensor can cause temperature calculation errors. To prevent this the sensor and PCB should be kept at the same temperature. The ear probe setup of this device is favourable for this task, for the PCB is very small and contains no other heat generating components. Also, the target object, tympanum, will stay at a constant temperature, so the sensor will experience no heat fluctuations. It will, however, be necessary to allow time for the sensor and PCB to reach thermal equilibrium once placed inside the ear canal, before accurate measurements can be taken.
 
-The (other sensor info)
-How the TMP006 choice was made at the end
+\medskip
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-%%SOFTEWARE DESIGN - DIFFERENT SECTION
-\subsection{MAX30100 flow of data}
-This section will explain how data flows from the MAX30100 to the user interface and how specific vital sign information is extracted.
-
-adaptative treshold
-
-\subsubsection{AC and DC Extraction}
-As mentioned in the detailed design section, the MAX30100 converts reflected light intensity to voltage level which in turn is converted to an 16-bit? integer through an on chip ADC. This digital value is a representation of the amount of light reflected by the tissue of the ear canal. This value contains a DC and AC component. The AC component contains the pulse information. The DC components is used in calculating Sp02? and to adjust the current through the red LED on the MAX30100 (see dynamic current adjustment subsubsection) To separate the AC and DC components a IIR filter is implemented on the MCU.
-
-Give the formula and explain what the variables are (see design word doc)
-
-Choosing alpha close to one will create a filter with a narrow stop band close to the DC frequency. Through some trail and error an alpha value of ? was chosen. Criteria for this choice was signal form and steady DC rejection, less drift?? (Insert some graphs plotted of filtered signals with different alpha values, maby also a frequancy response graph of the filter)
-
-\subsubsection{Dynamic LED Current Adjustment}
-The MAX30100 allows for the individual adjustment of red and IR LED currents (get better description from data sheet). This ability can be used to improve the accuracy of the Sp02 calculation. 
-
-
-\subsubsection{Beat Detection}
-The absorption spectra of oxygenated blood is highest for IR light. Therefore IR light is used to obtain the PPG.
-
-See Pulse-Peak Detection of Wearable Sensing of In-Ear Pressure for Heart Rate Monitoring with a Piezoelectric Sensor saved article
-
-\subsubsection{Sp02 Calculation}
-After the AC component has been extracted from the signal is is possible to calculate the $SpO_2$. An AC root mean square is calculated of the red and IR signals over a period of 5 heart beats (why). The ratio between the red and IR RMS valus are then calculated and the \%$SpO_2$ is calculated with the standard formula from literature. The following formula describes the calculation: $$\%SpO_2 = 110-25\left(\frac{Red ACrms}{IR ACrms}\right)$$
-
-\subsubsection{Measure Heat Rate and Sp02}
-
-\subsubsection{Measure Breathing Rate}
-
-
-
-
-\subsubsection{Measure EEG}
+The TMP006 is placed in the tip of the ear probe. 

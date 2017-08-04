@@ -18,7 +18,7 @@
 \contentsline {figure}{\numberline {3.3}{\ignorespaces CAD model of the \textit {degree}$^{\circ }$ from the \textit {cosinuss}$^{\circ }$ website (include ref)\relax }}{15}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Ear-worn device developed by \cite {winokur2012wearable}\relax }}{16}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces The two modes of Photoplethysmography \citep {tamura2014wearable}\relax }}{17}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Dasic operating principles of PPG \citep {tamura2014wearable}\relax }}{18}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Basic operating principles of PPG \citep {tamura2014wearable}\relax }}{18}
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Pulse oximetry diagram \citep {poh2010motion}\relax }}{19}
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Pulse oximetry diagram \citep {da2010ear}\relax }}{20}
 \contentsline {figure}{\numberline {3.9}{\ignorespaces https://www.cosinuss.com/en/products/one\relax }}{20}
@@ -27,6 +27,10 @@
 \contentsline {figure}{\numberline {3.12}{\ignorespaces Baseline osculations in behind the ear BCG due to breathing \citep {da2010ear}\relax }}{23}
 \contentsline {figure}{\numberline {3.13}{\ignorespaces Absorption spectra of oxy- and deoxyhemoglobin\relax }}{24}
 \addvspace {10pt}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces ST60Micro diagram from the datasheet\relax }}{31}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces NJL5501R diagram from the datasheet\relax }}{35}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces MAX30100 block diagram from the datasheet\relax }}{36}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Drawing of the auricle (goo.gl/mmLnFx)\relax }}{31}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Flow of information in a typical telemedicine set-up\relax }}{40}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces TMP006 pre-mounted boards, cut-out and four connections\relax }}{41}
 \addvspace {10pt}
