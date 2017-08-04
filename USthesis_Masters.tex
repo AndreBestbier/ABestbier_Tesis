@@ -52,9 +52,15 @@
 
 
 %==== Tables ========================================================
- \usepackage{array} %%______________________________________ Tables
+ \usepackage{array, booktabs} %%______________________________________ Tables
  \newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}%___ Centering cell entries
  \usepackage[justification=centering]{caption}%_____________ Centering captions of tables and figures
+ 
+\newcommand{\tabitem}{~~\llap{\textbullet}~~}		%Bullets
+
+\usepackage{tabularx}		%Page width
+
+\newcolumntype{Q}[1]{>{\raggedright\arraybackslash}p{#1}}
 
 %==== Other =======================================================
  \usepackage{csquotes} %____________________________________ Used for quotation marks
@@ -71,7 +77,7 @@
 \title{\bfseries
        \AorE{Monitering van kern temperatuur, hartklop, respiratoriese tempo, bloed suurstof versadiging en EEG deur middel van 'n draadlose oor probe\\[1ex]\normalfont\small\itshape(``Monitoring core temperature, heart rate, respiratory rate, blood oxygen saturation and electrical brain activity through a wireless ear probe'')
             }
-            {Monitoring core temperature, heart rate, respiratory rate, blood oxygen saturation and electrical brain activity through a wireless ear probe}
+            {Monitoring multiple medical signs through a wireless ear probe}
             }
 
 \author{A.\ Bestbier}{André Bestbier}
@@ -157,7 +163,7 @@
 \appendix
 \appendixpage\relax
 
-\include{contents/App-1}
+%\include{contents/App-1}
 %\include{contents/App-2}
 %\include{contents/App-3}
 

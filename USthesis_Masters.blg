@@ -10,7 +10,6 @@ A level-1 auxiliary file: contents/Chap-3.aux
 A level-1 auxiliary file: contents/Chap-4.aux
 A level-1 auxiliary file: contents/Chap-5.aux
 A level-1 auxiliary file: contents/Chap-6.aux
-A level-1 auxiliary file: contents/App-1.aux
 Database file #1: backmatter/USbib-sample.bib
 Warning--entry type for "ExternalAuditoryCanal" isn't style-file defined
 --line 97 of file backmatter/USbib-sample.bib
@@ -34,45 +33,45 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty journal in buskeheartbeat
 Warning--empty journal in wang2010wearable
-You've used 48 entries,
+You've used 49 entries,
             3324 wiz_defined-function locations,
-            936 strings with 15111 characters,
-and the built_in function-call counts, 47271 in all, are:
-= -- 3815
-> -- 1400
-< -- 87
-+ -- 557
-- -- 489
-* -- 4692
-:= -- 5717
-add.period$ -- 142
-call.type$ -- 48
-change.case$ -- 399
-chr.to.int$ -- 48
-cite$ -- 50
-duplicate$ -- 4628
-empty$ -- 4188
-format.name$ -- 955
-if$ -- 9625
+            941 strings with 15245 characters,
+and the built_in function-call counts, 47991 in all, are:
+= -- 3876
+> -- 1410
+< -- 89
++ -- 561
+- -- 492
+* -- 4739
+:= -- 5809
+add.period$ -- 145
+call.type$ -- 49
+change.case$ -- 405
+chr.to.int$ -- 49
+cite$ -- 51
+duplicate$ -- 4697
+empty$ -- 4257
+format.name$ -- 961
+if$ -- 9782
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 518
-newline$ -- 263
-num.names$ -- 192
-pop$ -- 1261
+missing$ -- 527
+newline$ -- 268
+num.names$ -- 196
+pop$ -- 1282
 preamble$ -- 1
-purify$ -- 355
+purify$ -- 360
 quote$ -- 0
-skip$ -- 1185
+skip$ -- 1217
 stack$ -- 0
-substring$ -- 2883
-swap$ -- 2211
-text.length$ -- 67
+substring$ -- 2934
+swap$ -- 2242
+text.length$ -- 68
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 426
+type$ -- 435
 warning$ -- 2
-while$ -- 439
+while$ -- 446
 width$ -- 0
-write$ -- 626
+write$ -- 639
 (There were 11 warnings)

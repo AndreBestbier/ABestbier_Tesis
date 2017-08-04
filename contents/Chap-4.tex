@@ -1,208 +1,37 @@
 \chapter{Concept Design}
-\label{chp:DEM}
-This chapter will document the process of designing and developing the device and supporting software needed to answer the research question. The design process will combine the knowledge gained in the literature study chapter with engineering methods to find a unique solution to the stated problem. A classical engineering design approach will be taken: starting with determining the system requirements, using these requirements to set up a list of quantitative design specifications, developing concepts so meet these specifications and finally choosing the best concept through some evaluation process. After the best solutions has been identified, a detailed design phase will commence. Detailed design will consist of component selection, hardware integration and software design. In this chapter 'system' will refer to the device n development along with its supporting software.
+\label{chp:ConDes}
+This chapter builds upon the knowledge gained in the literature review and explains the logic used to select the methods and sensors to realize each medical sign monitoring requirement of the Ear-Monitor. Selections will be made by analysing advantages and disadvantages of each option and combining it with sound engineering judgement.
 
-\section{System requirements}
-In order to ensure that the device can be used in a study to determine if the ear canal is a feasible location for vital sign extraction, it must satisfy the a set of high level requirements. The "system" refers to the device along with the supporting software. These requirements will act as guidelines to the rest of the design process. The system should be designed to satisfy the following requirements:
+\section{Temperature}
+The Ear-Monitor will measure core temperature from the inside of the ear canal. The main limitations are sensor size and measurement accuracy. The method selection and sensor selection is discussed separately.
 
-\begin{itemize}
-%%First three requirements comes from the title and are the most important
-	\item The device must be able to measure the vital signs mentioned:
-	\begin{itemize}
-		\item core body temperature
-		\item heart rate
-		\item respiratory rate
-		\item Blood oxygen saturation
-		\item EEG signals
-	\end{itemize}  
-	\item  The devise should have an ear probe with embedded sensors to measure the mentioned vital signs from the ear canal
-	\item Data captured should be sent to a nearby PC through a wireless connection
-	%%The following requirements comes from discussuins this the proposar
-	\item It should be able for a person to wear the device without it obstructing normal movements
-	\item The device should be mobile an no wires should extend beyond the wearer
-	\item The device should be safe for the user to ware
-	\item Vital sign measurement methods should not require the penetration or removal of tissue or fluid from the wearer
-	\item 
-  	\item The supportive software must:
-  	\begin{itemize}
-  		\item store data
-  		\item extract useful vital sign information from the data
-  		\item detect when vital signs indicate abnormal trends via an 	 			algorithmic support platform
-  	\end{itemize}
-\end{itemize}
+\subsection{Temperature measurement method}
+Two temperature measuring method were considered, namely contact- and non-contact thermometers.
 
-\section{Quantitative Design Specifications}
-In order to go from system requirements to a concept, design specifications are needed. Where possible, quantitative goals will be set for different aspects of the design. These specifications will guide the selection of components for the device and the development of software to interface with the components.
+\subsubsection{Contact thermometers}
+A contact RTD, thermocouple or thermistor is placed in contact with the canal wall, canal air or tympanic membrane.
 
-\subsection{Sensors}
-The most important requirements of the device is to measure the five vital signs mentioned. As seen during the literature review, there are many different methods of measuring the same physiological sign. To help in the selection of the most appropriate measuring method for each vital sign, a understanding is needed to exactly what will be required of each method this system. A "method" in this section, it refers to the set of steps or laws of physics that will be used to measure a specific vital sign. While component will refer to the physical structure that will incorporate the method to make the measurement. For example, a method can be measuring temperature by using the the physical phenomena of heat conduction, and the component that will realize this method will be a thermocouple. Specifications for the accurate monitoring of each vital sign will be discussed in the following paragraphs.
+\begin{table}[H]
+\caption{Contact thermometers evaluation}
+\label{tab:ContactThermometersEval}
+\renewcommand{\arraystretch}{1.3}	%Wat doen hierdie?
+\centering
+\begin{tabular}{ |Q{6cm}|Q{8cm}| } 
+ \hline
+ Image 									& Advantages  \\ 
+ 										& \tabitem Available in small sizes, ideal for the size restrictions of the ear canal.\\
+ 										& \tabitem Good accuracy.\\
+ 										& \tabitem Converting transduces voltage to temperature is simpler than with non-contact 		thermometers.\\
+ \hline
+ Sensor size: 0.5 x 2.3 mm 				& Disadvantages  \\ 
+ Measurement accuracy: 0.15 $^{\circ}C$ & \tabitem Canal wall and canal air temperature measurements can easily be influenced by ambient temperature.\\
+ 										& \tabitem Tympanic membrane contact can cause discomfort and harm to the wearer.\\
+ 										& \tabitem More time is needed to take measurement, for sensor needs to be in thermal equilibrium with the object.\\
+ 
+ \hline
+\end{tabular}
+\end{table}
 
-\subsubsection{Temperature}
-A method is needed to monitor the core body temperature (or an acceptable approximation thereof) in the ear canal canal. The method and component to measure the temperature should meet the following goals:
-\begin{itemize}
-  \item Sampling frequency: faster than 10 samples per minute
-  \item Resolution: smaller than 0.01 $^{\circ}$C
-  \item Error: smaller than 0.1 $^{\circ}$C
-  \item Measurement range: further than 5 mm
-  \item Overall compact shape in order to fit inside the ear canal
-  \item Sensor diameter: smaller than 5 mm
-  \item No contact should be made with the tympanic membrane
-  \item Low pass filter: filter out high frequency noise
-  \item The sensor must be able to compensate for the ambient temperature
-\end{itemize}
-
-\subsubsection{Heart Rate}
-A method is needed to measure the heart rate of the patient through the ear canal. The following goals should be met to ensue a accurate heart rate monitoring:
-
-The primary goal of the pulse oximetry sensor is to monitor the pulse rate of the patient for this on of the vital signs specified by the system requirements. SpO2 measurement is a secondary goal. The required hardware for measuring the SpO2 must be included in the device. The pulse oximeter will consist of two light emitters with wavelengths of 660 nm and 940 nm respectively. One or two photodetectors will be used to measure the light passing through the tissue. The photodetector that collects the emitted light will output a low voltage signal. This signal must be amplified to a range there it can by digitalized accurately. The sensor mush be able to compensate for the ambient lighting conditions. Further specifications are as follows:
-
-\begin{itemize}
-  \item Sampling frequency: faster than 50 Hz
-  \item Photodetector wavelength range: 650 to 950 nm
-  \item Photodetector and emitters size: thinner than 2 mm
-  \item Low pass filter: filter out high frequency noise
-  \item High pass filter: filter out low frequency motion artefacts
-\end{itemize}
-
-
-
-
-
-
-
-
-
-\subsubsection{Respiratory rate}
-
-\subsubsection{Blood Oxygen Saturation}
-
-\subsubsection{EEG}
-Design specifications are proposed for the EEG part of the project in order to ensure that the devise being designed by M Rabie can be integrated later on. It is important that the rest of the hardware and software being developed in this project is compatible with a basic EEG sensor. The EEG system that must be made provision for has the following specifications:
-\begin{itemize}
-  \item Number of electrodes: 3
-  \item Sampling frequency: faster than 200 Hz
-  \item Amplifier gain: 100 - 100000
-  \item Amplifier common-mode rejection ratio: larger than 100 dB
-  \item Amplifier input impedance: larger than 100 M$\Omega$
-  \item A/D converted resolution: smaller than 0.5 $\mu$V
-\end{itemize}
-
-
-
-The design will consist of three different types of sensors to record three biosignals. All sensors will be located in the probe that enters the ear canal. The three sensors are:
-\begin{itemize}
-  \item Infra-red sensor to measure tympanic membrane temperature
-  \item Pulse oximeter to measure pulse rate
-  \item Electroencephalogram electrodes to measure electrical brain activity
-\end{itemize}
-
-\subsection{Dimensions}
-The prototype should have a probe that fits into the ear canal of the test subject to take the required measurements. The casing of the probe should be of biocompatible material. The probe shape should place the sensors in the correct positions in the ear canal to take the readings. The probe should connect with the remainder of the onboard electronics. Size requirements of the probe is as follows:
-\begin{itemize}
-  \item Probe diameter: smaller than 5 mm
-  \item Probe length: shorter than 10 mm
-\end{itemize}
-
-\subsection{Power}
-The device should be battery powered. A trade-off will exist between battery size, capacity and charging time. The battery life is selected to be practical for the user. The battery pack should be removable and replaceable to allow for the minimum interruption in the monitoring of vital signs. A low power warning system should be implemented. Design specifications for the power system include:
-\begin{itemize}
-  \item Battery life: 48 hours
-  \item Charging time: 4 hours
-\end{itemize}
-
-\subsection{Microcontroller specifications}
-The sensor probe will connect to an onboard microcontroller. Storage and communication modules will also be needed. The probe and processing electronics should be able to function as a stand-alone devise with a mobile power pack, onboard processing capabilities and wireless connectivity. The controller must be able to handle the processing needs of the device. The maximum amount of signal processing should be done by the onboard processor to minimize the load on the wireless network. The following are the main needs:
-\begin{itemize}
-  \item Number of signals to sample: 5 (2 photodetectors and 3 EEG electrodes)
-  \item Sampling speed: faster than 1 kHz (Sequential sampling)
-  \item Analog to digital converter: more than 10 bit
-  \item Onboard storage: more than 32 kB
-  \item I/O ports: more than 10
-  \item Communication ports: multiple UART, I2C and PWM
-  \item Asynchronous internal clock
-  \item Low power consumption
-  \item Multiple power modes for power saving
-  \item Signal processing capabilities
-  \item High level of robustness and fault tolerance
-\end{itemize}
-
-\subsection{Communication}
-The device must be able to connect to the internet through a wireless network. Collected information must be sent to a cloud hosted platform to do the final processing and run the warning system. The onboard communication module must be able to connect to the internet through a wireless local area network (WLAN) and upload data. This connection must be fast enough to stream real time data from the device. Data must be made available to the involved parties and they should be warned if alarm conditions is sensed. Requirements for the communication system includes:
-\begin{itemize}
-  \item Onboard communication speed: faster than 1kB per second
-  \item Onboard communication range: farther than 10 m
-  \item Capable of cloud connectivity
-  \item Cloud data storage: more the 1 month of collected data
-  \item Cloud update speed: faster than 5 seconds
-\end{itemize}
-
-\subsection{Pulse oximeter}
-
-
-\subsection{EEG}
-
-
-\subsection{Software}
-The software side must consist of the onboard microcontroller software, communication module firmware and the cloud base platform software. All software should be robust and include error handling and troubleshooting methods.  The functionality requirements for the onboard microcontroller include:
-\begin{itemize}
-  \item Structures to store a number of digitalized data points
-  \item FFT calculation capabilities
-  \item Digital filtering capabilities
-  \item Extraction of pulse rate from photodetectors
-  \item Extraction of temperature from Infra-red sensor
-  \item Extraction of breathing rate from pulse rate by means of respiratory sinus arrhythmia
-  \item Extraction of EEG signal from electrodes
-  \item Sending processed data to the wireless module
-  \item Power management algorithms
-\end{itemize}
-
-The communication module firmware should contain AT commands to connect to a WLAN and upload processed data to the cloud based platform. Specifications for the cloud based platform:
-\begin{itemize}
-  \item It must have storage for the data that the device uploads
-  \item Some final processing should be done on the data
-  \item Detect when measured parameters are outside the pre-set limits
-  \item Send a warning to the physician and caretakers phone
-  \item Smartphone application with easy to use user interface for the monitoring of infant vitals
-\end{itemize}
-
-\section{Concept Generation}
-Various methods available to measure different vital signs were described during the literature review stage of this project. In this step, the most suitable vital sign monitoring methods will be selected for the concept.
-
-The next step will be to generate a number of conceptual solutions to satisfy the design specifications set in the previous section. Solutions will be in the form of components and methods selected to meet the set requirements.
-
-Concept generation will start of with the decomposition of the system. This step involves breaking the complex system into its basic functional and physical subsystems. Individual subsystems will be handled as problems and methods of realizing these subsystems will be seen as the solutions. For example, measuring temperature is a functional subsystems and handled as a problem. Subsequently, a thermometer is a way to realise this subsystem and therefore seen as a solution to the problem.
-
-\subsection{Functional Decomposition}
-Functional decomposition is used to simplify the system, by isolating its various functions and giving attention to each one separately. This is an ideal method for generating physical concepts for the device in development, for the functional boundaries are very distinct and functions are well defined. The function of the ear vital sign monitor is so monitor the mentioned vital signs, some data processing, communication and holding the sensors in place. A detailed functional decomposition will follow.  Suitable solutions will be found for each problems and the best solution will be determined by means of some evaluations method. All the selected solutions will then be combined to form the final design. (Or various combinations will be evaluated)
-
-\begin{itemize}
-\item Measure temperature
-\item Measure heart rate
-\item Measure breathing
-\item Measure Sp02
-\item Measure EEG
-\item Interfacing with peripheral components (pre-BT processing)
-\item Send data to PC
-\item Process data
-\end{itemize}
-
-
-
-
-
-
-\subsubsection{Wireless Communication}
-
-\subsection{Physical Decomposition}
-Physical decomposition is used to simplify the system, by breaking it into its various physical parts. This step only concerns the hardware part od the device. This will determine the size, shape and material of the device.
-
-\subsection{Form}
-\subsection{Material}
-
-\section{Concept Selection}
-\section{Hardware Selection}
-
-
-
-
+\subsubsection{Non-contact Thermometers}
+A non-contact, infrared sensor is placed inside the ear canal and pointed at the tympanic membrane.
 

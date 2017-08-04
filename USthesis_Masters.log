@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.6.29)  30 JUN 2017 02:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.6.29)  4 AUG 2017 13:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -709,36 +709,34 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
 
 (./USthesis_Masters.aux (./frontmatter/Chap-Front.aux)
 (./frontmatter/Nomencl.aux) (./contents/Chap-1.aux) (./contents/Chap-2.aux)
-(./contents/Chap-3.aux) (./contents/Chap-4.aux) (./contents/Chap-5.aux
+(./contents/Chap-3.aux) (./contents/Chap-4.aux) (./contents/Chap-5.aux)
+(./contents/Chap-6.aux
 
 LaTeX Warning: Label `chp:DEM' multiply defined.
 
-) (./contents/Chap-6.aux
-
-LaTeX Warning: Label `chp:DEM' multiply defined.
-
-) (./contents/App-1.aux))
+))
 \openout1 = `USthesis_Masters.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 117.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 117.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 123.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 123.
 
  (c:/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    ... okay on input line 123.
+
 (c:/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count167
@@ -799,10 +797,10 @@ Package caption Info: End \AtBeginDocument code.
 <UScrest-WM.jpg, id=1, 49.8663pt x 69.3792pt>
 File: UScrest-WM.jpg Graphic file (type jpg)
 <use UScrest-WM.jpg>
-Package pdftex.def Info: UScrest-WM.jpg  used on input line 122. on input line 
-122.
+Package pdftex.def Info: UScrest-WM.jpg  used on input line 128. on input line 
+128.
 Package pdftex.def Info: Requested size: 89.70789pt x 124.82738pt on input line
- 122.
+ 128.
  [1
 
 
@@ -823,25 +821,29 @@ Package pdftex.def Info: Requested size: 89.70789pt x 124.82738pt on input line
 
 ] [5
 
-]) (./USthesis_Masters.toc [6
+]) (./USthesis_Masters.toc
+Overfull \hbox (0.16243pt too wide) detected at line 12
+ \T1/cmr/bx/n/12 viii
+ []
+
+[6
 
 
-]
-[7]) [8] (./USthesis_Masters.lof
+]) [7] (./USthesis_Masters.lof
 Overfull \hbox (10.68289pt too wide) in paragraph at lines 11--11
  [][] []\T1/cmr/m/n/12 Anatomical struc-tures of the au-ri-cle (Get source from
 : goo.gl/mmLnFx) []  
  []
 
 
-Overfull \hbox (5.23994pt too wide) in paragraph at lines 25--25
+Overfull \hbox (5.23994pt too wide) in paragraph at lines 26--26
  [][] []\T1/cmr/m/n/12 Breathing de-tected through mi-cro-phones in-side the ea
 r canal (Gover- 
  []
 
-) [9
+) [8
 
-] (./USthesis_Masters.lot) [10
+] (./USthesis_Masters.lot) [9
 
 ]
 \openout2 = `frontmatter/Nomencl.aux'.
@@ -851,7 +853,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
-) [11
+) [10
 
 
 
@@ -868,14 +870,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  (./contents/Chap-2.tex
 (./figs/Auricle.pdf_tex
-<figs/Auricle.pdf, id=72, page=1, pagebox=cropbox, 238.31786pt x 234.8775pt>
+<figs/Auricle.pdf, id=69, page=1, pagebox=cropbox, 238.31786pt x 234.8775pt>
 File: figs/Auricle.pdf Graphic file (type pdf)
 <use figs/Auricle.pdf, page 1>
 Package pdftex.def Info: figs/Auricle.pdf , page1 used on input line 52. on inp
 ut line 52.
 Package pdftex.def Info: Requested size: 200.0pt x 197.11655pt on input line 52
 .
-<figs/Auricle.pdf, id=73, page=2, pagebox=cropbox, 238.31786pt x 234.8775pt>
+<figs/Auricle.pdf, id=70, page=2, pagebox=cropbox, 238.31786pt x 234.8775pt>
 File: figs/Auricle.pdf Graphic file (type pdf)
 <use figs/Auricle.pdf, page 2>
 Package pdftex.def Info: figs/Auricle.pdf , page2 used on input line 56. on inp
@@ -891,30 +893,40 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ]
-<figs/EarSection.pdf, id=77, pagebox=cropbox, 451.6875pt x 294.34969pt>
+<figs/EarSection.pdf, id=74, pagebox=cropbox, 451.6875pt x 294.34969pt>
 File: figs/EarSection.pdf Graphic file (type pdf)
 <use figs/EarSection.pdf>
-Package pdftex.def Info: figs/EarSection.pdf  used on input line 38. on input l
-ine 38.
+Package pdftex.def Info: figs/EarSection.pdf  used on input line 41. on input l
+ine 41.
 Package pdftex.def Info: Requested size: 316.17908pt x 206.04337pt on input lin
-e 38.
+e 41.
  [5 <./figs/Auricle.pdf> <./figs/Auricle.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figs/Auricle.pdf): PDF inclusion: multiple
  pdfs with page group included in a single page
 >] [6 <./figs/EarSection.pdf>]
-<figs/VariationsInTemp.pdf, id=91, pagebox=cropbox, 603.75563pt x 432.11438pt>
+<figs/VariationsInTemp.pdf, id=88, pagebox=cropbox, 603.75563pt x 432.11438pt>
 File: figs/VariationsInTemp.pdf Graphic file (type pdf)
 <use figs/VariationsInTemp.pdf>
-Package pdftex.def Info: figs/VariationsInTemp.pdf  used on input line 72. on i
-nput line 72.
+Package pdftex.def Info: figs/VariationsInTemp.pdf  used on input line 75. on i
+nput line 75.
 Package pdftex.def Info: Requested size: 181.12808pt x 129.6353pt on input line
- 72.
- [7] [8 <./figs/VariationsInTemp.pdf>] [9])
-[10]
+ 75.
+ [7] [8 <./figs/VariationsInTemp.pdf>] [9]
+(./figs/eegRhythm.pdf_tex
+<figs/eegRhythm.pdf, id=101, page=1, pagebox=cropbox, 673.50725pt x 387.82985pt
+>
+File: figs/eegRhythm.pdf Graphic file (type pdf)
+<use figs/eegRhythm.pdf, page 1>
+Package pdftex.def Info: figs/eegRhythm.pdf , page1 used on input line 57. on i
+nput line 57.
+Package pdftex.def Info: Requested size: 300.0pt x 172.74648pt on input line 57
+.
+)) [10 <./figs/eegRhythm.pdf>]
 \openout2 = `contents/Chap-3.aux'.
 
- (./contents/Chap-3.tex [11
+ (./contents/Chap-3.tex
+[11
 
 
 
@@ -929,7 +941,7 @@ Package epstopdf Info: Source file: <figs/PlancksLaw.eps>
 ted-to.pdf figs/PlancksLaw.eps>
 (epstopdf)             \includegraphics on input line 57.
 Package epstopdf Info: Output file is already uptodate.
-<figs/PlancksLaw-eps-converted-to.pdf, id=113, pagebox=cropbox, 466.74374pt x 3
+<figs/PlancksLaw-eps-converted-to.pdf, id=115, pagebox=cropbox, 466.74374pt x 3
 02.12875pt>
 File: figs/PlancksLaw-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/PlancksLaw-eps-converted-to.pdf>
@@ -942,7 +954,7 @@ Package pdftex.def Info: Requested size: 280.0484pt x 181.27864pt on input line
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [13]
-<figs/IR_Thermometer.pdf, id=120, pagebox=cropbox, 437.38406pt x 252.19218pt>
+<figs/IR_Thermometer.pdf, id=121, pagebox=cropbox, 437.38406pt x 252.19218pt>
 File: figs/IR_Thermometer.pdf Graphic file (type pdf)
 <use figs/IR_Thermometer.pdf>
 Package pdftex.def Info: figs/IR_Thermometer.pdf  used on input line 76. on inp
@@ -950,7 +962,7 @@ ut line 76.
 Package pdftex.def Info: Requested size: 218.69148pt x 126.09578pt on input lin
 e 76.
  [14 <./figs/PlancksLaw-eps-converted-to.pdf>]
-<figs/Degree.png, id=135, 210.18526pt x 252.945pt>
+<figs/Degree.png, id=137, 210.18526pt x 252.945pt>
 File: figs/Degree.png Graphic file (type png)
 <use figs/Degree.png>
 Package pdftex.def Info: figs/Degree.png  used on input line 92. on input line 
@@ -958,7 +970,7 @@ Package pdftex.def Info: figs/Degree.png  used on input line 92. on input line
 Package pdftex.def Info: Requested size: 105.09236pt x 126.47218pt on input lin
 e 92.
  [15 <./figs/IR_Thermometer.pdf> <./figs/Degree.png>]
-<figs/Winokur.png, id=142, 322.9155pt x 134.3565pt>
+<figs/Winokur.png, id=144, 322.9155pt x 134.3565pt>
 File: figs/Winokur.png Graphic file (type png)
 <use figs/Winokur.png>
 Package pdftex.def Info: figs/Winokur.png  used on input line 115. on input lin
@@ -966,7 +978,7 @@ e 115.
 Package pdftex.def Info: Requested size: 161.45735pt x 67.17809pt on input line
  115.
  [16 <./figs/Winokur.png>] (./figs/PPGModes.pdf_tex
-<figs/PPGModes.pdf, id=148, page=1, pagebox=cropbox, 242.70676pt x 105.62978pt>
+<figs/PPGModes.pdf, id=150, page=1, pagebox=cropbox, 242.70676pt x 105.62978pt>
 
 File: figs/PPGModes.pdf Graphic file (type pdf)
 <use figs/PPGModes.pdf, page 1>
@@ -974,7 +986,7 @@ Package pdftex.def Info: figs/PPGModes.pdf , page1 used on input line 52. on in
 put line 52.
 Package pdftex.def Info: Requested size: 242.70674pt x 105.6295pt on input line
  52.
-<figs/PPGModes.pdf, id=149, page=2, pagebox=cropbox, 242.70676pt x 105.62978pt>
+<figs/PPGModes.pdf, id=151, page=2, pagebox=cropbox, 242.70676pt x 105.62978pt>
 
 File: figs/PPGModes.pdf Graphic file (type pdf)
 <use figs/PPGModes.pdf, page 2>
@@ -982,7 +994,7 @@ Package pdftex.def Info: figs/PPGModes.pdf , page2 used on input line 55. on in
 put line 55.
 Package pdftex.def Info: Requested size: 242.70674pt x 105.6295pt on input line
  55.
-<figs/PPGModes.pdf, id=150, page=3, pagebox=cropbox, 242.70676pt x 105.62978pt>
+<figs/PPGModes.pdf, id=152, page=3, pagebox=cropbox, 242.70676pt x 105.62978pt>
 
 File: figs/PPGModes.pdf Graphic file (type pdf)
 <use figs/PPGModes.pdf, page 3>
@@ -1000,92 +1012,96 @@ e pdfs with page group included in a single page
 pdfTeX warning: pdflatex.exe (file ./figs/PPGModes.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
 >]
-<figs/PPG.png, id=158, 123.3408pt x 117.8001pt>
+<figs/PPG.png, id=160, 123.3408pt x 117.8001pt>
 File: figs/PPG.png Graphic file (type png)
 <use figs/PPG.png>
-Package pdftex.def Info: figs/PPG.png  used on input line 153. on input line 15
-3.
+Package pdftex.def Info: figs/PPG.png  used on input line 156. on input line 15
+6.
 Package pdftex.def Info: Requested size: 197.34552pt x 188.48038pt on input lin
-e 153.
+e 156.
  [18 <./figs/PPG.png>]
-<figs/poh.png, id=162, 195.786pt x 120.5595pt>
+<figs/poh.png, id=164, 195.786pt x 120.5595pt>
 File: figs/poh.png Graphic file (type png)
 <use figs/poh.png>
-Package pdftex.def Info: figs/poh.png  used on input line 171. on input line 17
-1.
+Package pdftex.def Info: figs/poh.png  used on input line 174. on input line 17
+4.
 Package pdftex.def Info: Requested size: 234.942pt x 144.67064pt on input line 
-171.
-<figs/DaHe.png, id=163, 1705.572pt x 1295.43974pt>
+174.
+<figs/DaHe.png, id=165, 1705.572pt x 1295.43974pt>
 File: figs/DaHe.png Graphic file (type png)
 <use figs/DaHe.png>
-Package pdftex.def Info: figs/DaHe.png  used on input line 182. on input line 1
-82.
+Package pdftex.def Info: figs/DaHe.png  used on input line 185. on input line 1
+85.
 Package pdftex.def Info: Requested size: 255.82477pt x 194.30757pt on input lin
-e 182.
+e 185.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [19 <./figs/poh.png>]
-<figs/cosinuss.png, id=168, 211.554pt x 210.5685pt>
+<figs/cosinuss.png, id=169, 211.554pt x 210.5685pt>
 File: figs/cosinuss.png Graphic file (type png)
 <use figs/cosinuss.png>
-Package pdftex.def Info: figs/cosinuss.png  used on input line 197. on input li
-ne 197.
+Package pdftex.def Info: figs/cosinuss.png  used on input line 200. on input li
+ne 200.
 Package pdftex.def Info: Requested size: 169.24342pt x 168.455pt on input line 
-197.
+200.
  [20 <./figs/DaHe.png> <./figs/cosinuss.png>]
-<figs/BCGsensor.png, id=173, 247.52475pt x 175.857pt>
+<figs/BCGsensor.png, id=175, 247.52475pt x 175.857pt>
 File: figs/BCGsensor.png Graphic file (type png)
 <use figs/BCGsensor.png>
-Package pdftex.def Info: figs/BCGsensor.png  used on input line 217. on input l
-ine 217.
+Package pdftex.def Info: figs/BCGsensor.png  used on input line 220. on input l
+ine 220.
 Package pdftex.def Info: Requested size: 198.02007pt x 140.68578pt on input lin
-e 217.
+e 220.
  [21 <./figs/BCGsensor.png>]
-<figs/BreathingSound.png, id=177, 309.5565pt x 91.542pt>
+<figs/BreathingSound.png, id=179, 309.5565pt x 91.542pt>
 File: figs/BreathingSound.png Graphic file (type png)
 <use figs/BreathingSound.png>
-Package pdftex.def Info: figs/BreathingSound.png  used on input line 239. on in
-put line 239.
+Package pdftex.def Info: figs/BreathingSound.png  used on input line 242. on in
+put line 242.
 Package pdftex.def Info: Requested size: 247.64552pt x 73.23369pt on input line
- 239.
-<figs/BCGbreathing.png, id=178, 1185.228pt x 398.6895pt>
+ 242.
+<figs/BCGbreathing.png, id=180, 1185.228pt x 398.6895pt>
 File: figs/BCGbreathing.png Graphic file (type png)
 <use figs/BCGbreathing.png>
-Package pdftex.def Info: figs/BCGbreathing.png  used on input line 248. on inpu
-t line 248.
+Package pdftex.def Info: figs/BCGbreathing.png  used on input line 251. on inpu
+t line 251.
 Package pdftex.def Info: Requested size: 355.57114pt x 119.60777pt on input lin
-e 248.
+e 251.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [22 <./figs/BreathingSound.png>] [23 <./figs/BCGbreathing.png>]
-<figs/AbsorptionSpectra_Edit.png, id=185, 426.09187pt x 290.58563pt>
+<figs/AbsorptionSpectra_Edit.png, id=187, 426.09187pt x 290.58563pt>
 File: figs/AbsorptionSpectra_Edit.png Graphic file (type png)
 <use figs/AbsorptionSpectra_Edit.png>
 Package pdftex.def Info: figs/AbsorptionSpectra_Edit.png  used on input line 29
-0. on input line 290.
+3. on input line 293.
 Package pdftex.def Info: Requested size: 340.87395pt x 232.46881pt on input lin
-e 290.
+e 293.
  [24 <./figs/AbsorptionSpectra_Edit.png>] [25]) [26] [27]
 \openout2 = `contents/Chap-4.aux'.
 
- (./contents/Chap-4.tex [28
+ (./contents/Chap-4.tex
+Overfull \hbox (25.53854pt too wide) in paragraph at lines 19--33
+ [][] 
+ []
+
+[28
 
 
 
-] [29]
-[30] [31] [32] [33] [34]) [35]
+]) [29]
 \openout2 = `contents/Chap-5.aux'.
 
- (./contents/Chap-5.tex [36
+ (./contents/Chap-5.tex [30
 
 
 
 ]
-<figs/PulseOxiConfiguration.pdf, id=230, pagebox=cropbox, 659.46375pt x 239.394
+<figs/PulseOxiConfiguration.pdf, id=213, pagebox=cropbox, 659.46375pt x 239.394
 38pt>
 File: figs/PulseOxiConfiguration.pdf Graphic file (type pdf)
 <use figs/PulseOxiConfiguration.pdf>
@@ -1099,74 +1115,58 @@ Overfull \hbox (0.38347pt too wide) in paragraph at lines 50--51
 ory of IR thermo-
  []
 
-[37 <./figs/PulseOxiConfiguration.pdf>] [38]) [39]
+[31 <./figs/PulseOxiConfiguration.pdf>] [32]) [33]
 \openout2 = `contents/Chap-6.aux'.
 
  (./contents/Chap-6.tex
-[40
+[34
 
 
 
-]) [41] [42] [43
+]) [35] [36] [37
 
 
-]
-\openout2 = `contents/App-1.aux'.
-
- (./contents/App-1.tex
-<figs/DEM-Def-Ball.pdf, id=257, pagebox=cropbox, 237.88875pt x 172.645pt>
-File: figs/DEM-Def-Ball.pdf Graphic file (type pdf)
-<use figs/DEM-Def-Ball.pdf>
-Package pdftex.def Info: figs/DEM-Def-Ball.pdf  used on input line 9. on input 
-line 9.
-Package pdftex.def Info: Requested size: 237.88815pt x 172.64456pt on input lin
-e 9.
-) [44
-
-
- <./figs/DEM-Def-Ball.pdf>]
-(./USthesis_Masters.bbl
+] (./USthesis_Masters.bbl
 (c:/texlive/2017/texmf-dist/tex/latex/stellenbosch/usbib.eng)
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 57.
 
 (c:/texlive/2017/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-Overfull \hbox (15.55888pt too wide) in paragraph at lines 72--75
+Overfull \hbox (15.55888pt too wide) in paragraph at lines 78--81
 \T1/cmr/m/n/10.95 Available at: \T1/cmtt/m/n/10.95 http://www.webmd.com/sleep-d
 isorders/sleep-apnea/sleep-apnea 
  []
 
-[45
-
+[38
 
 
 ]
-Overfull \hbox (106.09282pt too wide) in paragraph at lines 186--190
+Overfull \hbox (106.09282pt too wide) in paragraph at lines 192--196
 \T1/cmr/m/n/10.95 Available at: \T1/cmtt/m/n/10.95 http://www.sensorsmag.com/co
 mponents/demystifying-thermopile-ir-temp-sensors 
  []
 
 
-Overfull \hbox (185.31001pt too wide) in paragraph at lines 214--217
+Overfull \hbox (185.31001pt too wide) in paragraph at lines 220--223
 \T1/cmr/m/n/10.95 Available at: \T1/cmtt/m/n/10.95 http://www.mayoclinic.org/he
 althy-lifestyle/fitness/expert-answers/heart-rate/faq-20057979 
  []
 
-[46]
-Overfull \hbox (21.21725pt too wide) in paragraph at lines 303--306
+[39]
+Overfull \hbox (21.21725pt too wide) in paragraph at lines 309--312
 \T1/cmr/m/n/10.95 Available at: \T1/cmtt/m/n/10.95 https://global.britannica.co
 m/science/external-auditory-canal 
  []
 
-[47]
-Overfull \hbox (309.79417pt too wide) in paragraph at lines 465--468
+[40]
+Overfull \hbox (309.79417pt too wide) in paragraph at lines 471--474
 \T1/cmr/m/n/10.95 Available at: \T1/cmtt/m/n/10.95 http://www.who.int/patientsa
 fety/safesurgery/pulse_oximetry/who_ps_pulse_oxymetry_tutorial2_advanced_en.pdf
 ?ua=1 
  []
 
-) [48]
+) [41]
 \tf@toc=\write4
 \openout4 = `USthesis_Masters.toc'.
 
@@ -1179,16 +1179,16 @@ fety/safesurgery/pulse_oximetry/who_ps_pulse_oxymetry_tutorial2_advanced_en.pdf
  (./USthesis_Masters.aux (./frontmatter/Chap-Front.aux)
 (./frontmatter/Nomencl.aux) (./contents/Chap-1.aux) (./contents/Chap-2.aux)
 (./contents/Chap-3.aux) (./contents/Chap-4.aux) (./contents/Chap-5.aux)
-(./contents/Chap-6.aux) (./contents/App-1.aux))
+(./contents/Chap-6.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10087 strings out of 492990
- 145487 string characters out of 6136334
- 265286 words of memory out of 5000000
- 13368 multiletter control sequences out of 15000+600000
+ 10088 strings out of 492990
+ 145583 string characters out of 6136334
+ 263103 words of memory out of 5000000
+ 13374 multiletter control sequences out of 15000+600000
  28999 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,16n,46p,1304b,636s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1203,28 +1203,23 @@ c/amsfonts/cm/cmmi8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
 exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/20
 17/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2017/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2017/texmf-dist/fonts
-/type1/public/lm/lmmi10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/lm/l
-mmi7.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/lm/lmmib10.pfb><c:/texl
-ive/2017/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2017/texmf-dist
-/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/
-lm/lmsy10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1200.
-pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/te
-xlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2017
-/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2017/texmf-dis
-t/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2017/texmf-dist/fonts/ty
-pe1/public/cm-super/sfrm0800.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public
-/cm-super/sfrm1095.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/
-sfrm1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1440.p
-fb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/tex
-live/2017/texmf-dist/fonts/type1/public/cm-super/sfsl1095.pfb><c:/texlive/2017/
-texmf-dist/fonts/type1/public/cm-super/sfsl1440.pfb><c:/texlive/2017/texmf-dist
-/fonts/type1/public/cm-super/sfti1095.pfb><c:/texlive/2017/texmf-dist/fonts/typ
-e1/public/cm-super/sfti1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/
-cm-super/sftt1095.pfb>
-Output written on USthesis_Masters.pdf (60 pages, 2580973 bytes).
+/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/pub
+lic/cm-super/sfbx1440.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-sup
+er/sfbx1728.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx207
+4.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/
+texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/20
+17/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2017/texmf-d
+ist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2017/texmf-dist/fonts/
+type1/public/cm-super/sfrm1440.pfb><c:/texlive/2017/texmf-dist/fonts/type1/publ
+ic/cm-super/sfrm1728.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-supe
+r/sfsl1095.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfsl1440
+.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb><c:/t
+exlive/2017/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/201
+7/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
+Output written on USthesis_Masters.pdf (52 pages, 2577683 bytes).
 PDF statistics:
- 392 PDF objects out of 1000 (max. 8388607)
- 262 compressed objects within 3 object streams
+ 339 PDF objects out of 1000 (max. 8388607)
+ 222 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  111 words of extra memory for PDF output out of 10000 (max. 10000000)
 

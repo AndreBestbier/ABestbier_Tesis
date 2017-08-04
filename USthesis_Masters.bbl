@@ -1,4 +1,4 @@
-\begin{thebibliography}{48}
+\begin{thebibliography}{49}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -67,6 +67,12 @@
   using labview.
 \newblock \emph{Journal of Electrical and Electronics Engineering},
   \bblvol{}~8.
+
+\bibitem[{\citenamefont{Bickford}(1987)}]{bickford1951electroencephalography}
+\bibnamefont{Bickford}, \bibfnamefont{R.} (1987).
+\newblock Electroencephalography.
+\newblock \emph{Adelman G. ed. Encyclopedia of Neuroscience, Birkhauser,
+  Cambridge (USA)}, \bblpp{} 371--373.
 
 \bibitem[{\citenamefont{Blahd}(2016)}]{webMDSleepApnoea}
 \bibnamefont{Blahd}, \bibfnamefont{W.} (2016 09).

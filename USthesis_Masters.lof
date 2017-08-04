@@ -11,15 +11,16 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Anatomical structures of the auricle (Get source from: goo.gl/mmLnFx)\relax }}{5}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Structure of the ear (Drake et al: Gray's Anatomy for Students)\relax }}{6}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces The results from 20 studies with strong or fairly strong evidence of normal oral, rectal and tympanic temperature ($^{\circ }$C) in adult men and women are presented. Temperature is obtainable as mean value(bold lines), 1st and 3rd quartiles (unfilled bars) and range (thin lines).\relax }}{8}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces EEG rhythms\relax }}{10}
 \addvspace {10pt}
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Plot showing how Planck's law can be used to determine the dominant radiation wavelength at certain temperature\relax }}{14}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces IR Thermometer diagram (V Polyzoev et al: Demystifying Thermopile IR Temp Sensors)\relax }}{15}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces CAD model of the \textit {degree}$^{\circ }$ from the \textit {cosinuss}$^{\circ }$ website (include ref)\relax }}{15}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Ear-worn device developed by \cite {winokur2012wearable}\relax }}{16}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces The two modes of Photoplethysmography \citep {tamura2014wearable}\relax }}{17}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Pulse oximetry diagram (Source: tamura2014wearable)\relax }}{18}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Pulse oximetry diagram (Source: tamura2014wearable)\relax }}{19}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Pulse oximetry diagram (Source: tamura2014wearable)\relax }}{20}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Dasic operating principles of PPG \citep {tamura2014wearable}\relax }}{18}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Pulse oximetry diagram \citep {poh2010motion}\relax }}{19}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Pulse oximetry diagram \citep {da2010ear}\relax }}{20}
 \contentsline {figure}{\numberline {3.9}{\ignorespaces https://www.cosinuss.com/en/products/one\relax }}{20}
 \contentsline {figure}{\numberline {3.10}{\ignorespaces Device to measure in ear pulse waves due to the heart beat \citep {park2015wearable}\relax }}{21}
 \contentsline {figure}{\numberline {3.11}{\ignorespaces Breathing detected through microphones inside the ear canal \citep {goverdovsky2016hearables}\relax }}{22}
@@ -27,7 +28,5 @@
 \contentsline {figure}{\numberline {3.13}{\ignorespaces Absorption spectra of oxy- and deoxyhemoglobin\relax }}{24}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Drawing of the auricle (goo.gl/mmLnFx)\relax }}{37}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Drawing of the auricle (goo.gl/mmLnFx)\relax }}{31}
 \addvspace {10pt}
-\addvspace {10pt}
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Ball Element Parameters\relax }}{44}
