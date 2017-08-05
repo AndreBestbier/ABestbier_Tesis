@@ -33,5 +33,9 @@
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Drawing of the selected Ear-Monitor concept and a more detailed drawing of the ear probe with sensors (Add labels)\relax }}{39}
 \addvspace {10pt}
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Flow of information in a typical telemedicine set-up\relax }}{40}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces TMP006 pre-mounted boards, cut-out and four connections\relax }}{41}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces (a) TMP006 pre-mounted boards and (b) the cut-out sensor segment with four connections labeled\relax }}{41}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces MAX30100 package diagram with required connections for operation.\relax }}{43}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces (a) is the layout as designed on EAGLE PCB with the outline of the MAX30100 shown in black and (b) is the finished flexible PCB with copper tracks (insert scale?)\relax }}{44}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Block digram for the Ear-Monitor's hardware components\relax }}{45}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces \relax }}{46}
 \addvspace {10pt}
