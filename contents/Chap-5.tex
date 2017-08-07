@@ -85,7 +85,7 @@ The remaining electronic components consisted of the Arduino MCU, HC-05 Bluetoot
 
 \medskip
 
-\SI{10}{\kilo\ohm} pull-up resistors on the SDA and SCL lines are recommended for standard I\textsuperscript{2}C communication and are therefore included in the design. A \SI{7.4}{\volt}, \SI{1000}{\milli\ampere\hour} rechargeable LiPo battery (https://www.robotics.org.za/603450?search=battery) is selected to supply power to the Ear-Monitor. The Ear-Monitor will be operate for XXX minutes on a sigle charge (Calculations in Appendix Y). The Arduino has its own power regulation circuitry on board and can be connected directly to the battery. Two low drop-out voltage regulators are selected to supply 1.8 V and 3.3 V to the sensors and Bluetooth modem. A charging circuit is added to allow the battery to be charge without physically disconnecting it from the device. Decoupling capacitors are added to all power supply lines. Figure \ref{fig:Ear-Monitor_BlockDiagram} shows block diagram of the Ear-Monitor's hardware.
+\SI{10}{\kilo\ohm} pull-up resistors on the SDA and SCL lines are recommended for standard I\textsuperscript{2}C communication and are therefore included in the design. A \SI{7.4}{\volt}, \SI{1000}{\milli\ampere\hour} rechargeable LiPo battery (https://www.robotics.org.za/603450?search=battery) is selected to supply power to the Ear-Monitor. The Ear-Monitor will be operate for XXX minutes on a sigle charge (Calculations in Appendix Y). The Arduino has its own power regulation circuitry on board and can be connected directly to the battery. Two low drop-out voltage regulators are selected to supply 1.8 V and 3.3 V to the sensors and Bluetooth modem. A charging circuit is added to allow the battery to be charge without physically disconnecting it from the device. Decoupling capacitors are added to all power supply lines. Figure \ref{fig:Ear-Monitor_BlockDiagram} shows block diagram of the Ear-Monitor's hardware. The diagram is split between the components on the PCB worn on the hear and the components in the ear probe.
 
 \begin{figure}[H]
    \centering
@@ -106,3 +106,146 @@ An ear probe is designed to hold the MAX30100 and TMP006 in the correct position
    \caption{}
    \label{fig:EarProbe}
 \end{figure}
+
+Add a photo of the completed electronic hardware
+
+
+
+
+\section{Software}
+Software is written for the MCU and for the PC receiving and storing the data. MCU software is C++ based and developed using the Arduino IDE. MCU software handles sensor communication, timing, some processing and transmitting collected data via the Bluetooth modem. The PC software is Java based and developed using the Processing IDE. The PC software listens on the Bluetooth serial port, processes received data, display the data via a user interface and stores the received data on the local hard drive.
+
+\medskip
+
+Figure \ref{fig:Software_BlockDiagram} shows a diagram of the flow of data through the various software functions. The final calculated medical signs are shown in blue. The diagram is split between the MCU functions and PC functions. MCU and PC software are connected through the Bluetooth connection. The main functions are discussed in this section.
+
+\begin{figure}[H]
+   \centering
+   \includegraphics[scale=0.45]{figs/Software_BlockDiagram.png}
+   \caption{Block diagram showing the flow of information through the various software functions. Final calculated medical signs are shown in 	blue}
+   \label{fig:Software_BlockDiagram}
+\end{figure}
+
+\subsection{Sensor Communication Software}
+Software is written for the MCU to communicate with the sensors and Bluetooth module. The MAX30100 and TMP006 have different default addresses and can share one I\textsuperscript{2}C bus for communication with the MCU. I\textsuperscript{2}C communication happens one byte at a time with no parity and MSB first. The eighth bit of the address indicates a read or write request. Figure \ref{fig:I2C_Read} shows how the software reads 16-bit values from the TMP006 registers. Values form the MAX30100 are read in a similar way.
+
+\begin{figure}[H]
+   \centering
+   \includegraphics[scale=1]{figs/I2C_Read.png}
+   \caption{How the software reads 16-bit values from the TMP006 registers}
+   \label{fig:I2C_Read}
+\end{figure}
+
+Communication with sensors consists of two steps, configuration and reading data.
+
+\subsubsection{Sensor Configuration}
+Upon power on, both sensors start with default configurations. The MCU is programmed to reconfigure both sensors on start-up. This is done by writing values to the various configuration registers.
+The MAX30100 is set to SpO\textsubscript{2} mode with \SI{1600}{\micro\second} LED pulse width, 50 Hz sampling rate and \SI{50}{\milli\ampere} current supply to both LEDs. The TMP006 is set to use the average of 16 conversions per output, meaning it will sample at 0.25 Hz. This is done, because the application does not demand a high sampling rate and increasing the number of samples per output will reducing noise (\SI{0.125}{\celsius}). These configurations are done every time the Ear-Monitor is powered on.
+
+\subsubsection{Reading data from sensors}
+After configuration is done, the MCU enters a continuous loop of sensor data reading. The MAX30100 uses one FIFO register to store the latest 16 IR and red photo-detector voltages and the TMP06 has two separate registers for die temperature and sensor voltage. These registers are red through Arduino's Wiring library. The MAX30100 outputs at 50 Hz and the TMP006 at 0.025 Hz. A timing loop is created to ensure that the values are red from the sensors in time.
+
+\subsection{TMP006 software}
+After start-up configuration, two values, V\textsubscript{SENSOR} and T\textsubscript{DIE}, are read from the TMP006 through the I\textsubscript{2}C connection every 4 seconds.
+
+\medskip
+
+T\textsubscript{DIE} is measured by an on-chip precision thermistor and digitalized to a 14-bit value in binary two's compliment, signed integer format with one LSB equal to \SI{0.03125}{\celsius}. After two bytes has been read from the TMP006's T\textsubscript{DIE} register (as shows in Figure \ref{fig:I2C_Read}), it is bitshifted twice to the right to get the 14-bit value and then divided by 32 to get the temperature in \SI{}{\celsius}. Table \ref{tab:Tdie_Example} show an example calculation to obtain T\textsubscript{DIE}. This conversion is done on the MCU and the value in \SI{}{\celsius} is transmitted over the Bluetooth connection.
+
+\begin{table}[H]
+\caption{T\textsubscript{DIE} example calculation}
+\label{tab:Tdie_Example}
+\renewcommand{\arraystretch}{1.3}
+\centering
+\begin{tabular}{|P{4cm}|P{4cm}|P{1.5cm}|P{2.5cm}|} 
+\hline
+Digital output			& 	Right shifted twice 	& 	Decimal 	& $\div$ 32\\
+\hline
+0000 1100 1000 0000		& 	0000 0011 0010 0000		& 	800 		& \SI{25}{\celsius}\\
+\hline
+\end{tabular}
+\end{table}
+
+
+V\textsubscript{SENSOR} is the output of the thermopile and ranges from -5.12 to \SI{5.12}{\milli\volt}. The 16-bit ADC converts this analogue value to a digital value with a LSB equal to $\frac{5.12-(-5.12)}{2^16}= \SI{156.25}{\nano\volt}$. Conversion to voltage is done prior to sending the voltage value over the Bluetooth connection.
+
+\medskip
+
+T\textsubscript{DIE} and V\textsubscript{SENSOR} are received by the PC software, where they are used to calculate T\textsubscript{OBJ}. One sensor voltage and die temperature conversion cycle takes \SI{250}{\milli\second}, and the device gives the designer an option to choose the number of conversions ($N$) per output sample. The average of the $N$ samples is loaded into the output register every $N\times\SI{250}{\milli\second}$. The this design $N$ is chosen to be 16 and the time per register output equals 4 seconds.
+
+\subsection{Calculating T\textsubscript{OBJ}}
+T\textsubscript{DIE} and V\textsubscript{SENSOR} are used to calculate T\textsubscript{OBJ}. The TMP006's datasheet suggests using the relationship:
+
+\begin{equation}
+	\label{eq:TempCurve1}
+	T_{OBJ} = \sqrt[4]{{T_{DIE}}^4-\frac{f(V_{SENSOR})}{S}}
+\end{equation}
+
+Where $f(V_{SENSOR})$ is a function that compensates for heat flow in the form of convection and conduction. The function is described in two stages by:
+
+\begin{equation}
+\label{eq:TempCurve2}
+V_{OS}=B0+B1(T_{DIE}-T_{REF})+B2(T_{DIE}-T_{REF})^2
+\end{equation}
+
+\begin{center}and\end{center}
+%and
+
+\begin{equation}
+\label{eq:TempCurve3}
+f(V_{SENSOR}) = (V_{SENSOR}-V_{OS})+C(V_{SENSOR}-V_{OS})^2
+\end{equation}
+
+Where $V_{OS}$ is a compensating offset voltage, $T_{REF}$ is a reference temperature equal to \SI{25}{\celsius} and $B0$, $B1$, $B2$ and $C$ are calibration parameters.
+
+\medskip
+
+S takes into account the object emissivity ($\varepsilon$), Stefan-Boltzman constant ($\sigma$) and the non-ideal absorption of the sensor itself. It is described by:
+
+\begin{equation}
+\label{eq:TempCurve4}
+S=S0(1+A1(T_{DIE}-T_{REF})+A2(T_{DIE}-T_{REF})^2
+\end{equation}
+
+Where $S0 = \varepsilon\sigma$, $T_{REF}=\SI{25}{\celsius}$ and $A1$ and $A2$ are parameters experimentally derived through calibration.
+
+\medskip
+
+The TMP007 is the same sensor as the TMP006, but with a built in math engine. The recommended calibration parameters from the TMP007's data sheet is shown in Table \ref{tab:Calibration_Vals}. This parameters can also be seen as the default calibration parameters for the TMP006 and is a good starting point for the calibration process.
+
+\begin{table}[H]
+\caption{T\textsubscript{DIE} example calculation}
+\label{tab:Calibration_Vals}
+\renewcommand{\arraystretch}{1.3}
+\centering
+\begin{tabular}{|P{1.5cm}|P{1.5cm}|P{1.5cm}|P{1.5cm}|P{1.5cm}|P{1.5cm}|P{1.5cm}|} 
+\hline
+S0 			& 	C 	&	 A1			&	A2			&	B0			&  		B1		&	B2\\
+\hline
+4.43e-14	& 	0	& 	9.99e-4	&	-6.02e-6	&	-3.09e-5	&	-8.72e-8	&	1.30e-8\\
+\hline
+\end{tabular}
+\end{table}
+
+The TMP006 in the Ear-Monitor will operate in a relatively narrow temperature range. Plotting the T\textsubscript{OBJ} equation over the range T\textsubscript{OBJ} = 35 to \SI{40}{\celsius}, T\textsubscript{DIE} = 35 to \SI{39}{\celsius} and T\textsubscript{SENSOR} = -46.88 to \SI{23.44}{\micro\volt} with recommended calibration parameters (Table \ref{tab:Calibration_Vals}) relieves a surface resembling a flat plane. This plot can be seen in Figure \ref{fig:RecommendedTempCurve}.
+
+\begin{figure}[H]
+   \centering
+   \includegraphics[scale=0.65]{figs/RecommendedTempCurve.png}
+   \caption{Plot the the T\textsubscript{OBJ} equation with recommended calibration parameters and over the operating temperature range of the Ear-Monitor}
+   \label{fig:RecommendedTempCurve}
+\end{figure}
+
+
+This linear characteristic of the TMP006 in the operating temperature range of the Ear-Monitor can be used to simplify the T\textsubscript{OBJ} calculation method as described in Equations \ref{eq:TempCurve1} to \ref{eq:TempCurve4}. These bulky recommended equations can be replaced by a first degree polynomial formula for a flat plane as described by:
+
+\begin{equation}
+\label{eq:FlatPlane}
+T_{OBJ}=P0+P1\cdot T_{DIE}+P2\cdot V_{SENSOR}
+\end{equation}
+
+Where $P0$, $P1$ and $P2$ are parameters to be determined by a calibration process that follows the trial stage.
+
+\subsection{PPG signal processing}
+
+

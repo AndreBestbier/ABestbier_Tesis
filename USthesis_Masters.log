@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.6.29)  5 AUG 2017 14:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.6.29)  7 AUG 2017 18:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -987,6 +987,13 @@ Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 (c:/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )))
+(c:/texlive/2017/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip273
+\multirow@cntb=\count335
+\multirow@dima=\skip274
+\bigstrutjot=\dimen265
+)
 
 Class memoir Warning: You are using the caption package with the memoir class. 
 To prepare we will now reset all captioning macros and configurations to kernel
@@ -1000,15 +1007,15 @@ Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 (c:/texlive/2017/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen265
-\captionmargin@=\dimen266
-\captionwidth=\dimen267
-\caption@tempdima=\dimen268
-\caption@indent=\dimen269
-\caption@parindent=\dimen270
-\caption@hangindent=\dimen271
+\captionmargin=\dimen266
+\captionmargin@=\dimen267
+\captionwidth=\dimen268
+\caption@tempdima=\dimen269
+\caption@indent=\dimen270
+\caption@parindent=\dimen271
+\caption@hangindent=\dimen272
 )
-\c@ContinuedFloat=\count335
+\c@ContinuedFloat=\count336
 Package caption Info: float package is loaded.
 )
 (c:/texlive/2017/texmf-dist/tex/latex/csquotes/csquotes.sty
@@ -1016,14 +1023,14 @@ Package: csquotes 2017/03/11 v5.2b context-sensitive quotations (JAW)
 
 (c:/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count336
+\etb@tempcnta=\count337
 )
-\csq@reset=\count337
-\csq@gtype=\count338
-\csq@glevel=\count339
-\csq@qlevel=\count340
-\csq@maxlvl=\count341
-\csq@tshold=\count342
+\csq@reset=\count338
+\csq@gtype=\count339
+\csq@glevel=\count340
+\csq@qlevel=\count341
+\csq@maxlvl=\count342
+\csq@tshold=\count343
 \csq@ltx@everypar=\toks32
 
 (c:/texlive/2017/texmf-dist/tex/latex/csquotes/csquotes.def
@@ -1046,25 +1053,25 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
 (./contents/Chap-6.aux))
 \openout1 = `USthesis_Masters.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 125.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 125.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 124.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 124.
 
  (c:/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    ... okay on input line 124.
 
 (c:/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-
 dictionary/translator-basic-dictionary-English.dict
@@ -1075,16 +1082,16 @@ File: siunitx-abbreviations.cfg 2017/06/13 v2.7h siunitx: Abbreviated units
 )
 (c:/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count343
-\scratchdimen=\dimen272
+\scratchcounter=\count344
+\scratchdimen=\dimen273
 \scratchbox=\box58
-\nofMPsegments=\count344
-\nofMParguments=\count345
+\nofMPsegments=\count345
+\nofMParguments=\count346
 \everyMPshowfont=\toks33
-\MPscratchCnt=\count346
-\MPscratchDim=\dimen273
-\MPnumerator=\count347
-\makeMPintoPDFobject=\count348
+\MPscratchCnt=\count347
+\MPscratchDim=\dimen274
+\MPnumerator=\count348
+\makeMPintoPDFobject=\count349
 \everyMPtoPDFconversion=\toks34
 ) (c:/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1130,28 +1137,28 @@ e
 \AtBeginShipoutBox=\box59
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-\c__siunitx_mathsf_int=\count349
-LaTeX Font Info:    Try loading font information for U+wasy on input line 125.
+\c__siunitx_mathsf_int=\count350
+LaTeX Font Info:    Try loading font information for U+wasy on input line 124.
 
 (c:/texlive/2017/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <8> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 125.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 124.
 
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <6> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 125.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 124.
 
-\c__siunitx_mathtt_int=\count350
+\c__siunitx_mathtt_int=\count351
 <UScrest-WM.jpg, id=1, 49.8663pt x 69.3792pt>
 File: UScrest-WM.jpg Graphic file (type jpg)
 <use UScrest-WM.jpg>
-Package pdftex.def Info: UScrest-WM.jpg  used on input line 130. on input line 
-130.
+Package pdftex.def Info: UScrest-WM.jpg  used on input line 129. on input line 
+129.
 Package pdftex.def Info: Requested size: 89.70789pt x 124.82738pt on input line
- 130.
+ 129.
 [1
 
 
@@ -1432,16 +1439,26 @@ e 293.
 \openout2 = `contents/Chap-4.aux'.
 
  (./contents/Chap-4.tex
-Underfull \hbox (badness 10000) in paragraph at lines 27--27
-[]|\T1/cmr/m/n/12 Measurement ac-cu-racy:
- []
+<figs/Image.png, id=210, 83.71275pt x 56.6115pt>
+File: figs/Image.png Graphic file (type png)
+<use figs/Image.png>
+Package pdftex.def Info: figs/Image.png  used on input line 21. on input line 2
+1.
+Package pdftex.def Info: Requested size: 83.71254pt x 56.61134pt on input line 
+21.
+ [28
 
-[28
 
 
-
-] [29]
-<figs/ST60Micro.png, id=216, 299.2635pt x 161.622pt>
+]
+File: figs/Image.png Graphic file (type png)
+<use figs/Image.png>
+Package pdftex.def Info: figs/Image.png  used on input line 44. on input line 4
+4.
+Package pdftex.def Info: Requested size: 83.71254pt x 56.61134pt on input line 
+44.
+ [29 <./figs/Image.png>]
+<figs/ST60Micro.png, id=217, 299.2635pt x 161.622pt>
 File: figs/ST60Micro.png Graphic file (type png)
 <use figs/ST60Micro.png>
 Package pdftex.def Info: figs/ST60Micro.png  used on input line 68. on input li
@@ -1453,52 +1470,42 @@ e 68.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [30] [31 <./figs/ST60Micro.png>]
-Underfull \hbox (badness 5119) in paragraph at lines 108--108
-[]|\T1/cmr/m/n/12 Unobtrusiveness: Bad -
- []
+File: figs/Image.png Graphic file (type png)
+<use figs/Image.png>
+Package pdftex.def Info: figs/Image.png  used on input line 102. on input line 
+102.
+Package pdftex.def Info: Requested size: 83.71254pt x 56.61134pt on input line 
+102.
+File: figs/Image.png Graphic file (type png)
+<use figs/Image.png>
+Package pdftex.def Info: figs/Image.png  used on input line 126. on input line 
+126.
+Package pdftex.def Info: Requested size: 83.71254pt x 56.61134pt on input line 
+126.
+ [32]
+File: figs/Image.png Graphic file (type png)
+<use figs/Image.png>
+Package pdftex.def Info: figs/Image.png  used on input line 150. on input line 
+150.
+Package pdftex.def Info: Requested size: 83.71254pt x 56.61134pt on input line 
+150.
 
-
-Underfull \hbox (badness 2035) in paragraph at lines 109--109
-[]|\T1/cmr/m/n/12 Signal ro-bust-ness: Noisy
- []
-
-
-Underfull \hbox (badness 4181) in paragraph at lines 131--131
-[]|\T1/cmr/m/n/12 Sensor size: Small-est -
- []
-
-
-Underfull \hbox (badness 1472) in paragraph at lines 132--132
-[]|\T1/cmr/m/n/12 Unobtrusiveness: Good -
- []
-
-[32]
-Underfull \hbox (badness 4181) in paragraph at lines 154--154
-[]|\T1/cmr/m/n/12 Sensor size: Small-est -
- []
-
-
-Underfull \hbox (badness 6961) in paragraph at lines 155--155
-\T1/cmr/m/n/12 the ear, can be made
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
-[]|\T1/cmr/m/n/12 Signal noise:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
-\T1/cmr/m/n/12 High (da2010ear)
+Overfull \vbox (4.41132pt too high) detected at line 150
  []
 
 [33]
-Underfull \hbox (badness 4181) in paragraph at lines 175--175
-[]|\T1/cmr/m/n/12 Sensor size: Small-est -
+File: figs/Image.png Graphic file (type png)
+<use figs/Image.png>
+Package pdftex.def Info: figs/Image.png  used on input line 172. on input line 
+172.
+Package pdftex.def Info: Requested size: 66.97028pt x 45.28925pt on input line 
+172.
+
+Overfull \vbox (11.93924pt too high) detected at line 172
  []
 
 [34]
-<figs/NJL5501R.png, id=235, 139.11975pt x 127.07475pt>
+<figs/NJL5501R.png, id=236, 139.11975pt x 127.07475pt>
 File: figs/NJL5501R.png Graphic file (type png)
 <use figs/NJL5501R.png>
 Package pdftex.def Info: figs/NJL5501R.png  used on input line 197. on input li
@@ -1506,7 +1513,7 @@ ne 197.
 Package pdftex.def Info: Requested size: 139.1194pt x 127.07443pt on input line
  197.
  [35 <./figs/NJL5501R.png>]
-<figs/MAX30100_Diagram.png, id=239, 395.076pt x 178.266pt>
+<figs/MAX30100_Diagram.png, id=240, 395.076pt x 178.266pt>
 File: figs/MAX30100_Diagram.png Graphic file (type png)
 <use figs/MAX30100_Diagram.png>
 Package pdftex.def Info: figs/MAX30100_Diagram.png  used on input line 207. on 
@@ -1514,39 +1521,26 @@ input line 207.
 Package pdftex.def Info: Requested size: 395.07503pt x 178.26555pt on input lin
 e 207.
  [36 <./figs/MAX30100_Diagram.png>] [37]
-Underfull \hbox (badness 4621) in paragraph at lines 275--275
-[]|\T1/cmr/m/n/12 Sensor size: No sen-sor
- []
-
 [38]
-
-LaTeX Warning: Reference `ConceptDrawing' on page 39 undefined on input line 29
-2.
-
-
 Overfull \hbox (3.48236pt too wide) in paragraph at lines 292--293
 []\T1/cmr/m/n/12 Additionally, a multi con-troller unit (MCU), bat-tery and wir
 e-less transceiver
  []
 
-<figs/ConceptDrawing.png, id=250, 472.76625pt x 340.8735pt>
-File: figs/ConceptDrawing.png Graphic file (type png)
-<use figs/ConceptDrawing.png>
-Package pdftex.def Info: figs/ConceptDrawing.png  used on input line 296. on in
-put line 296.
-Package pdftex.def Info: Requested size: 472.76509pt x 340.87265pt on input lin
-e 296.
-
-Overfull \hbox (74.76509pt too wide) in paragraph at lines 296--297
- [][] 
- []
-
-) [39 <./figs/ConceptDrawing.png>]
+<figs/EarMonitor_Concept.pdf, id=251, pagebox=cropbox, 585.38695pt x 389.05351p
+t>
+File: figs/EarMonitor_Concept.pdf Graphic file (type pdf)
+<use figs/EarMonitor_Concept.pdf>
+Package pdftex.def Info: figs/EarMonitor_Concept.pdf  used on input line 297. o
+n input line 297.
+Package pdftex.def Info: Requested size: 351.23488pt x 233.4339pt on input line
+ 297.
+) [39 <./figs/EarMonitor_Concept.pdf>]
 \openout2 = `contents/Chap-5.aux'.
 
  (./contents/Chap-5.tex
 (./figs/HardwareFlowchart.pdf_tex
-<figs/HardwareFlowchart.pdf, id=255, page=1, pagebox=cropbox, 416.75699pt x 72.
+<figs/HardwareFlowchart.pdf, id=259, page=1, pagebox=cropbox, 416.75699pt x 72.
 27pt>
 File: figs/HardwareFlowchart.pdf Graphic file (type pdf)
 <use figs/HardwareFlowchart.pdf, page 1>
@@ -1564,7 +1558,7 @@ Overfull \hbox (18.75697pt too wide) in paragraph at lines 58--13
 
 
  <./figs/HardwareFlowchart.pdf>] (./figs/TMP006_Breakout.pdf_tex
-<figs/TMP006_Breakout.pdf, id=263, page=1, pagebox=cropbox, 275.76399pt x 121.5
+<figs/TMP006_Breakout.pdf, id=267, page=1, pagebox=cropbox, 275.76399pt x 121.5
 7352pt>
 File: figs/TMP006_Breakout.pdf Graphic file (type pdf)
 <use figs/TMP006_Breakout.pdf, page 1>
@@ -1572,7 +1566,7 @@ Package pdftex.def Info: figs/TMP006_Breakout.pdf , page1 used on input line 52
 . on input line 52.
 Package pdftex.def Info: Requested size: 275.76396pt x 121.57877pt on input lin
 e 52.
-<figs/TMP006_Breakout.pdf, id=264, page=2, pagebox=cropbox, 275.76399pt x 121.5
+<figs/TMP006_Breakout.pdf, id=268, page=2, pagebox=cropbox, 275.76399pt x 121.5
 7352pt>
 File: figs/TMP006_Breakout.pdf Graphic file (type pdf)
 <use figs/TMP006_Breakout.pdf, page 2>
@@ -1580,7 +1574,7 @@ Package pdftex.def Info: figs/TMP006_Breakout.pdf , page2 used on input line 56
 . on input line 56.
 Package pdftex.def Info: Requested size: 275.76396pt x 121.57877pt on input lin
 e 56.
-<figs/TMP006_Breakout.pdf, id=265, page=3, pagebox=cropbox, 275.76399pt x 121.5
+<figs/TMP006_Breakout.pdf, id=269, page=3, pagebox=cropbox, 275.76399pt x 121.5
 7352pt>
 File: figs/TMP006_Breakout.pdf Graphic file (type pdf)
 <use figs/TMP006_Breakout.pdf, page 3>
@@ -1597,7 +1591,7 @@ multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex.exe (file ./figs/TMP006_Breakout.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
 >] (./figs/MAX30100_pinout.pdf_tex
-<figs/MAX30100_pinout.pdf, id=273, page=1, pagebox=cropbox, 204.765pt x 260.172
+<figs/MAX30100_pinout.pdf, id=277, page=1, pagebox=cropbox, 204.765pt x 260.172
 01pt>
 File: figs/MAX30100_pinout.pdf Graphic file (type pdf)
 <use figs/MAX30100_pinout.pdf, page 1>
@@ -1605,7 +1599,7 @@ Package pdftex.def Info: figs/MAX30100_pinout.pdf , page1 used on input line 52
 . on input line 52.
 Package pdftex.def Info: Requested size: 180.0pt x 228.7218pt on input line 52.
 
-<figs/MAX30100_pinout.pdf, id=274, page=2, pagebox=cropbox, 204.765pt x 260.172
+<figs/MAX30100_pinout.pdf, id=278, page=2, pagebox=cropbox, 204.765pt x 260.172
 01pt>
 File: figs/MAX30100_pinout.pdf Graphic file (type pdf)
 <use figs/MAX30100_pinout.pdf, page 2>
@@ -1613,7 +1607,7 @@ Package pdftex.def Info: figs/MAX30100_pinout.pdf , page2 used on input line 57
 . on input line 57.
 Package pdftex.def Info: Requested size: 180.0pt x 228.7218pt on input line 57.
 
-<figs/MAX30100_pinout.pdf, id=275, page=3, pagebox=cropbox, 204.765pt x 260.172
+<figs/MAX30100_pinout.pdf, id=279, page=3, pagebox=cropbox, 204.765pt x 260.172
 01pt>
 File: figs/MAX30100_pinout.pdf Graphic file (type pdf)
 <use figs/MAX30100_pinout.pdf, page 3>
@@ -1621,7 +1615,7 @@ Package pdftex.def Info: figs/MAX30100_pinout.pdf , page3 used on input line 61
 . on input line 61.
 Package pdftex.def Info: Requested size: 180.0pt x 228.7218pt on input line 61.
 
-<figs/MAX30100_pinout.pdf, id=276, page=4, pagebox=cropbox, 204.765pt x 260.172
+<figs/MAX30100_pinout.pdf, id=280, page=4, pagebox=cropbox, 204.765pt x 260.172
 01pt>
 File: figs/MAX30100_pinout.pdf Graphic file (type pdf)
 <use figs/MAX30100_pinout.pdf, page 4>
@@ -1629,7 +1623,7 @@ Package pdftex.def Info: figs/MAX30100_pinout.pdf , page4 used on input line 63
 . on input line 63.
 Package pdftex.def Info: Requested size: 180.0pt x 228.7218pt on input line 63.
 
-<figs/MAX30100_pinout.pdf, id=277, page=5, pagebox=cropbox, 204.765pt x 260.172
+<figs/MAX30100_pinout.pdf, id=281, page=5, pagebox=cropbox, 204.765pt x 260.172
 01pt>
 File: figs/MAX30100_pinout.pdf Graphic file (type pdf)
 <use figs/MAX30100_pinout.pdf, page 5>
@@ -1654,7 +1648,7 @@ multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex.exe (file ./figs/MAX30100_pinout.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
 >] (./figs/MAX30100_layout.pdf_tex
-<figs/MAX30100_layout.pdf, id=289, page=1, pagebox=cropbox, 205.83664pt x 112.7
+<figs/MAX30100_layout.pdf, id=293, page=1, pagebox=cropbox, 205.83664pt x 112.7
 6614pt>
 File: figs/MAX30100_layout.pdf Graphic file (type pdf)
 <use figs/MAX30100_layout.pdf, page 1>
@@ -1668,7 +1662,7 @@ Overfull \hbox (69.516pt too wide) in paragraph at lines 88--89
 3450?search=battery)
  []
 
-<figs/Ear-Monitor_BlockDiagram.png, id=290, 433.62pt x 279.444pt>
+<figs/Ear-Monitor_BlockDiagram.png, id=294, 433.62pt x 279.444pt>
 File: figs/Ear-Monitor_BlockDiagram.png Graphic file (type png)
 <use figs/Ear-Monitor_BlockDiagram.png>
 Package pdftex.def Info: figs/Ear-Monitor_BlockDiagram.png  used on input line 
@@ -1676,26 +1670,55 @@ Package pdftex.def Info: figs/Ear-Monitor_BlockDiagram.png  used on input line
 Package pdftex.def Info: Requested size: 390.2544pt x 251.49727pt on input line
  92.
 [44 <./figs/MAX30100_layout.pdf>]
-<figs/EarProbe.jpg, id=298, 128.115pt x 114.975pt>
+<figs/EarProbe.jpg, id=302, 128.115pt x 114.975pt>
 File: figs/EarProbe.jpg Graphic file (type jpg)
 <use figs/EarProbe.jpg>
 Package pdftex.def Info: figs/EarProbe.jpg  used on input line 105. on input li
 ne 105.
 Package pdftex.def Info: Requested size: 128.11467pt x 114.97472pt on input lin
 e 105.
-) [45 <./figs/Ear-Monitor_BlockDiagram.png>]
-[46 <./figs/EarProbe.jpg>]
+ [45 <./figs/Ear-Monitor_BlockDiagram.png>]
+<figs/Software_BlockDiagram.png, id=306, 794.97pt x 401.0985pt>
+File: figs/Software_BlockDiagram.png Graphic file (type png)
+<use figs/Software_BlockDiagram.png>
+Package pdftex.def Info: figs/Software_BlockDiagram.png  used on input line 124
+. on input line 124.
+Package pdftex.def Info: Requested size: 357.7332pt x 180.49265pt on input line
+ 124.
+
+[46 <./figs/EarProbe.jpg> <./figs/Software_BlockDiagram.png>]
+<figs/I2C_Read.png, id=310, 378.213pt x 128.8815pt>
+File: figs/I2C_Read.png Graphic file (type png)
+<use figs/I2C_Read.png>
+Package pdftex.def Info: figs/I2C_Read.png  used on input line 134. on input li
+ne 134.
+Package pdftex.def Info: Requested size: 378.21207pt x 128.88118pt on input lin
+e 134.
+ [47 <./figs/I2C_Read.png>]
+
+LaTeX Font Warning: Font shape `U/wasy/b/n' in size <7> not available
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 176.
+
+[48]
+<figs/RecommendedTempCurve.png, id=321, 531.78674pt x 415.5525pt>
+File: figs/RecommendedTempCurve.png Graphic file (type png)
+<use figs/RecommendedTempCurve.png>
+Package pdftex.def Info: figs/RecommendedTempCurve.png  used on input line 234.
+ on input line 234.
+Package pdftex.def Info: Requested size: 345.65729pt x 270.10593pt on input lin
+e 234.
+ [49]) [50 <./figs/RecommendedTempCurve.png>]
 \openout2 = `contents/Chap-6.aux'.
 
- (./contents/Chap-6.tex [47
+ (./contents/Chap-6.tex
+[51
 
 
 
-]) [48] [49] [50
+]) [52] [53] [54
 
 
-]
-(./USthesis_Masters.bbl
+] (./USthesis_Masters.bbl
 (c:/texlive/2017/texmf-dist/tex/latex/stellenbosch/usbib.eng)
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 57.
 
@@ -1707,7 +1730,7 @@ Overfull \hbox (15.55888pt too wide) in paragraph at lines 78--81
 isorders/sleep-apnea/sleep-apnea 
  []
 
-[51
+[55
 
 
 ]
@@ -1722,20 +1745,20 @@ Overfull \hbox (185.31001pt too wide) in paragraph at lines 220--223
 althy-lifestyle/fitness/expert-answers/heart-rate/faq-20057979 
  []
 
-[52]
+[56]
 Overfull \hbox (21.21725pt too wide) in paragraph at lines 309--312
 \T1/cmr/m/n/10.95 Available at: \T1/cmtt/m/n/10.95 https://global.britannica.co
 m/science/external-auditory-canal 
  []
 
-[53]
+[57]
 Overfull \hbox (309.79417pt too wide) in paragraph at lines 482--485
 \T1/cmr/m/n/10.95 Available at: \T1/cmtt/m/n/10.95 http://www.who.int/patientsa
 fety/safesurgery/pulse_oximetry/who_ps_pulse_oxymetry_tutorial2_advanced_en.pdf
 ?ua=1 
  []
 
-[54]) [55]
+[58]) [59]
 \tf@toc=\write4
 \openout4 = `USthesis_Masters.toc'.
 
@@ -1748,51 +1771,46 @@ fety/safesurgery/pulse_oximetry/who_ps_pulse_oxymetry_tutorial2_advanced_en.pdf
  (./USthesis_Masters.aux (./frontmatter/Chap-Front.aux)
 (./frontmatter/Nomencl.aux) (./contents/Chap-1.aux) (./contents/Chap-2.aux)
 (./contents/Chap-3.aux) (./contents/Chap-4.aux) (./contents/Chap-5.aux)
-(./contents/Chap-6.aux))
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+(./contents/Chap-6.aux)) ) 
 Here is how much of TeX's memory you used:
- 20590 strings out of 492990
- 381658 string characters out of 6136334
- 456526 words of memory out of 5000000
- 23793 multiletter control sequences out of 15000+600000
- 562980 words of font info for 106 fonts, out of 8000000 for 9000
+ 20703 strings out of 492990
+ 383608 string characters out of 6136334
+ 458574 words of memory out of 5000000
+ 23891 multiletter control sequences out of 15000+600000
+ 570353 words of font info for 129 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,16n,46p,10369b,743s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
-ive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2017/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2017/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2017/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2017/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmmib10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
-2.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/t
-exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/20
-17/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2017/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2017/texmf-dist/fonts
-/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/pub
-lic/cm-super/sfbx1440.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-sup
-er/sfbx1728.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx207
-4.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/
-texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/20
-17/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2017/texmf-d
-ist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2017/texmf-dist/fonts/
-type1/public/cm-super/sfrm1440.pfb><c:/texlive/2017/texmf-dist/fonts/type1/publ
-ic/cm-super/sfrm1728.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-supe
-r/sfsl1095.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfsl1440
-.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb><c:/t
-exlive/2017/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/201
-7/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb><c:/texlive/2017/texmf-di
-st/fonts/type1/public/wasy2-ps/wasy10.pfb>
-Output written on USthesis_Masters.pdf (68 pages, 3188041 bytes).
+ 43i,17n,46p,10369b,1010s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/
+cm-super-t1.enc}{c:/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t
+s1.enc}<c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c
+:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive
+/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2017/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2017/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmib10.pfb><c:/texlive/2017/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr12.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr6.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive
+/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2017/tex
+mf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2017/texmf-dist/fo
+nts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/
+public/cm-super/sfbx1440.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-
+super/sfbx1728.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx
+2074.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><
+c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive
+/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2017/texm
+f-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2017/texmf-dist/fon
+ts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2017/texmf-dist/fonts/type1/p
+ublic/cm-super/sfrm1728.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-s
+uper/sfsl1095.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfsl1
+440.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb><c
+:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/
+2017/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb><c:/texlive/2017/texmf
+-dist/fonts/type1/public/wasy2-ps/wasy10.pfb>
+Output written on USthesis_Masters.pdf (72 pages, 3618757 bytes).
 PDF statistics:
- 424 PDF objects out of 1000 (max. 8388607)
- 270 compressed objects within 3 object streams
+ 453 PDF objects out of 1000 (max. 8388607)
+ 287 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 186 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 206 words of extra memory for PDF output out of 10000 (max. 10000000)
 

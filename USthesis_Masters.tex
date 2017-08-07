@@ -54,15 +54,14 @@
 
 
 %==== Tables ========================================================
- \usepackage{array, booktabs} %%______________________________________ Tables
- \newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}%___ Centering cell entries
+ \usepackage{array, booktabs, multirow} %%______________________________________ Tables
+ \newcolumntype{P}[1]{>{\centering\arraybackslash}m{#1}}%___ Centering cell entries
+ \newcolumntype{Q}[1]{>{\raggedright\arraybackslash}m{#1}}
+
+ \newcommand{\tabitem}{~~\llap{\textbullet}~~}		%Bullets
+ \usepackage{tabularx}		%Page width
+
  \usepackage[justification=centering]{caption}%_____________ Centering captions of tables and figures
- 
-\newcommand{\tabitem}{~~\llap{\textbullet}~~}		%Bullets
-
-\usepackage{tabularx}		%Page width
-
-\newcolumntype{Q}[1]{>{\raggedright\arraybackslash}p{#1}}
 
 %==== Other =======================================================
  \usepackage{csquotes} %____________________________________ Used for quotation marks

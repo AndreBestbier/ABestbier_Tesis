@@ -30,7 +30,7 @@
 \contentsline {figure}{\numberline {4.1}{\ignorespaces ST60Micro diagram from the datasheet\relax }}{31}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces NJL5501R diagram from the datasheet\relax }}{35}
 \contentsline {figure}{\numberline {4.3}{\ignorespaces MAX30100 block diagram from the datasheet\relax }}{36}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Drawing of the selected Ear-Monitor concept and a more detailed drawing of the ear probe with sensors (Add labels)\relax }}{39}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces (Add caption and labels on image)\relax }}{39}
 \addvspace {10pt}
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Flow of information in a typical telemedicine set-up\relax }}{40}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces (a) TMP006 pre-mounted boards and (b) the cut-out sensor segment with four connections labeled\relax }}{41}
@@ -38,4 +38,7 @@
 \contentsline {figure}{\numberline {5.4}{\ignorespaces (a) is the layout as designed on EAGLE PCB with the outline of the MAX30100 shown in black and (b) is the finished flexible PCB with copper tracks (insert scale?)\relax }}{44}
 \contentsline {figure}{\numberline {5.5}{\ignorespaces Block digram for the Ear-Monitor's hardware components\relax }}{45}
 \contentsline {figure}{\numberline {5.6}{\ignorespaces \relax }}{46}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Block diagram showing the flow of information through the various software functions. Final calculated medical signs are shown in blue\relax }}{46}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces How the software reads 16-bit values from the TMP006 registers\relax }}{47}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Plot the the T\textsubscript {OBJ} equation with recommended calibration parameters and over the operating temperature range of the Ear-Monitor\relax }}{50}
 \addvspace {10pt}

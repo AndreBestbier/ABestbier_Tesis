@@ -16,9 +16,9 @@ A contact RTD, thermocouple or thermistor is placed in contact with the canal wa
 \label{tab:ContactThermometers_Eval}
 \renewcommand{\arraystretch}{1.3}	%Wat doen hierdie?
 \centering
-\begin{tabular}{|p{5cm}|p{8cm}|} 
+\begin{tabular}{|Q{5cm}|Q{8cm}|} 
  \hline
- Image 						& 	Advantages\\ 
+\multicolumn{1}{|P{5cm}|}{\multirow{4}{*}{\includegraphics[scale=1]{figs/Image.png}}}	& 	Advantages\\ 
 							&	\tabitem Available in small sizes, ideal for the size restrictions of the ear canal.\\
   							&	\tabitem Good accuracy.\\
   							&	\tabitem Converting transducer voltage to temperature is simpler than with non-contact thermometers.\\
@@ -39,9 +39,9 @@ A non-contact, infrared (IR) sensor is placed inside the ear canal and pointed a
 \label{tab:NonContactThermometers_Eval}
 \renewcommand{\arraystretch}{1.3}	%Wat doen hierdie?
 \centering
-\begin{tabular}{|p{5cm}|p{8cm}|} 
+\begin{tabular}{|Q{5cm}|Q{8cm}|} 
  \hline
- Image 	& 	Advantages  \\ 
+\multicolumn{1}{|P{5cm}|}{\multirow{4}{*}{\includegraphics[scale=1]{figs/Image.png}}} 	& 	Advantages  \\ 
 		&	\tabitem The sensor can measure the temperature of the tympanic membrane directly, which is the best representation of core temperature in the ear.\\
   		&	\tabitem Temperature conversion compensates for different ambient temperature conditions.\\
   		&	\tabitem No contact with the tympanic membrane lowers the injury risk to the user significantly.\\
@@ -97,9 +97,9 @@ As shown by \cite{winokur2012wearable}, an electrocardiogram can be detected beh
 \label{tab:EarECG_Eval}
 \renewcommand{\arraystretch}{1.3}	%Wat doen hierdie?
 \centering
-\begin{tabular}{|p{5cm}|p{8cm}|} 
+\begin{tabular}{|Q{5cm}|Q{8cm}|} 
  \hline
- Image 						& 	Advantages  \\ 
+\multicolumn{1}{|P{5cm}|}{\multirow{4}{*}{\includegraphics[scale=1]{figs/Image.png}}} 						& 	Advantages  \\ 
   							&	\tabitem ECG is the standard method used by cardiologists to measure heart rate.\\
   							&	\tabitem Other cardiac information can be extracted from ECG i.e. heart rhythm, heart damage and the state of the conductive heart tissue.\\
   							&	\tabitem Not pulse transit time delay.\\
@@ -121,9 +121,9 @@ A LED and photodiode are used to detect variation in subcutaneous tissue blood v
 \label{tab:EarPPG_Eval}
 \renewcommand{\arraystretch}{1.3}	%Wat doen hierdie?
 \centering
-\begin{tabular}{|p{5cm}|p{8cm}|} 
+\begin{tabular}{|Q{5cm}|Q{8cm}|} 
  \hline
- Image 		& 	Advantages  \\ 
+\multicolumn{1}{|P{5cm}|}{\multirow{4}{*}{\includegraphics[scale=1]{figs/Image.png}}} 		& 	Advantages  \\ 
   			&	\tabitem A substantial pressure pulse can be detected in and around the ear.\\
   			&	\tabitem Pulse oximetry, a type of PPG, is a tried and tested way of measuring heart rate and SpO\textsubscript{2}.\\
   			&	\tabitem Respiratory related characteristics like amplitude modulation, respiratory-induced intensity variation and frequency modulation can be found only in PPG signals and can be used to determine respiratory rate.\\
@@ -145,9 +145,9 @@ A pressure sensitive sensor or accelerometer is placed inside the ear canal to d
 \label{tab:EarBCG_Eval}
 \renewcommand{\arraystretch}{1.3}	%Wat doen hierdie?
 \centering
-\begin{tabular}{|p{5cm}|p{8cm}|} 
+\begin{tabular}{|Q{5cm}|Q{8cm}|} 
  \hline
- Image 		& 	Advantages  \\ 
+\multicolumn{1}{|P{5cm}|}{\multirow{3}{*}{\includegraphics[scale=1]{figs/Image.png}}}		& 	Advantages  \\ 
   			&	\tabitem Pressure sensors can be made small enough for the limited space in the ear canal.\\
   			&	\tabitem Accelerometer can also be used to measure respiratory rate.\\
 \hline
@@ -167,9 +167,9 @@ A microphone is placed inside the ear canal and identifies heart beats by analys
 \label{tab:EarPhonocardiogram_Eval}
 \renewcommand{\arraystretch}{1.3}	%Wat doen hierdie?
 \centering
-\begin{tabular}{|p{5cm}|p{8cm}|} 
+\begin{tabular}{|Q{5cm}|Q{8cm}|} 
  \hline
- Image 		& 	Advantages  \\ 
+\multicolumn{1}{|P{5cm}|}{\multirow{2}{*}{\includegraphics[scale=0.8]{figs/Image.png}}} 		& 	Advantages  \\ 
   			&	\tabitem Can be used to detect breathing as well, as shown by \cite{goverdovsky2016hearables}.\\
 \hline
 Sensor size: Smallest - 3.35$\times$2.5$\times$0.98 mm	&	Disadvantages  \\ 
@@ -228,7 +228,7 @@ A small MEMS accelerometer is placed inside the ear canal and measures the movem
 \label{tab:EarAccelerometer_Eval}
 \renewcommand{\arraystretch}{1.3}	%Wat doen hierdie?
 \centering
-\begin{tabular}{|p{5cm}|p{8cm}|} 
+\begin{tabular}{|Q{5cm}|Q{8cm}|} 
  \hline
  Image 		& 	Advantages  \\ 
   			&	\tabitem The accelerometer can serve the dual purpose of measuring breathing and heart rate, thus saving space.\\
@@ -266,7 +266,7 @@ The variations in heart rate is used to determine the respiratory rate. These in
 \label{tab:EarRRHRC_Eval}
 \renewcommand{\arraystretch}{1.3}	%Wat doen hierdie?
 \centering
-\begin{tabular}{|p{5cm}|p{8cm}|} 
+\begin{tabular}{|Q{5cm}|Q{8cm}|} 
  \hline
  Image 		& 	Advantages  \\ 
   			&	\tabitem No dedicated sensor is needed.\\
@@ -289,11 +289,12 @@ The final concept is obtained by combining the methods and sensors selected in t
 
 \medskip
 
-Additionally, a multi controller unit (MCU), battery and wireless transceiver are selected for the Ear-Monitor. The Arduino Pro Mini MCU has the necessary I/O pins for serial communication with the sensors and wireless module. It is also easy to program, making it ideal for the proof of concept version of the Ear-Monitor. Lithium polymer (LiPo) batteries are currently the best choice while regarding capacity, compactness, rechargeability and price and is therefore selected to supply the power to the Ear-Monitor. Bluetooth is the typically used standard for transmitting data over short distances and is supported by most modern smart devices. The HC-05 Bluetooth modem is selected and will allow the Ear-Monitor to send data to a supporting device through a wireless connection. Figure \ref{ConceptDrawing} shows a diagram of the Ear-Monitor concept with a more detailed drawing of the ear probe with the selected sensors.
+Additionally, a multi controller unit (MCU), battery and wireless transceiver are selected for the Ear-Monitor. The Arduino Pro Mini MCU has the necessary I/O pins for serial communication with the sensors and wireless module. It is also easy to program, making it ideal for the proof of concept version of the Ear-Monitor. Lithium polymer (LiPo) batteries are currently the best choice while regarding capacity, compactness, rechargeability and price and is therefore selected to supply the power to the Ear-Monitor. Bluetooth is the typically used standard for transmitting data over short distances and is supported by most modern smart devices. The HC-05 Bluetooth modem is selected and will allow the Ear-Monitor to send data to a supporting device through a wireless connection. Figure \ref{fig:EarMonitor_Concept} shows a diagram of the Ear-Monitor concept with a more detailed drawing of the ear probe with the selected sensors.
+
 
 \begin{figure}[H]
    \centering
-   \includegraphics[scale=1]{figs/ConceptDrawing.png}
-   \caption{Drawing of the selected Ear-Monitor concept and a more detailed drawing of the ear probe with sensors (Add labels)}
-   \label{fig:ConceptDrawing}
+   \includegraphics[scale=0.6]{figs/EarMonitor_Concept.pdf}
+   \caption{(Add caption and labels on image)}
+   \label{fig:EarMonitor_Concept}
 \end{figure}
