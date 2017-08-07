@@ -21,57 +21,59 @@ Warning--entry type for "irTempSensors" isn't style-file defined
 --line 197 of file backmatter/USbib-sample.bib
 Warning--entry type for "normalRestingHR" isn't style-file defined
 --line 208 of file backmatter/USbib-sample.bib
+Warning--entry type for "koblenski2015everyday" isn't style-file defined
+--line 340 of file backmatter/USbib-sample.bib
 Warning--entry type for "webMDSleepApnoea" isn't style-file defined
---line 326 of file backmatter/USbib-sample.bib
+--line 349 of file backmatter/USbib-sample.bib
 Warning--entry type for "medscapeBreathingRate" isn't style-file defined
---line 336 of file backmatter/USbib-sample.bib
+--line 359 of file backmatter/USbib-sample.bib
 Warning--entry type for "lambertANDbeer" isn't style-file defined
---line 427 of file backmatter/USbib-sample.bib
+--line 450 of file backmatter/USbib-sample.bib
 Warning--entry type for "spo2Motion" isn't style-file defined
---line 515 of file backmatter/USbib-sample.bib
+--line 538 of file backmatter/USbib-sample.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty journal in buskeheartbeat
 Warning--empty journal in wang2010wearable
-You've used 50 entries,
+You've used 53 entries,
             3324 wiz_defined-function locations,
-            946 strings with 15512 characters,
-and the built_in function-call counts, 49247 in all, are:
-= -- 3985
-> -- 1452
-< -- 90
-+ -- 577
-- -- 507
-* -- 4874
-:= -- 5956
-add.period$ -- 148
-call.type$ -- 50
-change.case$ -- 415
-chr.to.int$ -- 50
-cite$ -- 52
-duplicate$ -- 4838
-empty$ -- 4365
-format.name$ -- 989
-if$ -- 10037
+            961 strings with 16125 characters,
+and the built_in function-call counts, 52103 in all, are:
+= -- 4207
+> -- 1538
+< -- 95
++ -- 612
+- -- 537
+* -- 5152
+:= -- 6303
+add.period$ -- 157
+call.type$ -- 53
+change.case$ -- 440
+chr.to.int$ -- 53
+cite$ -- 55
+duplicate$ -- 5110
+empty$ -- 4621
+format.name$ -- 1046
+if$ -- 10623
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 540
-newline$ -- 273
-num.names$ -- 200
-pop$ -- 1314
+missing$ -- 572
+newline$ -- 288
+num.names$ -- 212
+pop$ -- 1391
 preamble$ -- 1
-purify$ -- 369
+purify$ -- 391
 quote$ -- 0
-skip$ -- 1235
+skip$ -- 1318
 stack$ -- 0
-substring$ -- 3015
-swap$ -- 2291
-text.length$ -- 69
+substring$ -- 3176
+swap$ -- 2432
+text.length$ -- 73
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 444
+type$ -- 471
 warning$ -- 2
-while$ -- 455
+while$ -- 482
 width$ -- 0
-write$ -- 652
-(There were 11 warnings)
+write$ -- 690
+(There were 12 warnings)

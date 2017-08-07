@@ -1,4 +1,4 @@
-\begin{thebibliography}{50}
+\begin{thebibliography}{53}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -136,6 +136,17 @@
 \newblock \capitalize\bblin{}: \emph{Sensors, 2007 IEEE}, \bblpp{} 596--599.
   IEEE.
 
+\bibitem[{\citenamefont{Elgendi} \emph{\bbletal{}}(2013)\citenamefont{Elgendi},
+  \citenamefont{Norton}, \citenamefont{Brearley}, \citenamefont{Abbott}
+  \protect\BIBand{} \citenamefont{Schuurmans}}]{elgendi2013systolic}
+\bibnamefont{Elgendi}, \bibfnamefont{M.}, \bibnamefont{Norton},
+  \bibfnamefont{I.}, \bibnamefont{Brearley}, \bibfnamefont{M.},
+  \bibnamefont{Abbott}, \bibfnamefont{D.} \protect\BIBand{}
+  \bibnamefont{Schuurmans}, \bibfnamefont{D.} (2013).
+\newblock Systolic peak detection in acceleration photoplethysmograms measured
+  from emergency responders in tropical conditions.
+\newblock \emph{PLoS One}, \bblvol{}~8, \bblno{}~10, \bblp{} e76585.
+
 \bibitem[{\citenamefont{Encyclop\ae{}dia-Britannica}()}]{lambertANDbeer}
 \bibnamefont{Encyclop\ae{}dia-Britannica}, \bibfnamefont{T.E.O.} ().
 \newblock Spectrophotometry.
@@ -204,6 +215,11 @@
   system.
 \newblock \emph{Journal of Electrical Engineering}, \bblvol{}~14, \bblno{}~4,
   \bblpp{} 1--6.
+
+\bibitem[{\citenamefont{Koblenski}(2015)}]{koblenski2015everyday}
+\bibnamefont{Koblenski}, \bibfnamefont{S.} (2015).
+\newblock Everyday dsp for programmers: Dc and impulsive noise removal.
+\newline\bblurlpre\url{http://sam-koblenski.blogspot.co.za/2015/11/everyday-dsp-for-programmers-dc-and.html}
 
 \bibitem[{\citenamefont{K{\"o}nig}
   \emph{\bbletal{}}(1998)\citenamefont{K{\"o}nig}, \citenamefont{Huch}
@@ -490,5 +506,16 @@
 \newblock Respiratory sinus arrhythmia: why does the heartbeat synchronize with
   respiratory rhythm?
 \newblock \emph{Chest Journal}, \bblvol{} 125, \bblno{}~2, \bblpp{} 683--690.
+
+\bibitem[{\citenamefont{Zong} \emph{\bbletal{}}(2003)\citenamefont{Zong},
+  \citenamefont{Heldt}, \citenamefont{Moody} \protect\BIBand{}
+  \citenamefont{Mark}}]{zong2003open}
+\bibnamefont{Zong}, \bibfnamefont{W.}, \bibnamefont{Heldt}, \bibfnamefont{T.},
+  \bibnamefont{Moody}, \bibfnamefont{G.} \protect\BIBand{} \bibnamefont{Mark},
+  \bibfnamefont{R.} (2003).
+\newblock An open-source algorithm to detect onset of arterial blood pressure
+  pulses.
+\newblock \capitalize\bblin{}: \emph{Computers in Cardiology, 2003}, \bblpp{}
+  259--262. IEEE.
 
 \end{thebibliography}

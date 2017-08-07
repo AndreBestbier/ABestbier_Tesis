@@ -175,38 +175,30 @@ T\textsubscript{DIE} and V\textsubscript{SENSOR} are received by the PC software
 
 \subsection{Calculating T\textsubscript{OBJ}}
 T\textsubscript{DIE} and V\textsubscript{SENSOR} are used to calculate T\textsubscript{OBJ}. The TMP006's datasheet suggests using the relationship:
-
 \begin{equation}
 	\label{eq:TempCurve1}
 	T_{OBJ} = \sqrt[4]{{T_{DIE}}^4-\frac{f(V_{SENSOR})}{S}}
 \end{equation}
-
 Where $f(V_{SENSOR})$ is a function that compensates for heat flow in the form of convection and conduction. The function is described in two stages by:
-
 \begin{equation}
 \label{eq:TempCurve2}
 V_{OS}=B0+B1(T_{DIE}-T_{REF})+B2(T_{DIE}-T_{REF})^2
 \end{equation}
-
 \begin{center}and\end{center}
 %and
-
 \begin{equation}
 \label{eq:TempCurve3}
 f(V_{SENSOR}) = (V_{SENSOR}-V_{OS})+C(V_{SENSOR}-V_{OS})^2
 \end{equation}
-
 Where $V_{OS}$ is a compensating offset voltage, $T_{REF}$ is a reference temperature equal to \SI{25}{\celsius} and $B0$, $B1$, $B2$ and $C$ are calibration parameters.
 
 \medskip
 
 S takes into account the object emissivity ($\varepsilon$), Stefan-Boltzman constant ($\sigma$) and the non-ideal absorption of the sensor itself. It is described by:
-
 \begin{equation}
 \label{eq:TempCurve4}
 S=S0(1+A1(T_{DIE}-T_{REF})+A2(T_{DIE}-T_{REF})^2
 \end{equation}
-
 Where $S0 = \varepsilon\sigma$, $T_{REF}=\SI{25}{\celsius}$ and $A1$ and $A2$ are parameters experimentally derived through calibration.
 
 \medskip
@@ -231,21 +223,90 @@ The TMP006 in the Ear-Monitor will operate in a relatively narrow temperature ra
 
 \begin{figure}[H]
    \centering
-   \includegraphics[scale=0.65]{figs/RecommendedTempCurve.png}
-   \caption{Plot the the T\textsubscript{OBJ} equation with recommended calibration parameters and over the operating temperature range of the Ear-Monitor}
+   \includegraphics[width=14cm,height=7.5cm]{figs/RecommendedTempCurve.png}
+   \caption{Plot of the the T\textsubscript{OBJ} equation with recommended calibration parameters over the operating temperature range of the Ear-Monitor}
    \label{fig:RecommendedTempCurve}
 \end{figure}
 
-
 This linear characteristic of the TMP006 in the operating temperature range of the Ear-Monitor can be used to simplify the T\textsubscript{OBJ} calculation method as described in Equations \ref{eq:TempCurve1} to \ref{eq:TempCurve4}. These bulky recommended equations can be replaced by a first degree polynomial formula for a flat plane as described by:
-
 \begin{equation}
 \label{eq:FlatPlane}
 T_{OBJ}=P0+P1\cdot T_{DIE}+P2\cdot V_{SENSOR}
 \end{equation}
-
 Where $P0$, $P1$ and $P2$ are parameters to be determined by a calibration process that follows the trial stage.
 
 \subsection{PPG signal processing}
+The PPG signal is crucial to the calculation of heart rate, respiratory rate and SpO\textsubscript{2}. This signal is captured by the MAX30100 pulse oximeter. Some noise is present in the measured signal. The MAX30100 has on chip digital filters for 50Hz/60Hz interference and low-frequency ambient noise. Despite on-chip filtering, signal drift and high frequency noise still contaminate the signal. This causes the detection of false heart beat peaks and noisy SpO\textsubscript{2} calculations. An AC and DC extraction algorithm and low-pass filter is designed to prime the signal for further processing. Figure \ref{fig:PPG_Filtering} shows how the signal samples for the MAX30100 are processed.  $x_n$ is the PPG signal measured by the MAX30100 in the ear canal and $y_n$ is the processed signal.
 
+\begin{figure}[H]
+\centering
+\graphicspath{{figs/}}
+%\def\svgwidth{180pt}
+\input{figs/PPG_Filtering.pdf_tex}
+\caption{The raw PPG signal, $x_n$, is sent through AC and DC extraction and filtering functions}
+\label{fig:PPG_Filtering}
+\end{figure}
 
+\subsubsection{AC and DC separation}
+An algorithm is implemented to digitally separate the AC and DC components of the red and IR signals. Signal separation need to be done in real time and with the minimal computational overhead, because it is executed on the MCU. The following infinite impulse response (IIR) filter is used for AC extraction \citep{koblenski2015everyday}:
+\begin{align}
+\label{eq:AC_Extraction}
+w_n= x_n  + \alpha\cdot w_{(n-1)}\\
+y_n  = w_n  - w_{(n-1)}
+\end{align}
+Where $x_n$ is the raw ADC value from the MAX30100, $w_n$ is an intermediate value and $y_n$ is the filter output. This filter has a narrow stop band at the DC frequency when the scale factor,  $\alpha$, is close to 1. Scale factor $\alpha=0.7$ is chosen as it gives the best DC rejection while maintaining an acceptable response time. Figure \ref{fig:AC_Extraction} shows the PPG signal before and afted the C extraction function.
+
+\begin{figure}[H]
+   \centering
+   \includegraphics[width=12cm,height=7.5cm]{figs/AC_Extraction.png}
+   \caption{(a) the raw IR signal contaminated by DC offset and drift and (b), the extracted AC component of the signal}
+   \label{fig:AC_Extraction}
+\end{figure}
+
+The DC component of the signal is used during LED bias adjustment and SpO\textsubscript{2} calculations. To get the DC value, the AC value is subtracted from the raw signal. Alternative AC extraction methods tested were high-pass FIR filtering and moving average subtraction. These methods were rejected, because a high-pass FIR filter is to computationally intensive and moving average subtraction will attenuate frequencies close to DC as well.
+
+\subsubsection{Low-pass filter}
+The separated AC and DC component of the red and IR signals are passed through a third order IIR Butterworth filter. The coefficients were calculated with MATLAB for a cut-off frequency of 3 Hz. Equation \ref{eq:TransferFunc} is the transfer function H(z) of the filter.
+\begin{equation}
+\label{eq:TransferFunc}
+H(z) = \frac{0.0048+0.0143z^{-1}+0.0143z^{-2}+0.0048z^{-3}}{1.0000-2.2501z^{-1}+1.7564z^{-2}-0.4683z^{-3}}
+\end{equation}
+
+Figure \ref{fig:PPG_Filter} shows the effect of the low-pass filter on the AC signal as extracted in the AC and DC separation function. 
+
+\begin{figure}[H]
+   \centering
+   \includegraphics[width=12cm,height=7.5cm]{figs/PPG_Filter.png}
+   \caption{(a) the AC component of the IR signal before filtering and (b), after filtering}
+   \label{fig:PPG_Filter}
+\end{figure}
+
+\subsection{Beat Detection}
+Heart beats appear as peaks on the inverted PPG signal. The IR PPG is chosen for beat detection, for IR light absorption by oxyhaemoglobin is higher than that of red light. Therefore, IR pulse peaks are more prominent, thus better suited for the detection of heart beats. A software algorithm is developed to detect these peaks in order to calculate average heart rate, breathing rate and SpO\textsubscript{2}. The algorithm takes as input the filtered IR PPG signal y\textsubscript{n}, and outputs a timeseries of the heart beats. Figure \ref{fig:PPG_SignalLabels} shows a plot of a PPG signal with characteristic features labelled.
+
+\begin{figure}[H]
+\centering
+\graphicspath{{figs/}}
+\input{figs/PPG_SignalLabels.pdf_tex}
+\caption{Filtered AC component of PPG with important features labelled}
+\label{fig:PPG_SignalLabels}
+\end{figure}
+
+This signal extract shows the challenges of the peak detection algorithm. The amplitude of the peaks varies significantly and local maxima which can trigger false positives are present. The intermediate peak in the descending part of the peak is the dicrotic notch, due to the aortic valve closing. Only true systolic peaks should be registered as a hear beat. The beat detection algorithm needs to be robust, computationally inexpensive and should not require any user-specific modifications. 
+
+\medskip
+
+These obstacles are overcome by a two-stage peak detection algorithm developed specifically for the Ear-Monitor's PPG. The algorithm builds on the work done by \cite{park2015wearable}, \cite{zong2003open} and \cite{elgendi2013systolic} as well as adding new elements like the ...
+
+\medskip
+
+Stage 1 is a morphological conversion in the form of a slope summing function (SSF). This method is also used by \cite{zong2003open}, \cite{park2015wearable} and \cite{elgendi2013systolic}. The SSF is defined piecewise according on its derivative, $\Delta y_n$,  as shown by Equation \ref{eq:SSF}. The aim of the SSF is to enhance the rising section of the pulse peak while suppressing the falling section.
+
+\begin{equation}
+\label{eq:SSF}
+z_n = \sum\limits_{k=n-w}^n \Delta y_k, \quad \text{where} \quad \Delta y_k=
+\begin{cases}
+\Delta y_k, 	&\text{if } \Delta y_k \textless	0 \\
+0, 				&\text{if } \Delta y_k \geq			0. 
+\end{cases}
+\end{equation}

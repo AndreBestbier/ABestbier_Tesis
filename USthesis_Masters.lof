@@ -40,5 +40,9 @@
 \contentsline {figure}{\numberline {5.6}{\ignorespaces \relax }}{46}
 \contentsline {figure}{\numberline {5.7}{\ignorespaces Block diagram showing the flow of information through the various software functions. Final calculated medical signs are shown in blue\relax }}{46}
 \contentsline {figure}{\numberline {5.8}{\ignorespaces How the software reads 16-bit values from the TMP006 registers\relax }}{47}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Plot the the T\textsubscript {OBJ} equation with recommended calibration parameters and over the operating temperature range of the Ear-Monitor\relax }}{50}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Plot of the the T\textsubscript {OBJ} equation with recommended calibration parameters over the operating temperature range of the Ear-Monitor\relax }}{50}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces The raw PPG signal, $x_n$, is sent through AC and DC extraction and filtering functions\relax }}{51}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces (a) the raw IR signal contaminated by DC offset and drift and (b), the extracted AC component of the signal\relax }}{51}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces (a) the AC component of the IR signal before filtering and (b), after filtering\relax }}{52}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Filtered AC component of PPG with important features labelled\relax }}{53}
 \addvspace {10pt}

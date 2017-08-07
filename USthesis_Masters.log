@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.6.29)  7 AUG 2017 18:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.6.29)  7 AUG 2017 23:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -485,9 +485,19 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
+(c:/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(c:/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
 (c:/texlive/2017/texmf-dist/tex/latex/wasysym/wasysym.sty
 Package: wasysym 2003/10/30 v2.0 Wasy-2 symbol support package
-\symwasy=\mathgroup4
+\symwasy=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
 (Font)                  U/wasy/m/n --> U/wasy/b/n on input line 90.
 )
@@ -912,10 +922,10 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
 (c:/texlive/2017/texmf-dist/tex/latex/tools/bm.sty
 Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
-\symboldoperators=\mathgroup5
-\symboldletters=\mathgroup6
-\symboldsymbols=\mathgroup7
-\symboldwasy=\mathgroup8
+\symboldoperators=\mathgroup7
+\symboldletters=\mathgroup8
+\symboldsymbols=\mathgroup9
+\symboldwasy=\mathgroup10
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
 LaTeX Info: Redefining \bm on input line 207.
 )
@@ -1138,6 +1148,16 @@ e
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 \c__siunitx_mathsf_int=\count350
+LaTeX Font Info:    Try loading font information for U+msa on input line 124.
+
+(c:/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 124.
+
+(c:/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 LaTeX Font Info:    Try loading font information for U+wasy on input line 124.
 
 (c:/texlive/2017/texmf-dist/tex/latex/wasysym/uwasy.fd
@@ -1224,14 +1244,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  (./contents/Chap-2.tex
 (./figs/Auricle.pdf_tex
-<figs/Auricle.pdf, id=75, page=1, pagebox=cropbox, 238.31786pt x 234.8775pt>
+<figs/Auricle.pdf, id=76, page=1, pagebox=cropbox, 238.31786pt x 234.8775pt>
 File: figs/Auricle.pdf Graphic file (type pdf)
 <use figs/Auricle.pdf, page 1>
 Package pdftex.def Info: figs/Auricle.pdf , page1 used on input line 52. on inp
 ut line 52.
 Package pdftex.def Info: Requested size: 200.0pt x 197.11655pt on input line 52
 .
-<figs/Auricle.pdf, id=76, page=2, pagebox=cropbox, 238.31786pt x 234.8775pt>
+<figs/Auricle.pdf, id=77, page=2, pagebox=cropbox, 238.31786pt x 234.8775pt>
 File: figs/Auricle.pdf Graphic file (type pdf)
 <use figs/Auricle.pdf, page 2>
 Package pdftex.def Info: figs/Auricle.pdf , page2 used on input line 56. on inp
@@ -1247,7 +1267,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ]
-<figs/EarSection.pdf, id=80, pagebox=cropbox, 451.6875pt x 294.34969pt>
+<figs/EarSection.pdf, id=81, pagebox=cropbox, 451.6875pt x 294.34969pt>
 File: figs/EarSection.pdf Graphic file (type pdf)
 <use figs/EarSection.pdf>
 Package pdftex.def Info: figs/EarSection.pdf  used on input line 41. on input l
@@ -1259,7 +1279,7 @@ e 41.
 pdfTeX warning: pdflatex.exe (file ./figs/Auricle.pdf): PDF inclusion: multiple
  pdfs with page group included in a single page
 >] [6 <./figs/EarSection.pdf>]
-<figs/VariationsInTemp.pdf, id=95, pagebox=cropbox, 603.75563pt x 432.11438pt>
+<figs/VariationsInTemp.pdf, id=96, pagebox=cropbox, 603.75563pt x 432.11438pt>
 File: figs/VariationsInTemp.pdf Graphic file (type pdf)
 <use figs/VariationsInTemp.pdf>
 Package pdftex.def Info: figs/VariationsInTemp.pdf  used on input line 75. on i
@@ -1268,7 +1288,7 @@ Package pdftex.def Info: Requested size: 181.12808pt x 129.6353pt on input line
  75.
  [7] [8 <./figs/VariationsInTemp.pdf>] [9]
 (./figs/eegRhythm.pdf_tex
-<figs/eegRhythm.pdf, id=107, page=1, pagebox=cropbox, 673.50725pt x 387.82985pt
+<figs/eegRhythm.pdf, id=108, page=1, pagebox=cropbox, 673.50725pt x 387.82985pt
 >
 File: figs/eegRhythm.pdf Graphic file (type pdf)
 <use figs/eegRhythm.pdf, page 1>
@@ -1295,7 +1315,7 @@ Package epstopdf Info: Source file: <figs/PlancksLaw.eps>
 ted-to.pdf figs/PlancksLaw.eps>
 (epstopdf)             \includegraphics on input line 57.
 Package epstopdf Info: Output file is already uptodate.
-<figs/PlancksLaw-eps-converted-to.pdf, id=122, pagebox=cropbox, 466.74374pt x 3
+<figs/PlancksLaw-eps-converted-to.pdf, id=123, pagebox=cropbox, 466.74374pt x 3
 02.12875pt>
 File: figs/PlancksLaw-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/PlancksLaw-eps-converted-to.pdf>
@@ -1700,22 +1720,71 @@ LaTeX Font Warning: Font shape `U/wasy/b/n' in size <7> not available
 (Font)              Font shape `U/wasy/m/n' tried instead on input line 176.
 
 [48]
-<figs/RecommendedTempCurve.png, id=321, 531.78674pt x 415.5525pt>
+<figs/RecommendedTempCurve.png, id=321, 764.8575pt x 447.92343pt>
 File: figs/RecommendedTempCurve.png Graphic file (type png)
 <use figs/RecommendedTempCurve.png>
-Package pdftex.def Info: figs/RecommendedTempCurve.png  used on input line 234.
- on input line 234.
-Package pdftex.def Info: Requested size: 345.65729pt x 270.10593pt on input lin
-e 234.
- [49]) [50 <./figs/RecommendedTempCurve.png>]
+Package pdftex.def Info: figs/RecommendedTempCurve.png  used on input line 226.
+ on input line 226.
+Package pdftex.def Info: Requested size: 398.33507pt x 213.39464pt on input lin
+e 226.
+ [49] (./figs/PPG_Filtering.pdf_tex
+<figs/PPG_Filtering.pdf, id=325, page=1, pagebox=cropbox, 316.46227pt x 56.6115
+pt>
+File: figs/PPG_Filtering.pdf Graphic file (type pdf)
+<use figs/PPG_Filtering.pdf, page 1>
+Package pdftex.def Info: figs/PPG_Filtering.pdf , page1 used on input line 52. 
+on input line 52.
+Package pdftex.def Info: Requested size: 316.46225pt x 56.61566pt on input line
+ 52.
+) [50 <./figs/RecommendedTempCurve.png (PNG copy)>]
+<figs/AC_Extraction.png, id=329, 642.90187pt x 391.4625pt>
+File: figs/AC_Extraction.png Graphic file (type png)
+<use figs/AC_Extraction.png>
+Package pdftex.def Info: figs/AC_Extraction.png  used on input line 261. on inp
+ut line 261.
+Package pdftex.def Info: Requested size: 341.44267pt x 213.39957pt on input lin
+e 261.
+ [51 <./figs/PPG_Filtering.pdf> <./figs/AC_Extraction.png>]
+<figs/PPG_Filter.png, id=338, 781.41937pt x 484.81125pt>
+File: figs/PPG_Filter.png Graphic file (type png)
+<use figs/PPG_Filter.png>
+Package pdftex.def Info: figs/PPG_Filter.png  used on input line 279. on input 
+line 279.
+Package pdftex.def Info: Requested size: 341.42897pt x 213.39897pt on input lin
+e 279.
+ [52 <./figs/PPG_Filter.png (PNG copy)>] (./figs/PPG_SignalLabels.pdf_tex
+<figs/PPG_SignalLabels.pdf, id=342, page=1, pagebox=cropbox, 354.01027pt x 234.
+23225pt>
+File: figs/PPG_SignalLabels.pdf Graphic file (type pdf)
+<use figs/PPG_SignalLabels.pdf, page 1>
+Package pdftex.def Info: figs/PPG_SignalLabels.pdf , page1 used on input line 5
+2. on input line 52.
+Package pdftex.def Info: Requested size: 354.01025pt x 234.23524pt on input lin
+e 52.
+<figs/PPG_SignalLabels.pdf, id=343, page=2, pagebox=cropbox, 354.01027pt x 234.
+23225pt>
+File: figs/PPG_SignalLabels.pdf Graphic file (type pdf)
+<use figs/PPG_SignalLabels.pdf, page 2>
+Package pdftex.def Info: figs/PPG_SignalLabels.pdf , page2 used on input line 6
+2. on input line 62.
+Package pdftex.def Info: Requested size: 354.01025pt x 234.23524pt on input lin
+e 62.
+)
+
+LaTeX Warning: Command \textless invalid in math mode on input line 309.
+
+) [53 <./figs/PPG_SignalLabels.pdf> <./figs/PPG_SignalLabels.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figs/PPG_SignalLabels.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+>]
 \openout2 = `contents/Chap-6.aux'.
 
- (./contents/Chap-6.tex
-[51
+ (./contents/Chap-6.tex [54
 
 
 
-]) [52] [53] [54
+]) [55] [56] [57
 
 
 ] (./USthesis_Masters.bbl
@@ -1730,35 +1799,41 @@ Overfull \hbox (15.55888pt too wide) in paragraph at lines 78--81
 isorders/sleep-apnea/sleep-apnea 
  []
 
-[55
+[58
 
 
 ]
-Overfull \hbox (106.09282pt too wide) in paragraph at lines 192--196
+Overfull \hbox (106.09282pt too wide) in paragraph at lines 203--207
 \T1/cmr/m/n/10.95 Available at: \T1/cmtt/m/n/10.95 http://www.sensorsmag.com/co
 mponents/demystifying-thermopile-ir-temp-sensors 
  []
 
 
-Overfull \hbox (185.31001pt too wide) in paragraph at lines 220--223
+Overfull \hbox (151.35979pt too wide) in paragraph at lines 220--223
+\T1/cmr/m/n/10.95 Available at: \T1/cmtt/m/n/10.95 http://sam-koblenski.blogspo
+t.co.za/2015/11/everyday-dsp-for-programmers-dc-and.html 
+ []
+
+
+Overfull \hbox (185.31001pt too wide) in paragraph at lines 236--239
 \T1/cmr/m/n/10.95 Available at: \T1/cmtt/m/n/10.95 http://www.mayoclinic.org/he
 althy-lifestyle/fitness/expert-answers/heart-rate/faq-20057979 
  []
 
-[56]
-Overfull \hbox (21.21725pt too wide) in paragraph at lines 309--312
+[59]
+Overfull \hbox (21.21725pt too wide) in paragraph at lines 325--328
 \T1/cmr/m/n/10.95 Available at: \T1/cmtt/m/n/10.95 https://global.britannica.co
 m/science/external-auditory-canal 
  []
 
-[57]
-Overfull \hbox (309.79417pt too wide) in paragraph at lines 482--485
+[60]
+Overfull \hbox (309.79417pt too wide) in paragraph at lines 498--501
 \T1/cmr/m/n/10.95 Available at: \T1/cmtt/m/n/10.95 http://www.who.int/patientsa
 fety/safesurgery/pulse_oximetry/who_ps_pulse_oxymetry_tutorial2_advanced_en.pdf
 ?ua=1 
  []
 
-[58]) [59]
+[61]) [62]
 \tf@toc=\write4
 \openout4 = `USthesis_Masters.toc'.
 
@@ -1773,11 +1848,11 @@ fety/safesurgery/pulse_oximetry/who_ps_pulse_oxymetry_tutorial2_advanced_en.pdf
 (./contents/Chap-3.aux) (./contents/Chap-4.aux) (./contents/Chap-5.aux)
 (./contents/Chap-6.aux)) ) 
 Here is how much of TeX's memory you used:
- 20703 strings out of 492990
- 383608 string characters out of 6136334
- 458574 words of memory out of 5000000
- 23891 multiletter control sequences out of 15000+600000
- 570353 words of font info for 129 fonts, out of 8000000 for 9000
+ 21052 strings out of 492990
+ 388253 string characters out of 6136334
+ 459819 words of memory out of 5000000
+ 24213 multiletter control sequences out of 15000+600000
+ 573649 words of font info for 145 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,17n,46p,10369b,1010s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/
@@ -1807,10 +1882,10 @@ uper/sfsl1095.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfsl1
 :/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/
 2017/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb><c:/texlive/2017/texmf
 -dist/fonts/type1/public/wasy2-ps/wasy10.pfb>
-Output written on USthesis_Masters.pdf (72 pages, 3618757 bytes).
+Output written on USthesis_Masters.pdf (75 pages, 3736425 bytes).
 PDF statistics:
- 453 PDF objects out of 1000 (max. 8388607)
- 287 compressed objects within 3 object streams
+ 478 PDF objects out of 1000 (max. 8388607)
+ 301 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 206 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 231 words of extra memory for PDF output out of 10000 (max. 10000000)
 

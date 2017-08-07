@@ -90,15 +90,18 @@
 \contentsline {subsection}{\numberline {5.2.2}TMP006 software}{48}
 \contentsline {subsection}{\numberline {5.2.3}Calculating T\textsubscript {OBJ}}{48}
 \contentsline {subsection}{\numberline {5.2.4}PPG signal processing}{50}
-\contentsline {chapter}{\chapternumberline {6}Experimental Procedure}{51}
-\contentsline {section}{\numberline {6.1}Overview}{51}
-\contentsline {section}{\numberline {6.2}Theory}{52}
-\contentsline {section}{\numberline {6.3}Ethical Consent}{52}
-\contentsline {section}{\numberline {6.4}Subjects}{52}
-\contentsline {section}{\numberline {6.5}Benchmark Validation}{52}
-\contentsline {section}{\numberline {6.6}Method}{52}
-\contentsline {subsection}{\numberline {6.6.1}Benchmark Apparatus}{52}
-\contentsline {subsection}{\numberline {6.6.2}Comparing Data}{52}
-\contentsline {section}{\numberline {6.7}Results}{53}
-\contentsline {chapter}{Appendices}{54}
-\contentsline {chapter}{List of References}{55}
+\contentsline {subsubsection}{\numberline {5.2.4.1}AC and DC separation}{51}
+\contentsline {subsubsection}{\numberline {5.2.4.2}Low-pass filter}{52}
+\contentsline {subsection}{\numberline {5.2.5}Beat Detection}{52}
+\contentsline {chapter}{\chapternumberline {6}Experimental Procedure}{54}
+\contentsline {section}{\numberline {6.1}Overview}{54}
+\contentsline {section}{\numberline {6.2}Theory}{55}
+\contentsline {section}{\numberline {6.3}Ethical Consent}{55}
+\contentsline {section}{\numberline {6.4}Subjects}{55}
+\contentsline {section}{\numberline {6.5}Benchmark Validation}{55}
+\contentsline {section}{\numberline {6.6}Method}{55}
+\contentsline {subsection}{\numberline {6.6.1}Benchmark Apparatus}{55}
+\contentsline {subsection}{\numberline {6.6.2}Comparing Data}{55}
+\contentsline {section}{\numberline {6.7}Results}{56}
+\contentsline {chapter}{Appendices}{57}
+\contentsline {chapter}{List of References}{58}
