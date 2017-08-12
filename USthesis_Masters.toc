@@ -87,21 +87,26 @@
 \contentsline {subsection}{\numberline {5.2.1}Sensor Communication Software}{47}
 \contentsline {subsubsection}{\numberline {5.2.1.1}Sensor Configuration}{47}
 \contentsline {subsubsection}{\numberline {5.2.1.2}Reading data from sensors}{47}
-\contentsline {subsection}{\numberline {5.2.2}TMP006 software}{48}
+\contentsline {subsection}{\numberline {5.2.2}Temperature related software}{48}
 \contentsline {subsection}{\numberline {5.2.3}Calculating T\textsubscript {OBJ}}{48}
 \contentsline {subsection}{\numberline {5.2.4}PPG signal processing}{50}
 \contentsline {subsubsection}{\numberline {5.2.4.1}AC and DC separation}{51}
 \contentsline {subsubsection}{\numberline {5.2.4.2}Low-pass filter}{52}
 \contentsline {subsection}{\numberline {5.2.5}Beat Detection}{52}
-\contentsline {chapter}{\chapternumberline {6}Experimental Procedure}{54}
-\contentsline {section}{\numberline {6.1}Overview}{54}
-\contentsline {section}{\numberline {6.2}Theory}{55}
-\contentsline {section}{\numberline {6.3}Ethical Consent}{55}
-\contentsline {section}{\numberline {6.4}Subjects}{55}
-\contentsline {section}{\numberline {6.5}Benchmark Validation}{55}
-\contentsline {section}{\numberline {6.6}Method}{55}
-\contentsline {subsection}{\numberline {6.6.1}Benchmark Apparatus}{55}
-\contentsline {subsection}{\numberline {6.6.2}Comparing Data}{55}
-\contentsline {section}{\numberline {6.7}Results}{56}
-\contentsline {chapter}{Appendices}{57}
-\contentsline {chapter}{List of References}{58}
+\contentsline {subsubsection}{\numberline {5.2.5.1}Respiratory- and Heart Rate Calculation}{55}
+\contentsline {subsection}{\numberline {5.2.6}SpO\textsubscript {2} Calculation}{56}
+\contentsline {subsection}{\numberline {5.2.7}Current Balancing}{56}
+\contentsline {subsection}{\numberline {5.2.8}Moving average SpO\textsubscript {2}}{57}
+\contentsline {subsection}{\numberline {5.2.9}PC Interface}{57}
+\contentsline {chapter}{\chapternumberline {6}Experimental Procedure}{59}
+\contentsline {section}{\numberline {6.1}Overview}{59}
+\contentsline {section}{\numberline {6.2}Theory}{60}
+\contentsline {section}{\numberline {6.3}Ethical Consent}{60}
+\contentsline {section}{\numberline {6.4}Subjects}{60}
+\contentsline {section}{\numberline {6.5}Benchmark Validation}{60}
+\contentsline {section}{\numberline {6.6}Method}{60}
+\contentsline {subsection}{\numberline {6.6.1}Benchmark Apparatus}{60}
+\contentsline {subsection}{\numberline {6.6.2}Comparing Data}{60}
+\contentsline {section}{\numberline {6.7}Results}{61}
+\contentsline {chapter}{Appendices}{62}
+\contentsline {chapter}{List of References}{63}

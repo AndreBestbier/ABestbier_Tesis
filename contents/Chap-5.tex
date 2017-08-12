@@ -112,6 +112,7 @@ Add a photo of the completed electronic hardware
 
 
 
+
 \section{Software}
 Software is written for the MCU and for the PC receiving and storing the data. MCU software is C++ based and developed using the Arduino IDE. MCU software handles sensor communication, timing, some processing and transmitting collected data via the Bluetooth modem. The PC software is Java based and developed using the Processing IDE. The PC software listens on the Bluetooth serial port, processes received data, display the data via a user interface and stores the received data on the local hard drive.
 
@@ -145,7 +146,7 @@ The MAX30100 is set to SpO\textsubscript{2} mode with \SI{1600}{\micro\second} L
 \subsubsection{Reading data from sensors}
 After configuration is done, the MCU enters a continuous loop of sensor data reading. The MAX30100 uses one FIFO register to store the latest 16 IR and red photo-detector voltages and the TMP06 has two separate registers for die temperature and sensor voltage. These registers are red through Arduino's Wiring library. The MAX30100 outputs at 50 Hz and the TMP006 at 0.025 Hz. A timing loop is created to ensure that the values are red from the sensors in time.
 
-\subsection{TMP006 software}
+\subsection{Temperature related software}
 After start-up configuration, two values, V\textsubscript{SENSOR} and T\textsubscript{DIE}, are read from the TMP006 through the I\textsubscript{2}C connection every 4 seconds.
 
 \medskip
@@ -176,19 +177,19 @@ T\textsubscript{DIE} and V\textsubscript{SENSOR} are received by the PC software
 \subsection{Calculating T\textsubscript{OBJ}}
 T\textsubscript{DIE} and V\textsubscript{SENSOR} are used to calculate T\textsubscript{OBJ}. The TMP006's datasheet suggests using the relationship:
 \begin{equation}
-	\label{eq:TempCurve1}
+\label{eq:TempCurve1}
 	T_{OBJ} = \sqrt[4]{{T_{DIE}}^4-\frac{f(V_{SENSOR})}{S}}
 \end{equation}
 Where $f(V_{SENSOR})$ is a function that compensates for heat flow in the form of convection and conduction. The function is described in two stages by:
 \begin{equation}
 \label{eq:TempCurve2}
-V_{OS}=B0+B1(T_{DIE}-T_{REF})+B2(T_{DIE}-T_{REF})^2
+	V_{OS}=B0+B1(T_{DIE}-T_{REF})+B2(T_{DIE}-T_{REF})^2
 \end{equation}
 \begin{center}and\end{center}
 %and
 \begin{equation}
 \label{eq:TempCurve3}
-f(V_{SENSOR}) = (V_{SENSOR}-V_{OS})+C(V_{SENSOR}-V_{OS})^2
+	f(V_{SENSOR}) = (V_{SENSOR}-V_{OS})+C(V_{SENSOR}-V_{OS})^2
 \end{equation}
 Where $V_{OS}$ is a compensating offset voltage, $T_{REF}$ is a reference temperature equal to \SI{25}{\celsius} and $B0$, $B1$, $B2$ and $C$ are calibration parameters.
 
@@ -197,7 +198,7 @@ Where $V_{OS}$ is a compensating offset voltage, $T_{REF}$ is a reference temper
 S takes into account the object emissivity ($\varepsilon$), Stefan-Boltzman constant ($\sigma$) and the non-ideal absorption of the sensor itself. It is described by:
 \begin{equation}
 \label{eq:TempCurve4}
-S=S0(1+A1(T_{DIE}-T_{REF})+A2(T_{DIE}-T_{REF})^2
+	S=S0(1+A1(T_{DIE}-T_{REF})+A2(T_{DIE}-T_{REF})^2
 \end{equation}
 Where $S0 = \varepsilon\sigma$, $T_{REF}=\SI{25}{\celsius}$ and $A1$ and $A2$ are parameters experimentally derived through calibration.
 
@@ -310,3 +311,100 @@ z_n = \sum\limits_{k=n-w}^n \Delta y_k, \quad \text{where} \quad \Delta y_k=
 0, 				&\text{if } \Delta y_k \geq			0. 
 \end{cases}
 \end{equation}
+
+The n\textsuperscript{th} SSF output value, $z_n$,  equals the sum of the previous $w$ filtered PPG slopes as defined by the conditions in Equation \ref{eq:SSF}. \cite{zong2003open} suggest choosing $w$ as the typical duration of the pulse up-slope, so a moving sum window of $w=10$ was selected. Figure \ref{fig:SSF} shows (a) the extracted  and filtered AC component and (b) the output of the SSF.
+
+\begin{figure}[H]
+   \centering
+   \includegraphics[width=12cm,height=7.5cm]{figs/SSF.png}
+   \caption{(a) the AC component of the IR signal before filtering and (b), after filtering}
+   \label{fig:SSF}
+\end{figure}
+
+Stage 2 of the beat detection function is a set of decision rules determine if a peak is present. Some of the rules were adapted form \cite{park2015wearable}. Their algorithm is applied to in-ear pulse waves, which is closer to a ballistocardiogram than a PPG. Therefore, the decision rules in this function are chosen specifically for the Ear-Monitor and determined through experimentation.
+
+\medskip
+
+Rule 1: Adaptive threshold. The adaptive threshold applied to this algorithm is related to the mean of the previous 3 detected SSF peak heights by Equation \ref{eq:Threshold}.
+
+\begin{equation}
+\label{eq:Threshold}
+t=c\frac{\sum\nolimits_{k=0}^2 z_{n-k}}{3}
+\end{equation}
+
+Where $c$ is an experimentally determined scaling factor equal to 0.5. If the SSF signal amplitude rises above the threshold, a potential peak is awaited. \cite{zong2003open} uses a threshold equal to 60\% of the previous SSF peak amplitude, but this method proved to miss heartbeats if subsequent SSF maxima varies more that the threshold percentage. This problem is mitigated by basing the threshold on the previous three-peak average.
+
+\medskip
+
+Rule 2: Local maximum point. Following the crossing of the threshold, the algorithm monitors the SSF for a local maximum. This occurs at $SSF_{n-1}$ when: $SSF_{n-2} < SSF_{n-1} \ge SSF_n$.
+
+\medskip
+
+Rule 3: Waiting period
+If a local maximum is detected, the time elapsed since the previous successfully detected beat is tested. If the time is less than a dynamic waiting period, the local maximum is rejected. The waiting period is set to be 70\% of the mean of the previous 10 beat periods.
+
+\medskip
+
+Only if all three rules apply to a SSF value, will it be registered as a peak. The time difference between the newly detected peak and the previous one is the heart beat period. Another element to the beat detection algorithm is the threshold reset. If no local maximal is detected abouve the threshold for longer than 2 times the mean of the previous 10 beat periods, the threshold is reset to 1. This is in case the amplitude of the SSF peaks drops below the threshold and no beats is registered to update the threshold to a lower value. Figure \ref{fig:BeatDetection} shows the example signal's SSF with detected beats. This example illustrates how the algorithm can successfully detect peaks of varying amplitude and using the threshold method and how the time delay prevent the triggering of a false peak.
+
+\begin{figure}[H]
+   \centering
+   \includegraphics[width=12cm,height=7.5cm]{figs/BeatDetection.png}
+   \caption{SSF with detected beats and threshold plotted.}
+   \label{fig:BeatDetection}
+\end{figure}
+
+\subsubsection{Respiratory- and Heart Rate Calculation}
+Respiration rate is determined by monitoring respiratory sinus arrhythmia (RSA), the frequency modulating respiratory related heart rate characteristic.
+
+\subsection{SpO\textsubscript{2} Calculation}
+The MAX30100 outputs digitals value representing the intensity of red and IR light reflected by the tissue. Due to the different absorption spectra of oxygenated and deoxygenated blood, these values can be used to determine the fraction of peripheral blood oxygen saturation. PC software is written to calculate the SpO2 and MCU software is written to control the sensor. 
+
+\subsection{Current Balancing}
+The ratio of ratios method, discussed in the literature review and shown in Equation \ref{eq:SatsRatio}, is used to calculate SpO2.
+
+\begin{equation}
+\label{eq:SatsRatio}
+R = \frac{\left(\frac{AC}{DC}\right)\textsubscript{red}}{\left(\frac{AC}{DC}\right)\textsubscript{IR}}
+\end{equation}
+
+The motivation behind using this method is that it compensates for differences in DC reflection from person to person. For this to work, the difference between the red and IR DC values used in the equation needs to be as small as possible. The current to the red and IR LED of the MAX30100 are set to \SI{50}{\milli\ampere} upon start-up configuration. To compensate for the fact that IR light is reflected differently by the tissue than red light, a dynamic current balancing function is written.
+
+\medskip
+
+The MAX30100 has a programmable register that allows for the individual current adjustment of red and IR LED drivers. A negative feedback control system is implemented on the MCU to adjust the individual LED currents in order to lower the difference in reflection. A lower current equals a lower light intensity and subsequently, less reflection.
+
+The function checks the difference in IR and red DC levels every second and adjusts the current to the LEDs until the difference are within an acceptable margin. Figure \ref{fig:CurrentBalancing} shows a plot of this process. The difference in reflection starts out at 15000, with both LED currents equal to \SI{50}{\milli\ampere}, and after five adjustments the difference is lowered to 1000, with the red LED current unchanged and the IR LED equal to \SI{33.9}{\milli\ampere}. As can be seen from Figure \ref{fig:CurrentBalancing}, the current adjustments happen in a stepwise fashion, with each step about 2700. Therefore, to avoid oscillations, the margin is set to 2000.
+
+\begin{figure}[H]
+   \centering
+   \includegraphics[width=12cm,height=7.5cm]{figs/CurrentBalancing.png}
+   \caption{Plot showing the effect of the current balancing function implemented on the MAX30100 lowering the difference in detected light between red and IR LED by adjusting the current to the IR LED.}
+   \label{fig:CurrentBalancing}
+\end{figure}
+
+\subsection{Moving average SpO\textsubscript{2}}
+SpO\textsubscript{2} calculation is done by the PC interface software. The filtered AC and DC components of the IR and red PPG signals, as calculated in the PPG signal processing section, are used in the ratio of ratios method. $R$ is calculated using the mean of the absolute AC and DC values of the previous 12 heartbeats. These values are updated each time new PPG data is available.
+
+\medskip
+
+The relationship between $R$ and SpO\textsubscript{2} is unique for different devices and measurement locations. Calibration is needed to find the relation for die Ear-Monitor. The relationship used in literature \citep{ti2012application} was adjusted though a calibration process to achieve a desirable level of accuracy. Equation \ref{eq:Sats} shows the relationship used by the Ear-Monitor to calculate SpO.\textsubscript{2}.
+
+\begin{equation}
+\label{eq:Sats}
+111.2-(25\cdot R)
+\end{equation}
+
+$R$ and SpO\textsubscript{2} are calculated on every heartbeat using the moving data window of the previous 12 heartbeats.
+
+\subsection{PC Interface}
+A graphical user interface is written in Processing to display the measurements on the computer screen and allow the user to set alarms and save the data. The interface receives variables from the various functions discussed. It displays these variables along with a series of real-time graphs and has the option to save the measured Ear-Monitor data in a .csv file for later reference or analysis. Figure \ref{fig:GUI} shown 
+
+\begin{figure}[H]
+\centering
+\graphicspath{{figs/}}
+%\def\svgwidth{180pt}
+\input{figs/GUI.pdf_tex}
+\caption{Ear-Monitor user interface with (a) the SSF with detected beats, (b) the AC components of the red and IR PPGs, (c) respiration illustrated in plotting the heart beat period, (d) temperature, (e) data written to .cvs files and (f) alarm conditions}
+\label{fig:GUI}
+\end{figure}

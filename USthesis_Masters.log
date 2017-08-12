@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.6.29)  7 AUG 2017 23:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.6.29)  12 AUG 2017 17:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1701,32 +1701,32 @@ e 105.
 <figs/Software_BlockDiagram.png, id=306, 794.97pt x 401.0985pt>
 File: figs/Software_BlockDiagram.png Graphic file (type png)
 <use figs/Software_BlockDiagram.png>
-Package pdftex.def Info: figs/Software_BlockDiagram.png  used on input line 124
-. on input line 124.
+Package pdftex.def Info: figs/Software_BlockDiagram.png  used on input line 125
+. on input line 125.
 Package pdftex.def Info: Requested size: 357.7332pt x 180.49265pt on input line
- 124.
+ 125.
 
 [46 <./figs/EarProbe.jpg> <./figs/Software_BlockDiagram.png>]
 <figs/I2C_Read.png, id=310, 378.213pt x 128.8815pt>
 File: figs/I2C_Read.png Graphic file (type png)
 <use figs/I2C_Read.png>
-Package pdftex.def Info: figs/I2C_Read.png  used on input line 134. on input li
-ne 134.
+Package pdftex.def Info: figs/I2C_Read.png  used on input line 135. on input li
+ne 135.
 Package pdftex.def Info: Requested size: 378.21207pt x 128.88118pt on input lin
-e 134.
+e 135.
  [47 <./figs/I2C_Read.png>]
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <7> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 176.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 177.
 
 [48]
 <figs/RecommendedTempCurve.png, id=321, 764.8575pt x 447.92343pt>
 File: figs/RecommendedTempCurve.png Graphic file (type png)
 <use figs/RecommendedTempCurve.png>
-Package pdftex.def Info: figs/RecommendedTempCurve.png  used on input line 226.
- on input line 226.
+Package pdftex.def Info: figs/RecommendedTempCurve.png  used on input line 227.
+ on input line 227.
 Package pdftex.def Info: Requested size: 398.33507pt x 213.39464pt on input lin
-e 226.
+e 227.
  [49] (./figs/PPG_Filtering.pdf_tex
 <figs/PPG_Filtering.pdf, id=325, page=1, pagebox=cropbox, 316.46227pt x 56.6115
 pt>
@@ -1740,18 +1740,18 @@ Package pdftex.def Info: Requested size: 316.46225pt x 56.61566pt on input line
 <figs/AC_Extraction.png, id=329, 642.90187pt x 391.4625pt>
 File: figs/AC_Extraction.png Graphic file (type png)
 <use figs/AC_Extraction.png>
-Package pdftex.def Info: figs/AC_Extraction.png  used on input line 261. on inp
-ut line 261.
+Package pdftex.def Info: figs/AC_Extraction.png  used on input line 262. on inp
+ut line 262.
 Package pdftex.def Info: Requested size: 341.44267pt x 213.39957pt on input lin
-e 261.
+e 262.
  [51 <./figs/PPG_Filtering.pdf> <./figs/AC_Extraction.png>]
 <figs/PPG_Filter.png, id=338, 781.41937pt x 484.81125pt>
 File: figs/PPG_Filter.png Graphic file (type png)
 <use figs/PPG_Filter.png>
-Package pdftex.def Info: figs/PPG_Filter.png  used on input line 279. on input 
-line 279.
+Package pdftex.def Info: figs/PPG_Filter.png  used on input line 280. on input 
+line 280.
 Package pdftex.def Info: Requested size: 341.42897pt x 213.39897pt on input lin
-e 279.
+e 280.
  [52 <./figs/PPG_Filter.png (PNG copy)>] (./figs/PPG_SignalLabels.pdf_tex
 <figs/PPG_SignalLabels.pdf, id=342, page=1, pagebox=cropbox, 354.01027pt x 234.
 23225pt>
@@ -1771,20 +1771,123 @@ Package pdftex.def Info: Requested size: 354.01025pt x 234.23524pt on input lin
 e 62.
 )
 
-LaTeX Warning: Command \textless invalid in math mode on input line 309.
+LaTeX Warning: Command \textless invalid in math mode on input line 310.
 
-) [53 <./figs/PPG_SignalLabels.pdf> <./figs/PPG_SignalLabels.pdf
+[53 <./figs/PPG_SignalLabels.pdf> <./figs/PPG_SignalLabels.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figs/PPG_SignalLabels.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
 >]
+<figs/SSF.png, id=351, 657.95813pt x 469.755pt>
+File: figs/SSF.png Graphic file (type png)
+<use figs/SSF.png>
+Package pdftex.def Info: figs/SSF.png  used on input line 319. on input line 31
+9.
+Package pdftex.def Info: Requested size: 341.43742pt x 213.3948pt on input line
+ 319.
+ [54 <./figs/SSF.png>]
+
+LaTeX Warning: Reference `fig:BeatDetection' on page 55 undefined on input line
+ 348.
+
+<figs/BeatDetection.png, id=357, 651.18282pt x 461.47406pt>
+File: figs/BeatDetection.png Graphic file (type png)
+<use figs/BeatDetection.png>
+Package pdftex.def Info: figs/BeatDetection.png  used on input line 352. on inp
+ut line 352.
+Package pdftex.def Info: Requested size: 341.4389pt x 213.39319pt on input line
+ 352.
+[55 <./figs/BeatDetection.png>]
+<figs/CurrentBalancing.png, id=362, 662.475pt x 462.97969pt>
+File: figs/CurrentBalancing.png Graphic file (type png)
+<use figs/CurrentBalancing.png>
+Package pdftex.def Info: figs/CurrentBalancing.png  used on input line 381. on 
+input line 381.
+Package pdftex.def Info: Requested size: 341.4261pt x 213.3971pt on input line 
+381.
+ [56] [57 <./figs/CurrentBalancing.png>]
+(./figs/GUI.pdf_tex
+<figs/GUI.pdf, id=370, page=1, pagebox=cropbox, 390.24307pt x 196.39964pt>
+File: figs/GUI.pdf Graphic file (type pdf)
+<use figs/GUI.pdf, page 1>
+Package pdftex.def Info: figs/GUI.pdf , page1 used on input line 52. on input l
+ine 52.
+Package pdftex.def Info: Requested size: 390.24306pt x 196.41113pt on input lin
+e 52.
+<figs/GUI.pdf, id=371, page=2, pagebox=cropbox, 390.24307pt x 196.39964pt>
+File: figs/GUI.pdf Graphic file (type pdf)
+<use figs/GUI.pdf, page 2>
+Package pdftex.def Info: figs/GUI.pdf , page2 used on input line 54. on input l
+ine 54.
+Package pdftex.def Info: Requested size: 390.24306pt x 196.41113pt on input lin
+e 54.
+<figs/GUI.pdf, id=372, page=3, pagebox=cropbox, 390.24307pt x 196.39964pt>
+File: figs/GUI.pdf Graphic file (type pdf)
+<use figs/GUI.pdf, page 3>
+Package pdftex.def Info: figs/GUI.pdf , page3 used on input line 56. on input l
+ine 56.
+Package pdftex.def Info: Requested size: 390.24306pt x 196.41113pt on input lin
+e 56.
+<figs/GUI.pdf, id=373, page=4, pagebox=cropbox, 390.24307pt x 196.39964pt>
+File: figs/GUI.pdf Graphic file (type pdf)
+<use figs/GUI.pdf, page 4>
+Package pdftex.def Info: figs/GUI.pdf , page4 used on input line 58. on input l
+ine 58.
+Package pdftex.def Info: Requested size: 390.24306pt x 196.41113pt on input lin
+e 58.
+<figs/GUI.pdf, id=374, page=5, pagebox=cropbox, 390.24307pt x 196.39964pt>
+File: figs/GUI.pdf Graphic file (type pdf)
+<use figs/GUI.pdf, page 5>
+Package pdftex.def Info: figs/GUI.pdf , page5 used on input line 60. on input l
+ine 60.
+Package pdftex.def Info: Requested size: 390.24306pt x 196.41113pt on input lin
+e 60.
+<figs/GUI.pdf, id=375, page=6, pagebox=cropbox, 390.24307pt x 196.39964pt>
+File: figs/GUI.pdf Graphic file (type pdf)
+<use figs/GUI.pdf, page 6>
+Package pdftex.def Info: figs/GUI.pdf , page6 used on input line 62. on input l
+ine 62.
+Package pdftex.def Info: Requested size: 390.24306pt x 196.41113pt on input lin
+e 62.
+<figs/GUI.pdf, id=376, page=7, pagebox=cropbox, 390.24307pt x 196.39964pt>
+File: figs/GUI.pdf Graphic file (type pdf)
+<use figs/GUI.pdf, page 7>
+Package pdftex.def Info: figs/GUI.pdf , page7 used on input line 64. on input l
+ine 64.
+Package pdftex.def Info: Requested size: 390.24306pt x 196.41113pt on input lin
+e 64.
+)) [58 <./figs/GUI.pdf> <./figs/GUI.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figs/GUI.pdf): PDF inclusion: multiple pdf
+s with page group included in a single page
+> <./figs/GUI.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figs/GUI.pdf): PDF inclusion: multiple pdf
+s with page group included in a single page
+> <./figs/GUI.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figs/GUI.pdf): PDF inclusion: multiple pdf
+s with page group included in a single page
+> <./figs/GUI.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figs/GUI.pdf): PDF inclusion: multiple pdf
+s with page group included in a single page
+> <./figs/GUI.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figs/GUI.pdf): PDF inclusion: multiple pdf
+s with page group included in a single page
+> <./figs/GUI.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figs/GUI.pdf): PDF inclusion: multiple pdf
+s with page group included in a single page
+>]
 \openout2 = `contents/Chap-6.aux'.
 
- (./contents/Chap-6.tex [54
+ (./contents/Chap-6.tex [59
 
 
 
-]) [55] [56] [57
+]) [60] [61] [62
 
 
 ] (./USthesis_Masters.bbl
@@ -1799,7 +1902,7 @@ Overfull \hbox (15.55888pt too wide) in paragraph at lines 78--81
 isorders/sleep-apnea/sleep-apnea 
  []
 
-[58
+[63
 
 
 ]
@@ -1820,20 +1923,20 @@ Overfull \hbox (185.31001pt too wide) in paragraph at lines 236--239
 althy-lifestyle/fitness/expert-answers/heart-rate/faq-20057979 
  []
 
-[59]
+[64]
 Overfull \hbox (21.21725pt too wide) in paragraph at lines 325--328
 \T1/cmr/m/n/10.95 Available at: \T1/cmtt/m/n/10.95 https://global.britannica.co
 m/science/external-auditory-canal 
  []
 
-[60]
+[65]
 Overfull \hbox (309.79417pt too wide) in paragraph at lines 498--501
 \T1/cmr/m/n/10.95 Available at: \T1/cmtt/m/n/10.95 http://www.who.int/patientsa
 fety/safesurgery/pulse_oximetry/who_ps_pulse_oxymetry_tutorial2_advanced_en.pdf
 ?ua=1 
  []
 
-[61]) [62]
+[66]) [67]
 \tf@toc=\write4
 \openout4 = `USthesis_Masters.toc'.
 
@@ -1846,46 +1949,53 @@ fety/safesurgery/pulse_oximetry/who_ps_pulse_oxymetry_tutorial2_advanced_en.pdf
  (./USthesis_Masters.aux (./frontmatter/Chap-Front.aux)
 (./frontmatter/Nomencl.aux) (./contents/Chap-1.aux) (./contents/Chap-2.aux)
 (./contents/Chap-3.aux) (./contents/Chap-4.aux) (./contents/Chap-5.aux)
-(./contents/Chap-6.aux)) ) 
+(./contents/Chap-6.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 21052 strings out of 492990
- 388253 string characters out of 6136334
- 459819 words of memory out of 5000000
- 24213 multiletter control sequences out of 15000+600000
+ 21102 strings out of 492990
+ 389418 string characters out of 6136334
+ 460557 words of memory out of 5000000
+ 24257 multiletter control sequences out of 15000+600000
  573649 words of font info for 145 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,17n,46p,10369b,1010s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/
-cm-super-t1.enc}{c:/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t
-s1.enc}<c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c
-:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive
-/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2017/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2017/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmib10.pfb><c:/texlive/2017/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr12.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr6.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
-c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive
-/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2017/tex
-mf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2017/texmf-dist/fo
-nts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/
-public/cm-super/sfbx1440.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-
-super/sfbx1728.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx
-2074.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><
-c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive
-/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2017/texm
-f-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2017/texmf-dist/fon
-ts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2017/texmf-dist/fonts/type1/p
-ublic/cm-super/sfrm1728.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-s
-uper/sfsl1095.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfsl1
-440.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb><c
-:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/
-2017/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb><c:/texlive/2017/texmf
--dist/fonts/type1/public/wasy2-ps/wasy10.pfb>
-Output written on USthesis_Masters.pdf (75 pages, 3736425 bytes).
+{c:/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
+ive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2017/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2017/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2017/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2017/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmib10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+2.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/t
+exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2017
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2017/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2017/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2017/texmf-dist/fonts/type1/publ
+ic/cm-super/sfbx1000.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-supe
+r/sfbx1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1440
+.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/t
+exlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/201
+7/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2017/texmf-di
+st/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2017/texmf-dist/fonts/t
+ype1/public/cm-super/sfrm1095.pfb><c:/texlive/2017/texmf-dist/fonts/type1/publi
+c/cm-super/sfrm1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super
+/sfrm1440.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1728.
+pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfsl1095.pfb><c:/te
+xlive/2017/texmf-dist/fonts/type1/public/cm-super/sfsl1440.pfb><c:/texlive/2017
+/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb><c:/texlive/2017/texmf-dis
+t/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/2017/texmf-dist/fonts/ty
+pe1/public/cm-super/sftt1095.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public
+/wasy2-ps/wasy10.pfb>
+Output written on USthesis_Masters.pdf (80 pages, 3943557 bytes).
 PDF statistics:
- 478 PDF objects out of 1000 (max. 8388607)
- 301 compressed objects within 4 object streams
+ 511 PDF objects out of 1000 (max. 8388607)
+ 315 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 231 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 281 words of extra memory for PDF output out of 10000 (max. 10000000)
 
