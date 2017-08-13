@@ -98,15 +98,11 @@
 \contentsline {subsection}{\numberline {5.2.7}Current Balancing}{56}
 \contentsline {subsection}{\numberline {5.2.8}Moving average SpO\textsubscript {2}}{57}
 \contentsline {subsection}{\numberline {5.2.9}PC Interface}{57}
-\contentsline {chapter}{\chapternumberline {6}Experimental Procedure}{59}
-\contentsline {section}{\numberline {6.1}Overview}{59}
-\contentsline {section}{\numberline {6.2}Theory}{60}
-\contentsline {section}{\numberline {6.3}Ethical Consent}{60}
-\contentsline {section}{\numberline {6.4}Subjects}{60}
-\contentsline {section}{\numberline {6.5}Benchmark Validation}{60}
-\contentsline {section}{\numberline {6.6}Method}{60}
-\contentsline {subsection}{\numberline {6.6.1}Benchmark Apparatus}{60}
-\contentsline {subsection}{\numberline {6.6.2}Comparing Data}{60}
-\contentsline {section}{\numberline {6.7}Results}{61}
-\contentsline {chapter}{Appendices}{62}
-\contentsline {chapter}{List of References}{63}
+\contentsline {chapter}{\chapternumberline {6}Trial Period}{59}
+\contentsline {section}{\numberline {6.1}Participant Selection}{59}
+\contentsline {section}{\numberline {6.2}Benchmark Validation}{60}
+\contentsline {section}{\numberline {6.3}Method}{61}
+\contentsline {subsection}{\numberline {6.3.1}Comparing Data}{63}
+\contentsline {section}{\numberline {6.4}Results}{63}
+\contentsline {chapter}{Appendices}{64}
+\contentsline {chapter}{List of References}{65}

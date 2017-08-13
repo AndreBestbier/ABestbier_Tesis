@@ -50,3 +50,5 @@
 \contentsline {figure}{\numberline {5.16}{\ignorespaces Plot showing the effect of the current balancing function implemented on the MAX30100 lowering the difference in detected light between red and IR LED by adjusting the current to the IR LED.\relax }}{57}
 \contentsline {figure}{\numberline {5.17}{\ignorespaces Ear-Monitor user interface with (a) the SSF with detected beats, (b) the AC components of the red and IR PPGs, (c) respiration illustrated in plotting the heart beat period, (d) temperature, (e) data written to .cvs files and (f) alarm conditions\relax }}{58}
 \addvspace {10pt}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Benchmark devices: (a) Nexus-10, (b) SureSigns VM1 and (c) EM 100-A\relax }}{60}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Diagram showing how devices are connected to the participant during the recording session\relax }}{62}

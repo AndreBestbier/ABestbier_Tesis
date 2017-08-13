@@ -1,0 +1,70 @@
+%% Creator: Inkscape inkscape 0.92.1, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'SetUp.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{384.94081355bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.70936671)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{SetUp.pdf}}%
+    \put(0.69435387,0.63927901){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Ear-Monitor}}}%
+    \put(0.69520777,0.32191756){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{SureSigns VM1}}}%
+    \put(0.14778279,0.30456651){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Nexus-10}}}%
+    \put(0.14388608,0.46131133){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Nexus-10}}}%
+    \put(0.12440255,0.62661239){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{ET 100-A}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{SetUp.pdf}}%
+    \put(0.14243356,0.59891369){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Temperature}}}%
+    \put(0.15932945,0.43568899){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Respiration}}}%
+    \put(0.16322615,0.27715715){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Heart Rate}}}%
+    \put(0.15932945,0.40507266){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Rate}}}%
+    \put(0.711593,0.29199282){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{SpO\textsubscript{2}}}}%
+    \put(0.71332671,0.61372566){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Temperature}}}%
+    \put(0.71073909,0.58317787){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Heart Rate}}}%
+    \put(0.71073909,0.55749496){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Respiration Rate}}}%
+    \put(0.711593,0.52904343){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{SpO\textsubscript{2}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{SetUp.pdf}}%
+  \end{picture}%
+\endgroup%

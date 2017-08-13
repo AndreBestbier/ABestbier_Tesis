@@ -1,43 +1,87 @@
-\chapter{Experimental Procedure}
+\chapter{Trial Period}
 \label{chp:DEM}
-\section{Overview}
-The Ear-Monitor is tested on a group of 16 healthy adult volunteers to calibrate sensors and verify the accuracy of its measurements. Comparative analysis is done on each of the medical signs measurements made by the Ear-Monitor by comparing its measurements to those made by selected clinical devices. Each participant is acting as his/her own control. Ethical clearance was obtained for these tests form HREC with reference number M16/09/038 (proof included in Appendix X).
+A trial is conducted during which the Ear-Monitor is tested on a group of 16 healthy, adult volunteers. The trial's goal is twofold: firstly to to calibrate the temperature and SpO\textsubscript{2} algorithms and secondly to evaluate the accuracy of the Ear-Monitor's measurements. This chapter describes the trial environment and the method used to collect data for calibration and evaluation. Ethical approval is obtained for this trial form the Health Research Ethics Committee of Stellenbosch University, under the reference number M16/09/038 (proof of approval included in Appendix X).
+
+\section{Participant Selection}
+Participants for the study are invited via a recruitment email sent to students and staff at the faculty building. Inclusion criteria are physical health, ages from 18 to 60 years and volunteers of any gender or race. Exclusion criteria are small ear canal size, ear abnormalities or injuries and general health issues. If the individual's ear canal is smaller than 5 mm diameter the Ear-Monitor's probe will not fit. This also applies to ear abnormalities or injuries that will prevent the use of an ear probe, for example an abnormal sharp bend in the ear canal or an inflamed or infected ear canal due to i.e. otitis externa (swimmers ear). Individuals with self diagnosed illness that will cause them risk if they participate, are also excluded. Potential participants are screened through a pre-test physical examination to determine if they meet all the criteria. Table \ref{tab:Participants} gives a demographic summary of the participants that are selected for the trail.
+
+\begin{table}[H]
+\caption{Demographic summary of participants}
+\label{tab:Participants}
+\renewcommand{\arraystretch}{1.1}	%Wat doen hierdie?
+\centering
+\begin{tabular}{P{3cm} P{3cm} P{3cm}} 
+\hline
+						& 	n			&			Average age\\ 
+\hline
+Male					&	13			&			24.5 $\pm$ 0.7\\
+Female  				&	3			&			23.3 $\pm$ 0.3\\
+Total  					&	16			&			24.3 $\pm$ 0.6\\
+\hline
+\end{tabular}
+\end{table}
+
+\section{Benchmark Validation}
+Evaluation is done for all four medical signs measure by the Ear-Monitor, namely core temperature, heart rate, respiratory rate and SpO\textsubscript{2}. Evaluation entails comparing the medical sign measurements made by the Ear-Monitor to measurements made, in the same conditions, by industry standard medical devices, referred to as benchmark devices. The measurements made by benchmark device is referred to as benchmark measurements. In this trial, a device that conforms to the EC requirements is seen as a benchmark device. The CE mark is sign that the benchmark device complies with the ISO 13485 standard for medical devices, which requires industry standard accurate measurements.
 
 \medskip
 
+Three benchmark devices, shown in Figure \ref{fig:Benchmark}, are selected to provide the various benchmark measurements. A concise technical overview is given of each.
 
+\begin{figure}[H]
+\centering
+\graphicspath{{figs/}}
+\input{figs/Benchmark.pdf_tex}
+\caption{Benchmark devices: (a) Nexus-10, (b) SureSigns VM1 and (c) EM 100-A}
+\label{fig:Benchmark}
+\end{figure}
 
-\section{Theory}
-\section{Ethical Consent}
-\section{Subjects}
+The Nexus-10 physiological monitoring platform is selected to provide benchmark heart rate and respiratory rate measurements. The Nexus-10 is a data acquisition device with a 24-bit analogue to digital converter and a accuracy of $\pm$2\% according to the manufacturer. It has a blood volume sensor, which measures a PPG signal from the fingertip at a sampling rate of 128 Hz. This PPG signal is used to provide the benchmark heart rate measurement. It also has an elastic chest strap to measure respiratory rate. The movement of the chest during the respiratory cycle is converted to a voltage signal and digitalized at a sampling rate of 32 Hz. This signal is used to provide the benchmark respiratory rate measurement. It uses a Bluetooth connection to send data to a computer. The BioTrace+ software package is used to display the recorded data in real time as well as store the data for later processing.
 
-\section{Benchmark Validation}
-Core temperature, heart rate, respiratory rate and Sp02 measurements will be tested through benchmark validation. This entails comparing the measurements made by the developed device to measurements made, in the same conditions, by a industry standard medical device. In this study, a device that conforms to the EC requirements is seen as industry standard device. This is a valid assumption, for the CE mark is sign that the device complies with the EU legislation that is applicable to the product (what does this mean?).
+\medskip
 
-Three devices was selected to provide the benchmark measurements. 
+The SureSigns VM1 patient monitor from Philips is selected to provide benchmark SpO\textsubscript{2} measurements. The SureSigns VM1 uses a pulse oximeter attached to the fingertip to measure SpO\textsubscript{2}. Data is logged on the device's screen and updated at 1 Hz and stored on a computer for later processing. The device is recommended for use by healthcare professionals, emphasizing its accuracy and reliability.
 
+\medskip
 
-The vital sign measurements of the device will be compared to selected benchmarks. These benchmarks will be measurements made by various industry standard medical devices.
-
-
-
+The ET-100A infrared ear thermometer is selected to provide the benchmark tympanic ear temperature measurements. The ET-100A complies with the EN12470-5:2003 standard for clinical thermometers, therefore satisfies a accuracy of $\pm$\SI{0.2}{\celsius} over the range of \SI{35.5}{\celsius} to \SI{42}{\celsius}. Its measurements are displayed on the device's screen and data is entered and stored on a computer for later processing.
 
 
 \section{Method}
-\subsection{Benchmark Apparatus}
-Benchmark devises are chosen to measure the same physiological signs as the developed device. The Nexus-10 physiological monitoring platform will be used to provide the benchmark measurements for PPG, heart rate and respiratory rate. The SureSense blablabla wil be used for the Sp02 benchmark and an ear thermometer for the core temperature benchmark.
+Data is recorded from one participant at a time. A recording session involves collecting four benchmark- and four Ear-Monitor medical sign measurements simultaneously from one participant. Each recoding session lasts for 2 minutes and is conducted twice per participant to ensure repeatability. Figure \ref{fig:SetUp} shows a diagram of how all the devices are connected to the participant and which measurements are made by each.
 
-Mind Media's Nexus-10 is a ten channel biofeedback system. It comes with a array of sensors that can acquire a range of different bio-signals. In this study the blood volume pulse, and respiration sensor will be used. The device can collect data at 128 samples per second. 
+\begin{figure}[H]
+\centering
+\graphicspath{{figs/}}
+\input{figs/SetUp.pdf_tex}
+\caption{Diagram showing how devices are connected to the participant during the recording session}
+\label{fig:SetUp}
+\end{figure}
 
-SureSense blablabla is a ...
+The recording session can be summed up as follows:
 
-Ear thermometer...
+\begin{itemize}
+\item The trial environment is set up before the participant arrives. Equipment is disinfected and connected to the computer for data capture. 
+\item The participant is briefed about the procedure and signs an informed consent form.
+\item The participant is seated stationary in fort a a table containing all the equipment. Sensors are placed on the participant as shown in Figure \ref{fig:SetUp}, but excluding the ET 100-A.
+\item Three tympani temperature measurements are taken from the participant.
+\item The recording session starts. The participant sits still the entire time and breaths normally for the first 60 seconds.
+\item After 60 seconds the breathing the participant is asked to breath at 15 breaths per minute by following breathing metronome for 60 seconds.
+\item After 60 of controlled breathing (120 seconds recording in total) the recording session is concluded.
 
-with photoplethysmograph was used. Photoplethysmograms was compared and average heart rate readings as well. This will evaluate the feasibility of measuring a PPG from the ear canal ass well as the extracting a heart rate from this signal.
+\end{itemize}
+
+
+
+
+
+For the first 60 seconds the participant breaths normally and for the next 60 seconds the participant is asked to breath at 15 breaths per minute by following breathing metronome.
+
+\medskip
+
+Comparative analysis is done on each of the medical signs measurements made by the Ear-Monitor by comparing its measurements to those made by selected clinical devices. Each participant is acting as his/her own control.
 
 \subsection{Comparing Data}
-Comparing the device PPG to the Mexus BVP
-
 
 \section{Results}
 
