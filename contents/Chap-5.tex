@@ -1,5 +1,5 @@
 \chapter{Detailed Design}
-\label{chp:DetailedDesign}
+\label{chp:Detailed Design}
 This chapter documents the detailed design of the Ear-Monitor's subsystems. The hardware and software sides are discussed separately. 
 
 \section{Hardware}
@@ -147,6 +147,7 @@ The MAX30100 is set to SpO\textsubscript{2} mode with \SI{1600}{\micro\second} L
 After configuration is done, the MCU enters a continuous loop of sensor data reading. The MAX30100 uses one FIFO register to store the latest 16 IR and red photo-detector voltages and the TMP06 has two separate registers for die temperature and sensor voltage. These registers are red through Arduino's Wiring library. The MAX30100 outputs at 50 Hz and the TMP006 at 0.025 Hz. A timing loop is created to ensure that the values are red from the sensors in time.
 
 \subsection{Temperature related software}
+\label{sec:Temperature related software}
 After start-up configuration, two values, V\textsubscript{SENSOR} and T\textsubscript{DIE}, are read from the TMP006 through the I\textsubscript{2}C connection every 4 seconds.
 
 \medskip

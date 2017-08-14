@@ -10,6 +10,8 @@ A level-1 auxiliary file: contents/Chap-3.aux
 A level-1 auxiliary file: contents/Chap-4.aux
 A level-1 auxiliary file: contents/Chap-5.aux
 A level-1 auxiliary file: contents/Chap-6.aux
+A level-1 auxiliary file: contents/Chap-7.aux
+A level-1 auxiliary file: contents/Chap-8.aux
 Database file #1: backmatter/USbib-sample.bib
 Warning--entry type for "ExternalAuditoryCanal" isn't style-file defined
 --line 97 of file backmatter/USbib-sample.bib
@@ -22,58 +24,58 @@ Warning--entry type for "irTempSensors" isn't style-file defined
 Warning--entry type for "normalRestingHR" isn't style-file defined
 --line 208 of file backmatter/USbib-sample.bib
 Warning--entry type for "koblenski2015everyday" isn't style-file defined
---line 340 of file backmatter/USbib-sample.bib
+--line 355 of file backmatter/USbib-sample.bib
 Warning--entry type for "webMDSleepApnoea" isn't style-file defined
---line 349 of file backmatter/USbib-sample.bib
+--line 364 of file backmatter/USbib-sample.bib
 Warning--entry type for "medscapeBreathingRate" isn't style-file defined
---line 359 of file backmatter/USbib-sample.bib
+--line 374 of file backmatter/USbib-sample.bib
 Warning--entry type for "lambertANDbeer" isn't style-file defined
---line 450 of file backmatter/USbib-sample.bib
+--line 465 of file backmatter/USbib-sample.bib
 Warning--entry type for "spo2Motion" isn't style-file defined
---line 538 of file backmatter/USbib-sample.bib
+--line 553 of file backmatter/USbib-sample.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty journal in buskeheartbeat
 Warning--empty journal in wang2010wearable
-You've used 53 entries,
+You've used 54 entries,
             3324 wiz_defined-function locations,
-            961 strings with 16125 characters,
-and the built_in function-call counts, 52103 in all, are:
-= -- 4207
-> -- 1538
-< -- 95
-+ -- 612
-- -- 537
-* -- 5152
-:= -- 6303
-add.period$ -- 157
-call.type$ -- 53
-change.case$ -- 440
-chr.to.int$ -- 53
-cite$ -- 55
-duplicate$ -- 5110
-empty$ -- 4621
-format.name$ -- 1046
-if$ -- 10623
+            973 strings with 16630 characters,
+and the built_in function-call counts, 54260 in all, are:
+= -- 4389
+> -- 1620
+< -- 98
++ -- 643
+- -- 567
+* -- 5393
+:= -- 6539
+add.period$ -- 161
+call.type$ -- 54
+change.case$ -- 456
+chr.to.int$ -- 54
+cite$ -- 56
+duplicate$ -- 5332
+empty$ -- 4799
+format.name$ -- 1099
+if$ -- 11066
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 572
-newline$ -- 288
-num.names$ -- 212
-pop$ -- 1391
+missing$ -- 592
+newline$ -- 294
+num.names$ -- 216
+pop$ -- 1439
 preamble$ -- 1
-purify$ -- 391
+purify$ -- 405
 quote$ -- 0
-skip$ -- 1318
+skip$ -- 1352
 stack$ -- 0
-substring$ -- 3176
-swap$ -- 2432
-text.length$ -- 73
+substring$ -- 3337
+swap$ -- 2534
+text.length$ -- 76
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 471
+type$ -- 480
 warning$ -- 2
-while$ -- 482
+while$ -- 499
 width$ -- 0
-write$ -- 690
+write$ -- 705
 (There were 12 warnings)

@@ -48,7 +48,7 @@
 \contentsline {subsection}{\numberline {3.4.1}Pulse Oximetry Theory}{24}
 \contentsline {subsection}{\numberline {3.4.2}Work done by others in ear pulse oximetry}{26}
 \contentsline {section}{\numberline {3.5}Electrical Brain Activity}{27}
-\contentsline {chapter}{\chapternumberline {4}Concept Design}{28}
+\contentsline {chapter}{\chapternumberline {4}Concept Selection}{28}
 \contentsline {section}{\numberline {4.1}Temperature}{28}
 \contentsline {subsection}{\numberline {4.1.1}Temperature measurement method}{28}
 \contentsline {subsubsection}{\numberline {4.1.1.1}Contact thermometers}{28}
@@ -102,7 +102,21 @@
 \contentsline {section}{\numberline {6.1}Participant Selection}{59}
 \contentsline {section}{\numberline {6.2}Benchmark Validation}{60}
 \contentsline {section}{\numberline {6.3}Method}{61}
-\contentsline {subsection}{\numberline {6.3.1}Comparing Data}{63}
-\contentsline {section}{\numberline {6.4}Results}{63}
-\contentsline {chapter}{Appendices}{64}
-\contentsline {chapter}{List of References}{65}
+\contentsline {chapter}{\chapternumberline {7}Calibration}{64}
+\contentsline {section}{\numberline {7.1}Temperature Calibration}{64}
+\contentsline {subsection}{\numberline {7.1.1}Calibration group approach}{64}
+\contentsline {subsection}{\numberline {7.1.2}Intra-participant calibration approach}{65}
+\contentsline {section}{\numberline {7.2}SpO\textsubscript {2} Calibration}{65}
+\contentsline {chapter}{\chapternumberline {8}Results and Discussion}{66}
+\contentsline {section}{\numberline {8.1}Temperature Results}{66}
+\contentsline {subsection}{\numberline {8.1.1}Calibration group results}{66}
+\contentsline {subsection}{\numberline {8.1.2}Intra-participant calibration results}{67}
+\contentsline {subsection}{\numberline {8.1.3}Temperature results discussion}{68}
+\contentsline {section}{\numberline {8.2}Heart Rate Results}{68}
+\contentsline {subsection}{\numberline {8.2.1}Beat Detection Algorithm Evaluation Results}{68}
+\contentsline {subsubsection}{\numberline {8.2.1.1}PhysioNet Data Test}{68}
+\contentsline {subsubsection}{\numberline {8.2.1.2}Trial Data Test}{69}
+\contentsline {subsection}{\numberline {8.2.2}Beat Period and Average Heart Rate Results}{72}
+\contentsline {subsection}{\numberline {8.2.3}Heart Rate Results Discussion}{73}
+\contentsline {chapter}{Appendices}{74}
+\contentsline {chapter}{List of References}{75}

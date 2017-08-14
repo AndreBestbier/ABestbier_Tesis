@@ -1,0 +1,40 @@
+\chapter{Calibration}
+\label{chp:Calibration}
+Data collected during the trial is used to calibrate the equations used to calculate tympaic temperature and SpO\textsubscript{2}. The calibration process for the two different medical signs are discussed separately in this chapter.
+
+\section{Temperature Calibration}
+As discussed in Section \ref{sec:Temperature related software}, the TMP006 measures die temperature, T\textsubscript{DIE}, and thermopile sensor voltage, V\textsubscript{SENSOR}. These two measurements are used to calculate the temperature of the the object, T\textsubscript{OBJ}, which in the case of the Ear-Monitor is the tympanic membrane.
+
+\medskip
+
+Each data recording session in the trial produced 15 Ear-Monitor measurements and 3 ET 100-A benchmark measurements. Measurements from both devices are averaged separately to get one average Ear-Monitor and one average ET 100-A measurement per session. Two different calibration approaches are discussed: the calibration group approach and the intra-participant calibration approach.
+
+\subsection{Calibration group approach}
+In this approach, 5 recording session are used to calibrate the temperature calculation equation, Equation \ref{eq:FlatPlane}. MATLAB's curve fitting tool is used to fit a first order polynomial plane to the data points. The equation with calibration coefficients is shown by Equation \ref{eq:TempCal}.
+
+\begin{equation}
+\label{eq:TempCal}
+T_{OBJ}=22.85+ 0.04803 T_{DIE}-13440 V_{SENSOR}
+\end{equation}
+
+This equation is applied to all Ear-Monitor temperature measurements. The advantage of the calibration group approach is that calibration is done only once and no patient specific calibration is needed.
+
+\subsection{Intra-participant calibration approach}
+In this approach, the first recording session is used to calibrate the calibration coefficients for each participant individually. The first recording session data is entered into Equation \ref{eq:TempCal} and the error between the Ear-Monitor and ET 100-A data is used to adjust Equation \ref{eq:TempCal}.
+
+\medskip
+
+The advantage of this approach is that the Ear-Monitor can adjust to patient specific parameters, i.e. tympanic membrane size, the sensor's distance from the membrane and the fraction of the FOV that is occupied by the canal wall. The trade-off is that the Ear-Monitor needs to be calibrated for each participant individually. This is not a complicated process, calibration can be done in one minute and is only needed once per individual. 
+
+\section{SpO\textsubscript{2} Calibration}
+
+
+
+
+
+
+
+
+
+
+

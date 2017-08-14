@@ -110,7 +110,7 @@ end
 %% Plots
 
 %Raw -> AC
-%figure('units','normalized','outerposition',[0.25 0.25 0.55 0.7])
+figure('units','normalized','outerposition',[0.25 0.25 0.55 0.7])
 subplot(2,1,1)
 plot(time(50:n), rawIR(50:n), 'k');
 title('Raw PPG with DC offset and drift: x_n');
@@ -125,7 +125,7 @@ axis([70000 112500 -80 80]);
 
 
 %AC -> Filtered
-%figure('units','normalized','outerposition',[0.25 0.25 0.55 0.7])
+figure('units','normalized','outerposition',[0.25 0.25 0.55 0.7])
 subplot(2,1,1)
 plot(time(50:n), acIR(50:n), 'k');
 title('Extracted AC component');
@@ -140,7 +140,7 @@ axis([70000 112500 -80 80]);
 
 
 %Characteristics
-%figure('units','normalized','outerposition',[0.25 0.25 0.55 0.7])
+figure('units','normalized','outerposition',[0.25 0.25 0.55 0.7])
 plot(time(50:n), filterIR(50:n), 'k');
 title('Filtered AC component of PPG');
 ylabel('Filtered value'); xlabel('Time (ms)'); grid;
@@ -148,7 +148,7 @@ axis([76790 81400 -35 35]);
 
 
 %Filtered -> SSF
-%figure('units','normalized','outerposition',[0.25 0.25 0.55 0.7])
+figure('units','normalized','outerposition',[0.25 0.25 0.55 0.7])
 subplot(2,1,1)
 plot(time(50:n), filterIR(50:n), 'k');
 title('Filtered AC component: y_n');
