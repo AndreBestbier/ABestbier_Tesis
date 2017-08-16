@@ -39,7 +39,7 @@ Warning--empty journal in buskeheartbeat
 Warning--empty journal in wang2010wearable
 You've used 54 entries,
             3324 wiz_defined-function locations,
-            973 strings with 16630 characters,
+            973 strings with 16627 characters,
 and the built_in function-call counts, 54260 in all, are:
 = -- 4389
 > -- 1620

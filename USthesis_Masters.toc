@@ -10,8 +10,8 @@
 \select@language {english}
 \contentsline {chapter}{Contents}{vi}
 \contentsline {chapter}{List of Figures}{ix}
-\contentsline {chapter}{List of Tables}{xi}
-\contentsline {chapter}{Nomenclature}{xii}
+\contentsline {chapter}{List of Tables}{xii}
+\contentsline {chapter}{Nomenclature}{xiii}
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Aim/Research Question}{2}
 \contentsline {section}{\numberline {1.2}Motivation}{2}
@@ -19,13 +19,12 @@
 \contentsline {section}{\numberline {2.1}Ear Anatomy}{4}
 \contentsline {subsection}{\numberline {2.1.1}Auricle}{4}
 \contentsline {subsection}{\numberline {2.1.2}Ear Canal}{5}
-\contentsline {subsection}{\numberline {2.1.3}Tympanic Membrane}{6}
+\contentsline {subsection}{\numberline {2.1.3}Tympanic Membrane}{7}
 \contentsline {section}{\numberline {2.2}Medical Sign Physiology}{7}
 \contentsline {subsection}{\numberline {2.2.1}Core Temperature}{7}
-\contentsline {subsection}{\numberline {2.2.2}Heart Rate}{8}
+\contentsline {subsection}{\numberline {2.2.2}Heart Rate}{9}
 \contentsline {subsection}{\numberline {2.2.3}Respiratory Rate}{9}
-\contentsline {subsection}{\numberline {2.2.4}Blood Oxygen Saturation}{9}
-\contentsline {subsection}{\numberline {2.2.5}Electrical Brain Activity}{10}
+\contentsline {subsection}{\numberline {2.2.4}Blood Oxygen Saturation}{10}
 \contentsline {chapter}{\chapternumberline {3}Theory Literature Review}{11}
 \contentsline {section}{\numberline {3.1}Core Temperature}{11}
 \contentsline {subsection}{\numberline {3.1.1}Contact Thermometers}{12}
@@ -93,30 +92,32 @@
 \contentsline {subsubsection}{\numberline {5.2.4.1}AC and DC separation}{51}
 \contentsline {subsubsection}{\numberline {5.2.4.2}Low-pass filter}{52}
 \contentsline {subsection}{\numberline {5.2.5}Beat Detection}{52}
-\contentsline {subsubsection}{\numberline {5.2.5.1}Respiratory- and Heart Rate Calculation}{55}
+\contentsline {subsubsection}{\numberline {5.2.5.1}Heart- and Respiratory Rate Calculation}{55}
 \contentsline {subsection}{\numberline {5.2.6}SpO\textsubscript {2} Calculation}{56}
-\contentsline {subsection}{\numberline {5.2.7}Current Balancing}{56}
-\contentsline {subsection}{\numberline {5.2.8}Moving average SpO\textsubscript {2}}{57}
-\contentsline {subsection}{\numberline {5.2.9}PC Interface}{57}
-\contentsline {chapter}{\chapternumberline {6}Trial Period}{59}
-\contentsline {section}{\numberline {6.1}Participant Selection}{59}
-\contentsline {section}{\numberline {6.2}Benchmark Validation}{60}
-\contentsline {section}{\numberline {6.3}Method}{61}
-\contentsline {chapter}{\chapternumberline {7}Calibration}{64}
-\contentsline {section}{\numberline {7.1}Temperature Calibration}{64}
-\contentsline {subsection}{\numberline {7.1.1}Calibration group approach}{64}
-\contentsline {subsection}{\numberline {7.1.2}Intra-participant calibration approach}{65}
-\contentsline {section}{\numberline {7.2}SpO\textsubscript {2} Calibration}{65}
-\contentsline {chapter}{\chapternumberline {8}Results and Discussion}{66}
-\contentsline {section}{\numberline {8.1}Temperature Results}{66}
-\contentsline {subsection}{\numberline {8.1.1}Calibration group results}{66}
-\contentsline {subsection}{\numberline {8.1.2}Intra-participant calibration results}{67}
-\contentsline {subsection}{\numberline {8.1.3}Temperature results discussion}{68}
-\contentsline {section}{\numberline {8.2}Heart Rate Results}{68}
-\contentsline {subsection}{\numberline {8.2.1}Beat Detection Algorithm Evaluation Results}{68}
-\contentsline {subsubsection}{\numberline {8.2.1.1}PhysioNet Data Test}{68}
-\contentsline {subsubsection}{\numberline {8.2.1.2}Trial Data Test}{69}
-\contentsline {subsection}{\numberline {8.2.2}Beat Period and Average Heart Rate Results}{72}
-\contentsline {subsection}{\numberline {8.2.3}Heart Rate Results Discussion}{73}
-\contentsline {chapter}{Appendices}{74}
-\contentsline {chapter}{List of References}{75}
+\contentsline {subsection}{\numberline {5.2.7}Current Balancing}{57}
+\contentsline {subsection}{\numberline {5.2.8}Moving average SpO\textsubscript {2}}{58}
+\contentsline {subsection}{\numberline {5.2.9}PC Interface}{58}
+\contentsline {chapter}{\chapternumberline {6}Trial Period}{60}
+\contentsline {section}{\numberline {6.1}Participant Selection}{60}
+\contentsline {section}{\numberline {6.2}Benchmark Validation}{61}
+\contentsline {section}{\numberline {6.3}Method}{62}
+\contentsline {chapter}{\chapternumberline {7}Calibration}{65}
+\contentsline {section}{\numberline {7.1}Temperature Calibration}{65}
+\contentsline {subsection}{\numberline {7.1.1}Calibration group approach}{65}
+\contentsline {subsection}{\numberline {7.1.2}Intra-participant calibration approach}{66}
+\contentsline {section}{\numberline {7.2}SpO\textsubscript {2} Calibration}{66}
+\contentsline {chapter}{\chapternumberline {8}Results and Discussion}{67}
+\contentsline {section}{\numberline {8.1}Temperature Results}{67}
+\contentsline {subsection}{\numberline {8.1.1}Calibration Group Results}{67}
+\contentsline {subsection}{\numberline {8.1.2}Intra-participant Calibration Results}{68}
+\contentsline {subsection}{\numberline {8.1.3}Temperature Results Discussion}{70}
+\contentsline {section}{\numberline {8.2}Heart Rate Results}{71}
+\contentsline {subsection}{\numberline {8.2.1}Beat Detection Algorithm Evaluation Results}{71}
+\contentsline {subsubsection}{\numberline {8.2.1.1}PhysioNet Data Test}{72}
+\contentsline {subsubsection}{\numberline {8.2.1.2}Trial Data Test}{73}
+\contentsline {subsection}{\numberline {8.2.2}Beat Period and Average Heart Rate Results}{75}
+\contentsline {subsection}{\numberline {8.2.3}Heart Rate Results Discussion}{76}
+\contentsline {section}{\numberline {8.3}Respiratory Rate Results}{77}
+\contentsline {subsection}{\numberline {8.3.1}Respiratory Rate Discussion}{80}
+\contentsline {chapter}{Appendices}{81}
+\contentsline {chapter}{List of References}{82}

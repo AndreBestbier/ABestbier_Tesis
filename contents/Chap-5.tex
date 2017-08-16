@@ -110,8 +110,7 @@ An ear probe is designed to hold the MAX30100 and TMP006 in the correct position
 Add a photo of the completed electronic hardware
 
 
-
-
+%----------Softwaree--------------Software-----------------Software--------------Software--------------Software--------------Software------
 
 \section{Software}
 Software is written for the MCU and for the PC receiving and storing the data. MCU software is C++ based and developed using the Arduino IDE. MCU software handles sensor communication, timing, some processing and transmitting collected data via the Bluetooth modem. The PC software is Java based and developed using the Processing IDE. The PC software listens on the Bluetooth serial port, processes received data, display the data via a user interface and stores the received data on the local hard drive.
@@ -355,8 +354,25 @@ Only if all three rules apply to a SSF value, will it be registered as a peak. T
    \label{fig:BeatDetection}
 \end{figure}
 
-\subsubsection{Respiratory- and Heart Rate Calculation}
-Respiration rate is determined by monitoring respiratory sinus arrhythmia (RSA), the frequency modulating respiratory related heart rate characteristic.
+\subsubsection{Heart- and Respiratory Rate Calculation}
+The Ear-Monitor uses a moving average of the previous 10 heart beat periods to calculate heart rate in beats per minute. This calculation is executed every time a heart beat is detected and is done by the PC software.
+
+\medskip
+
+Respiration rate is determined by monitoring respiratory sinus arrhythmia (RSA), the frequency modulating respiratory related heart rate characteristic. During inhalation, the heart rate increases and during exhalation it decreases. RSA in not easily observed in a PPG plot, but becomes visible when plotting the heart beat periods. Figure \ref{fig:RSA} shows plots of the heart beat period and of the chest expansion due to the respiratory cycle. The synchronisation to the heart period variation and the respiratory rate is clearly visible, with each chest expansion maximum corresponding with a heart beat period minimum.
+
+\begin{figure}[H]
+   \centering
+   \includegraphics[width=12cm,height=7.5cm]{figs/RSA.png}
+   \caption{Plots of heart beat periods and chest expansion.}
+   \label{fig:RSA}
+\end{figure}
+
+To remove noise and reduce false positives, a two period moving average is taken of the beat period signal. A inhalation is registered each time a local maximum is detected on this filtered signal. The number of inhalations detected in a minute is used to calculate the respiratory rate in breaths per minute.
+
+\medskip
+
+The heart beat periods can be seen as samples, and therefore the heart rate as the sample rate. This means that, according to the Nyquist theorem, the highest theoretical respiration rate that can be measured by the Ear-Monitor will equal half the heart rate.
 
 \subsection{SpO\textsubscript{2} Calculation}
 The MAX30100 outputs digitals value representing the intensity of red and IR light reflected by the tissue. Due to the different absorption spectra of oxygenated and deoxygenated blood, these values can be used to determine the fraction of peripheral blood oxygen saturation. PC software is written to calculate the SpO2 and MCU software is written to control the sensor. 
@@ -399,13 +415,15 @@ The relationship between $R$ and SpO\textsubscript{2} is unique for different de
 $R$ and SpO\textsubscript{2} are calculated on every heartbeat using the moving data window of the previous 12 heartbeats.
 
 \subsection{PC Interface}
-A graphical user interface is written in Processing to display the measurements on the computer screen and allow the user to set alarms and save the data. The interface receives variables from the various functions discussed. It displays these variables along with a series of real-time graphs and has the option to save the measured Ear-Monitor data in a .csv file for later reference or analysis. Figure \ref{fig:GUI} shown 
+A graphical user interface is written in Processing to display the measurements on the computer screen and allow the user to set alarms and save the data. The interface receives variables from the various functions discussed. It displays these variables along with a series of real-time graphs and has the option to save the measured Ear-Monitor data in a .csv file for later reference or analysis. Figure \ref{fig:GUI} shows a screen-shot of the user interface with (a) the SSF with detected beats, (b) the AC components of the red and IR PPGs, (c) respiration illustrated in plotting the heart beat period, (d) temperature, (e) data written to .cvs files and (f) alarm conditions.
 
 \begin{figure}[H]
 \centering
 \graphicspath{{figs/}}
 %\def\svgwidth{180pt}
 \input{figs/GUI.pdf_tex}
-\caption{Ear-Monitor user interface with (a) the SSF with detected beats, (b) the AC components of the red and IR PPGs, (c) respiration illustrated in plotting the heart beat period, (d) temperature, (e) data written to .cvs files and (f) alarm conditions}
+\caption{Ear-Monitor user interface}
 \label{fig:GUI}
 \end{figure}
+
+ 

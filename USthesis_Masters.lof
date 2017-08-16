@@ -11,11 +11,10 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Anatomical structures of the auricle (Get source from: goo.gl/mmLnFx)\relax }}{5}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Structure of the ear (Drake et al: Gray's Anatomy for Students)\relax }}{6}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces The results from 20 studies with strong or fairly strong evidence of normal oral, rectal and tympanic temperature ($^{\circ }$C) in adult men and women are presented. Temperature is obtainable as mean value(bold lines), 1st and 3rd quartiles (unfilled bars) and range (thin lines).\relax }}{8}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces EEG rhythms\relax }}{10}
 \addvspace {10pt}
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Plot showing how Planck's law can be used to determine the dominant radiation wavelength at certain temperature\relax }}{14}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces IR Thermometer diagram (V Polyzoev et al: Demystifying Thermopile IR Temp Sensors)\relax }}{15}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces CAD model of the \textit {degree}$^{\circ }$ from the \textit {cosinuss}$^{\circ }$ website (include ref)\relax }}{15}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Infrared thermometer diagram (V Polyzoev et al: Demystifying Thermopile IR Temp Sensors)\relax }}{15}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces CAD model of the \textit {degree}$^{\circ }$ from the \textit {cosinuss}$^{\circ }$ website (www.cosinuss.com)\relax }}{15}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Ear-worn device developed by \cite {winokur2012wearable}\relax }}{16}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces The two modes of Photoplethysmography \citep {tamura2014wearable}\relax }}{17}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Basic operating principles of PPG \citep {tamura2014wearable}\relax }}{18}
@@ -47,17 +46,21 @@
 \contentsline {figure}{\numberline {5.13}{\ignorespaces Filtered AC component of PPG with important features labelled\relax }}{53}
 \contentsline {figure}{\numberline {5.14}{\ignorespaces (a) the AC component of the IR signal before filtering and (b), after filtering\relax }}{54}
 \contentsline {figure}{\numberline {5.15}{\ignorespaces SSF with detected beats and threshold plotted.\relax }}{55}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Plot showing the effect of the current balancing function implemented on the MAX30100 lowering the difference in detected light between red and IR LED by adjusting the current to the IR LED.\relax }}{57}
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Ear-Monitor user interface with (a) the SSF with detected beats, (b) the AC components of the red and IR PPGs, (c) respiration illustrated in plotting the heart beat period, (d) temperature, (e) data written to .cvs files and (f) alarm conditions\relax }}{58}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Plots of heart beat periods and chest expansion.\relax }}{56}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Plot showing the effect of the current balancing function implemented on the MAX30100 lowering the difference in detected light between red and IR LED by adjusting the current to the IR LED.\relax }}{58}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Ear-Monitor user interface\relax }}{59}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Benchmark devices: (a) Nexus-10, (b) SureSigns VM1 and (c) EM 100-A\relax }}{60}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Diagram showing how devices are connected to the participant during the recording session\relax }}{62}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Recording session set-up with participant\relax }}{63}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Benchmark devices: (a) Nexus-10, (b) SureSigns VM1 and (c) EM 100-A\relax }}{61}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Diagram showing how devices are connected to the participant during the recording session\relax }}{63}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Recording session set-up with participant\relax }}{64}
 \addvspace {10pt}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Temperature errors before and after calibration\relax }}{66}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {8.1}{\ignorespaces ---\relax }}{67}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces ---\relax }}{67}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Plots of (a) the Ear-Monitor SSF with detected beats and (b) the Nexus-10 PPG signal with annotated beats\relax }}{70}
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Number of beats: Nexus-10 vs. Ear-Monitor\relax }}{72}
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Beat period: Nexus-10 vs. Ear-Monitor\relax }}{73}
-\contentsline {figure}{\numberline {8.6}{\ignorespaces 10-beat average heart rate: Nexus-10 vs. Ear-Monitor\relax }}{73}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Temperature through Calibration Group: ET 100-A vs. Ear-Monitor\relax }}{68}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Temperature through Intra-participant Calibration: ET 100-A vs. Ear-Monitor\relax }}{69}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Temperature errors of Calibration group method and Intra-participant calibration method\relax }}{71}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Plots of (a) the Ear-Monitor SSF with detected beats and (b) the Nexus-10 PPG signal with annotated beats\relax }}{73}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Number of beats: Nexus-10 vs. Ear-Monitor\relax }}{75}
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Beat period: Nexus-10 vs. Ear-Monitor\relax }}{76}
+\contentsline {figure}{\numberline {8.7}{\ignorespaces 10-beat average heart rate: Nexus-10 vs. Ear-Monitor\relax }}{76}
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Number of breaths detected: Nexus-10 vs. Ear-Monitor\relax }}{79}

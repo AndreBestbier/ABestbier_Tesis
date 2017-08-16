@@ -1,39 +1,106 @@
 \chapter{Results and Discussion}
 \label{chp:Results and Discussion}
-This chapter documents the results from the trial conducted on the Ear-Monitor. The aim is to quantify the level of comparability between the Ear-Monitor's and benchmark device's measurements and through this get an understanding of the level of accuracy of the Ear-Monitor's measurements. Comparative analysis is done on each of the medical signs measurements made by the Ear-Monitor by comparing its measurements to those made by selected benchmark devices. Each participant is acting as his/her own control is this type of analysis. Results are discussed one at a time in this chapter.
+This chapter documents the results from the trial conducted on the Ear-Monitor. The aim is to quantify the level of comparability between the Ear-Monitor's and benchmark device's measurements and through this get an understanding of the level of accuracy of the Ear-Monitor's measurements. Each participant is acting as his/her own control is this type of analysis. Results are discussed one medical sign at a time in this chapter.
 
 \section{Temperature Results}
-During each recording session, 15 Ear-Monitor data points and 3 ET 100-A benchmark data points are collected. It is assumed that the participant's core temperature stays constant during the duration of the recording session. Therefor the average ET 100-A benchmark measurement and the average Ear-Monitor measurement are compared. 2 participants' data was removed due to faulty recording sessions.
+During each recording session, 15 Ear-Monitor data points and 3 ET 100-A benchmark data points are collected. It is assumed that the participant's core temperature stays constant during the duration of the recording session. Therefore the average ET 100-A benchmark measurement and the average Ear-Monitor measurement are compared. Two participants' data is removed due to faulty recording sessions.
 
 \medskip
 
-The Ear-Monitor data points are analysed in terms of correlation with the ET 100-A benchmark measurements, intra session variation and the absolute mean errors. Results from the two calibration approaches are discussed separately.
+The Ear-Monitor data points are analysed in terms of correlation with the ET 100-A benchmark measurements and the average error. An error is the difference between the ET 100-A benchmark measurement and the Ear-Monitor measurement. Results from the two calibration approaches are documented separately and then compared in the discussion.
 
-\subsection{Calibration group results}
-Equation \ref{eq:TempCal} is used to calculate tympanic temperature for all participants. Figure \ref{fig:Temp1Scatter} shows a scatterplot of the average Ear-Monitor vs. ET 100-A data points for the 28 recording sessions with temperature measurements.
+\subsection{Calibration Group Results}
+Equation \ref{eq:TempCal} is used to calculate tympanic temperature for all participants. Figure \ref{fig:Temp1Scatter} shows a scatter plot of the average Ear-Monitor vs. ET 100-A data points for the 28 recording sessions with temperature measurements. The black line is the $x=y$ line and the blue line is fitted to the data through the least squares method.
 
 \begin{figure}[H]
    \centering
    \includegraphics[width=12cm,height=7.5cm]{figs/Temp1Scatter.png}
-   \caption{---}
+   \caption{Temperature through Calibration Group: ET 100-A vs. Ear-Monitor}
    \label{fig:Temp1Scatter}
 \end{figure}
 
-The results for each session are summirised in Table \ref{tab:ResultsTemp}.
+The the average error is found to be 0.0160 $\pm$\SI{0.0226}{\celsius} and the average of the absolute value of all the errors is 0.3399 $\pm$\SI{0.0157}{\celsius}.
 
-\subsection{Intra-participant calibration results}
-This method used the data from the first recording session to calibrate the Ear-Monitor, and the data from the second session is used to evaluate this method. Figure \ref{fig:Temp2Scatter} shows a scatterplot of the average Ear-Monitor vs. ET 100-A data points for the 14 second recording sessions.
+\subsection{Intra-participant Calibration Results}
+This method used the data from the first recording session to calibrate the Ear-Monitor, and the data from the second session is used to evaluate this method. Figure \ref{fig:Temp2Scatter} shows a scatterplot of the average Ear-Monitor vs. ET 100-A data points for the 14 second recording sessions. Again the black line $x=y$ and the blue line is fitted to the data.
 
 \begin{figure}[H]
    \centering
    \includegraphics[width=12cm,height=7.5cm]{figs/Temp2Scatter.png}
-   \caption{---}
+   \caption{Temperature through Intra-participant Calibration: ET 100-A vs. Ear-Monitor}
    \label{fig:Temp2Scatter}
 \end{figure}
 
-\subsection{Temperature results discussion}
-Blablabla...
+The results of the intra-participant calibration shows an average error of 0.0114 $\pm$\SI{0.0190}{\celsius} and an average of the absolute value of all the errors of 0.2499 $\pm$\SI{0.0087}{\celsius}.
 
+\medskip
+
+The results for the two different calibration methods are summarised in Table \ref{tab:ResultsTemp}. The calibration group method is labelled and A and the intra-participant calibration method as B. The temperature values are recording session averages with standard errors indicated in brackets. All values are in \SI{}{\celsius}.
+
+\begin{table}[H]
+\caption{Summary of the temperature results}
+\label{tab:ResultsTemp}
+\centering
+\begin{tabular}{|P{1.4cm} | P{1.4cm} || P{1.6cm} |P{1.2cm}| |P{1.6cm} |P{1.2cm}|P{2cm}|} 
+\hline
+Partici-pant No.	&	ET 100-A Temp	&	Ear-Monitor Temp A	&	Error A	&	Ear-Monitor Temp B	&	Error B	&	Ear-Monitor standard error\\
+\hline
+2a	&	36.33	&	37.63 	&	-1.29	&	-		&	-		&	$\pm$0.0043\\
+2b	&	36.37	&	37.57 	&	-1.21	&	36.08	&	0.28	&	$\pm$0.0017\\
+3a	&	37.65	&	37.54 	&	0.11	&	-		&	-		&	$\pm$0.0031\\
+3b	&	37.40	&	37.67 	&	-0.27	&	37.58	&	-0.18	&	$\pm$0.0172\\
+4a	&	38.30	&	37.37 	&	0.93	&	-		&	-		&	$\pm$0.0012\\
+4b	&	38.55	&	37.44 	&	1.11	&	38.17	&	0.38	&	$\pm$0.0014\\
+6a	&	38.35	&	37.80 	&	0.55	&	-		&	-		&	$\pm$0.0032\\
+6b	&	37.60	&	37.76 	&	-0.16	&	38.11	&	-0.51	&	$\pm$0.0015\\
+7a	&	37.03	&	37.31 	&	-0.28	&	-		&	-		&	$\pm$0.0008\\
+7b	&	37.00	&	37.34 	&	-0.34	&	36.86	&	0.14	&	$\pm$0.0016\\
+8a	&	38.40	&	38.13 	&	0.27	&	-		&	-		&	$\pm$0.0072\\
+8b	&	38.50	&	38.03 	&	0.47	&	38.10	&	0.40	&	$\pm$0.0009\\
+9a	&	37.55	&	37.53 	&	0.02	&	-		&	-		&	$\pm$0.0005\\
+9b	&	37.40	&	37.54 	&	-0.14	&	37.36	&	0.04	&	$\pm$0.0007\\
+10a	&	37.95	&	37.70 	&	0.25	&	-		&	-		&	$\pm$0.0031\\
+10b	&	38.10	&	37.73 	&	0.37	&	37.77	&	0.33	&	$\pm$0.0007\\
+11a	&	37.50	&	37.52 	&	-0.02	&	-		&	-		&	$\pm$0.0006\\
+11b	&	37.60	&	37.50 	&	0.10	&	37.27	&	0.33	&	$\pm$0.0051\\
+12a	&	38.50	&	38.51 	&	-0.01	&	-		&	-		&	$\pm$0.021\\
+12b	&	37.70	&	38.18 	&	-0.48	&	37.97	&	-0.27	&	$\pm$0.0028\\
+13a	&	38.05	&	38.02 	&	0.03	&	-		&	-		&	$\pm$0.012\\
+13b	&	37.53	&	37.92 	&	-0.39	&	37.75	&	-0.22	&	$\pm$0.0016\\
+14a	&	38.00	&	37.73 	&	0.27	&	-		&	-		&	$\pm$0.001\\
+14b	&	37.95	&	37.75 	&	0.20	&	37.82	&	0.13	&	$\pm$0.0004\\
+15a	&	37.65	&	37.58 	&	0.07	&	-		&	-		&	$\pm$0.0033\\
+15b	&	37.30	&	37.55 	&	-0.25	&	37.42	&	-0.12	&	$\pm$0.0008\\
+16a	&	37.90	&	37.90 	&	0.00	&	-		&	-		&	$\pm$0.0016\\
+16b	&	37.50	&	37.93 	&	-0.43	&	37.73	&	-0.23	&	$\pm$0.0038\\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection{Temperature Results Discussion}
+It is clear form the Ear-Monitor standard errors in Table \ref{tab:ResultsTemp} that the TMP006 has a high precision. The measurements inside a recording session are close to one another, with the maximum standard error being $\pm$ \SI{0.0172}{\celsius}. This was expected owing to the thermal consistency inside the ear canal. Air flow is negligible and the position of objects in the sensor's field of vision stays constant. These factors contrite to high precision measurements.
+
+\medskip
+
+The two different calibration methods can be compared through a box and whisker plot of their respective errors as can be seen in Figure \ref{fig:ComparingCalibrationBoxplot}. 
+
+\begin{figure}[H]
+   \centering
+   \includegraphics[width=12cm,height=7.5cm]{figs/ComparingCalibrationBoxplot.png}
+   \caption{Temperature errors of Calibration group method and Intra-participant calibration method}
+   \label{fig:ComparingCalibrationBoxplot}
+\end{figure}
+
+The methods used to analyse the data unanimously indicate that the intra-participant calibration method is superior to the group calibration method with regards to accuracy. The scatter plots, Figure \ref{fig:Temp1Scatter} and \ref{fig:Temp2Scatter}...
+
+Compare errors
+Mention standard errors are unchanged
+Add ICC values
+Evaluate ear-monitors ability to measure temp
+Compare to other word/devices (Cosinuss)
+
+
+%---------------------------------------------------------------------------------------------------------------------------------------------
 
 \section{Heart Rate Results}
 The Ear-Monitor uses an IR PPG obtained for the ear canal to detect pulse peaks via a beat detection algorithm. The average period between 10 successive detected beats are used to calculate the heart rate. The beat detection algorithm is at the core of the heart rate functionality of the Ear-Monitor, and therefore it is be evaluated independently. This is followed by comparative analysis between the individual beat periods and 10-beat moving average heart rates of the Ear-Monitor and Nexus-10 physiological monitor.
@@ -172,7 +239,6 @@ Participant No.	&	 No. Nexus-10 Beats	&	No. Ear-Monitor Beats	&	False Positives 
 16a	&	154	&	151	&	1	&	4	&	98.05	\\
 \hline
 16b	&	159	&	152	&	6	&	13	&	95.6	\\
-
 \hline
 \end{tabular}
 \end{table}
@@ -211,3 +277,103 @@ The 10-beat average heart rate is calculate form the Ear-Monitor and Nexus-10 da
 
 \subsection{Heart Rate Results Discussion}
 Blablabla...
+
+
+%---------------------------------------------------------------------------------------------------------------------------------------------
+
+\section{Respiratory Rate Results}
+The Ear-Monitor uses respirators sinus arrhythmia, the frequency modulating respiratory heart rate characteristic, to extract a respiratory rate. The the chest strap connected to the Nexus-10 physiological monitoring platform is used to measure the benchmark respiration rate. Benchmark breaths from the Nexus-10 are manually annotated. The recording session consisted of one minute of normal breathing followed by one minute of breathing regulated at 15 breaths per minute. Table \ref{tab:RSP_Data} shows a summary of the breaths detected during all recording sessions.%Data from all 16 participants is used to compile the respiratory rate results. 
+
+\begin{table}[H]
+\caption{Summery of breaths recorded during each recording session}
+\label{tab:RSP_Data}
+\centering
+\begin{tabular}{|P{1.9cm}|P{3.2cm}|P{3.2cm}|P{1.2cm}|} 
+\hline
+Participant No.	&	No. Nexus-10 Breaths	&	No. Ear-Monitor Breaths	&	Error	\\
+\hline
+1a	&	30	&	30	&	0	\\
+1b	&	23	&	22	&	1	\\
+2a	&	27	&	22	&	5	\\
+2b	&	27	&	22	&	5	\\
+3a	&	28	&	25	&	3	\\
+3b	&	25	&	25	&	0	\\
+4a	&	28	&	29	&	-1	\\
+4b	&	28	&	27	&	1	\\
+5a	&	24	&	33	&	-9	\\
+5b	&	24	&	44	&	-20	\\
+6a	&	34	&	29	&	5	\\
+6b	&	32	&	30	&	2	\\
+7b	&	28	&	29	&	-1	\\
+7c	&	26	&	26	&	0	\\
+8a	&	29	&	27	&	2	\\
+8b	&	29	&	32	&	-3	\\
+9a	&	42	&	31	&	11	\\
+9b	&	43	&	29	&	14	\\
+10a	&	31	&	29	&	2	\\
+10b	&	32	&	32	&	0	\\
+11a	&	29	&	28	&	1	\\
+11b	&	29	&	28	&	1	\\
+12a	&	32	&	26	&	6	\\
+12b	&	34	&	33	&	1	\\
+13a	&	30	&	39	&	-9	\\
+13b	&	28	&	43	&	-15	\\
+14a	&	22	&	22	&	0	\\
+14b	&	23	&	24	&	-1	\\
+15a	&	32	&	32	&	0	\\
+15c	&	30	&	33	&	-3	\\
+16a	&	29	&	28	&	1	\\
+16b	&	35	&	33	&	2	\\
+\hline
+\end{tabular}
+\end{table}
+
+\medskip
+It should be noted, however, that the majority of the inaccuracy can be traced to the recording sessions participants 5, 9 and 13. Upon closer inspection the following explanation can be given. Participant 5 and 13 both has a large number of false positives, the highest and third highest average heart rates and very low heart beat period variation due to RSA. Participant 9 has an unusually high resting respiratory rate (more than double that of the average of the rest of the participants), bordering on the maximum measurable rate according to the Nyquist theorem, which is equal to half the heart rate. This caused 51\% of breaths to be missed during normal breathing. As expected, when the respiratory rate was raised during the controlled breathing exercise, the breath detection accuracy returned to the group average. These three participants are regarded as outliers and are isolated from the rest in order to reveal the trends present the bulk of the recording sessions.
+
+\medskip
+
+The average errors in respiratory rate between the benchmark Nexus-10 and the Ear-Monitor can be seen in Table \ref{tab:BreathingAccuracies}. Standard deviations are included and all values are in breaths per minute. By removing the outliers the average error of the normal and controlled breathing groups are closer to one another and the standard deviation in the errors are reduced by more than half.
+
+\begin{table}[H]
+\caption{Average errors of the respiratory rate measurements}
+\label{tab:BreathingAccuracies}
+\renewcommand{\arraystretch}{1.2}
+\centering
+\begin{tabular}{|P{4cm}|P{4cm}|P{4cm}|} 				
+\hline
+Group				&	Outliers removed		&	Outliers included\\ 
+\hline
+Normal breathing	&	-0.6154 $\pm$0.3285		&	0.4375 $\pm$0.8694\\
+%\hline
+Breathing exercise 	&	-0.5000 $\pm$0.2166		&	-0.40625$\pm$0.4327\\
+%\hline
+All					&	-0.5577 $\pm$0.1950		&	0.0156 $\pm$0.4846\\
+\hline
+\end{tabular}
+\end{table}
+
+Figure \ref{fig:BreathScatter} shows a plot of the Nexus-10's benchmark breaths versus the Ear-Monitor's detected breaths. Blue marks the number of breaths after 1 minute of normal breathing and red marks the total number of breaths in the recording session, including the  breathing exercise.
+
+\begin{figure}[H]
+   \centering
+   \includegraphics[width=12cm,height=7.5cm]{figs/BreathScatter.png}
+   \caption{Number of breaths detected: Nexus-10 vs. Ear-Monitor}
+   \label{fig:BreathScatter}
+\end{figure}
+
+\subsection{Respiratory Rate Discussion}
+The breathing exercise was included in the trail, due to the uncertainty that the RSA will be visible during normal breathing. In general, participants started breathing deeper during the breathing exercise. This resulted in a more accurate detection of breaths.
+
+\medskip
+
+Although the standard deviation for the data from the breathing exercise is lower, the Ear-Monitor sill measured respiratory rate during normal breathing better than expected. According to the trial data (excluding th outliers), the Ear-Monitor is able to calculate the respiratory rate of a participant breathing normally to with in an average accuracy of -0.6154 breaths per minute with a standard precision of $\pm$ 0.3285 breaths per minute (6.78\% standard deviation at 14 breaths per minute). This is superior to the 1 breath per minute accuracy from \cite{clifton2007measurement} and the 7.6\% accuracy from \cite{leonard2006fully}.
+
+\medskip
+
+It can be seen that, on average, the Ear-Monitor detects a respiratory rate that is slightly lower (-0.5577 $\pm$0.1950 breaths per minute) than the actual rate. This means that the algorithm misses some breaths. This can be ascribed to intermitted shallower and shorter breaths that does not cause an big enough variation in heart beat period.
+
+\medskip
+
+The outliers are removed to emphasize the normal results, but they are not random and provide a valuable insight into the limitations of using RSA to measure respiratory rate. Is can be stated that elevated heart rates (higher than 80 bpm in this trial) reduces the magnitude of RSA  and causes the detection of false breaths. Also, if the breathing rate approaches half the heart rate (Nyquist theorem), the sample frequency is to low and many breaths are missed by the detection algorithm. These results can be summarised by saying that respiratory rate measurement through RSA is most accurate at lower heart and respiratory rates.
+

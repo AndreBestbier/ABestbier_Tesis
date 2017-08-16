@@ -147,6 +147,11 @@
   from emergency responders in tropical conditions.
 \newblock \emph{PLoS One}, \bblvol{}~8, \bblno{}~10, \bblp{} e76585.
 
+\bibitem[{\citenamefont{Encyclop\ae{}dia-Britannica}(2015)}]{ExternalAuditoryCanal}
+\bibnamefont{Encyclop\ae{}dia-Britannica}, \bibfnamefont{T.E.} (2015 01).
+\newblock External auditory canal.
+\newline\bblurlpre\url{https://global.britannica.com/science/external-auditory-canal}
+
 \bibitem[{\citenamefont{Encyclop\ae{}dia-Britannica}()}]{lambertANDbeer}
 \bibnamefont{Encyclop\ae{}dia-Britannica}, \bibfnamefont{T.E.O.} ().
 \newblock Spectrophotometry.
@@ -339,11 +344,6 @@
 \newblock \emph{How to Design Peripheral Oxygen Saturation (SpO2) and Optical
   Heart Rate Monitoring (OHRM) Systems Using the AFE4403}.
 \newblock Texas Instruments.
-
-\bibitem[{\citenamefont{of~Encyclop\ae{}dia~Britannica}(2015)}]{ExternalAuditoryCanal}
-\bibnamefont{of~Encyclop\ae{}dia~Britannica}, \bibfnamefont{T.E.} (2015 01).
-\newblock External auditory canal.
-\newline\bblurlpre\url{https://global.britannica.com/science/external-auditory-canal}
 
 \bibitem[{\citenamefont{Olive} \emph{\bbletal{}}(2016)\citenamefont{Olive},
   \citenamefont{Twentyman} \protect\BIBand{}

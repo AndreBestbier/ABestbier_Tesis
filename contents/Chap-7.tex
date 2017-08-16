@@ -17,7 +17,20 @@ In this approach, 5 recording session are used to calibrate the temperature calc
 T_{OBJ}=22.85+ 0.04803 T_{DIE}-13440 V_{SENSOR}
 \end{equation}
 
+
 This equation is applied to all Ear-Monitor temperature measurements. The advantage of the calibration group approach is that calibration is done only once and no patient specific calibration is needed.
+
+\medskip
+
+A box and whisker plot can be seen in Figure \ref{fig:BeforeAfterCalibrationBoxplot} and shows the error between the ET 100-A benchmark temperature and the Ear-Monitor temperature before and after calibration. Improvements in accuracy and precision are clearly visible in this graphical representation of the data.
+
+\begin{figure}[H]
+   \centering
+   \includegraphics[width=12cm,height=7.5cm]{figs/BeforeAfterCalibrationBoxplot.png}
+   \caption{Temperature errors before and after calibration}
+   \label{fig:BeforeAfterCalibrationBoxplot}
+\end{figure}
+
 
 \subsection{Intra-participant calibration approach}
 In this approach, the first recording session is used to calibrate the calibration coefficients for each participant individually. The first recording session data is entered into Equation \ref{eq:TempCal} and the error between the Ear-Monitor and ET 100-A data is used to adjust Equation \ref{eq:TempCal}.

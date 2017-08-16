@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.6.29)  14 AUG 2017 22:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.6.29)  16 AUG 2017 21:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1200,25 +1200,42 @@ Package pdftex.def Info: Requested size: 89.70789pt x 124.82738pt on input line
 
 ] [5
 
-]) (./USthesis_Masters.toc [6
+]) (./USthesis_Masters.toc
+Overfull \hbox (0.16243pt too wide) detected at line 14
+ \T1/cmr/bx/n/12 xiii
+ []
+
+[6
 
 
-]
-[7]) [8] (./USthesis_Masters.lof
+] [7]) [8] (./USthesis_Masters.lof
 Overfull \hbox (10.68289pt too wide) in paragraph at lines 11--11
  [][] []\T1/cmr/m/n/12 Anatomical struc-tures of the au-ri-cle (Get source from
 : goo.gl/mmLnFx) []  
  []
 
 
-Overfull \hbox (5.23994pt too wide) in paragraph at lines 26--26
+Overfull \hbox (18.29616pt too wide) in paragraph at lines 17--17
+ [][] []\T1/cmr/m/n/12 CAD model of the \T1/cmr/m/it/12 de-gree$[]$ \T1/cmr/m/n
+/12 from the \T1/cmr/m/it/12 cos-i-nuss$[]$ \T1/cmr/m/n/12 web-site (www.cosinu
+ss.com) []  
+ []
+
+
+Overfull \hbox (5.23994pt too wide) in paragraph at lines 25--25
  [][] []\T1/cmr/m/n/12 Breathing de-tected through mi-cro-phones in-side the ea
 r canal (Gover- 
  []
 
 [9
 
-]) [10] (./USthesis_Masters.lot) [11
+]
+Overfull \hbox (13.08658pt too wide) in paragraph at lines 61--61
+ [][] []\T1/cmr/m/n/12 Temperature er-rors of Cal-i-bra-tion group method and I
+ntra-participant 
+ []
+
+[10]) [11] (./USthesis_Masters.lot) [12
 
 ]
 \openout2 = `frontmatter/Nomencl.aux'.
@@ -1228,7 +1245,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
-) [12
+) [13
 
 
 
@@ -1245,63 +1262,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  (./contents/Chap-2.tex
 (./figs/Auricle.pdf_tex
-<figs/Auricle.pdf, id=76, page=1, pagebox=cropbox, 238.31786pt x 234.8775pt>
+<figs/Auricle.pdf, id=79, page=1, pagebox=cropbox, 238.31786pt x 234.8775pt>
 File: figs/Auricle.pdf Graphic file (type pdf)
 <use figs/Auricle.pdf, page 1>
 Package pdftex.def Info: figs/Auricle.pdf , page1 used on input line 52. on inp
 ut line 52.
 Package pdftex.def Info: Requested size: 200.0pt x 197.11655pt on input line 52
 .
-<figs/Auricle.pdf, id=77, page=2, pagebox=cropbox, 238.31786pt x 234.8775pt>
+<figs/Auricle.pdf, id=80, page=2, pagebox=cropbox, 238.31786pt x 234.8775pt>
 File: figs/Auricle.pdf Graphic file (type pdf)
 <use figs/Auricle.pdf, page 2>
 Package pdftex.def Info: figs/Auricle.pdf , page2 used on input line 56. on inp
 ut line 56.
 Package pdftex.def Info: Requested size: 200.0pt x 197.11655pt on input line 56
 .
-)
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[4
+) [4
 
 
 
 ]
-<figs/EarSection.pdf, id=81, pagebox=cropbox, 451.6875pt x 294.34969pt>
+<figs/EarSection.pdf, id=84, pagebox=cropbox, 451.6875pt x 294.34969pt>
 File: figs/EarSection.pdf Graphic file (type pdf)
 <use figs/EarSection.pdf>
-Package pdftex.def Info: figs/EarSection.pdf  used on input line 41. on input l
-ine 41.
+Package pdftex.def Info: figs/EarSection.pdf  used on input line 38. on input l
+ine 38.
 Package pdftex.def Info: Requested size: 316.17908pt x 206.04337pt on input lin
-e 41.
+e 38.
  [5 <./figs/Auricle.pdf> <./figs/Auricle.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figs/Auricle.pdf): PDF inclusion: multiple
  pdfs with page group included in a single page
->] [6 <./figs/EarSection.pdf>]
-<figs/VariationsInTemp.pdf, id=96, pagebox=cropbox, 603.75563pt x 432.11438pt>
+>] [6 <./figs/EarSection.pdf>] [7]
+<figs/VariationsInTemp.pdf, id=102, pagebox=cropbox, 603.75563pt x 432.11438pt>
+
 File: figs/VariationsInTemp.pdf Graphic file (type pdf)
 <use figs/VariationsInTemp.pdf>
-Package pdftex.def Info: figs/VariationsInTemp.pdf  used on input line 75. on i
-nput line 75.
+Package pdftex.def Info: figs/VariationsInTemp.pdf  used on input line 72. on i
+nput line 72.
 Package pdftex.def Info: Requested size: 181.12808pt x 129.6353pt on input line
- 75.
- [7] [8 <./figs/VariationsInTemp.pdf>] [9]
-(./figs/eegRhythm.pdf_tex
-<figs/eegRhythm.pdf, id=108, page=1, pagebox=cropbox, 673.50725pt x 387.82985pt
->
-File: figs/eegRhythm.pdf Graphic file (type pdf)
-<use figs/eegRhythm.pdf, page 1>
-Package pdftex.def Info: figs/eegRhythm.pdf , page1 used on input line 57. on i
-nput line 57.
-Package pdftex.def Info: Requested size: 300.0pt x 172.74648pt on input line 57
-.
-)) [10 <./figs/eegRhythm.pdf>]
+ 72.
+ [8 <./figs/VariationsInTemp.pdf>] [9])
+[10]
 \openout2 = `contents/Chap-3.aux'.
 
- (./contents/Chap-3.tex
-[11
+ (./contents/Chap-3.tex [11
 
 
 
@@ -1316,7 +1320,7 @@ Package epstopdf Info: Source file: <figs/PlancksLaw.eps>
 ted-to.pdf figs/PlancksLaw.eps>
 (epstopdf)             \includegraphics on input line 57.
 Package epstopdf Info: Output file is already uptodate.
-<figs/PlancksLaw-eps-converted-to.pdf, id=123, pagebox=cropbox, 466.74374pt x 3
+<figs/PlancksLaw-eps-converted-to.pdf, id=121, pagebox=cropbox, 466.74374pt x 3
 02.12875pt>
 File: figs/PlancksLaw-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/PlancksLaw-eps-converted-to.pdf>
@@ -1329,7 +1333,7 @@ Package pdftex.def Info: Requested size: 280.0484pt x 181.27864pt on input line
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [13]
-<figs/IR_Thermometer.pdf, id=128, pagebox=cropbox, 437.38406pt x 252.19218pt>
+<figs/IR_Thermometer.pdf, id=126, pagebox=cropbox, 437.38406pt x 252.19218pt>
 File: figs/IR_Thermometer.pdf Graphic file (type pdf)
 <use figs/IR_Thermometer.pdf>
 Package pdftex.def Info: figs/IR_Thermometer.pdf  used on input line 76. on inp
@@ -1337,7 +1341,7 @@ ut line 76.
 Package pdftex.def Info: Requested size: 218.69148pt x 126.09578pt on input lin
 e 76.
  [14 <./figs/PlancksLaw-eps-converted-to.pdf>]
-<figs/Degree.png, id=143, 210.18526pt x 252.945pt>
+<figs/Degree.png, id=141, 210.18526pt x 252.945pt>
 File: figs/Degree.png Graphic file (type png)
 <use figs/Degree.png>
 Package pdftex.def Info: figs/Degree.png  used on input line 92. on input line 
@@ -1345,7 +1349,7 @@ Package pdftex.def Info: figs/Degree.png  used on input line 92. on input line
 Package pdftex.def Info: Requested size: 105.09236pt x 126.47218pt on input lin
 e 92.
  [15 <./figs/IR_Thermometer.pdf> <./figs/Degree.png>]
-<figs/Winokur.png, id=150, 322.9155pt x 134.3565pt>
+<figs/Winokur.png, id=148, 322.9155pt x 134.3565pt>
 File: figs/Winokur.png Graphic file (type png)
 <use figs/Winokur.png>
 Package pdftex.def Info: figs/Winokur.png  used on input line 115. on input lin
@@ -1353,7 +1357,7 @@ e 115.
 Package pdftex.def Info: Requested size: 161.45735pt x 67.17809pt on input line
  115.
  [16 <./figs/Winokur.png>] (./figs/PPGModes.pdf_tex
-<figs/PPGModes.pdf, id=156, page=1, pagebox=cropbox, 242.70676pt x 105.62978pt>
+<figs/PPGModes.pdf, id=154, page=1, pagebox=cropbox, 242.70676pt x 105.62978pt>
 
 File: figs/PPGModes.pdf Graphic file (type pdf)
 <use figs/PPGModes.pdf, page 1>
@@ -1361,7 +1365,7 @@ Package pdftex.def Info: figs/PPGModes.pdf , page1 used on input line 52. on in
 put line 52.
 Package pdftex.def Info: Requested size: 242.70674pt x 105.6295pt on input line
  52.
-<figs/PPGModes.pdf, id=157, page=2, pagebox=cropbox, 242.70676pt x 105.62978pt>
+<figs/PPGModes.pdf, id=155, page=2, pagebox=cropbox, 242.70676pt x 105.62978pt>
 
 File: figs/PPGModes.pdf Graphic file (type pdf)
 <use figs/PPGModes.pdf, page 2>
@@ -1369,7 +1373,7 @@ Package pdftex.def Info: figs/PPGModes.pdf , page2 used on input line 55. on in
 put line 55.
 Package pdftex.def Info: Requested size: 242.70674pt x 105.6295pt on input line
  55.
-<figs/PPGModes.pdf, id=158, page=3, pagebox=cropbox, 242.70676pt x 105.62978pt>
+<figs/PPGModes.pdf, id=156, page=3, pagebox=cropbox, 242.70676pt x 105.62978pt>
 
 File: figs/PPGModes.pdf Graphic file (type pdf)
 <use figs/PPGModes.pdf, page 3>
@@ -1387,7 +1391,7 @@ e pdfs with page group included in a single page
 pdfTeX warning: pdflatex.exe (file ./figs/PPGModes.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
 >]
-<figs/PPG.png, id=166, 123.3408pt x 117.8001pt>
+<figs/PPG.png, id=165, 123.3408pt x 117.8001pt>
 File: figs/PPG.png Graphic file (type png)
 <use figs/PPG.png>
 Package pdftex.def Info: figs/PPG.png  used on input line 156. on input line 15
@@ -1395,14 +1399,14 @@ Package pdftex.def Info: figs/PPG.png  used on input line 156. on input line 15
 Package pdftex.def Info: Requested size: 197.34552pt x 188.48038pt on input lin
 e 156.
  [18 <./figs/PPG.png>]
-<figs/poh.png, id=171, 195.786pt x 120.5595pt>
+<figs/poh.png, id=169, 195.786pt x 120.5595pt>
 File: figs/poh.png Graphic file (type png)
 <use figs/poh.png>
 Package pdftex.def Info: figs/poh.png  used on input line 174. on input line 17
 4.
 Package pdftex.def Info: Requested size: 234.942pt x 144.67064pt on input line 
 174.
-<figs/DaHe.png, id=172, 1705.572pt x 1295.43974pt>
+<figs/DaHe.png, id=170, 1705.572pt x 1295.43974pt>
 File: figs/DaHe.png Graphic file (type png)
 <use figs/DaHe.png>
 Package pdftex.def Info: figs/DaHe.png  used on input line 185. on input line 1
@@ -1414,7 +1418,7 @@ e 185.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [19 <./figs/poh.png>]
-<figs/cosinuss.png, id=176, 211.554pt x 210.5685pt>
+<figs/cosinuss.png, id=174, 211.554pt x 210.5685pt>
 File: figs/cosinuss.png Graphic file (type png)
 <use figs/cosinuss.png>
 Package pdftex.def Info: figs/cosinuss.png  used on input line 200. on input li
@@ -1422,7 +1426,7 @@ ne 200.
 Package pdftex.def Info: Requested size: 169.24342pt x 168.455pt on input line 
 200.
  [20 <./figs/DaHe.png> <./figs/cosinuss.png>]
-<figs/BCGsensor.png, id=181, 247.52475pt x 175.857pt>
+<figs/BCGsensor.png, id=179, 247.52475pt x 175.857pt>
 File: figs/BCGsensor.png Graphic file (type png)
 <use figs/BCGsensor.png>
 Package pdftex.def Info: figs/BCGsensor.png  used on input line 220. on input l
@@ -1430,14 +1434,14 @@ ine 220.
 Package pdftex.def Info: Requested size: 198.02007pt x 140.68578pt on input lin
 e 220.
  [21 <./figs/BCGsensor.png>]
-<figs/BreathingSound.png, id=185, 309.5565pt x 91.542pt>
+<figs/BreathingSound.png, id=183, 309.5565pt x 91.542pt>
 File: figs/BreathingSound.png Graphic file (type png)
 <use figs/BreathingSound.png>
 Package pdftex.def Info: figs/BreathingSound.png  used on input line 242. on in
 put line 242.
 Package pdftex.def Info: Requested size: 247.64552pt x 73.23369pt on input line
  242.
-<figs/BCGbreathing.png, id=186, 1185.228pt x 398.6895pt>
+<figs/BCGbreathing.png, id=184, 1185.228pt x 398.6895pt>
 File: figs/BCGbreathing.png Graphic file (type png)
 <use figs/BCGbreathing.png>
 Package pdftex.def Info: figs/BCGbreathing.png  used on input line 251. on inpu
@@ -1449,7 +1453,7 @@ e 251.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [22 <./figs/BreathingSound.png>] [23 <./figs/BCGbreathing.png>]
-<figs/AbsorptionSpectra_Edit.png, id=193, 426.09187pt x 290.58563pt>
+<figs/AbsorptionSpectra_Edit.png, id=192, 426.09187pt x 290.58563pt>
 File: figs/AbsorptionSpectra_Edit.png Graphic file (type png)
 <use figs/AbsorptionSpectra_Edit.png>
 Package pdftex.def Info: figs/AbsorptionSpectra_Edit.png  used on input line 29
@@ -1460,7 +1464,7 @@ e 293.
 \openout2 = `contents/Chap-4.aux'.
 
  (./contents/Chap-4.tex
-<figs/Image.png, id=210, 83.71275pt x 56.6115pt>
+<figs/Image.png, id=208, 83.71275pt x 56.6115pt>
 File: figs/Image.png Graphic file (type png)
 <use figs/Image.png>
 Package pdftex.def Info: figs/Image.png  used on input line 21. on input line 2
@@ -1479,7 +1483,7 @@ Package pdftex.def Info: figs/Image.png  used on input line 44. on input line 4
 Package pdftex.def Info: Requested size: 83.71254pt x 56.61134pt on input line 
 44.
  [29 <./figs/Image.png>]
-<figs/ST60Micro.png, id=217, 299.2635pt x 161.622pt>
+<figs/ST60Micro.png, id=216, 299.2635pt x 161.622pt>
 File: figs/ST60Micro.png Graphic file (type png)
 <use figs/ST60Micro.png>
 Package pdftex.def Info: figs/ST60Micro.png  used on input line 68. on input li
@@ -1526,7 +1530,7 @@ Overfull \vbox (11.93924pt too high) detected at line 172
  []
 
 [34]
-<figs/NJL5501R.png, id=236, 139.11975pt x 127.07475pt>
+<figs/NJL5501R.png, id=234, 139.11975pt x 127.07475pt>
 File: figs/NJL5501R.png Graphic file (type png)
 <use figs/NJL5501R.png>
 Package pdftex.def Info: figs/NJL5501R.png  used on input line 197. on input li
@@ -1534,7 +1538,7 @@ ne 197.
 Package pdftex.def Info: Requested size: 139.1194pt x 127.07443pt on input line
  197.
  [35 <./figs/NJL5501R.png>]
-<figs/MAX30100_Diagram.png, id=240, 395.076pt x 178.266pt>
+<figs/MAX30100_Diagram.png, id=239, 395.076pt x 178.266pt>
 File: figs/MAX30100_Diagram.png Graphic file (type png)
 <use figs/MAX30100_Diagram.png>
 Package pdftex.def Info: figs/MAX30100_Diagram.png  used on input line 207. on 
@@ -1548,7 +1552,7 @@ Overfull \hbox (3.48236pt too wide) in paragraph at lines 292--293
 e-less transceiver
  []
 
-<figs/EarMonitor_Concept.pdf, id=251, pagebox=cropbox, 585.38695pt x 389.05351p
+<figs/EarMonitor_Concept.pdf, id=249, pagebox=cropbox, 585.38695pt x 389.05351p
 t>
 File: figs/EarMonitor_Concept.pdf Graphic file (type pdf)
 <use figs/EarMonitor_Concept.pdf>
@@ -1561,7 +1565,7 @@ Package pdftex.def Info: Requested size: 351.23488pt x 233.4339pt on input line
 
  (./contents/Chap-5.tex
 (./figs/HardwareFlowchart.pdf_tex
-<figs/HardwareFlowchart.pdf, id=259, page=1, pagebox=cropbox, 416.75699pt x 72.
+<figs/HardwareFlowchart.pdf, id=257, page=1, pagebox=cropbox, 416.75699pt x 72.
 27pt>
 File: figs/HardwareFlowchart.pdf Graphic file (type pdf)
 <use figs/HardwareFlowchart.pdf, page 1>
@@ -1579,7 +1583,7 @@ Overfull \hbox (18.75697pt too wide) in paragraph at lines 58--13
 
 
  <./figs/HardwareFlowchart.pdf>] (./figs/TMP006_Breakout.pdf_tex
-<figs/TMP006_Breakout.pdf, id=267, page=1, pagebox=cropbox, 275.76399pt x 121.5
+<figs/TMP006_Breakout.pdf, id=265, page=1, pagebox=cropbox, 275.76399pt x 121.5
 7352pt>
 File: figs/TMP006_Breakout.pdf Graphic file (type pdf)
 <use figs/TMP006_Breakout.pdf, page 1>
@@ -1587,7 +1591,7 @@ Package pdftex.def Info: figs/TMP006_Breakout.pdf , page1 used on input line 52
 . on input line 52.
 Package pdftex.def Info: Requested size: 275.76396pt x 121.57877pt on input lin
 e 52.
-<figs/TMP006_Breakout.pdf, id=268, page=2, pagebox=cropbox, 275.76399pt x 121.5
+<figs/TMP006_Breakout.pdf, id=266, page=2, pagebox=cropbox, 275.76399pt x 121.5
 7352pt>
 File: figs/TMP006_Breakout.pdf Graphic file (type pdf)
 <use figs/TMP006_Breakout.pdf, page 2>
@@ -1595,7 +1599,7 @@ Package pdftex.def Info: figs/TMP006_Breakout.pdf , page2 used on input line 56
 . on input line 56.
 Package pdftex.def Info: Requested size: 275.76396pt x 121.57877pt on input lin
 e 56.
-<figs/TMP006_Breakout.pdf, id=269, page=3, pagebox=cropbox, 275.76399pt x 121.5
+<figs/TMP006_Breakout.pdf, id=267, page=3, pagebox=cropbox, 275.76399pt x 121.5
 7352pt>
 File: figs/TMP006_Breakout.pdf Graphic file (type pdf)
 <use figs/TMP006_Breakout.pdf, page 3>
@@ -1612,7 +1616,7 @@ multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex.exe (file ./figs/TMP006_Breakout.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
 >] (./figs/MAX30100_pinout.pdf_tex
-<figs/MAX30100_pinout.pdf, id=277, page=1, pagebox=cropbox, 204.765pt x 260.172
+<figs/MAX30100_pinout.pdf, id=276, page=1, pagebox=cropbox, 204.765pt x 260.172
 01pt>
 File: figs/MAX30100_pinout.pdf Graphic file (type pdf)
 <use figs/MAX30100_pinout.pdf, page 1>
@@ -1620,7 +1624,7 @@ Package pdftex.def Info: figs/MAX30100_pinout.pdf , page1 used on input line 52
 . on input line 52.
 Package pdftex.def Info: Requested size: 180.0pt x 228.7218pt on input line 52.
 
-<figs/MAX30100_pinout.pdf, id=278, page=2, pagebox=cropbox, 204.765pt x 260.172
+<figs/MAX30100_pinout.pdf, id=277, page=2, pagebox=cropbox, 204.765pt x 260.172
 01pt>
 File: figs/MAX30100_pinout.pdf Graphic file (type pdf)
 <use figs/MAX30100_pinout.pdf, page 2>
@@ -1628,7 +1632,7 @@ Package pdftex.def Info: figs/MAX30100_pinout.pdf , page2 used on input line 57
 . on input line 57.
 Package pdftex.def Info: Requested size: 180.0pt x 228.7218pt on input line 57.
 
-<figs/MAX30100_pinout.pdf, id=279, page=3, pagebox=cropbox, 204.765pt x 260.172
+<figs/MAX30100_pinout.pdf, id=278, page=3, pagebox=cropbox, 204.765pt x 260.172
 01pt>
 File: figs/MAX30100_pinout.pdf Graphic file (type pdf)
 <use figs/MAX30100_pinout.pdf, page 3>
@@ -1636,7 +1640,7 @@ Package pdftex.def Info: figs/MAX30100_pinout.pdf , page3 used on input line 61
 . on input line 61.
 Package pdftex.def Info: Requested size: 180.0pt x 228.7218pt on input line 61.
 
-<figs/MAX30100_pinout.pdf, id=280, page=4, pagebox=cropbox, 204.765pt x 260.172
+<figs/MAX30100_pinout.pdf, id=279, page=4, pagebox=cropbox, 204.765pt x 260.172
 01pt>
 File: figs/MAX30100_pinout.pdf Graphic file (type pdf)
 <use figs/MAX30100_pinout.pdf, page 4>
@@ -1644,7 +1648,7 @@ Package pdftex.def Info: figs/MAX30100_pinout.pdf , page4 used on input line 63
 . on input line 63.
 Package pdftex.def Info: Requested size: 180.0pt x 228.7218pt on input line 63.
 
-<figs/MAX30100_pinout.pdf, id=281, page=5, pagebox=cropbox, 204.765pt x 260.172
+<figs/MAX30100_pinout.pdf, id=280, page=5, pagebox=cropbox, 204.765pt x 260.172
 01pt>
 File: figs/MAX30100_pinout.pdf Graphic file (type pdf)
 <use figs/MAX30100_pinout.pdf, page 5>
@@ -1669,7 +1673,7 @@ multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex.exe (file ./figs/MAX30100_pinout.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
 >] (./figs/MAX30100_layout.pdf_tex
-<figs/MAX30100_layout.pdf, id=293, page=1, pagebox=cropbox, 205.83664pt x 112.7
+<figs/MAX30100_layout.pdf, id=291, page=1, pagebox=cropbox, 205.83664pt x 112.7
 6614pt>
 File: figs/MAX30100_layout.pdf Graphic file (type pdf)
 <use figs/MAX30100_layout.pdf, page 1>
@@ -1683,7 +1687,7 @@ Overfull \hbox (69.516pt too wide) in paragraph at lines 88--89
 3450?search=battery)
  []
 
-<figs/Ear-Monitor_BlockDiagram.png, id=294, 433.62pt x 279.444pt>
+<figs/Ear-Monitor_BlockDiagram.png, id=292, 433.62pt x 279.444pt>
 File: figs/Ear-Monitor_BlockDiagram.png Graphic file (type png)
 <use figs/Ear-Monitor_BlockDiagram.png>
 Package pdftex.def Info: figs/Ear-Monitor_BlockDiagram.png  used on input line 
@@ -1691,7 +1695,7 @@ Package pdftex.def Info: figs/Ear-Monitor_BlockDiagram.png  used on input line
 Package pdftex.def Info: Requested size: 390.2544pt x 251.49727pt on input line
  92.
 [44 <./figs/MAX30100_layout.pdf>]
-<figs/EarProbe.jpg, id=302, 128.115pt x 114.975pt>
+<figs/EarProbe.jpg, id=300, 128.115pt x 114.975pt>
 File: figs/EarProbe.jpg Graphic file (type jpg)
 <use figs/EarProbe.jpg>
 Package pdftex.def Info: figs/EarProbe.jpg  used on input line 105. on input li
@@ -1699,37 +1703,37 @@ ne 105.
 Package pdftex.def Info: Requested size: 128.11467pt x 114.97472pt on input lin
 e 105.
  [45 <./figs/Ear-Monitor_BlockDiagram.png>]
-<figs/Software_BlockDiagram.png, id=306, 794.97pt x 401.0985pt>
+<figs/Software_BlockDiagram.png, id=304, 794.97pt x 401.0985pt>
 File: figs/Software_BlockDiagram.png Graphic file (type png)
 <use figs/Software_BlockDiagram.png>
-Package pdftex.def Info: figs/Software_BlockDiagram.png  used on input line 125
-. on input line 125.
+Package pdftex.def Info: figs/Software_BlockDiagram.png  used on input line 124
+. on input line 124.
 Package pdftex.def Info: Requested size: 357.7332pt x 180.49265pt on input line
- 125.
+ 124.
 
 [46 <./figs/EarProbe.jpg> <./figs/Software_BlockDiagram.png>]
-<figs/I2C_Read.png, id=310, 378.213pt x 128.8815pt>
+<figs/I2C_Read.png, id=308, 378.213pt x 128.8815pt>
 File: figs/I2C_Read.png Graphic file (type png)
 <use figs/I2C_Read.png>
-Package pdftex.def Info: figs/I2C_Read.png  used on input line 135. on input li
-ne 135.
+Package pdftex.def Info: figs/I2C_Read.png  used on input line 134. on input li
+ne 134.
 Package pdftex.def Info: Requested size: 378.21207pt x 128.88118pt on input lin
-e 135.
+e 134.
  [47 <./figs/I2C_Read.png>]
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <7> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 178.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 177.
 
 [48]
-<figs/RecommendedTempCurve.png, id=321, 764.8575pt x 447.92343pt>
+<figs/RecommendedTempCurve.png, id=319, 764.8575pt x 447.92343pt>
 File: figs/RecommendedTempCurve.png Graphic file (type png)
 <use figs/RecommendedTempCurve.png>
-Package pdftex.def Info: figs/RecommendedTempCurve.png  used on input line 228.
- on input line 228.
+Package pdftex.def Info: figs/RecommendedTempCurve.png  used on input line 227.
+ on input line 227.
 Package pdftex.def Info: Requested size: 398.33507pt x 213.39464pt on input lin
-e 228.
+e 227.
  [49] (./figs/PPG_Filtering.pdf_tex
-<figs/PPG_Filtering.pdf, id=325, page=1, pagebox=cropbox, 316.46227pt x 56.6115
+<figs/PPG_Filtering.pdf, id=323, page=1, pagebox=cropbox, 316.46227pt x 56.6115
 pt>
 File: figs/PPG_Filtering.pdf Graphic file (type pdf)
 <use figs/PPG_Filtering.pdf, page 1>
@@ -1738,23 +1742,23 @@ on input line 52.
 Package pdftex.def Info: Requested size: 316.46225pt x 56.61566pt on input line
  52.
 ) [50 <./figs/RecommendedTempCurve.png (PNG copy)>]
-<figs/AC_Extraction.png, id=329, 642.90187pt x 391.4625pt>
+<figs/AC_Extraction.png, id=327, 642.90187pt x 391.4625pt>
 File: figs/AC_Extraction.png Graphic file (type png)
 <use figs/AC_Extraction.png>
-Package pdftex.def Info: figs/AC_Extraction.png  used on input line 263. on inp
-ut line 263.
+Package pdftex.def Info: figs/AC_Extraction.png  used on input line 262. on inp
+ut line 262.
 Package pdftex.def Info: Requested size: 341.44267pt x 213.39957pt on input lin
-e 263.
+e 262.
  [51 <./figs/PPG_Filtering.pdf> <./figs/AC_Extraction.png>]
-<figs/PPG_Filter.png, id=338, 781.41937pt x 484.81125pt>
+<figs/PPG_Filter.png, id=336, 781.41937pt x 484.81125pt>
 File: figs/PPG_Filter.png Graphic file (type png)
 <use figs/PPG_Filter.png>
-Package pdftex.def Info: figs/PPG_Filter.png  used on input line 281. on input 
-line 281.
+Package pdftex.def Info: figs/PPG_Filter.png  used on input line 280. on input 
+line 280.
 Package pdftex.def Info: Requested size: 341.42897pt x 213.39897pt on input lin
-e 281.
+e 280.
  [52 <./figs/PPG_Filter.png (PNG copy)>] (./figs/PPG_SignalLabels.pdf_tex
-<figs/PPG_SignalLabels.pdf, id=342, page=1, pagebox=cropbox, 354.01027pt x 234.
+<figs/PPG_SignalLabels.pdf, id=340, page=1, pagebox=cropbox, 354.01027pt x 234.
 23225pt>
 File: figs/PPG_SignalLabels.pdf Graphic file (type pdf)
 <use figs/PPG_SignalLabels.pdf, page 1>
@@ -1762,7 +1766,7 @@ Package pdftex.def Info: figs/PPG_SignalLabels.pdf , page1 used on input line 5
 2. on input line 52.
 Package pdftex.def Info: Requested size: 354.01025pt x 234.23524pt on input lin
 e 52.
-<figs/PPG_SignalLabels.pdf, id=343, page=2, pagebox=cropbox, 354.01027pt x 234.
+<figs/PPG_SignalLabels.pdf, id=341, page=2, pagebox=cropbox, 354.01027pt x 234.
 23225pt>
 File: figs/PPG_SignalLabels.pdf Graphic file (type pdf)
 <use figs/PPG_SignalLabels.pdf, page 2>
@@ -1772,87 +1776,96 @@ Package pdftex.def Info: Requested size: 354.01025pt x 234.23524pt on input lin
 e 62.
 )
 
-LaTeX Warning: Command \textless invalid in math mode on input line 311.
+LaTeX Warning: Command \textless invalid in math mode on input line 310.
 
 [53 <./figs/PPG_SignalLabels.pdf> <./figs/PPG_SignalLabels.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figs/PPG_SignalLabels.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
 >]
-<figs/SSF.png, id=351, 657.95813pt x 469.755pt>
+<figs/SSF.png, id=350, 657.95813pt x 469.755pt>
 File: figs/SSF.png Graphic file (type png)
 <use figs/SSF.png>
-Package pdftex.def Info: figs/SSF.png  used on input line 320. on input line 32
-0.
+Package pdftex.def Info: figs/SSF.png  used on input line 319. on input line 31
+9.
 Package pdftex.def Info: Requested size: 341.43742pt x 213.3948pt on input line
- 320.
+ 319.
  [54 <./figs/SSF.png>]
-<figs/BeatDetection.png, id=357, 651.18282pt x 461.47406pt>
+<figs/BeatDetection.png, id=355, 651.18282pt x 461.47406pt>
 File: figs/BeatDetection.png Graphic file (type png)
 <use figs/BeatDetection.png>
-Package pdftex.def Info: figs/BeatDetection.png  used on input line 353. on inp
-ut line 353.
+Package pdftex.def Info: figs/BeatDetection.png  used on input line 352. on inp
+ut line 352.
 Package pdftex.def Info: Requested size: 341.4389pt x 213.39319pt on input line
- 353.
+ 352.
  [55 <./figs/BeatDetection.png>]
-<figs/CurrentBalancing.png, id=362, 662.475pt x 462.97969pt>
+<figs/RSA.png, id=360, 677.53125pt x 459.21562pt>
+File: figs/RSA.png Graphic file (type png)
+<use figs/RSA.png>
+Package pdftex.def Info: figs/RSA.png  used on input line 366. on input line 36
+6.
+Package pdftex.def Info: Requested size: 341.4424pt x 213.39992pt on input line
+ 366.
+ [56 <./figs/RSA.png>]
+<figs/CurrentBalancing.png, id=365, 662.475pt x 462.97969pt>
 File: figs/CurrentBalancing.png Graphic file (type png)
 <use figs/CurrentBalancing.png>
-Package pdftex.def Info: figs/CurrentBalancing.png  used on input line 382. on 
-input line 382.
+Package pdftex.def Info: figs/CurrentBalancing.png  used on input line 398. on 
+input line 398.
 Package pdftex.def Info: Requested size: 341.4261pt x 213.3971pt on input line 
-382.
- [56] [57 <./figs/CurrentBalancing.png>] (./figs/GUI.pdf_tex
-<figs/GUI.pdf, id=370, page=1, pagebox=cropbox, 390.24307pt x 196.39964pt>
+398.
+
+[57] [58 <./figs/CurrentBalancing.png>] (./figs/GUI.pdf_tex
+<figs/GUI.pdf, id=373, page=1, pagebox=cropbox, 390.24307pt x 196.39964pt>
 File: figs/GUI.pdf Graphic file (type pdf)
 <use figs/GUI.pdf, page 1>
 Package pdftex.def Info: figs/GUI.pdf , page1 used on input line 52. on input l
 ine 52.
 Package pdftex.def Info: Requested size: 390.24306pt x 196.41113pt on input lin
 e 52.
-<figs/GUI.pdf, id=371, page=2, pagebox=cropbox, 390.24307pt x 196.39964pt>
+<figs/GUI.pdf, id=374, page=2, pagebox=cropbox, 390.24307pt x 196.39964pt>
 File: figs/GUI.pdf Graphic file (type pdf)
 <use figs/GUI.pdf, page 2>
 Package pdftex.def Info: figs/GUI.pdf , page2 used on input line 54. on input l
 ine 54.
 Package pdftex.def Info: Requested size: 390.24306pt x 196.41113pt on input lin
 e 54.
-<figs/GUI.pdf, id=372, page=3, pagebox=cropbox, 390.24307pt x 196.39964pt>
+<figs/GUI.pdf, id=375, page=3, pagebox=cropbox, 390.24307pt x 196.39964pt>
 File: figs/GUI.pdf Graphic file (type pdf)
 <use figs/GUI.pdf, page 3>
 Package pdftex.def Info: figs/GUI.pdf , page3 used on input line 56. on input l
 ine 56.
 Package pdftex.def Info: Requested size: 390.24306pt x 196.41113pt on input lin
 e 56.
-<figs/GUI.pdf, id=373, page=4, pagebox=cropbox, 390.24307pt x 196.39964pt>
+<figs/GUI.pdf, id=376, page=4, pagebox=cropbox, 390.24307pt x 196.39964pt>
 File: figs/GUI.pdf Graphic file (type pdf)
 <use figs/GUI.pdf, page 4>
 Package pdftex.def Info: figs/GUI.pdf , page4 used on input line 58. on input l
 ine 58.
 Package pdftex.def Info: Requested size: 390.24306pt x 196.41113pt on input lin
 e 58.
-<figs/GUI.pdf, id=374, page=5, pagebox=cropbox, 390.24307pt x 196.39964pt>
+<figs/GUI.pdf, id=377, page=5, pagebox=cropbox, 390.24307pt x 196.39964pt>
 File: figs/GUI.pdf Graphic file (type pdf)
 <use figs/GUI.pdf, page 5>
 Package pdftex.def Info: figs/GUI.pdf , page5 used on input line 60. on input l
 ine 60.
 Package pdftex.def Info: Requested size: 390.24306pt x 196.41113pt on input lin
 e 60.
-<figs/GUI.pdf, id=375, page=6, pagebox=cropbox, 390.24307pt x 196.39964pt>
+<figs/GUI.pdf, id=378, page=6, pagebox=cropbox, 390.24307pt x 196.39964pt>
 File: figs/GUI.pdf Graphic file (type pdf)
 <use figs/GUI.pdf, page 6>
 Package pdftex.def Info: figs/GUI.pdf , page6 used on input line 62. on input l
 ine 62.
 Package pdftex.def Info: Requested size: 390.24306pt x 196.41113pt on input lin
 e 62.
-<figs/GUI.pdf, id=376, page=7, pagebox=cropbox, 390.24307pt x 196.39964pt>
+<figs/GUI.pdf, id=379, page=7, pagebox=cropbox, 390.24307pt x 196.39964pt>
 File: figs/GUI.pdf Graphic file (type pdf)
 <use figs/GUI.pdf, page 7>
 Package pdftex.def Info: figs/GUI.pdf , page7 used on input line 64. on input l
 ine 64.
 Package pdftex.def Info: Requested size: 390.24306pt x 196.41113pt on input lin
 e 64.
-)) [58 <./figs/GUI.pdf> <./figs/GUI.pdf
+)) [59 <./figs/GUI.pdf> <./figs/GUI.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figs/GUI.pdf): PDF inclusion: multiple pdf
 s with page group included in a single page
@@ -1879,12 +1892,12 @@ s with page group included in a single page
 >]
 \openout2 = `contents/Chap-6.aux'.
 
- (./contents/Chap-6.tex [59
+ (./contents/Chap-6.tex [60
 
 
 
 ] (./figs/Benchmark.pdf_tex
-<figs/Benchmark.pdf, id=387, page=1, pagebox=cropbox, 384.7104pt x 84.57542pt>
+<figs/Benchmark.pdf, id=391, page=1, pagebox=cropbox, 384.7104pt x 84.57542pt>
 File: figs/Benchmark.pdf Graphic file (type pdf)
 <use figs/Benchmark.pdf, page 1>
 Package pdftex.def Info: figs/Benchmark.pdf , page1 used on input line 52. on i
@@ -1897,29 +1910,29 @@ Overfull \hbox (5.90541pt too wide) in paragraph at lines 39--40
 lected to pro-vide bench-
  []
 
-[60 <./figs/Benchmark.pdf>] (./figs/SetUp.pdf_tex
-<figs/SetUp.pdf, id=422, page=1, pagebox=cropbox, 386.38435pt x 274.0882pt>
+[61 <./figs/Benchmark.pdf>] (./figs/SetUp.pdf_tex
+<figs/SetUp.pdf, id=425, page=1, pagebox=cropbox, 386.38435pt x 274.0882pt>
 File: figs/SetUp.pdf Graphic file (type pdf)
 <use figs/SetUp.pdf, page 1>
 Package pdftex.def Info: figs/SetUp.pdf , page1 used on input line 52. on input
  line 52.
 Package pdftex.def Info: Requested size: 386.38434pt x 274.0917pt on input line
  52.
-<figs/SetUp.pdf, id=423, page=2, pagebox=cropbox, 386.38435pt x 274.0882pt>
+<figs/SetUp.pdf, id=426, page=2, pagebox=cropbox, 386.38435pt x 274.0882pt>
 File: figs/SetUp.pdf Graphic file (type pdf)
 <use figs/SetUp.pdf, page 2>
 Package pdftex.def Info: figs/SetUp.pdf , page2 used on input line 58. on input
  line 58.
 Package pdftex.def Info: Requested size: 386.38434pt x 274.0917pt on input line
  58.
-<figs/SetUp.pdf, id=424, page=3, pagebox=cropbox, 386.38435pt x 274.0882pt>
+<figs/SetUp.pdf, id=427, page=3, pagebox=cropbox, 386.38435pt x 274.0882pt>
 File: figs/SetUp.pdf Graphic file (type pdf)
 <use figs/SetUp.pdf, page 3>
 Package pdftex.def Info: figs/SetUp.pdf , page3 used on input line 68. on input
  line 68.
 Package pdftex.def Info: Requested size: 386.38434pt x 274.0917pt on input line
  68.
-) [61] [62 <./figs/SetUp.pdf> <./figs/SetUp.pdf
+) [62] [63 <./figs/SetUp.pdf> <./figs/SetUp.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figs/SetUp.pdf): PDF inclusion: multiple p
 dfs with page group included in a single page
@@ -1928,7 +1941,7 @@ dfs with page group included in a single page
 pdfTeX warning: pdflatex.exe (file ./figs/SetUp.pdf): PDF inclusion: multiple p
 dfs with page group included in a single page
 >] (./figs/TrialPhoto.pdf_tex
-<figs/TrialPhoto.pdf, id=435, page=1, pagebox=cropbox, 350.32832pt x 247.19095p
+<figs/TrialPhoto.pdf, id=438, page=1, pagebox=cropbox, 350.32832pt x 247.19095p
 t>
 File: figs/TrialPhoto.pdf Graphic file (type pdf)
 <use figs/TrialPhoto.pdf, page 1>
@@ -1936,7 +1949,7 @@ Package pdftex.def Info: figs/TrialPhoto.pdf , page1 used on input line 52. on
 input line 52.
 Package pdftex.def Info: Requested size: 350.32831pt x 247.19788pt on input lin
 e 52.
-<figs/TrialPhoto.pdf, id=436, page=2, pagebox=cropbox, 350.32832pt x 247.19095p
+<figs/TrialPhoto.pdf, id=439, page=2, pagebox=cropbox, 350.32832pt x 247.19095p
 t>
 File: figs/TrialPhoto.pdf Graphic file (type pdf)
 <use figs/TrialPhoto.pdf, page 2>
@@ -1944,7 +1957,7 @@ Package pdftex.def Info: figs/TrialPhoto.pdf , page2 used on input line 54. on
 input line 54.
 Package pdftex.def Info: Requested size: 350.32831pt x 247.19788pt on input lin
 e 54.
-<figs/TrialPhoto.pdf, id=437, page=3, pagebox=cropbox, 350.32832pt x 247.19095p
+<figs/TrialPhoto.pdf, id=440, page=3, pagebox=cropbox, 350.32832pt x 247.19095p
 t>
 File: figs/TrialPhoto.pdf Graphic file (type pdf)
 <use figs/TrialPhoto.pdf, page 3>
@@ -1952,7 +1965,7 @@ Package pdftex.def Info: figs/TrialPhoto.pdf , page3 used on input line 56. on
 input line 56.
 Package pdftex.def Info: Requested size: 350.32831pt x 247.19788pt on input lin
 e 56.
-<figs/TrialPhoto.pdf, id=438, page=4, pagebox=cropbox, 350.32832pt x 247.19095p
+<figs/TrialPhoto.pdf, id=441, page=4, pagebox=cropbox, 350.32832pt x 247.19095p
 t>
 File: figs/TrialPhoto.pdf Graphic file (type pdf)
 <use figs/TrialPhoto.pdf, page 4>
@@ -1960,7 +1973,7 @@ Package pdftex.def Info: figs/TrialPhoto.pdf , page4 used on input line 58. on
 input line 58.
 Package pdftex.def Info: Requested size: 350.32831pt x 247.19788pt on input lin
 e 58.
-<figs/TrialPhoto.pdf, id=439, page=5, pagebox=cropbox, 350.32832pt x 247.19095p
+<figs/TrialPhoto.pdf, id=442, page=5, pagebox=cropbox, 350.32832pt x 247.19095p
 t>
 File: figs/TrialPhoto.pdf Graphic file (type pdf)
 <use figs/TrialPhoto.pdf, page 5>
@@ -1968,7 +1981,7 @@ Package pdftex.def Info: figs/TrialPhoto.pdf , page5 used on input line 60. on
 input line 60.
 Package pdftex.def Info: Requested size: 350.32831pt x 247.19788pt on input lin
 e 60.
-<figs/TrialPhoto.pdf, id=440, page=6, pagebox=cropbox, 350.32832pt x 247.19095p
+<figs/TrialPhoto.pdf, id=443, page=6, pagebox=cropbox, 350.32832pt x 247.19095p
 t>
 File: figs/TrialPhoto.pdf Graphic file (type pdf)
 <use figs/TrialPhoto.pdf, page 6>
@@ -1976,7 +1989,7 @@ Package pdftex.def Info: figs/TrialPhoto.pdf , page6 used on input line 62. on
 input line 62.
 Package pdftex.def Info: Requested size: 350.32831pt x 247.19788pt on input lin
 e 62.
-<figs/TrialPhoto.pdf, id=441, page=7, pagebox=cropbox, 350.32832pt x 247.19095p
+<figs/TrialPhoto.pdf, id=444, page=7, pagebox=cropbox, 350.32832pt x 247.19095p
 t>
 File: figs/TrialPhoto.pdf Graphic file (type pdf)
 <use figs/TrialPhoto.pdf, page 7>
@@ -1984,7 +1997,7 @@ Package pdftex.def Info: figs/TrialPhoto.pdf , page7 used on input line 64. on
 input line 64.
 Package pdftex.def Info: Requested size: 350.32831pt x 247.19788pt on input lin
 e 64.
-<figs/TrialPhoto.pdf, id=442, page=8, pagebox=cropbox, 350.32832pt x 247.19095p
+<figs/TrialPhoto.pdf, id=445, page=8, pagebox=cropbox, 350.32832pt x 247.19095p
 t>
 File: figs/TrialPhoto.pdf Graphic file (type pdf)
 <use figs/TrialPhoto.pdf, page 8>
@@ -1992,7 +2005,7 @@ Package pdftex.def Info: figs/TrialPhoto.pdf , page8 used on input line 66. on
 input line 66.
 Package pdftex.def Info: Requested size: 350.32831pt x 247.19788pt on input lin
 e 66.
-)) [63 <./figs/TrialPhoto.pdf> <./figs/TrialPhoto.pdf
+)) [64 <./figs/TrialPhoto.pdf> <./figs/TrialPhoto.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figs/TrialPhoto.pdf): PDF inclusion: multi
 ple pdfs with page group included in a single page
@@ -2023,87 +2036,112 @@ ple pdfs with page group included in a single page
 >]
 \openout2 = `contents/Chap-7.aux'.
 
- (./contents/Chap-7.tex [64
+ (./contents/Chap-7.tex [65
 
 
 
-]) [65]
+]
+<figs/BeforeAfterCalibrationBoxplot.png, id=486, 655.69969pt x 444.15938pt>
+File: figs/BeforeAfterCalibrationBoxplot.png Graphic file (type png)
+<use figs/BeforeAfterCalibrationBoxplot.png>
+Package pdftex.def Info: figs/BeforeAfterCalibrationBoxplot.png  used on input 
+line 29. on input line 29.
+Package pdftex.def Info: Requested size: 341.43605pt x 213.39061pt on input lin
+e 29.
+) [66 <./figs/BeforeAfterCalibrationBoxplot.png>]
 \openout2 = `contents/Chap-8.aux'.
 
- (./contents/Chap-8.tex
-<figs/Temp1Scatter.png, id=485, 674.52pt x 460.72125pt>
+(./contents/Chap-8.tex
+<figs/Temp1Scatter.png, id=491, 674.52pt x 460.72125pt>
 File: figs/Temp1Scatter.png Graphic file (type png)
 <use figs/Temp1Scatter.png>
 Package pdftex.def Info: figs/Temp1Scatter.png  used on input line 17. on input
  line 17.
 Package pdftex.def Info: Requested size: 341.43785pt x 213.38956pt on input lin
 e 17.
- [66
+ [67
 
 
 
 ]
-
-LaTeX Warning: Reference `tab:ResultsTemp' on page 67 undefined on input line 2
-2.
-
-<figs/Temp2Scatter.png, id=490, 673.76718pt x 461.47406pt>
+<figs/Temp2Scatter.png, id=495, 673.76718pt x 461.47406pt>
 File: figs/Temp2Scatter.png Graphic file (type png)
 <use figs/Temp2Scatter.png>
 Package pdftex.def Info: figs/Temp2Scatter.png  used on input line 29. on input
  line 29.
 Package pdftex.def Info: Requested size: 341.43718pt x 213.39319pt on input lin
 e 29.
-[67 <./figs/Temp1Scatter.png> <./figs/Temp2Scatter.png>] [68]
+ [68 <./figs/Temp1Scatter.png>] [69 <./figs/Temp2Scatter.png>] [70]
+<figs/ComparingCalibrationBoxplot.png, id=507, 663.22781pt x 441.90094pt>
+File: figs/ComparingCalibrationBoxplot.png Graphic file (type png)
+<use figs/ComparingCalibrationBoxplot.png>
+Package pdftex.def Info: figs/ComparingCalibrationBoxplot.png  used on input li
+ne 89. on input line 89.
+Package pdftex.def Info: Requested size: 341.42952pt x 213.39792pt on input lin
+e 89.
+ [71 <./figs/ComparingCalibrationBoxplot.png>]
 
-LaTeX Warning: Reference `BeatDetectionTest' on page 69 undefined on input line
- 93.
+LaTeX Warning: Reference `BeatDetectionTest' on page 72 undefined on input line
+ 160.
 
-<figs/BeatDetectionTest.png, id=499, 668.4975pt x 463.7325pt>
+[72]
+<figs/BeatDetectionTest.png, id=516, 668.4975pt x 463.7325pt>
 File: figs/BeatDetectionTest.png Graphic file (type png)
 <use figs/BeatDetectionTest.png>
-Package pdftex.def Info: figs/BeatDetectionTest.png  used on input line 97. on 
-input line 97.
+Package pdftex.def Info: figs/BeatDetectionTest.png  used on input line 164. on
+ input line 164.
 Package pdftex.def Info: Requested size: 341.43924pt x 213.39737pt on input lin
-e 97.
-[69]
-Overfull \hbox (3.53139pt too wide) in paragraph at lines 110--110
+e 164.
+
+Overfull \hbox (3.53139pt too wide) in paragraph at lines 177--177
  []|\T1/cmr/m/n/12 Participant 
  []
 
 
-Overfull \hbox (1.16031pt too wide) in paragraph at lines 108--178
+Overfull \hbox (1.16031pt too wide) in paragraph at lines 175--244
  [][] 
  []
 
-[70 <./figs/BeatDetectionTest.png>] [71]
-<figs/BeatDetectionScatter.png, id=510, 661.72218pt x 457.71pt>
+[73 <./figs/BeatDetectionTest.png>] [74]
+<figs/BeatDetectionScatter.png, id=524, 661.72218pt x 457.71pt>
 File: figs/BeatDetectionScatter.png Graphic file (type png)
 <use figs/BeatDetectionScatter.png>
-Package pdftex.def Info: figs/BeatDetectionScatter.png  used on input line 186.
- on input line 186.
+Package pdftex.def Info: figs/BeatDetectionScatter.png  used on input line 252.
+ on input line 252.
 Package pdftex.def Info: Requested size: 341.43188pt x 213.39168pt on input lin
-e 186.
-<figs/PeriodScatter.png, id=511, 673.76718pt x 459.96844pt>
+e 252.
+<figs/PeriodScatter.png, id=525, 673.76718pt x 459.96844pt>
 File: figs/PeriodScatter.png Graphic file (type png)
 <use figs/PeriodScatter.png>
-Package pdftex.def Info: figs/PeriodScatter.png  used on input line 198. on inp
-ut line 198.
+Package pdftex.def Info: figs/PeriodScatter.png  used on input line 264. on inp
+ut line 264.
 Package pdftex.def Info: Requested size: 341.43718pt x 213.39883pt on input lin
-e 198.
- [72 <./figs/BeatDetectionScatter.png>]
-<figs/HeartRateScatter.png, id=517, 657.95813pt x 459.21562pt>
+e 264.
+ [75 <./figs/BeatDetectionScatter.png>]
+<figs/HeartRateScatter.png, id=530, 657.95813pt x 459.21562pt>
 File: figs/HeartRateScatter.png Graphic file (type png)
 <use figs/HeartRateScatter.png>
-Package pdftex.def Info: figs/HeartRateScatter.png  used on input line 207. on 
-input line 207.
+Package pdftex.def Info: figs/HeartRateScatter.png  used on input line 273. on 
+input line 273.
 Package pdftex.def Info: Requested size: 341.43742pt x 213.39992pt on input lin
-e 207.
-) [73 <./figs/PeriodScatter.png> <./figs/HeartRateScatter.png>] [74
+e 273.
+[76 <./figs/PeriodScatter.png> <./figs/HeartRateScatter.png>]
+Overfull \hbox (3.53139pt too wide) in paragraph at lines 293--293
+ []|\T1/cmr/m/n/12 Participant 
+ []
+
+[77] [78]
+<figs/BreathScatter.png, id=543, 656.4525pt x 460.72125pt>
+File: figs/BreathScatter.png Graphic file (type png)
+<use figs/BreathScatter.png>
+Package pdftex.def Info: figs/BreathScatter.png  used on input line 360. on inp
+ut line 360.
+Package pdftex.def Info: Requested size: 341.4374pt x 213.38956pt on input line
+ 360.
+ [79 <./figs/BreathScatter.png>]) [80] [81
 
 
-]
-(./USthesis_Masters.bbl
+] (./USthesis_Masters.bbl
 (c:/texlive/2017/texmf-dist/tex/latex/stellenbosch/usbib.eng)
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 57.
 
@@ -2115,41 +2153,41 @@ Overfull \hbox (15.55888pt too wide) in paragraph at lines 78--81
 isorders/sleep-apnea/sleep-apnea 
  []
 
-[75
+[82
 
 
 ]
-Overfull \hbox (106.09282pt too wide) in paragraph at lines 222--226
-\T1/cmr/m/n/10.95 Available at: \T1/cmtt/m/n/10.95 http://www.sensorsmag.com/co
-mponents/demystifying-thermopile-ir-temp-sensors 
- []
-
-
-Overfull \hbox (151.35979pt too wide) in paragraph at lines 239--242
-\T1/cmr/m/n/10.95 Available at: \T1/cmtt/m/n/10.95 http://sam-koblenski.blogspo
-t.co.za/2015/11/everyday-dsp-for-programmers-dc-and.html 
- []
-
-[76]
-Overfull \hbox (185.31001pt too wide) in paragraph at lines 255--258
-\T1/cmr/m/n/10.95 Available at: \T1/cmtt/m/n/10.95 http://www.mayoclinic.org/he
-althy-lifestyle/fitness/expert-answers/heart-rate/faq-20057979 
- []
-
-
-Overfull \hbox (21.21725pt too wide) in paragraph at lines 344--347
+Overfull \hbox (21.21725pt too wide) in paragraph at lines 151--154
 \T1/cmr/m/n/10.95 Available at: \T1/cmtt/m/n/10.95 https://global.britannica.co
 m/science/external-auditory-canal 
  []
 
-[77] [78]
+
+Overfull \hbox (106.09282pt too wide) in paragraph at lines 227--231
+\T1/cmr/m/n/10.95 Available at: \T1/cmtt/m/n/10.95 http://www.sensorsmag.com/co
+mponents/demystifying-thermopile-ir-temp-sensors 
+ []
+
+[83]
+Overfull \hbox (151.35979pt too wide) in paragraph at lines 244--247
+\T1/cmr/m/n/10.95 Available at: \T1/cmtt/m/n/10.95 http://sam-koblenski.blogspo
+t.co.za/2015/11/everyday-dsp-for-programmers-dc-and.html 
+ []
+
+
+Overfull \hbox (185.31001pt too wide) in paragraph at lines 260--263
+\T1/cmr/m/n/10.95 Available at: \T1/cmtt/m/n/10.95 http://www.mayoclinic.org/he
+althy-lifestyle/fitness/expert-answers/heart-rate/faq-20057979 
+ []
+
+[84] [85]
 Overfull \hbox (309.79417pt too wide) in paragraph at lines 517--520
 \T1/cmr/m/n/10.95 Available at: \T1/cmtt/m/n/10.95 http://www.who.int/patientsa
 fety/safesurgery/pulse_oximetry/who_ps_pulse_oxymetry_tutorial2_advanced_en.pdf
 ?ua=1 
  []
 
-) [79]
+) [86]
 \tf@toc=\write4
 \openout4 = `USthesis_Masters.toc'.
 
@@ -2168,10 +2206,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 21227 strings out of 492990
- 392703 string characters out of 6136334
- 480537 words of memory out of 5000000
- 24353 multiletter control sequences out of 15000+600000
+ 21243 strings out of 492990
+ 393180 string characters out of 6136334
+ 482935 words of memory out of 5000000
+ 24368 multiletter control sequences out of 15000+600000
  573996 words of font info for 146 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,17n,46p,10369b,1010s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2202,10 +2240,10 @@ xlive/2017/texmf-dist/fonts/type1/public/cm-super/sfsl1440.pfb><c:/texlive/2017
 t/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/2017/texmf-dist/fonts/ty
 pe1/public/cm-super/sftt1095.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public
 /wasy2-ps/wasy10.pfb>
-Output written on USthesis_Masters.pdf (92 pages, 13441440 bytes).
+Output written on USthesis_Masters.pdf (100 pages, 13507097 bytes).
 PDF statistics:
- 639 PDF objects out of 1000 (max. 8388607)
- 380 compressed objects within 4 object streams
+ 667 PDF objects out of 1000 (max. 8388607)
+ 394 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 371 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 386 words of extra memory for PDF output out of 10000 (max. 10000000)
 
