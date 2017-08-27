@@ -1,0 +1,108 @@
+\BOOKMARK [0][-]{section*.2}{Declaration}{}% 1
+\BOOKMARK [0][-]{section*.4}{Abstract}{}% 2
+\BOOKMARK [0][-]{section*.6}{Uittreksel}{}% 3
+\BOOKMARK [0][-]{chapter*.7}{Acknowledgements}{}% 4
+\BOOKMARK [0][-]{chapter*.8}{Dedications}{}% 5
+\BOOKMARK [0][-]{section*.9}{Contents}{}% 6
+\BOOKMARK [0][-]{section*.10}{List of Figures}{}% 7
+\BOOKMARK [0][-]{section*.11}{List of Tables}{}% 8
+\BOOKMARK [0][-]{chapter*.12}{Nomenclature}{}% 9
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 10
+\BOOKMARK [1][-]{section.1.1}{Aim and Objectives}{chapter.1}% 11
+\BOOKMARK [1][-]{section.1.2}{Motivation}{chapter.1}% 12
+\BOOKMARK [0][-]{chapter.2}{Literature Review}{}% 13
+\BOOKMARK [1][-]{section.2.1}{Ear Anatomy}{chapter.2}% 14
+\BOOKMARK [2][-]{subsection.2.1.1}{Auricle}{section.2.1}% 15
+\BOOKMARK [2][-]{subsection.2.1.2}{Ear Canal}{section.2.1}% 16
+\BOOKMARK [2][-]{subsection.2.1.3}{Tympanic Membrane}{section.2.1}% 17
+\BOOKMARK [1][-]{section.2.2}{Vital Sign Physiology}{chapter.2}% 18
+\BOOKMARK [2][-]{subsection.2.2.1}{Core Temperature}{section.2.2}% 19
+\BOOKMARK [2][-]{subsection.2.2.2}{Heart Rate}{section.2.2}% 20
+\BOOKMARK [2][-]{subsection.2.2.3}{Respiratory Rate}{section.2.2}% 21
+\BOOKMARK [2][-]{subsection.2.2.4}{Blood Oxygen Saturation}{section.2.2}% 22
+\BOOKMARK [1][-]{section.2.3}{Vital Signs Measurement Theory}{chapter.2}% 23
+\BOOKMARK [2][-]{subsection.2.3.1}{Core Temperature Measurement}{section.2.3}% 24
+\BOOKMARK [2][-]{subsection.2.3.2}{Commercial Temperature Monitoring Devices}{section.2.3}% 25
+\BOOKMARK [1][-]{section.2.4}{Heart Rate}{chapter.2}% 26
+\BOOKMARK [2][-]{subsection.2.4.1}{Electrocardiography}{section.2.4}% 27
+\BOOKMARK [2][-]{subsection.2.4.2}{Photoplethysmography}{section.2.4}% 28
+\BOOKMARK [2][-]{subsection.2.4.3}{Ballistocardiography}{section.2.4}% 29
+\BOOKMARK [2][-]{subsection.2.4.4}{Other Heart Rate Methods}{section.2.4}% 30
+\BOOKMARK [1][-]{section.2.5}{Respiratory Rate}{chapter.2}% 31
+\BOOKMARK [2][-]{subsection.2.5.1}{Respiratory Rate Ear Sensors}{section.2.5}% 32
+\BOOKMARK [2][-]{subsection.2.5.2}{Respiratory related Heart Rate Characteristics}{section.2.5}% 33
+\BOOKMARK [1][-]{section.2.6}{Blood Oxygen Saturation}{chapter.2}% 34
+\BOOKMARK [2][-]{subsection.2.6.1}{Pulse Oximetry Theory}{section.2.6}% 35
+\BOOKMARK [2][-]{subsection.2.6.2}{Work done by others in ear pulse oximetry}{section.2.6}% 36
+\BOOKMARK [0][-]{chapter.3}{Concept Selection}{}% 37
+\BOOKMARK [1][-]{section.3.1}{Temperature}{chapter.3}% 38
+\BOOKMARK [2][-]{subsection.3.1.1}{Temperature measurement method}{section.3.1}% 39
+\BOOKMARK [2][-]{subsection.3.1.2}{Temperature measurement sensor}{section.3.1}% 40
+\BOOKMARK [1][-]{section.3.2}{Heart Rate}{chapter.3}% 41
+\BOOKMARK [2][-]{subsection.3.2.1}{Heart rate measurement method}{section.3.2}% 42
+\BOOKMARK [2][-]{subsection.3.2.2}{Heart rate measurement sensor}{section.3.2}% 43
+\BOOKMARK [1][-]{section.3.3}{Respiratory Rate}{chapter.3}% 44
+\BOOKMARK [2][-]{subsection.3.3.1}{Respiratory rate measuring method}{section.3.3}% 45
+\BOOKMARK [1][-]{section.3.4}{Blood oxygen saturation}{chapter.3}% 46
+\BOOKMARK [1][-]{section.3.5}{Final concept}{chapter.3}% 47
+\BOOKMARK [0][-]{chapter.4}{Detailed Design}{}% 48
+\BOOKMARK [1][-]{section.4.1}{Hardware}{chapter.4}% 49
+\BOOKMARK [2][-]{subsection.4.1.1}{Temperature sensor}{section.4.1}% 50
+\BOOKMARK [2][-]{subsection.4.1.2}{Pulse Oximeter}{section.4.1}% 51
+\BOOKMARK [2][-]{subsection.4.1.3}{Control and Communication Hardware}{section.4.1}% 52
+\BOOKMARK [1][-]{section.4.2}{Software}{chapter.4}% 53
+\BOOKMARK [2][-]{subsection.4.2.1}{Sensor Communication Software}{section.4.2}% 54
+\BOOKMARK [2][-]{subsection.4.2.2}{Temperature related software}{section.4.2}% 55
+\BOOKMARK [2][-]{subsection.4.2.3}{Calculating TOBJ}{section.4.2}% 56
+\BOOKMARK [2][-]{subsection.4.2.4}{PPG signal processing}{section.4.2}% 57
+\BOOKMARK [2][-]{subsection.4.2.5}{Beat Detection}{section.4.2}% 58
+\BOOKMARK [2][-]{subsection.4.2.6}{SpO2 Calculation}{section.4.2}% 59
+\BOOKMARK [2][-]{subsection.4.2.7}{Current Balancing}{section.4.2}% 60
+\BOOKMARK [2][-]{subsection.4.2.8}{Moving average SpO2}{section.4.2}% 61
+\BOOKMARK [2][-]{subsection.4.2.9}{PC Interface}{section.4.2}% 62
+\BOOKMARK [0][-]{chapter.5}{Trial Period}{}% 63
+\BOOKMARK [1][-]{section.5.1}{Participant Selection}{chapter.5}% 64
+\BOOKMARK [1][-]{section.5.2}{Benchmark Validation}{chapter.5}% 65
+\BOOKMARK [1][-]{section.5.3}{Method}{chapter.5}% 66
+\BOOKMARK [0][-]{chapter.6}{Calibration}{}% 67
+\BOOKMARK [1][-]{section.6.1}{Temperature Calibration}{chapter.6}% 68
+\BOOKMARK [2][-]{subsection.6.1.1}{Group Calibration Approach}{section.6.1}% 69
+\BOOKMARK [2][-]{subsection.6.1.2}{Intra-participant calibration approach}{section.6.1}% 70
+\BOOKMARK [1][-]{section.6.2}{SpO2 Calibration}{chapter.6}% 71
+\BOOKMARK [0][-]{chapter.7}{Results and Discussion}{}% 72
+\BOOKMARK [1][-]{section.7.1}{Temperature Results}{chapter.7}% 73
+\BOOKMARK [2][-]{subsection.7.1.1}{Group Calibration Results}{section.7.1}% 74
+\BOOKMARK [2][-]{subsection.7.1.2}{Intra-participant Calibration Results}{section.7.1}% 75
+\BOOKMARK [2][-]{subsection.7.1.3}{Temperature Results Discussion}{section.7.1}% 76
+\BOOKMARK [1][-]{section.7.2}{Heart Rate Results}{chapter.7}% 77
+\BOOKMARK [2][-]{subsection.7.2.1}{Beat Detection Algorithm Evaluation Results}{section.7.2}% 78
+\BOOKMARK [2][-]{subsection.7.2.2}{Beat Period and Average Heart Rate Results}{section.7.2}% 79
+\BOOKMARK [2][-]{subsection.7.2.3}{Heart Rate Results Discussion}{section.7.2}% 80
+\BOOKMARK [1][-]{section.7.3}{Respiratory Rate Results}{chapter.7}% 81
+\BOOKMARK [2][-]{subsection.7.3.1}{Respiratory Rate Discussion}{section.7.3}% 82
+\BOOKMARK [1][-]{section.7.4}{SpO2 Results}{chapter.7}% 83
+\BOOKMARK [2][-]{subsection.7.4.1}{SpO2 Results Discussion}{section.7.4}% 84
+\BOOKMARK [1][-]{section.7.5}{Results Summary}{chapter.7}% 85
+\BOOKMARK [0][-]{chapter.8}{Conclusion}{}% 86
+\BOOKMARK [1][-]{section.8.1}{Device development}{chapter.8}% 87
+\BOOKMARK [1][-]{section.8.2}{Experimental Trial}{chapter.8}% 88
+\BOOKMARK [1][-]{section.8.3}{Data Analysis and Results}{chapter.8}% 89
+\BOOKMARK [2][-]{subsection.8.3.1}{Core Temperature}{section.8.3}% 90
+\BOOKMARK [2][-]{subsection.8.3.2}{Heart Rate}{section.8.3}% 91
+\BOOKMARK [2][-]{subsection.8.3.3}{Respiratory Rate}{section.8.3}% 92
+\BOOKMARK [2][-]{subsection.8.3.4}{SpO2}{section.8.3}% 93
+\BOOKMARK [1][-]{section.8.4}{Suggestions for Future Work}{chapter.8}% 94
+\BOOKMARK [1][-]{section.8.5}{Conclusion}{chapter.8}% 95
+\BOOKMARK [0][-]{section*.83}{Appendices}{}% 96
+\BOOKMARK [0][-]{appendix.A}{Calculations}{}% 97
+\BOOKMARK [1][-]{section.A.1}{Ear-Monitor power supply}{appendix.A}% 98
+\BOOKMARK [0][-]{appendix.B}{Proof of Ethical Approval}{}% 99
+\BOOKMARK [0][-]{appendix.C}{Data Tables}{}% 100
+\BOOKMARK [1][-]{section.C.1}{Temperature Results}{appendix.C}% 101
+\BOOKMARK [1][-]{section.C.2}{PhysioNet Beat Detection Results}{appendix.C}% 102
+\BOOKMARK [2][-]{subsection.C.2.1}{Respiratory Rate Results}{section.C.2}% 103
+\BOOKMARK [2][-]{subsection.C.2.2}{Ball mass and inertia parameters}{section.C.2}% 104
+\BOOKMARK [0][-]{appendix.D}{Discrete Element Method Theory}{}% 105
+\BOOKMARK [1][-]{section.D.1}{Ball elements}{appendix.D}% 106
+\BOOKMARK [2][-]{subsection.D.1.1}{Ball mass and inertia parameters}{section.D.1}% 107
+\BOOKMARK [0][-]{section*.89}{List of References}{}% 108

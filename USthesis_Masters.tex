@@ -54,17 +54,31 @@
 
 
 %==== Tables ========================================================
- \usepackage{array, booktabs, multirow} %%______________________________________ Tables
+ \usepackage{array, booktabs, multirow, makecell} %%______________________________________ Tables
  \newcolumntype{P}[1]{>{\centering\arraybackslash}m{#1}}%___ Centering cell entries
  \newcolumntype{Q}[1]{>{\raggedright\arraybackslash}m{#1}}
+ 
+\usepackage{longtable} 
+ 
 
  \newcommand{\tabitem}{~~\llap{\textbullet}~~}		%Bullets
+ \usepackage{enumitem}
  \usepackage{tabularx}		%Page width
 
  \usepackage[justification=centering]{caption}%_____________ Centering captions of tables and figures
 
 %==== Other =======================================================
  \usepackage{csquotes} %____________________________________ Used for quotation marks
+
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
 
 
 %==== Local Defs ====================================================
@@ -76,9 +90,9 @@
 
 %==== TITLE PAGE ====================================================
 \title{\bfseries
-       \AorE{Monitering van kern temperatuur, hartklop, respiratoriese tempo, bloed suurstof versadiging en EEG deur middel van 'n draadlose oor probe\\[1ex]\normalfont\small\itshape(``Monitoring core temperature, heart rate, respiratory rate, blood oxygen saturation and electrical brain activity through a wireless ear probe'')
+       \AorE{Ontwikkeling van n kritieke sein moniteering draadlose oor probe\\[1ex]\normalfont\small\itshape(``Development of a vital signs monitoring wireless ear probe'')
             }
-            {Monitoring multiple medical signs through a wireless ear probe}
+            {Development of a vital signs monitoring wireless ear probe}
             }
 
 \author{A.\ Bestbier}{André Bestbier}
@@ -155,20 +169,23 @@
 
 \include{contents/Chap-1}
 \include{contents/Chap-2}
-\include{contents/Chap-3}
 \include{contents/Chap-4}
 \include{contents/Chap-5}
 \include{contents/Chap-6}
 \include{contents/Chap-7}
 \include{contents/Chap-8}
+\include{contents/Chap-9}
 
 %==== Appendices ====================================================
 \appendix
 \appendixpage\relax
 
-%\include{contents/App-1}
-%\include{contents/App-2}
-%\include{contents/App-3}
+\include{contents/App-A}
+\include{contents/App-B}
+\include{contents/App-C}
+\include{contents/App-1}
+\include{contents/App-2}
+\include{contents/App-3}
 
 %==== Bibliography acro's & Index ===================================
 \backmatter

@@ -1,251 +1,113 @@
 \chapter{Results and Discussion}
 \label{chp:Results and Discussion}
-This chapter documents the results from the trial conducted on the Ear-Monitor. The aim is to quantify the level of comparability between the Ear-Monitor's and benchmark device's measurements and through this get an understanding of the level of accuracy of the Ear-Monitor's measurements. Each participant is acting as his/her own control is this type of analysis. Results are discussed one medical sign at a time in this chapter.
-
-\section{Temperature Results}
-During each recording session, 15 Ear-Monitor data points and 3 ET 100-A benchmark data points are collected. It is assumed that the participant's core temperature stays constant during the duration of the recording session. Therefore the average ET 100-A benchmark measurement and the average Ear-Monitor measurement are compared. Two participants' data is removed due to faulty recording sessions.
+This chapter documents the results from the trial conducted on the Ear-Monitor. The aim is to quantify the level of comparability between the measurements of the Ear-Monitor and the benchmark devices. Through this, an understanding of the accuracy of the Ear-Monitor will be obtained. Each participant is acting as his/her own control in this type of comparative analysis. Results are discussed one vital sign at a time.
 
 \medskip
 
-The Ear-Monitor data points are analysed in terms of correlation with the ET 100-A benchmark measurements and the average error. An error is the difference between the ET 100-A benchmark measurement and the Ear-Monitor measurement. Results from the two calibration approaches are documented separately and then compared in the discussion.
+Correlation between each vital sign and its benchmark is visualised through an interclass correlation (ICC) plot. On each ICC plot, the $x=y$ line is plotted in black and a blue line is fitted to the data using the least squares method. Some of the terms used to evaluate correlation are defined as follows:
 
-\subsection{Calibration Group Results}
-Equation \ref{eq:TempCal} is used to calculate tympanic temperature for all participants. Figure \ref{fig:Temp1Scatter} shows a scatter plot of the average Ear-Monitor vs. ET 100-A data points for the 28 recording sessions with temperature measurements. The black line is the $x=y$ line and the blue line is fitted to the data through the least squares method.
+\begin{itemize}
+\item Correlation coefficient (r): This quantifies the strength of the linear dependence between the values in the two datasets. r varies from -1 to 1. An correlation coefficient close to 1 indicates a high level of positive correlation between the Ear-Monitor and benchmark datasets and is a favourable result.
+
+\item p-Value (p): The p-value is the probability of the data leading to an incorrect rejection of the null hypothesis, which is that there is no correlation between the Ear-Monitor and benchmark datasets. p-Values smaller than 0.05 indicate strong evidence against the null hypothesis, while p-values larger than 0.05 indicate weak evidence against the null hypothesis. $p=0$ indicates a p-value smaller than 0.00005, meaning that the correlation can be accepted with confidence.
+
+\item ICC agreement (ICC\textsubscript{a}): This value ranges from 0 to 1 and the following, often quoted interpretation is suggested by \cite{cicchetti1994guidelines}:
+\begin{itemize}
+\item 0 to 0.40: Poor
+\item 0.40 to 0.59: Fair
+\item 0.60 to 0.74: Good
+\item 0.75 to 1.00: Excellent
+\end{itemize}
+
+\item ICC consistency (ICC\textsubscript{c}): This quantifies the consistency of conclusions made by different observers. It ranges from 0 to 1, where values closer to 1 indicates higher consistency.
+
+\item 95\% confidence intervals: These intervals are given for the ICC\textsubscript{a} and  ICC\textsubscript{c} values. If the interval should contain zero, then the ICC is not significant.
+\end{itemize}
+
+\section{Temperature Results}
+The Ear-Monitor uses the TMP006 infrared sensor to measure the temperature of the tympanic membrane. The ET 100-A tympanic thermometer is used as the benchmark device. During each recording session, 15 Ear-Monitor and 3 ET 100-A data points are collected. It is assumed that the core temperature of the participant stays constant during the duration of the recording session. Therefore, the averages for the ET 100-A and Ear-Monitor measurements are compared. This is a valid assumption, for the standard deviations within recording sessions are found to be between 0.0018 and \SI{0.0814}{\celsius}. Datasets recorded from participants 1 and 5 are removed due to faulty recording sessions.
+
+\medskip
+
+Results from the two calibration approaches are documented separately and then compared in the discussion. The results for the two different calibration methods are summarised in Appendix \ref{Data Tables}. All participants are healthy and benchmark temperatures range from 36.33 to \SI{38.55}{\celsius}.
+
+\subsection{Group Calibration Results}
+Equation \ref{eq:TempCal} is used by the Ear-Monitor to calculate the tympanic temperature of participants. Figure \ref{fig:Temp1Scatter} depicts an ICC plot of the Ear-Monitor versus ET 100-A data points for the 28 recording sessions. The mean error is 0.0180 $\pm$\SI{0.5125}{\celsius}.
 
 \begin{figure}[H]
    \centering
-   \includegraphics[width=12cm,height=7.5cm]{figs/Temp1Scatter.png}
-   \caption{Temperature through Calibration Group: ET 100-A vs. Ear-Monitor}
+   \includegraphics[width=13cm,height=8cm]{figs/Temp1Scatter.png}
+   \caption{Temperature through the Group calibration method: ET 100-A vs. Ear-Monitor}
    \label{fig:Temp1Scatter}
 \end{figure}
 
-The the average error is found to be 0.0160 $\pm$\SI{0.0226}{\celsius} and the average of the absolute value of all the errors is 0.3399 $\pm$\SI{0.0157}{\celsius}.
-
 \subsection{Intra-participant Calibration Results}
-This method used the data from the first recording session to calibrate the Ear-Monitor, and the data from the second session is used to evaluate this method. Figure \ref{fig:Temp2Scatter} shows a scatterplot of the average Ear-Monitor vs. ET 100-A data points for the 14 second recording sessions. Again the black line $x=y$ and the blue line is fitted to the data.
+This method uses data from the first recording session to calibrate the Ear-Monitor, and the data from the second session to evaluate the calibration. Figure \ref{fig:Temp2Scatter} depicts an ICC plot of the Ear-Monitor versus ET 100-A data points for the 14 recording sessions used for evaluation. The recording sessions used for calibration are not plotted, for they all lay on the $x=y$ line. The mean error is -0.0156 $\pm$\SI{0.29}{\celsius}.
 
 \begin{figure}[H]
    \centering
-   \includegraphics[width=12cm,height=7.5cm]{figs/Temp2Scatter.png}
-   \caption{Temperature through Intra-participant Calibration: ET 100-A vs. Ear-Monitor}
+   \includegraphics[width=13cm,height=8cm]{figs/Temp2Scatter.png}
+   \caption{Temperature through the Intra-participant calibration method: ET 100-A vs. Ear-Monitor}
    \label{fig:Temp2Scatter}
 \end{figure}
 
-The results of the intra-participant calibration shows an average error of 0.0114 $\pm$\SI{0.0190}{\celsius} and an average of the absolute value of all the errors of 0.2499 $\pm$\SI{0.0087}{\celsius}.
-
 \medskip
-
-The results for the two different calibration methods are summarised in Table \ref{tab:ResultsTemp}. The calibration group method is labelled and A and the intra-participant calibration method as B. The temperature values are recording session averages with standard errors indicated in brackets. All values are in \SI{}{\celsius}.
-
-\begin{table}[H]
-\caption{Summary of the temperature results}
-\label{tab:ResultsTemp}
-\centering
-\begin{tabular}{|P{1.4cm} | P{1.4cm} || P{1.6cm} |P{1.2cm}| |P{1.6cm} |P{1.2cm}|P{2cm}|} 
-\hline
-Partici-pant No.	&	ET 100-A Temp	&	Ear-Monitor Temp A	&	Error A	&	Ear-Monitor Temp B	&	Error B	&	Ear-Monitor standard error\\
-\hline
-2a	&	36.33	&	37.63 	&	-1.29	&	-		&	-		&	$\pm$0.0043\\
-2b	&	36.37	&	37.57 	&	-1.21	&	36.08	&	0.28	&	$\pm$0.0017\\
-3a	&	37.65	&	37.54 	&	0.11	&	-		&	-		&	$\pm$0.0031\\
-3b	&	37.40	&	37.67 	&	-0.27	&	37.58	&	-0.18	&	$\pm$0.0172\\
-4a	&	38.30	&	37.37 	&	0.93	&	-		&	-		&	$\pm$0.0012\\
-4b	&	38.55	&	37.44 	&	1.11	&	38.17	&	0.38	&	$\pm$0.0014\\
-6a	&	38.35	&	37.80 	&	0.55	&	-		&	-		&	$\pm$0.0032\\
-6b	&	37.60	&	37.76 	&	-0.16	&	38.11	&	-0.51	&	$\pm$0.0015\\
-7a	&	37.03	&	37.31 	&	-0.28	&	-		&	-		&	$\pm$0.0008\\
-7b	&	37.00	&	37.34 	&	-0.34	&	36.86	&	0.14	&	$\pm$0.0016\\
-8a	&	38.40	&	38.13 	&	0.27	&	-		&	-		&	$\pm$0.0072\\
-8b	&	38.50	&	38.03 	&	0.47	&	38.10	&	0.40	&	$\pm$0.0009\\
-9a	&	37.55	&	37.53 	&	0.02	&	-		&	-		&	$\pm$0.0005\\
-9b	&	37.40	&	37.54 	&	-0.14	&	37.36	&	0.04	&	$\pm$0.0007\\
-10a	&	37.95	&	37.70 	&	0.25	&	-		&	-		&	$\pm$0.0031\\
-10b	&	38.10	&	37.73 	&	0.37	&	37.77	&	0.33	&	$\pm$0.0007\\
-11a	&	37.50	&	37.52 	&	-0.02	&	-		&	-		&	$\pm$0.0006\\
-11b	&	37.60	&	37.50 	&	0.10	&	37.27	&	0.33	&	$\pm$0.0051\\
-12a	&	38.50	&	38.51 	&	-0.01	&	-		&	-		&	$\pm$0.021\\
-12b	&	37.70	&	38.18 	&	-0.48	&	37.97	&	-0.27	&	$\pm$0.0028\\
-13a	&	38.05	&	38.02 	&	0.03	&	-		&	-		&	$\pm$0.012\\
-13b	&	37.53	&	37.92 	&	-0.39	&	37.75	&	-0.22	&	$\pm$0.0016\\
-14a	&	38.00	&	37.73 	&	0.27	&	-		&	-		&	$\pm$0.001\\
-14b	&	37.95	&	37.75 	&	0.20	&	37.82	&	0.13	&	$\pm$0.0004\\
-15a	&	37.65	&	37.58 	&	0.07	&	-		&	-		&	$\pm$0.0033\\
-15b	&	37.30	&	37.55 	&	-0.25	&	37.42	&	-0.12	&	$\pm$0.0008\\
-16a	&	37.90	&	37.90 	&	0.00	&	-		&	-		&	$\pm$0.0016\\
-16b	&	37.50	&	37.93 	&	-0.43	&	37.73	&	-0.23	&	$\pm$0.0038\\
-\hline
-\end{tabular}
-\end{table}
 
 \subsection{Temperature Results Discussion}
-It is clear form the Ear-Monitor standard errors in Table \ref{tab:ResultsTemp} that the TMP006 has a high precision. The measurements inside a recording session are close to one another, with the maximum standard error being $\pm$ \SI{0.0172}{\celsius}. This was expected owing to the thermal consistency inside the ear canal. Air flow is negligible and the position of objects in the sensor's field of vision stays constant. These factors contrite to high precision measurements.
+The measurements inside a recording session are close to one another, with a maximum standard deviation of \SI{0.0814}{\celsius}. This demonstrates the high precision of the TMP006, making it the right choice for an infrared sensor. This level of precision is owed to the thermal consistency inside the ear canal. Air flow is negligible and the position of objects in the sensor's field of vision stays constant.
 
 \medskip
 
-The two different calibration methods can be compared through a box and whisker plot of their respective errors as can be seen in Figure \ref{fig:ComparingCalibrationBoxplot}. 
+The two different calibration methods can be compared through a box and whisker plot of their respective errors, as depicted in Figure \ref{fig:ComparingCalibrationBoxplot}. The superiority of the intra-participant calibration method can be observed in the smaller first and fourth quartiles. This indicates a significant reduction in large errors.
 
 \begin{figure}[H]
    \centering
    \includegraphics[width=12cm,height=7.5cm]{figs/ComparingCalibrationBoxplot.png}
-   \caption{Temperature errors of Calibration group method and Intra-participant calibration method}
+   \caption{Temperature errors of the Group calibration and Intra-participant calibration methods}
    \label{fig:ComparingCalibrationBoxplot}
 \end{figure}
 
-The methods used to analyse the data unanimously indicate that the intra-participant calibration method is superior to the group calibration method with regards to accuracy. The scatter plots, Figure \ref{fig:Temp1Scatter} and \ref{fig:Temp2Scatter}...
+The 95\% confidence intervals for ICC\textsubscript{a} and ICC\textsubscript{c} for the group calibration method includes zero, which means that the correlation is not significant. Whereas, the ICC intervals for the intra-participant calibration method is above zero, indicating good correlation. Furthermore, the p-value is far below 0.05, indicating a negligible probability of zero correlation. The data unanimously indicate that the intra-participant calibration method is superior to the group calibration method with regards to accuracy and correlation. 
 
-Compare errors
-Mention standard errors are unchanged
-Add ICC values
-Evaluate ear-monitors ability to measure temp
-Compare to other word/devices (Cosinuss)
+\medskip
 
+Although the intra-participant calibration method produces the best results, it should be kept in mind that this method requires a calibration sequences when it is used for the first time on an individual. The merit in the group calibration method lies in the fact that calibration is done only once, during manufacturing. With better probe design, the TMP006 can be located more consistently between different individuals and the group calibration method can become more accurate. But as it is now, the intra-participant calibration method is the preferred.
+
+\medskip
+
+As mentioned in the literature review, there are not many published results of wearable ear temperature monitors to compare the Ear-Monitor to. There are, however, commercial devices available for comparison. The Novatemp\textsuperscript{\textregistered{}} and Starboard\textsuperscript{\textregistered{}} both claims a standard accuracy of $\pm\SI{0.2}{\celsius}$ \citep{Novatemp, Starboard} and the Cosinuss Degree\textsuperscript{\textregistered{}}, a standard accuracy of $\pm\SI{0.1}{\celsius}$ \citep{CosinussDegree}. The Ear-Monitor with intra-participant calibration comes close to this, with a standard accuracy of $\pm$\SI{0.29}{\celsius}.
 
 %---------------------------------------------------------------------------------------------------------------------------------------------
 
 \section{Heart Rate Results}
-The Ear-Monitor uses an IR PPG obtained for the ear canal to detect pulse peaks via a beat detection algorithm. The average period between 10 successive detected beats are used to calculate the heart rate. The beat detection algorithm is at the core of the heart rate functionality of the Ear-Monitor, and therefore it is be evaluated independently. This is followed by comparative analysis between the individual beat periods and 10-beat moving average heart rates of the Ear-Monitor and Nexus-10 physiological monitor.
+The Ear-Monitor uses an infrared PPG obtained by the MAX30100 in the ear canal to detect heartbeats via a beat detection algorithm. The average period between 10 successive detected beats is used to calculate the heart rate. The beat detection algorithm is at the core of the heart rate functionality of the Ear-Monitor, and therefore it is evaluated independently. This is followed by comparative analysis between the individual beat periods and 10-beat moving average heart rates of the Ear-Monitor and Nexus-10 physiological monitor.
 
 \subsection{Beat Detection Algorithm Evaluation Results}
-The beat detection algorithm used by the Ear-Monitor is first tested on open source data from PhysioNet.org, and then on the data collected during the trial. These results of these two tests are discussed separately. 
+The beat detection algorithm used by the Ear-Monitor is first tested on open source data from PhysioNet.org, and then on the data collected during the trial. The results of these two tests are discussed separately.
 
 \subsubsection{PhysioNet Data Test}
-The beat detection algorithm is PPG data from the open-source MIMIC Database on PhysioNet.org \citep{PhysioNet}. This data was recorded from patients in intensive care units and is made available for developing and testing intelligent monitoring systems. PPG data is recorded with clinical finger pulse oximeters.
+The beat detection algorithm is tested on PPG data from the open-source MIMIC Database on PhysioNet.org \citep{PhysioNet}. This data was recorded from patients in intensive care units and is made available for developing and testing intelligent monitoring systems. PPG data is recorded with clinical finger pulse oximeters. Ten-minute segments from 14 different patients are used to test the algorithm. Each set of data also includes an ECG signal, which is used to identify the benchmark beats. The results for this test can be seen in Appendix \ref{Data Tables}.
 
 \medskip
 
-Ten minute segments of 14 different patients are used to test the algorithm. Each set of data also includes an ECG signal, which is used to identify the benchmark beats. Table \ref{tab:PhysioNet} summarises the results from this test.
-
-\begin{table}[H]
-\caption{Results of the beat detection algorithm on the PhysioNet data}
-\label{tab:PhysioNet}
-\centering
-\begin{tabular}{|P{3cm}| P{3cm}| P{3cm} |P{3cm}|} 
-\hline
-Record No.	&	Actual No. Beats	&	False Positives	&	False negatives\\ 
-\hline
-039		&	1337				&	0				&	0\\
-\hline
-041		& 	1030				&	1				&	7\\
-\hline
-055		&	1021				&	0				&	0\\
-\hline
-211		&	891					&	2				&	8\\
-\hline
-212		&	845					&	0				&	15\\
-\hline
-216		&	763					&	0				&	1\\
-\hline
-218		&	697					&	0				&	1\\
-\hline
-219		&	720					&	0				&	0\\
-\hline
-221		&	776					&	0				&	4\\
-\hline
-224		&	863					&	0				&	0\\
-\hline
-230		&	871					&	7				&	36\\
-\hline
-237		&	777					&	2				&	17\\
-\hline
-240		&	816					&	1				&	2\\
-\hline	
-252		&	594					&	0				&	0\\
-\hline
-\end{tabular}
-\end{table}
-
-Of the 12001 beats in all the test data, 13 (0.108\%) false positives were detected and 91 (0.758\%) false negatives. Even though the beat-detection algorithm was designed and tuned using PPGs collected form the ear canal wall, it can accurately detect beats from finger pulse oximeters. This results demonstrates the robustness of the algorithm. Most false detections occurred where signals were corrupted by noise. It also illustrate how the SSF can extract beats, even from a noisy signal by including a plot of the PPG and subsequent SSF plus detected beats.
+Of the 12001 beats in all the PhysioNet test datasets, 13 (0.108\%) false positives and 91 (0.758\%) false negatives are detected. Even though the beat detection algorithm is designed and tuned using PPGs collected from the ear canal wall, it can accurately detect beats from finger pulse oximeters. This result demonstrates the robustness of the algorithm. Most false detections occurred where signals were corrupted by noise. This result also demonstrates how the SSF can extract beats, even from a noisy signal.
 
 \subsubsection{Trial Data Test}
-Next the algorithm is tested using the data collected during the trial. The number of beats detected by the Ear-Monitor will be compared to the actual number of heartbeats. The Nexus-10's supporting software, BioTrace+, has a peak detection algorithm, but it was found that is misses some peaks. To ensure accurate benchmark peak detection, the PPG from the Nexus-10 is inspected manually and peaks are marked by a human annotator. Figure \ref{BeatDetectionTest} shows plots of (a) the Ear-Monitor SSF with detected beats and (b) the Nexus-10 PPG signal with annotated beats. In this example 100\% of the peaks are detected by Ear-Monitor.
+Subsequently, the algorithm is tested using the data collected during the trial. The number of beats detected for each participant by the Ear-Monitor is compared to the number of benchmark beats. The supporting software for the Nexus-10, BioTrace+, has a peak detection algorithm, but it is found that it misses some peaks. To ensure accurate benchmark peak detection, the PPG from the Nexus-10 is inspected manually and peaks are marked by a human annotator. Figure \ref{fig:BeatDetectionTest} depicts plots of (a) the Ear-Monitor SSF with detected beats and (b) the Nexus-10 PPG signal with annotated beats. In this example, 100\% of the peaks are detected by Ear-Monitor.
 
 \begin{figure}[H]
-   \centering
-   \includegraphics[width=12cm,height=7.5cm]{figs/BeatDetectionTest.png}
-   \caption{Plots of (a) the Ear-Monitor SSF with detected beats and (b) the Nexus-10 PPG signal with annotated beats} %Marga1_Data
-   \label{fig:BeatDetectionTest}
+\centering
+\graphicspath{{figs/}}
+\input{figs/BeatDetectionTest.pdf_tex}
+\caption{Plots of (a) the Ear-Monitor SSF with detected beats and (b) the Nexus-10 PPG signal with annotated beats} %Marga1_Data
+\label{fig:BeatDetectionTest}
 \end{figure}
 
-Table \ref{tab:BeatDetectionTest} summarises the results to the beat detection evaluation.
+Appendix \ref{Data Tables} tabulates the results of the beat detection evaluation. Of the 4713 beats in the participant trial data, 10 (0.21\%) false positives and 58 (1.23\%) false negatives are detected. The mean error of the sample group is -1.5313 $\pm$2.8847 beats. It should also be noted 51 of the false negatives (87.9\%) are from the data collected from three of the participants: 5, 9 and 13.
 
-\begin{table}[H]
-\caption{Results of the beat detection algorithm on the PhysioNet data}
-\label{tab:BeatDetectionTest}
-\centering
-\begin{tabular}{|P{1.9cm}| P{1.9cm}| P{1.9cm} | P{1.9cm} | P{1.9cm} | P{1.9cm} |} 
-\hline
-Participant No.	&	 No. Nexus-10 Beats	&	No. Ear-Monitor Beats	&	False Positives & False Negatives & \%\\ 
-\hline
-1a	&	150	&	150	&	0	&	0	&	100	\\
-\hline
-1b	&	148	&	148	&	0	&	0	&	100	\\
-\hline
-2a	&	116	&	108	&	2	&	10	&	93.1	\\
-\hline
-2b	&	116	&	106	&	1	&	11	&	91.4	\\
-\hline
-3a	&	136	&	136	&	0	&	0	&	100	\\
-\hline
-3b	&	138	&	138	&	0	&	0	&	100	\\
-\hline
-4a	&	132	&	132	&	0	&	0	&	100	\\
-\hline
-4b	&	133	&	132	&	0	&	1	&	99.2	\\
-\hline
-5a	&	181	&	181	&	0	&	0	&	100	\\
-\hline
-5b	&	188	&	187	&	0	&	1	&	99.5	\\
-\hline
-6a	&	120	&	120	&	0	&	0	&	100	\\
-\hline
-6b	&	127	&	127	&	0	&	0	&	100	\\
-\hline
-7b	&	144	&	144	&	0	&	0	&	100	\\
-\hline
-7c	&	140	&	140	&	0	&	0	&	100	\\
-\hline
-8a	&	163	&	163	&	0	&	0	&	100	\\
-\hline
-8b	&	164	&	163	&	0	&	1	&	99.4	\\
-\hline
-9a	&	149	&	149	&	0	&	0	&	100	\\
-\hline
-9b	&	146	&	142	&	0	&	4	&	97.3	\\
-\hline
-10a	&	146	&	146	&	0	&	0	&	100	\\
-\hline
-10c	&	146	&	146	&	0	&	0	&	100	\\
-\hline
-11a	&	131	&	131	&	0	&	0	&	100	\\
-\hline
-11b	&	131	&	131	&	0	&	0	&	100	\\
-\hline
-12a	&	144	&	144	&	0	&	0	&	100	\\
-\hline
-12b	&	137	&	137	&	0	&	0	&	100	\\
-\hline
-13a	&	169	&	163	&	0	&	6	&	96.45	\\
-\hline
-13b	&	169	&	162	&	0	&	7	&	95.86	\\
-\hline
-14a	&	168	&	168	&	0	&	0	&	100	\\
-\hline
-14b	&	170	&	170	&	0	&	0	&	100	\\
-\hline
-15a	&	149	&	149	&	0	&	0	&	100	\\
-\hline
-15c	&	149	&	149	&	0	&	0	&	100	\\
-\hline
-16a	&	154	&	151	&	1	&	4	&	98.05	\\
-\hline
-16b	&	159	&	152	&	6	&	13	&	95.6	\\
-\hline
-\end{tabular}
-\end{table}
+\medskip
 
-Of the 4713 beats in all the participant trail data, 4655 (98.77\%) are successfully detected. 10 (0.21\%) false positives and 58 (1.23\%) false negatives are detected. It should also be noted the 51 of the false negatives are from the data collected from three of the participants.
-
-Figure \ref{fig:BeatDetectionScatter} shows a scatted plot of the number of annotated Nexus-10 beats vs. the number of detected Ear-Monitor beats. Data recording sessions from all 16 trial participants are used, meaning 32 sets of data points are compared.
+Figure \ref{fig:BeatDetectionScatter} depicts an ICC plot of the number of annotated Nexus-10 beats versus the number of detected Ear-Monitor beats. Data recording sessions from all 16 trial participants are used, which means 32 sets of data points are compared.
 
 \begin{figure}[H]
    \centering
@@ -254,10 +116,10 @@ Figure \ref{fig:BeatDetectionScatter} shows a scatted plot of the number of anno
    \label{fig:BeatDetectionScatter}
 \end{figure}
 
-This test shows that the Ear-Monitor preforms well in its task of detection beats. The number of false negatives detected for the trial data is higher than for the PhysioNet data. This can be ascribed to the fact that the PPG from three of the participants was of a notably lower quality. Although the adaptive threshold method detected the majority if the peaks, the amplitude of the SSF peaks varied prominently and very low amplitudes were missed by the algorithm. This can be caused by low blood profusion in the ear canal or bad contact between the MAX30100 and the canal wall. This is a patient specific inaccuracy and can be overcome by an more customised ear probe. 
+This test demonstrates that the Ear-Monitor performs well in its task of detection beats. The number of false negatives detected for the trial data is higher than for the PhysioNet data. This can be ascribed to the fact that the PPG from three of the participants was of a notably lower quality. Although the adaptive threshold method detected the majority of the peaks, the amplitude of the SSF peaks varied prominently and very low amplitudes were missed by the algorithm. This can be caused by low blood profusion in the ear canal or bad contact between the MAX30100 and the canal wall.
 
 \subsection{Beat Period and Average Heart Rate Results}
-The accuracy of the heat beat period is tested to see if beats and detected at the right position in time. The individual period between beats detected be the Ear-Monitor is compared to the period between beats annotated on the Nexus-10 PPG. Figure \ref{fig:PeriodScatter} shows a scatter plot of the Nexus-10 period vs. theEar-Monitor period. A total of 4569 periods are compared from all 16 participants.
+The accuracy of the heartbeat period is tested to determine if beats are detected at the right position in time. Periods between subsequent  beats detected by the Ear-Monitor are compared to periods between beats annotated on the Nexus-10 PPG. Figure \ref{fig:PeriodScatter} depicts an ICC plot of Nexus-10 versus Ear-Monitor periods. A total of 4569 periods from the 16 participants is compared. Benchmark periods ranged from 575.65 to \SI{1198}{\milli\second}. The mean error of the sample group is 0.0821 $\pm$\SI{50.71}{\milli\second}.
 
 \begin{figure}[H]
    \centering
@@ -266,7 +128,7 @@ The accuracy of the heat beat period is tested to see if beats and detected at t
    \label{fig:PeriodScatter}
 \end{figure}
 
-The 10-beat average heart rate is calculate form the Ear-Monitor and Nexus-10 data and compared in the same way as with he beat periodes. Figure \ref{fig:HeartRateScatter} shows a scatter plot of the Nexus-10 heart rate vs. the Ear-Monitor heart rate. A total of 4258 periods are compared from all 16 participants.
+The 10-beat average heart rate is calculated from the Ear-Monitor and Nexus-10 data and compared in the same way as with the beat periods. Figure \ref{fig:HeartRateScatter} depicts an ICC plot of Nexus-10 versus Ear-Monitor heart rates. A total of 4258 periods are compared from 16 participants with benchmark heart rates varying from 54.2 to 100.0 bpm. The mean error of the sample group is 0.0306 $\pm$0.7174 bpm.
 
 \begin{figure}[H]
    \centering
@@ -276,67 +138,30 @@ The 10-beat average heart rate is calculate form the Ear-Monitor and Nexus-10 da
 \end{figure}
 
 \subsection{Heart Rate Results Discussion}
-Blablabla...
+The beat detection algorithm is evaluated based on PhysioNet data and data collected from participants during the trial. The algorithm performed better on the PhysioNet data than on the trial data. This can be ascribed to the fact that three of the participants contributed to 87.9\% of the false negatives detected in the trial data. These are all participants with smaller external ears, which is emphasized by the fact that two of them are female. This highlights the effect the fit of the ear probe in the ear has on the accuracy of the beat detection algorithm. A bad fit causes non-ideal contact between the MAX30100 and the canal wall, as well as reducing subcutaneous blood perfusion.  This is a patient specific inaccuracy and can be overcome by a more customised ear probe.
 
+\medskip
+
+Even with these three individuals, the beat detection algorithm performs exceptionally good. On average 1.5313 $\pm$2.8847 beats are missed per 2-minute recording session. The correlation of the number of beats detected between the Ear-Monitor and the benchmark device is high, with a correlation coefficient of 0.9876 and a p-value of zero. The ICC\textsubscript{a} and ICC\textsubscript{c} are both excellent within a 95\% confidence interval.
+
+\medskip
+
+The beat period ICC plot in Figure \ref{fig:PeriodScatter} depicts a clear correlation. The large number of data points reveals the normal distribution of the data. The correlation coefficient, p-value, ICC\textsubscript{a} and ICC\textsubscript{c} all indicate an excellent correlation. The Ear-Monitor can measure the period between heartbeats with a mean error of 0.0821 $\pm$\SI{50.71}{\milli\second}. This notably high accuracy is improved even further by calculating the 10-beat average heart rate. The ICC plot of the average heart rate in Figure \ref{fig:HeartRateScatter} illustrates an exceptional correlation between the Ear-Monitor and benchmark measurements. The Ear-Monitor can measure the heart rate of participants with a mean error of 0.0306 $\pm$0.7174 bpm relating to a 1.04\% error at 72 bpm. This compares favourably to the commercial wrist worn heart rate monitors reviewed by \cite{shcherbina2017accuracy}.
 
 %---------------------------------------------------------------------------------------------------------------------------------------------
 
 \section{Respiratory Rate Results}
-The Ear-Monitor uses respirators sinus arrhythmia, the frequency modulating respiratory heart rate characteristic, to extract a respiratory rate. The the chest strap connected to the Nexus-10 physiological monitoring platform is used to measure the benchmark respiration rate. Benchmark breaths from the Nexus-10 are manually annotated. The recording session consisted of one minute of normal breathing followed by one minute of breathing regulated at 15 breaths per minute. Table \ref{tab:RSP_Data} shows a summary of the breaths detected during all recording sessions.%Data from all 16 participants is used to compile the respiratory rate results. 
-
-\begin{table}[H]
-\caption{Summery of breaths recorded during each recording session}
-\label{tab:RSP_Data}
-\centering
-\begin{tabular}{|P{1.9cm}|P{3.2cm}|P{3.2cm}|P{1.2cm}|} 
-\hline
-Participant No.	&	No. Nexus-10 Breaths	&	No. Ear-Monitor Breaths	&	Error	\\
-\hline
-1a	&	30	&	30	&	0	\\
-1b	&	23	&	22	&	1	\\
-2a	&	27	&	22	&	5	\\
-2b	&	27	&	22	&	5	\\
-3a	&	28	&	25	&	3	\\
-3b	&	25	&	25	&	0	\\
-4a	&	28	&	29	&	-1	\\
-4b	&	28	&	27	&	1	\\
-5a	&	24	&	33	&	-9	\\
-5b	&	24	&	44	&	-20	\\
-6a	&	34	&	29	&	5	\\
-6b	&	32	&	30	&	2	\\
-7b	&	28	&	29	&	-1	\\
-7c	&	26	&	26	&	0	\\
-8a	&	29	&	27	&	2	\\
-8b	&	29	&	32	&	-3	\\
-9a	&	42	&	31	&	11	\\
-9b	&	43	&	29	&	14	\\
-10a	&	31	&	29	&	2	\\
-10b	&	32	&	32	&	0	\\
-11a	&	29	&	28	&	1	\\
-11b	&	29	&	28	&	1	\\
-12a	&	32	&	26	&	6	\\
-12b	&	34	&	33	&	1	\\
-13a	&	30	&	39	&	-9	\\
-13b	&	28	&	43	&	-15	\\
-14a	&	22	&	22	&	0	\\
-14b	&	23	&	24	&	-1	\\
-15a	&	32	&	32	&	0	\\
-15c	&	30	&	33	&	-3	\\
-16a	&	29	&	28	&	1	\\
-16b	&	35	&	33	&	2	\\
-\hline
-\end{tabular}
-\end{table}
+The Ear-Monitor uses respiratory sinus arrhythmia (RSA), the frequency modulating respiratory related heart rate characteristic, to extract a respiratory rate. The chest strap connected to the Nexus-10 physiological monitoring platform is used to measure the benchmark respiration rate. Benchmark breaths from the Nexus-10 are manually annotated. The recording session consisted of one minute of normal breathing followed by one minute of regulated breathing at 15 breaths per minute. Appendix \ref{Data Tables} tabulates the results of the breaths detected for the 16 participants. Benchmark respiratory rates of the participants varied from 7 to 28 breaths per minute. The mean error is 0.0156 $\pm$3.9081 breaths per minute.
 
 \medskip
-It should be noted, however, that the majority of the inaccuracy can be traced to the recording sessions participants 5, 9 and 13. Upon closer inspection the following explanation can be given. Participant 5 and 13 both has a large number of false positives, the highest and third highest average heart rates and very low heart beat period variation due to RSA. Participant 9 has an unusually high resting respiratory rate (more than double that of the average of the rest of the participants), bordering on the maximum measurable rate according to the Nyquist theorem, which is equal to half the heart rate. This caused 51\% of breaths to be missed during normal breathing. As expected, when the respiratory rate was raised during the controlled breathing exercise, the breath detection accuracy returned to the group average. These three participants are regarded as outliers and are isolated from the rest in order to reveal the trends present the bulk of the recording sessions.
+It should be noted, however, that the majority of the inaccuracies can be traced to the recording sessions of participants 5, 9 and 13. Upon closer inspection, the following explanation can be given. Participant 5 and 13 both have a large number of false positives, the highest and third highest average heart rates and very low heartbeat period variation due to RSA. Participant 9 has an unusually high resting respiratory rate (more than double that of the average of the rest of the participants), bordering on the maximum measurable rate according to the Nyquist theorem, which is equal to half the heart rate. This caused 51\% of breaths to be missed during normal breathing. As expected, when the respiratory rate was lowered during the controlled breathing exercise, the breath detection accuracy returned to the group average. These three participants are regarded as outliers and are isolated from the rest in order to reveal the trends present in the bulk of the recording sessions.
 
 \medskip
 
-The average errors in respiratory rate between the benchmark Nexus-10 and the Ear-Monitor can be seen in Table \ref{tab:BreathingAccuracies}. Standard deviations are included and all values are in breaths per minute. By removing the outliers the average error of the normal and controlled breathing groups are closer to one another and the standard deviation in the errors are reduced by more than half.
+The mean errors in respiratory rate between the benchmark Nexus-10 and the Ear-Monitor can be seen in Table \ref{tab:BreathingAccuracies}. Standard deviations are included and all values are in breaths per minute. When removing the outliers, the mean error of the normal and controlled breathing groups are closer to one another and the standard deviation of the errors are reduced by more than half.
 
 \begin{table}[H]
-\caption{Average errors of the respiratory rate measurements}
+\caption{Mean errors of the respiratory rate measurements}
 \label{tab:BreathingAccuracies}
 \renewcommand{\arraystretch}{1.2}
 \centering
@@ -344,36 +169,89 @@ The average errors in respiratory rate between the benchmark Nexus-10 and the Ea
 \hline
 Group				&	Outliers removed		&	Outliers included\\ 
 \hline
-Normal breathing	&	-0.6154 $\pm$0.3285		&	0.4375 $\pm$0.8694\\
+Normal breathing	&	-0.6154 $\pm$1.6752		&	0.4375 $\pm$4.9183\\
 %\hline
-Breathing exercise 	&	-0.5000 $\pm$0.2166		&	-0.40625$\pm$0.4327\\
+Breathing exercise 	&	-0.5000 $\pm$1.1045		&	-0.40625$\pm$2.4476\\
 %\hline
-All					&	-0.5577 $\pm$0.1950		&	0.0156 $\pm$0.4846\\
+All					&	-0.5577 $\pm$1.4061		&	0.0156 $\pm$3.9081\\
 \hline
 \end{tabular}
 \end{table}
 
-Figure \ref{fig:BreathScatter} shows a plot of the Nexus-10's benchmark breaths versus the Ear-Monitor's detected breaths. Blue marks the number of breaths after 1 minute of normal breathing and red marks the total number of breaths in the recording session, including the  breathing exercise.
+Figure \ref{fig:BreathScatter} depicts an ICC plot of the Nexus-10 benchmark breaths versus the Ear-Monitor detected breaths. Triangles mark the number of breaths after 1 minute of normal breathing and circles mark the total number of breaths in the recording session, which includes the breathing exercise.
 
 \begin{figure}[H]
    \centering
    \includegraphics[width=12cm,height=7.5cm]{figs/BreathScatter.png}
-   \caption{Number of breaths detected: Nexus-10 vs. Ear-Monitor}
+   \caption{Number of breaths detected: Nexus-10 vs. Ear-Monitor (Excluding outliers)}
    \label{fig:BreathScatter}
 \end{figure}
 
 \subsection{Respiratory Rate Discussion}
-The breathing exercise was included in the trail, due to the uncertainty that the RSA will be visible during normal breathing. In general, participants started breathing deeper during the breathing exercise. This resulted in a more accurate detection of breaths.
+The breathing exercise was included in the trial, due to the uncertainty that the RSA will be visible during normal breathing. In general, participants started breathing deeper during the breathing exercise. This resulted in a more accurate detection of breaths.
 
 \medskip
 
-Although the standard deviation for the data from the breathing exercise is lower, the Ear-Monitor sill measured respiratory rate during normal breathing better than expected. According to the trial data (excluding th outliers), the Ear-Monitor is able to calculate the respiratory rate of a participant breathing normally to with in an average accuracy of -0.6154 breaths per minute with a standard precision of $\pm$ 0.3285 breaths per minute (6.78\% standard deviation at 14 breaths per minute). This is superior to the 1 breath per minute accuracy from \cite{clifton2007measurement} and the 7.6\% accuracy from \cite{leonard2006fully}.
+During normal breathing, the standard deviation for the data from the breathing exercise is lower, however, the Ear-Monitor sill measured normal respiratory rate better than expected. According to the trial data (excluding the outliers), the Ear-Monitors correlates with the  benchmark device with a coefficient of 0.7604 and a p-value of zero. ICC\textsubscript{a} and ICC\textsubscript{c} indicate exceptional correlation agreement and consistency with in the 95\% confidence interval. The Ear-Monitor is able to calculate the respiratory rate of a participant breathing normally to within a mean accuracy of -0.6154 breaths per minute with a standard deviation of 1.6752 breaths per minute (11.45\% standard deviation at 15 breaths per minute). This is slightly worse, but comparable, to the 1 breath per minute accuracy from \cite{clifton2007measurement} and the 7.6\% accuracy from \cite{leonard2006fully}. This can be ascribed to the fact that they used the more advanced approach of neural networks for detecting breaths from the RSA.
 
 \medskip
 
-It can be seen that, on average, the Ear-Monitor detects a respiratory rate that is slightly lower (-0.5577 $\pm$0.1950 breaths per minute) than the actual rate. This means that the algorithm misses some breaths. This can be ascribed to intermitted shallower and shorter breaths that does not cause an big enough variation in heart beat period.
+It can be seen that, on average, the Ear-Monitor detects a respiratory rate that is slightly lower (-0.5577 $\pm$1.4060 breaths per minute) than the actual rate. This means that the algorithm misses some breaths. This can be ascribed to intermittent shallower and shorter breaths that do not cause a big enough variation in heartbeat period.
 
 \medskip
 
-The outliers are removed to emphasize the normal results, but they are not random and provide a valuable insight into the limitations of using RSA to measure respiratory rate. Is can be stated that elevated heart rates (higher than 80 bpm in this trial) reduces the magnitude of RSA  and causes the detection of false breaths. Also, if the breathing rate approaches half the heart rate (Nyquist theorem), the sample frequency is to low and many breaths are missed by the detection algorithm. These results can be summarised by saying that respiratory rate measurement through RSA is most accurate at lower heart and respiratory rates.
+The outliers are removed to emphasize the normal results, but they are not random and provide a valuable insight into the limitations of using RSA to measure respiratory rate. It can be stated that elevated heart rates (higher than 80 bpm in this trial) reduces the magnitude of RSA  and causes the detection of false breaths. Also, if the breathing rate approaches half the heart rate (Nyquist theorem), the sampling frequency is too low and many breaths are missed by the detection algorithm. These results can be summarised by saying that respiratory rate measurement through RSA is most accurate at a combination of low heart and respiratory rates.
 
+\section{SpO\textsubscript{2} Results}
+The Ear-Monitor uses the MAX30100 pulse oximeter to measure the blood oxygen saturation of the tissue in the wall of the ear canal. One SpO\textsubscript{2} calculation is done every time the Ear-Monitor detects a heartbeat. The SureSigns VM1 from Philips is used to provide the benchmark SpO\textsubscript{2} measurement. The SureSigns VM1 samples at 1 Hz, resulting in 120 samples per recording session. As with temperature, the SpO\textsubscript{2} of a participant is assumed to stay consent over the duration of the 2-minute recording session. Therefore, the average of the SureSigns VM1 measurements and Ear-Monitor measurements are compared for each recording session.
+
+\medskip
+
+All trial participants are in good health and benchmark SpO\textsubscript{2} levels ranged between 96.38 and 100 \%. The measurements from the Ear-Monitor varied between 96.27 and 100\%. The mean error between the SureSigns VM1 and Ear-Monitor measurements is -0.22 $\pm$1.50\%. When plotting the Ear-Monitor and SureSigns VM1 measurements, a no significant correlation is observed. This plot can be seen in Figure \ref{fig:SpO2Scatter}.
+
+\begin{figure}[H]
+   \centering
+   \includegraphics[width=12cm,height=7.5cm]{figs/SpO2Scatter.png}
+   \caption{SpO\textsubscript{2}: SureSigns VM1 vs. Ear-Monitor}
+   \label{fig:SpO2Scatter}
+\end{figure}
+
+\subsection{SpO\textsubscript{2} Results Discussion}
+Analysing the trial data, it is calculated that the Ear-Monitor can measure SpO\textsubscript{2} in healthy individuals, with a mean error of -0.22 $\pm$1.50\%.
+
+\medskip
+
+However, because of the insignificant correlation, it can not be proven that this accuracy will continue if individuals with lower SpO\textsubscript{2} levels are monitored. An attempt was made to induce hypoxia during pilot testing by holding the breath. However, this did not cause a detectable change in SpO\textsubscript{2} measurements by the Ear-Monitor or SureSigns VM1. Clarity about the SpO\textsubscript{2} performance of the Ear-Monitor can be obtained by testing it on hypoxic patients, but testing on unhealthy individuals is not within the scope of this project. %lee2016reflectance did a test where subjects held their breath to lower SpO2, but this was not observed with the Ear-Monitor of SureSign
+
+\medskip
+
+The SpO\textsubscript{2} calculation method relies on the difference in the detected red and infrared light. According to the relationship found in literature, the magnitude of the infrared PPG should be higher than that of the red PPG \citep{ti2012application, strogonovsImplementing}. This can be observed in all the data recorded by the Ear-Monitor. If the wearer's SpO\textsubscript{2} decreases, the difference between the infrared and red PPGs should decrease, resulting in a higher SpO\textsubscript{2} modulation ratio (R) and, according to Equation \ref{eq:SpO2Ratio1}, a lower calculated SpO\textsubscript{2} value. This can not be observed in the trial data. The most probable reason is that the relationship is obscured by the inherent margin of error in pulse oximeters. The SpO\textsubscript{2} benchmark of the group is to constant, meaning there is not a big enough variation in SpO\textsubscript{2} among individuals to be detected by the Ear-Monitor.
+
+\medskip
+
+The lack of correlation within the testing range of values does not prove that the Ear-Monitor fails to measure SpO\textsubscript{2} accurately. Within the trial group, SpO\textsubscript{2} measurements all indicated participants are above the 95\% mark required for healthy adults. This is the same result as found by \cite{aziz2006pervasive}. Future testing can include hypoxic subjects and comparison with a blood gas test.
+
+\section{Results Summary}
+The statistical analysis values for the trial data is summarised in Table \ref{tab:ResultsSummary}.
+
+\begin{table}[H]
+\caption{Summary of Statistical Results}
+\label{tab:ResultsSummary}
+\renewcommand{\arraystretch}{1.1}
+\centering
+\begin{tabular}{|P{2.5cm}|P{1.4cm}|P{2cm}|P{1.1cm}|P{2.1cm}|P{2.1cm}|} 
+ \hline
+Vital Sign									&	Mean Error		&	Correlation coefficient	&	p-value	&	ICC\textsubscript{a}	&	ICC\textsubscript{c}\\
+ \hline
+Temperature Group Calibration				&	0.018  $\pm$0.513	&	0.467	&	0.014	&	0.374 (-0.01;0.66)	&	0.365 (-0.01;0.65)\\
+ \hline
+Temperature Intra-participant Calibration	&	-0.016 $\pm$0.290	&	0.868	&	0	&	0.875 (0.66;0.96)	&	0.868 (0.67;0.96)\\
+ \hline
+Heart Rate									&	0.031  $\pm$0.717	&	0.997	&	0	&	0.997 (0.99;0.99)	&	0.997 (0.99;0.99)\\
+ \hline
+Respiratory Rate							&	-0.558 $\pm$1.406	&	0.790	&	0	&	0.965 (0.93;0.98)	&	0.97 (0.95;0.98)\\
+ \hline
+SpO\textsubscript							&	-0.22  $\pm$1.50	&	0	&	0.998	&	0 (-0.35;0.35)	&	0 (-0.34;0.34)\\
+ \hline
+\end{tabular}
+\end{table}

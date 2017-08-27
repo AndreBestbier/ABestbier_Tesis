@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{204.00000144bp}%
+    \setlength{\unitlength}{206.95138766bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,21 +48,19 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,1.27058826)%
+  \begin{picture}(1,1.27058824)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{MAX30100_pinout.pdf}}%
-    \put(0.79682852,0.7578498){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{GND}}}%
-    \put(0.79273197,0.62351748){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1.8V}}}%
-    \put(0.7955217,0.48921017){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{3.3V}}}%
-    \put(0.7955217,0.35490286){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{3.3V}}}%
+    \put(0.79334349,0.75791452){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{GND}}}%
+    \put(0.78930537,0.61824995){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1.8V}}}%
+    \put(0.79205583,0.48585803){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{3.3V}}}%
+    \put(0.79205583,0.3607141){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{3.3V}}}%
+    \put(0.10203709,0.62795475){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{GND}}}%
+    \put(0.11483428,0.75881719){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{SDA}}}%
+    \put(0.12424836,0.8897043){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{SCL}}}%
+    \put(0.36347063,0.63333405){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{MAX30100}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{MAX30100_pinout.pdf}}%
-    \put(0.1249222,0.618657){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{GND}}}%
-    \put(0.1305518,0.7514127){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{SDA}}}%
-    \put(0.14010197,0.88419342){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{SCL}}}%
+    \put(0.39543686,0.90414383){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{SENSOR}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{MAX30100_pinout.pdf}}%
-    \put(0.38725322,0.64643556){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{MAX30100}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=4]{MAX30100_pinout.pdf}}%
-    \put(0.41626821,0.91197219){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{SENSOR}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=5]{MAX30100_pinout.pdf}}%
-    \put(0.47362267,0.2416319){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{LED}}}%
+    \put(0.46232712,0.24206929){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{LED}}}%
   \end{picture}%
 \endgroup%

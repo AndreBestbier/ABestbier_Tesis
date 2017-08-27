@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{583.19997232bp}%
+    \setlength{\unitlength}{433.57337641bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,7 +48,28 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.66460907)%
+  \begin{picture}(1,0.78160869)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{EarMonitor_Concept.pdf}}%
+    \put(0.08398166,0.08899207){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(b) Arduino Pro Mini MCU}}}%
+    \put(0.08398166,0.13105855){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(a) LiPo battery}}}%
+    \put(0.08398166,0.04692549){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(c) HC-05 Bluetooth modem}}}%
+    \put(0.08398166,0.00485901){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(d) Ear probe}}}%
+    \put(0.63226394,0.76373488){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Ear probe}}}%
+    \put(0.11031832,0.76373488){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Ear-Monitor headband}}}%
+    \put(0.19569566,0.73742089){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{concept}}}%
+    \put(0.54143295,0.13105855){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(e) Tympanic membrane}}}%
+    \put(0.54143295,0.00485901){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(h) Rubber plug}}}%
+    \put(0.54143295,0.08891356){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(f) MAX30100 pulse oximeter}}}%
+    \put(0.54143295,0.04688918){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(g) TMP006 infrared sensor}}}%
+    \put(0.1587107,0.57981314){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(a)}}}%
+    \put(0.25512508,0.58228429){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(b)}}}%
+    \put(0.33920187,0.58968868){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(c)}}}%
+    \put(0.21165268,0.48427403){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(d)}}}%
+    \put(0.53034324,0.45605269){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(e)}}}%
+    \put(0.59746972,0.37537058){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(f)}}}%
+    \put(0.60013226,0.46310861){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(g)}}}%
+    \put(0.71124061,0.42117162){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(h)}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{EarMonitor_Concept.pdf}}%
+    \put(-0.14396213,0.04770465){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{1.1046078\unitlength}\raggedright \end{minipage}}}%
   \end{picture}%
 \endgroup%

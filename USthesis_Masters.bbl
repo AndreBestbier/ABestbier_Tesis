@@ -1,4 +1,4 @@
-\begin{thebibliography}{54}
+\begin{thebibliography}{77}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -27,6 +27,12 @@
 \newblock \emph{Journal-American academy of audiology}, \bblvol{}~8, \bblpp{}
   383--390.
 
+\bibitem[{\citenamefont{Aoyagi}(2003)}]{aoyagi2003pulse}
+\bibnamefont{Aoyagi}, \bibfnamefont{T.} (2003).
+\newblock Pulse oximetry: its invention, theory, and future.
+\newblock \emph{Journal of anesthesia}, \bblvol{}~17, \bblno{}~4, \bblpp{}
+  259--266.
+
 \bibitem[{\citenamefont{Aziz} \emph{\bbletal{}}(2006)\citenamefont{Aziz},
   \citenamefont{Lo}, \citenamefont{King}, \citenamefont{Darzi}
   \protect\BIBand{} \citenamefont{Yang}}]{aziz2006pervasive}
@@ -47,14 +53,15 @@
 \newblock \emph{International journal of computer applications}, \bblvol{}~36,
   \bblno{}~11, \bblpp{} 45--50.
 
-\bibitem[{\citenamefont{Barker} \emph{\bbletal{}}(2002)\citenamefont{Barker},
-  \citenamefont{Hay}, \citenamefont{Miyasaka} \protect\BIBand{}
-  \citenamefont{Poets}}]{spo2Motion}
-\bibnamefont{Barker}, \bibfnamefont{S.}, \bibnamefont{Hay}, \bibfnamefont{W.},
-  \bibnamefont{Miyasaka}, \bibfnamefont{K.} \protect\BIBand{}
-  \bibnamefont{Poets}, \bibfnamefont{C.} (2002).
-\newblock Principles of pulse oximetry technology.
-\newline\bblurlpre\url{http://www.oximetry.org/pulseox/principles.htm}
+\bibitem[{\citenamefont{Barfield}
+  \emph{\bbletal{}}(2012)\citenamefont{Barfield}, \citenamefont{Papile},
+  \citenamefont{Baley} \emph{\bbletal{}}}]{barfield2012american}
+\bibnamefont{Barfield}, \bibfnamefont{W.}, \bibnamefont{Papile},
+  \bibfnamefont{L.}, \bibnamefont{Baley}, \bibfnamefont{J.} \emph{\bbletal{}}
+  (2012).
+\newblock American academy of pediatrics committee on fetus and newborn.
+\newblock \emph{Levels of neonatal care. Pediatrics}, \bblvol{} 130,
+  \bblno{}~3, \bblpp{} 587--597.
 
 \bibitem[{\citenamefont{Bheema~lingaiah}
   \emph{\bbletal{}}(2013)\citenamefont{Bheema~lingaiah},
@@ -68,23 +75,32 @@
 \newblock \emph{Journal of Electrical and Electronics Engineering},
   \bblvol{}~8.
 
-\bibitem[{\citenamefont{Bickford}(1987)}]{bickford1951electroencephalography}
-\bibnamefont{Bickford}, \bibfnamefont{R.} (1987).
-\newblock Electroencephalography.
-\newblock \emph{Adelman G. ed. Encyclopedia of Neuroscience, Birkhauser,
-  Cambridge (USA)}, \bblpp{} 371--373.
-
 \bibitem[{\citenamefont{Blahd}(2016)}]{webMDSleepApnoea}
 \bibnamefont{Blahd}, \bibfnamefont{W.} (2016 09).
 \newblock Mebmd sleep apnea.
 \newline\bblurlpre\url{http://www.webmd.com/sleep-disorders/sleep-apnea/sleep-apnea}
 
-\bibitem[{\citenamefont{Buske} \emph{\bbletal{}}()\citenamefont{Buske},
+\bibitem[{\citenamefont{Bragi}(2017)}]{BragiDash}
+\bibnamefont{Bragi} (2017).
+\newblock Meet the dash pro.
+\newline\bblurlpre\url{https://www.bragi.com/thedashpro/}
+
+\bibitem[{\citenamefont{Buske} \emph{\bbletal{}}(2009)\citenamefont{Buske},
   \citenamefont{Neils} \protect\BIBand{}
   \citenamefont{Regnier}}]{buskeheartbeat}
 \bibnamefont{Buske}, \bibfnamefont{O.}, \bibnamefont{Neils}, \bibfnamefont{C.}
-  \protect\BIBand{} \bibnamefont{Regnier}, \bibfnamefont{M.} ().
+  \protect\BIBand{} \bibnamefont{Regnier}, \bibfnamefont{M.} (2009).
 \newblock Heartbeat: Design and development of a headphone.
+
+\bibitem[{\citenamefont{Chan} \emph{\bbletal{}}(2013)\citenamefont{Chan},
+  \citenamefont{Chan} \protect\BIBand{} \citenamefont{Chan}}]{chan2013pulse}
+\bibnamefont{Chan}, \bibfnamefont{E.D.}, \bibnamefont{Chan},
+  \bibfnamefont{M.M.} \protect\BIBand{} \bibnamefont{Chan}, \bibfnamefont{M.M.}
+  (2013).
+\newblock Pulse oximetry: understanding its basic principles facilitates
+  appreciation of its limitations.
+\newblock \emph{Respiratory medicine}, \bblvol{} 107, \bblno{}~6, \bblpp{}
+  789--799.
 
 \bibitem[{\citenamefont{Chan} \protect\BIBand{}
   \citenamefont{Underwood}(2005)}]{ti2012datasheet}
@@ -99,6 +115,13 @@
 \newblock Medscape normal vital vigns.
 \newline\bblurlpre\url{http://emedicine.medscape.com/article/2172054-overview}
 
+\bibitem[{\citenamefont{Cicchetti}(1994)}]{cicchetti1994guidelines}
+\bibnamefont{Cicchetti}, \bibfnamefont{D.V.} (1994).
+\newblock Guidelines, criteria, and rules of thumb for evaluating normed and
+  standardized assessment instruments in psychology.
+\newblock \emph{Psychological assessment}, \bblvol{}~6, \bblno{}~4, \bblp{}
+  284.
+
 \bibitem[{\citenamefont{Clifton} \emph{\bbletal{}}(2007)\citenamefont{Clifton},
   \citenamefont{Douglas}, \citenamefont{Addison} \protect\BIBand{}
   \citenamefont{Watson}}]{clifton2007measurement}
@@ -110,6 +133,16 @@
 \newblock \emph{Journal of clinical monitoring and computing}, \bblvol{}~21,
   \bblno{}~1, \bblpp{} 55--61.
 
+\bibitem[{\citenamefont{Cosinuss}(2017{\natexlab{\emph{a}}})}]{CosinussOne}
+\bibnamefont{Cosinuss} (2017{\natexlab{\emph{a}}}).
+\newblock Cosinuss one.
+\newline\bblurlpre\url{https://www.cosinuss.com/en/products/one}
+
+\bibitem[{\citenamefont{Cosinuss}(2017{\natexlab{\emph{b}}})}]{CosinussDegree}
+\bibnamefont{Cosinuss} (2017{\natexlab{\emph{b}}}).
+\newblock Degree.
+\newline\bblurlpre\url{https://www.degree-fever-assistant.com/}
+
 \bibitem[{\citenamefont{Da~He} \emph{\bbletal{}}(2010)\citenamefont{Da~He},
   \citenamefont{Winokur}, \citenamefont{Heldt} \protect\BIBand{}
   \citenamefont{Sodini}}]{da2010ear}
@@ -120,6 +153,17 @@
 \newblock \capitalize\bblin{}: \emph{Engineering in Medicine and Biology
   Society (EMBC), 2010 Annual International Conference of the IEEE}, \bblpp{}
   6389--6392. IEEE.
+
+\bibitem[{\citenamefont{DeMeulenaere}(2007)}]{demeulenaere2007pulse}
+\bibnamefont{DeMeulenaere}, \bibfnamefont{S.} (2007).
+\newblock Pulse oximetry: uses and limitations.
+\newblock \emph{The Journal for Nurse Practitioners}, \bblvol{}~3, \bblno{}~5,
+  \bblpp{} 312--317.
+
+\bibitem[{\citenamefont{DerSarkissian}(2016)}]{FluOrCold}
+\bibnamefont{DerSarkissian}, \bibfnamefont{C.} (2016).
+\newblock Flu or cold symptoms?
+\newline\bblurlpre\url{http://www.webmd.com/cold-and-flu/cold-guide/flu-cold-symptoms}
 
 \bibitem[{\citenamefont{Duun} \emph{\bbletal{}}(2007)\citenamefont{Duun},
   \citenamefont{Haahr}, \citenamefont{Birkelund}, \citenamefont{Raahauge},
@@ -147,13 +191,14 @@
   from emergency responders in tropical conditions.
 \newblock \emph{PLoS One}, \bblvol{}~8, \bblno{}~10, \bblp{} e76585.
 
-\bibitem[{\citenamefont{Encyclop\ae{}dia-Britannica}(2015)}]{ExternalAuditoryCanal}
-\bibnamefont{Encyclop\ae{}dia-Britannica}, \bibfnamefont{T.E.} (2015 01).
+\bibitem[{\citenamefont{{Encyclop\ae{}dia
+  Britannica}}(2015)}]{ExternalAuditoryCanal}
+\bibnamefont{{Encyclop\ae{}dia Britannica}}, \bibfnamefont{T.E.} (2015 01).
 \newblock External auditory canal.
 \newline\bblurlpre\url{https://global.britannica.com/science/external-auditory-canal}
 
-\bibitem[{\citenamefont{Encyclop\ae{}dia-Britannica}()}]{lambertANDbeer}
-\bibnamefont{Encyclop\ae{}dia-Britannica}, \bibfnamefont{T.E.O.} ().
+\bibitem[{\citenamefont{{Encyclop\ae{}dia Britannica}}(2009)}]{lambertANDbeer}
+\bibnamefont{{Encyclop\ae{}dia Britannica}}, \bibfnamefont{T.E.O.} (2009).
 \newblock Spectrophotometry.
 \newline\bblurlpre\url{https://www.britannica.com/science/spectrophotometry}
 
@@ -165,6 +210,25 @@
   temperature measurement.
 \newblock \emph{Critical care medicine}, \bblvol{}~21, \bblno{}~10, \bblpp{}
   1528--1534.
+
+\bibitem[{\citenamefont{Fahy} \emph{\bbletal{}}(2011)\citenamefont{Fahy},
+  \citenamefont{Lareau} \protect\BIBand{}
+  \citenamefont{Sockrider}}]{fahy2011pulse}
+\bibnamefont{Fahy}, \bibfnamefont{B.}, \bibnamefont{Lareau}, \bibfnamefont{S.}
+  \protect\BIBand{} \bibnamefont{Sockrider}, \bibfnamefont{M.} (2011).
+\newblock Pulse oximetry.
+\newblock \emph{American Journal of Respiratory and Critical Care Medicine},
+  \bblvol{} 184.
+
+\bibitem[{\citenamefont{Gasim} \emph{\bbletal{}}(2013)\citenamefont{Gasim},
+  \citenamefont{Musa}, \citenamefont{Abdien} \protect\BIBand{}
+  \citenamefont{Adam}}]{gasim2013accuracy}
+\bibnamefont{Gasim}, \bibfnamefont{G.I.}, \bibnamefont{Musa},
+  \bibfnamefont{I.R.}, \bibnamefont{Abdien}, \bibfnamefont{M.T.}
+  \protect\BIBand{} \bibnamefont{Adam}, \bibfnamefont{I.} (2013).
+\newblock Accuracy of tympanic temperature measurement using an infrared
+  tympanic membrane thermometer.
+\newblock \emph{BMC research notes}, \bblvol{}~6, \bblno{}~1, \bblp{} 194.
 
 \bibitem[{\citenamefont{Goldberger}
   \emph{\bbletal{}}(2000)\citenamefont{Goldberger}, \citenamefont{Amaral},
@@ -199,6 +263,11 @@
 \newblock Hearables: Multimodal physiological in-ear sensing.
 \newblock \emph{arXiv preprint arXiv:1609.03330}.
 
+\bibitem[{\citenamefont{Holland}(2016)}]{thermoregulation2016}
+\bibnamefont{Holland}, \bibfnamefont{K.} (2016 09).
+\newblock Thermoregulation.
+\newline\bblurlpre\url{http://www.healthline.com/health/thermoregulation\#overview1}
+
 \bibitem[{\citenamefont{Huang} \emph{\bbletal{}}(2014)\citenamefont{Huang},
   \citenamefont{Chan}, \citenamefont{Chen} \protect\BIBand{}
   \citenamefont{Lin}}]{huang2014novel}
@@ -228,6 +297,16 @@
   \bibnamefont{Polyziev}, \bibfnamefont{V.} (2014).
 \newblock Demystifying thermopile ir temp sensors.
 \newline\bblurlpre\url{http://www.sensorsmag.com/components/demystifying-thermopile-ir-temp-sensors}
+
+\bibitem[{\citenamefont{Karriem-Norwood}(2017)}]{StressAndHR}
+\bibnamefont{Karriem-Norwood}, \bibfnamefont{V.} (2017).
+\newblock Stress symptoms.
+\newline\bblurlpre\url{http://www.webmd.com/balance/stress-management/stress-symptoms-effects-of-stress-on-the-body}
+
+\bibitem[{\citenamefont{Kennedy}(2015)}]{kennedy2015introduction}
+\bibnamefont{Kennedy}, \bibfnamefont{S.M.} (2015).
+\newblock An introduction to pulse oximeters: Equations and theory.
+\newblock \emph{University of Wisconsin-Madison}, \bblvol{}~20.
 
 \bibitem[{\citenamefont{Khalifa} \emph{\bbletal{}}(2014)\citenamefont{Khalifa},
   \citenamefont{Khan} \protect\BIBand{}
@@ -260,6 +339,13 @@
 \bibnamefont{Laskowski}, \bibfnamefont{E.R.} (2015).
 \newblock What's a normal resting heart rate?
 \newline\bblurlpre\url{http://www.mayoclinic.org/healthy-lifestyle/fitness/expert-answers/heart-rate/faq-20057979}
+
+\bibitem[{\citenamefont{Lee} \emph{\bbletal{}}(2016)\citenamefont{Lee},
+  \citenamefont{Ko} \protect\BIBand{} \citenamefont{Lee}}]{lee2016reflectance}
+\bibnamefont{Lee}, \bibfnamefont{H.}, \bibnamefont{Ko}, \bibfnamefont{H.}
+  \protect\BIBand{} \bibnamefont{Lee}, \bibfnamefont{J.} (2016).
+\newblock Reflectance pulse oximetry: Practical issues and limitations.
+\newblock \emph{ICT Express}, \bblvol{}~2, \bblno{}~4, \bblpp{} 195--198.
 
 \bibitem[{\citenamefont{Lefrant} \emph{\bbletal{}}(2003)\citenamefont{Lefrant},
   \citenamefont{Muller}, \citenamefont{de~La~Coussaye},
@@ -305,6 +391,24 @@
 \newblock \emph{IEEE journal of translational engineering in health and
   medicine}, \bblvol{}~1, \bblpp{} 1--8.
 
+\bibitem[{\citenamefont{Louw} \emph{\bbletal{}}(2001)\citenamefont{Louw},
+  \citenamefont{Cracco}, \citenamefont{Cerf}, \citenamefont{Harf},
+  \citenamefont{Duvaldestin}, \citenamefont{Lemaire} \protect\BIBand{}
+  \citenamefont{Brochard}}]{louw2001accuracy}
+\bibnamefont{Louw}, \bibfnamefont{A.}, \bibnamefont{Cracco}, \bibfnamefont{C.},
+  \bibnamefont{Cerf}, \bibfnamefont{C.}, \bibnamefont{Harf}, \bibfnamefont{A.},
+  \bibnamefont{Duvaldestin}, \bibfnamefont{P.}, \bibnamefont{Lemaire},
+  \bibfnamefont{F.} \protect\BIBand{} \bibnamefont{Brochard}, \bibfnamefont{L.}
+  (2001).
+\newblock Accuracy of pulse oximetry in the intensive care unit.
+\newblock \emph{Intensive care medicine}, \bblvol{}~27, \bblno{}~10, \bblpp{}
+  1606--1613.
+
+\bibitem[{\citenamefont{{Mayo Clinic}}(2017)}]{MayoPneumonia}
+\bibnamefont{{Mayo Clinic}} (2017).
+\newblock Pneumonia.
+\newline\bblurlpre\url{http://www.mayoclinic.org/diseases-conditions/pneumonia}
+
 \bibitem[{\citenamefont{Moody} \emph{\bbletal{}}(1986)\citenamefont{Moody},
   \citenamefont{Mark}, \citenamefont{Bump}, \citenamefont{Weinstein},
   \citenamefont{Berman}, \citenamefont{Mietus} \protect\BIBand{}
@@ -330,12 +434,10 @@
   infrared-a preliminary study.
 \newblock \emph{Sensors}, \bblvol{}~14, \bblno{}~4, \bblpp{} 7420--7434.
 
-\bibitem[{\citenamefont{Nunez} \protect\BIBand{}
-  \citenamefont{Srinivasan}(2006)}]{nunez2006electric}
-\bibnamefont{Nunez}, \bibfnamefont{P.L.} \protect\BIBand{}
-  \bibnamefont{Srinivasan}, \bibfnamefont{R.} (2006).
-\newblock \emph{Electric fields of the brain: the neurophysics of EEG}.
-\newblock Oxford University Press, USA.
+\bibitem[{\citenamefont{Novatemp}(2011)}]{Novatemp}
+\bibnamefont{Novatemp} (2011).
+\newblock Accuracy is key for tympanic temperature monitoring.
+\newline\bblurlpre\url{http://www.novamed-usa.com/tympanic\_temperature\_sensors.html}
 
 \bibitem[{\citenamefont{Oak} \protect\BIBand{}
   \citenamefont{Aroul}(2015)}]{ti2012application}
@@ -368,6 +470,11 @@
 \newblock Wearable sensing of in-ear pressure for heart rate monitoring with a
   piezoelectric sensor.
 \newblock \emph{Sensors}, \bblvol{}~15, \bblno{}~9, \bblpp{} 23402--23417.
+
+\bibitem[{\citenamefont{Pearce}(2002)}]{pearce2002brief}
+\bibnamefont{Pearce}, \bibfnamefont{J.} (2002).
+\newblock A brief history of the clinical thermometer.
+\newblock \emph{Qjm}, \bblvol{}~95, \bblno{}~4, \bblpp{} 251--252.
 
 \bibitem[{\citenamefont{Poh} \emph{\bbletal{}}(2010)\citenamefont{Poh},
   \citenamefont{Swenson} \protect\BIBand{}
@@ -402,6 +509,22 @@
 \newblock \capitalize\bblin{}: \emph{Bioengineering Conference, 2003 IEEE 29th
   Annual, Proceedings of}, \bblpp{} 148--149. IEEE.
 
+\bibitem[{\citenamefont{Shcherbina}
+  \emph{\bbletal{}}(2017)\citenamefont{Shcherbina}, \citenamefont{Mattsson},
+  \citenamefont{Waggott}, \citenamefont{Salisbury}, \citenamefont{Christle},
+  \citenamefont{Hastie}, \citenamefont{Wheeler} \protect\BIBand{}
+  \citenamefont{Ashley}}]{shcherbina2017accuracy}
+\bibnamefont{Shcherbina}, \bibfnamefont{A.}, \bibnamefont{Mattsson},
+  \bibfnamefont{C.M.}, \bibnamefont{Waggott}, \bibfnamefont{D.},
+  \bibnamefont{Salisbury}, \bibfnamefont{H.}, \bibnamefont{Christle},
+  \bibfnamefont{J.W.}, \bibnamefont{Hastie}, \bibfnamefont{T.},
+  \bibnamefont{Wheeler}, \bibfnamefont{M.T.} \protect\BIBand{}
+  \bibnamefont{Ashley}, \bibfnamefont{E.A.} (2017).
+\newblock Accuracy in wrist-worn, sensor-based measurements of heart rate and
+  energy expenditure in a diverse cohort.
+\newblock \emph{Journal of personalized medicine}, \bblvol{}~7, \bblno{}~2,
+  \bblp{}~3.
+
 \bibitem[{\citenamefont{Shin} \emph{\bbletal{}}(2009)\citenamefont{Shin},
   \citenamefont{Kim}, \citenamefont{Bae}, \citenamefont{Park} \protect\BIBand{}
   \citenamefont{Kim}}]{shin2009novel}
@@ -412,6 +535,28 @@
   measurement.
 \newblock \capitalize\bblin{}: \emph{13th International Conference on
   Biomedical Engineering}, \bblpp{} 519--522. Springer.
+
+\bibitem[{\citenamefont{Sinex}(1999)}]{sinex1999pulse}
+\bibnamefont{Sinex}, \bibfnamefont{J.E.} (1999).
+\newblock Pulse oximetry: principles and limitations.
+\newblock \emph{The American journal of emergency medicine}, \bblvol{}~17,
+  \bblno{}~1, \bblpp{} 59--66.
+
+\bibitem[{\citenamefont{{ST Electronics}}(2016a)}]{Accelerometer}
+\bibnamefont{{ST Electronics}} (2016a).
+\newblock Mems digital output motion sensor ultra low-power high full-scale
+  3-axes "nano" accelerometer.
+\newline\bblurlpre\url{https://www.sparkfun.com/datasheets/Sensors/Accelerometer/LIS331HH.pdf}
+
+\bibitem[{\citenamefont{{ST Electronics}}(2016b)}]{Microphone}
+\bibnamefont{{ST Electronics}} (2016b).
+\newblock Mems audio sensor omnidirectional digital microphone.
+\newline\bblurlpre\url{http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/10/65/67/7c/98/c2/4b/69/DM00333876/files/DM00333876.pdf/jcr:content/translations/en.DM00333876.pdf}
+
+\bibitem[{\citenamefont{Starboard}(2016)}]{Starboard}
+\bibnamefont{Starboard} (2016).
+\newblock Tympanic temperature sensors.
+\newline\bblurlpre\url{http://starboardmedical.com/tympanic-temperature-sensors/}
 
 \bibitem[{\citenamefont{Stratton}
   \emph{\bbletal{}}(2003)\citenamefont{Stratton}, \citenamefont{Levy},
@@ -427,6 +572,11 @@
   withdrawal.
 \newblock \emph{Journal of the American College of Cardiology}, \bblvol{}~41,
   \bblno{}~11, \bblpp{} 2077--2083.
+
+\bibitem[{\citenamefont{Strogonovs}(2017)}]{strogonovsImplementing}
+\bibnamefont{Strogonovs}, \bibfnamefont{R.} (2017 03).
+\newblock Implementing pulse oximeter using max30100.
+\newline\bblurlpre\url{https://morf.lv/implementing-pulse-oximeter-using-max30100}
 
 \bibitem[{\citenamefont{Stumme} \emph{\bbletal{}}(2003)\citenamefont{Stumme},
   \citenamefont{Baldini}, \citenamefont{Jonassen} \protect\BIBand{}
@@ -462,6 +612,11 @@
 \bibnamefont{Tavakoli~Dastjerdi}, \bibfnamefont{M.} (2006).
 \newblock \emph{An analog VLSI front end for pulse oximetry}.
 \newblock \bblphdthesis{}, Massachusetts Institute of Technology.
+
+\bibitem[{\citenamefont{Thach}(2008)}]{thach2008tragic}
+\bibnamefont{Thach}, \bibfnamefont{B.} (2008).
+\newblock Tragic and sudden death.
+\newblock \emph{EMBO reports}, \bblvol{}~9, \bblno{}~2, \bblpp{} 114--118.
 
 \bibitem[{\citenamefont{ThermoWorks}()}]{EmissivityThermoWorks}
 \bibnamefont{ThermoWorks} ().
@@ -513,8 +668,9 @@
   Society (EMBC), 2012 Annual International Conference of the IEEE}, \bblpp{}
   2724--2727. IEEE.
 
-\bibitem[{\citenamefont{WorldHealthOrganization}(2011)}]{WHO2011UsingPulseOxi}
-\bibnamefont{WorldHealthOrganization} (2011).
+\bibitem[{\citenamefont{{World Health
+  Organization}}(2011)}]{WHO2011UsingPulseOxi}
+\bibnamefont{{World Health Organization}} (2011).
 \newblock Using the pulse oximeter.
 \newline\bblurlpre\url{http://www.who.int/patientsafety/safesurgery/pulse\_oximetry/who\_ps\_pulse\_oxymetry\_tutorial2\_advanced\_en.pdf?ua=1}
 

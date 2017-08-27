@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{205.06764329bp}%
+    \setlength{\unitlength}{275.35725481bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,10 +48,11 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.54784288)%
+  \begin{picture}(1,0.4119266)%
+    \put(1.35150211,-2.33472428){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{4.11798156\unitlength}\raggedright \end{minipage}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{MAX30100_layout.pdf}}%
-    \put(0.46242811,0.30781743){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(a)}}}%
-    \put(0.46189374,0.01000623){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(b)}}}%
-    \put(-0.27109748,0.77938444){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{1.46300653\unitlength}\raggedright \end{minipage}}}%
+    \put(0.3995816,0.24033138){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(a)}}}%
+    \put(0.39918371,0.00745197){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(b)}}}%
+    \put(0.91124563,0.15044786){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1 cm}}}%
   \end{picture}%
 \endgroup%

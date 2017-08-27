@@ -18,7 +18,34 @@
    inkscape:version="0.92.1 r15371"
    sodipodi:docname="MAX30100_pinout.svg">
   <defs
-     id="defs2" />
+     id="defs2">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4559"
+       x="-0.0089130436"
+       width="1.0178261"
+       y="-0.018358208"
+       height="1.0367164">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.072642295"
+         id="feGaussianBlur4561" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4581"
+       x="-0.010424791"
+       width="1.0208496"
+       y="-0.014135978"
+       height="1.028272">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.049247477"
+         id="feGaussianBlur4583" />
+    </filter>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -26,17 +53,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="369.73644"
-     inkscape:cy="510.89417"
+     inkscape:zoom="5.6"
+     inkscape:cx="624.8305"
+     inkscape:cy="411.76832"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1001"
      inkscape:window-x="1591"
      inkscape:window-y="-9"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     inkscape:snap-global="false" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -52,12 +80,15 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
-    <image
-       y="116.84344"
-       x="53.418327"
-       id="image3703"
-       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVQAAAGwCAIAAAB5JQp2AAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+     id="layer1"
+     sodipodi:insensitive="true">
+    <g
+       id="g4525">
+      <image
+         width="73.007851"
+         height="92.762917"
+         preserveAspectRatio="none"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVQAAAGwCAIAAAB5JQp2AAAAAXNSR0IArs4c6QAAAARnQU1BAACx
 jwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAGV4SURBVHhe7Z13QBPJF8chAenSe1GkSceuKIod
 FcVezp9YwQJ62E7OfmIvqGfHgnj2gg3EhoKgiKCoWLHSe1F6SMLvJTtggCQUCQR2Pn/Avre7k2R3
 vjNvZnZnRMvLy0UwGAz5oKD/GAyGZGDxYzAkBYsfgyEpWPwYDEnB4sdgSAoWPwZDUrD4MRiSgsWP
@@ -516,153 +547,181 @@ FCx+DIakYPFjMCQFix+DISlY/BgMScHix2BIChY/BkNSsPgxGJKCxY/BkBQsfgyGpGDxYzAkBYsf
 gyEpWPwYDEnB4sdgSAoWPwZDUrD4MRiSgsWPwZAULH4MhqRg8WMwJAWLH4MhKVj8GAxJweLHYEgK
 Fj8GQ1Kw+DEYUiIi8n9HmLHtkT7QowAAAABJRU5ErkJggg==
 "
-       preserveAspectRatio="none"
-       height="91.440002"
-       width="71.966667" />
-    <rect
-       style="fill:#ffffff;stroke-width:0.34084806"
-       id="rect3780"
-       width="10.423512"
-       height="71.895508"
-       x="109.84777"
-       y="126.21476" />
+         id="image4516"
+         x="123.97749"
+         y="116.84344" />
+      <rect
+         y="139.79965"
+         x="155.51947"
+         height="4.6772165"
+         width="12.577641"
+         id="rect3796"
+         style="fill:#ffffff;stroke-width:0.28842956" />
+      <rect
+         y="188.51544"
+         x="159.72963"
+         height="3.4745038"
+         width="5.4790254"
+         id="rect3798"
+         style="fill:#ffffff;stroke-width:0.26458332" />
+      <rect
+         y="155.22301"
+         x="151.36452"
+         height="5.2117558"
+         width="20.178848"
+         id="rect3794"
+         style="fill:#ffffff;stroke-width:0.26458332" />
+      <rect
+         y="124.32487"
+         x="132.52635"
+         height="71.895508"
+         width="10.423512"
+         id="rect3780"
+         style="fill:#ffffff;stroke-width:0.34084806" />
+      <rect
+         y="128.25171"
+         x="181.2256"
+         height="70.291878"
+         width="12.66844"
+         id="rect3778"
+         style="fill:#ffffff;stroke-width:0.35056409" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Labels">
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.70416665px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="110.76342"
-       y="153.74352"
+       x="181.8978"
+       y="154.27264"
        id="text3750"><tspan
          sodipodi:role="line"
          id="tspan3748"
-         x="110.76342"
-         y="153.74352"
+         x="181.8978"
+         y="154.27264"
          style="stroke-width:0.26458332">GND</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.70416665px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="110.46861"
-       y="163.41096"
+       x="181.60298"
+       y="164.46925"
        id="text3754"><tspan
          sodipodi:role="line"
          id="tspan3752"
-         x="110.46861"
-         y="163.41096"
+         x="181.60298"
+         y="164.46925"
          style="stroke-width:0.26458332">1.8V</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.70416665px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="110.66937"
-       y="173.07661"
+       x="181.80379"
+       y="174.1349"
        id="text3758"><tspan
          sodipodi:role="line"
          id="tspan3756"
-         x="110.66937"
-         y="173.07661"
+         x="181.80379"
+         y="174.1349"
          style="stroke-width:0.26458332">3.3V</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.70416665px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="110.66937"
-       y="182.74226"
+       x="181.80379"
+       y="183.27139"
        id="text3762"><tspan
          sodipodi:role="line"
          id="tspan3760"
-         x="110.66937"
-         y="182.74226"
+         x="181.80379"
+         y="183.27139"
          style="stroke-width:0.26458332">3.3V</tspan></text>
-    <rect
-       style="fill:#ffffff;stroke-width:0.31181443"
-       id="rect3778"
-       width="10.022607"
-       height="70.291878"
-       x="62.541073"
-       y="127.68475" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.70416665px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="62.408562"
-       y="163.76076"
+       x="131.427"
+       y="163.76073"
        id="text3766"><tspan
          sodipodi:role="line"
          id="tspan3764"
-         x="62.408562"
-         y="163.76076"
+         x="131.427"
+         y="163.76073"
          style="stroke-width:0.26458332">GND</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.70416665px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="62.813705"
-       y="154.20677"
+       x="132.3613"
+       y="154.20674"
        id="text3770"><tspan
          sodipodi:role="line"
          id="tspan3768"
-         x="62.813705"
-         y="154.20677"
+         x="132.3613"
+         y="154.20674"
          style="stroke-width:0.26458332">SDA</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.70416665px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="63.500999"
-       y="144.65099"
+       x="133.0486"
+       y="144.65096"
        id="text3774"><tspan
          sodipodi:role="line"
          id="tspan3772"
-         x="63.500999"
-         y="144.65099"
+         x="133.0486"
+         y="144.65096"
          style="stroke-width:0.26458332">SCL</tspan></text>
-    <rect
-       style="fill:#ffffff;stroke-width:0.26458332"
-       id="rect3794"
-       width="20.178848"
-       height="5.2117558"
-       x="81.249939"
-       y="154.27806" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.70416665px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="81.287651"
-       y="161.76163"
+       x="150.5137"
+       y="163.368"
        id="text3784"><tspan
          sodipodi:role="line"
          id="tspan3782"
-         x="81.287651"
-         y="161.76163"
+         x="150.5137"
+         y="163.368"
          style="stroke-width:0.26458332">MAX30100</tspan></text>
-    <rect
-       style="fill:#ffffff;stroke-width:0.33504394"
-       id="rect3796"
-       width="16.971615"
-       height="4.6772165"
-       x="82.853554"
-       y="139.0437" />
+    <ellipse
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.28618369;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4555"
+       cx="162.15179"
+       cy="141.98253"
+       rx="8.8718491"
+       ry="8.8246012" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.70416665px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="83.375763"
-       y="142.65184"
+       x="152.84749"
+       y="143.59676"
        id="text3788"><tspan
          sodipodi:role="line"
          id="tspan3786"
-         x="83.375763"
-         y="142.65184"
+         x="152.84749"
+         y="143.59676"
          style="stroke-width:0.26458332">SENSOR</tspan></text>
     <rect
-       style="fill:#ffffff;stroke-width:0.26458332"
-       id="rect3798"
-       width="5.4790254"
-       height="3.4745038"
-       x="88.599854"
-       y="187.68677" />
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.29217178;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4559)"
+       id="rect4557"
+       width="19.560266"
+       height="9.4966516"
+       x="152.56062"
+       y="185.7805" />
+    <ellipse
+       style="opacity:0.86;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.27686479;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4581)"
+       id="path4563"
+       cx="161.60844"
+       cy="190.5052"
+       rx="5.6688881"
+       ry="4.1806073"
+       transform="matrix(0.996373,0,0,1.1783793,1.271237,-33.934925)" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.70416665px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="87.503372"
-       y="190.894"
+       x="157.731"
+       y="191.9334"
        id="text3792"><tspan
          sodipodi:role="line"
          id="tspan3790"
-         x="87.503372"
-         y="190.894"
+         x="157.731"
+         y="191.9334"
          style="stroke-width:0.26458332">LED</tspan></text>
   </g>
 </svg>

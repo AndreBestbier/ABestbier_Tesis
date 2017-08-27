@@ -1,0 +1,49 @@
+\chapter{Conclusion}
+\label{chp:Conclusion}
+This document reports on the development and evaluation of the Ear-Monitor, a wireless device that monitors multiple vital signs through the external ear.  Vital signs include core temperature, heart rate, respiratory rate and blood oxygen saturation (SpO\textsubscript{2}). The motivation for this project is the need for a wearable device that can continuously and inconspicuous monitor the health of the wearer while not constraining movement. Three objectives are set to guide the project towards reaching the aim:
+
+\begin{itemize}
+\item Develop a device to measure core temperature, heart rate, respiratory rate and blood oxygen saturation through the external ear of the wearer.
+\item Conduct a trial experiment to test the device on a sample of human participants.
+\item Use the data collected from the trial to evaluate the accuracy of the measurements made by the device.
+\end{itemize}
+
+This section aims to clarify to what extent these objectives are achieved. Attention is also given to the findings regarding the measurement of each vital sign and suggestions for future work.
+
+\section{Device development}
+The Ear-monitor uses the TMP006 infrared sensor to measure tympanic temperature. The MAX10300 pulse oximeter is used, along with a beat detection algorithm, to measure heart rate and SpO\textsubscript{2}. Respiratory rate is measured through analysing respiratory sinus arrhythmia, the frequency modulation respiratory related heart rate characteristic. The MCU, battery and Bluetooth modem are located in a headband around the wearers head. A PCB is designed and manufactured to integrate all the electronic components in the headband. Sensors are located on a silicone ear probe that is connected the headband and placed in the external ear of the wearer. Collected data is sent through the wireless Bluetooth connection to a computer. Software is developed for the computer to analyse the data, calculated the vital sign values, display the information through a graphical user interface and stores the data for later use.
+
+\section{Experimental Trial}
+
+A trial is designed and conducted to test the Ear-Monitor on a sample of human participants. Each vital sign measured by the Ear-Monitor is compared to measurements made by selected benchmark devices. 16 participants are recruited for the trial. Data is collected from each participant in two 2-minute recording sessions.
+
+\section{Data Analysis and Results}
+
+The data captured by the Ear-Monitor and various benchmark devices are compared one vital sign at a time. The Ear-Monitor is evaluated in terms of accuracy and correlation with the benchmark measurements. %Analysis includes to calculation of interclass correlation agreement (ICC\textsubscript{a}) and consistency (ICC\textsubscript{c}), correlation coefficients, p-values and mean error with standard deviation. The findings can be summarised as follows.
+
+\subsection{Core Temperature}
+The TMP006 proves to be a precise sensor, making 15 consecutive measurements within a recording session with a mean standard deviation of \SI{0.0814}{\celsius}. Two calibration approaches are tested. Group calibration produced a statistically weak correlation with the benchmark ET 100-A ($\text{r}=0.467$, $\text{ICC\textsubscript{a}} = 0.374$, $\text{ICC\textsubscript{c}} = 0.365$). Changing the calibration approach to intra-participant calibration, improved the correlation considerably ($\text{p}=0, \text{r}=0.868$, $\text{ICC\textsubscript{a}} = 0.875$, $\text{ICC\textsubscript{c}} = 0.868$). These results indicate that the Ear-Monitor is capable of measuring consistent and accurate temperature, assuming that it is calibrated to the ear of the individual. This is due to the variation in ear canal shape and size between individuals. This leads to the conclusion that, in order to improve core temperature measurements further, an ear probe is needed that can place the TMP006 in the same position relative to the tympanic membrane between individuals, regardless of differences in external ear shape and size.
+
+\subsection{Heart Rate}
+The Ear-Monitor can detect heartbeats in the data captured by the MAX10300 by means of a beat detection algorithm. Beats are detected from trial data with a mean error of -1.5313 $\pm$2.8847 per 2-minute recording sessions. When comparing beat period length between the Ear-Monitor and the Nexus-10, a statistical significant correlation is found ($\text{p}=0, \text{r}=0.9067$, $\text{ICC\textsubscript{a}} = 0.907$, $\text{ICC\textsubscript{c}} = 0.907$). The 10-beat average heart rate is calculated from the beat period and the results show that the Ear-Monitor can measure heart rate with a mean error of 0.031 $\pm$0.717 bpm. Excellent correlation is found between the average heart rate of the Ear-Monitor and the Nexus-10 ($\text{p}=0, \text{r}=0.997$, $\text{ICC\textsubscript{a}} = 0.997$, $\text{ICC\textsubscript{c}} = 0.997$). This leads to the conclusion that the Ear-Monitor succeeds aptly in the task of measuring the heart rate of the wearer.
+
+\subsection{Respiratory Rate}
+Respiratory sinus arrhythmia (RSA) is used by the Ear-Monitor to calculate the respiratory rate of the wearer. The results from the trial data lead to a mean accuracy of 0.0156 $\pm$3.9081 breaths per minute. It is observed that most of the inaccuracy is from the recording sessions of three of the participants. Upon closer inspection, it is noted that these participants had either a high heart rate or high respiratory rate. Two deductions are made from this finding. Firstly, the effects of RSA is attenuated by a high heart rate. And secondly, a respiratory rate approaching half the heart rate causes many false negatives due to the Nyquist sampling limit. This leads to the conclusion that respiratory rate measurement through RSA is most effective at low heart and respiratory rates. Removing the 3 outlier participants gives the Ear-Monitor an accuracy of -0.5577 breaths per minute with a greatly reduced standard deviation of 1.4061 breaths per minute.
+
+\subsection{SpO\textsubscript{2}}
+The MAX30100 is used to collect the data used to calculate SpO\textsubscript{2}. A modulation ratio between red and infrared AC and DC components of the PPG signals collected from the ear canal wall is used. The mean error between the Ear-Monitor and SureSigns VM1 benchmark device is -0.22 $\pm$1.50\%. This is a good accuracy within the testing range. The Ear-Monitor also indicates that all participants are healthy, with a SpO\textsubscript{2} of above 95\%, which is correct. However, the ICC analysis reveals no statistically  significant correlation. Therefore, no predictions can be made about the accuracy of measurements made by the Ear-Monitor when the wearer has a SpO\textsubscript{2} of lower than 96\%. The lack of correlation can be ascribed to the inherent variability in pulse oximeter measurements.
+
+\section{Suggestions for Future Work}
+As a whole, the Ear-Monitor achieved all of its objectives. However, there is an opportunity for improvements and additions in future versions.
+
+\medskip
+Firstly, research can be done regarding an ear probe that better conforms to different ear shapes. It should place the infrared sensor in the same position relative to the tympanic membrane, regardless of the ear canal shape of the wearer. Analysis of the trial data suggests that will greatly improve the accuracy of the core temperature measurements. Furthermore, the probe should ensure uniform contact between the MAX30100 and the canal wall, even for smaller ear canal shapes. Considerations for the probe should include material, shape and different sizes.
+
+\medskip
+Secondly, a more extensive trial can be done o test the Ear-Monitor. More participants can be tested, including hypoxic patients, to more test the SpO\textsubscript{2} capabilities of the Ear-Monitor more thoroughly. The benchmark measurements from the SureSigns VM1 should be replaced or supplemented by a blood gas test for more accurate benchmarking.
+
+\medskip
+Finally, the vital signs measurement capabilities can be extended to include the monitoring of electrical brain activity and can research can be done into monitoring blood pressure through the ear canal. Diagnostic algorithms can be added to the supporting system on the computer and alarms can be triggered when health warning signs are detected.
+
+\section{Conclusion}
+Overall, the Ear-Monitor project is a success. The functional device and supporting software prove that is is possible for a wearable device to collect vital signs from the external ear and transmit data over a wireless connection to a nearby computer. Core temperature, heart rate, and respiratory rate are measured with sufficient accuracy, while SpO\textsubscript{2} was measured, but no significant correlation was found with the benchmark measurements, and further testing is needed. This Ear-Monitor project adds valuable academic information to the body of knowledge concerning wearable vital sign monitoring through the external ear and lays the groundwork towards a commercial medical device.

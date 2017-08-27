@@ -1,123 +1,142 @@
 \select@language {english}
-\contentsline {chapter}{Declaration}{i}
-\contentsline {chapter}{Abstract}{ii}
+\contentsline {chapter}{Declaration}{i}{section*.2}
+\contentsline {chapter}{Abstract}{ii}{section*.4}
 \select@language {afrikaans}
-\contentsline {chapter}{Uittreksel}{iii}
+\contentsline {chapter}{Uittreksel}{iii}{section*.6}
 \select@language {english}
-\contentsline {chapter}{Acknowledgements}{iv}
-\contentsline {chapter}{Dedications}{v}
+\contentsline {chapter}{Acknowledgements}{iv}{chapter*.7}
+\contentsline {chapter}{Dedications}{v}{chapter*.8}
 \select@language {afrikaans}
 \select@language {english}
-\contentsline {chapter}{Contents}{vi}
-\contentsline {chapter}{List of Figures}{ix}
-\contentsline {chapter}{List of Tables}{xii}
-\contentsline {chapter}{Nomenclature}{xiii}
-\contentsline {chapter}{\chapternumberline {1}Introduction}{1}
-\contentsline {section}{\numberline {1.1}Aim/Research Question}{2}
-\contentsline {section}{\numberline {1.2}Motivation}{2}
-\contentsline {chapter}{\chapternumberline {2}Biology Literature Review}{4}
-\contentsline {section}{\numberline {2.1}Ear Anatomy}{4}
-\contentsline {subsection}{\numberline {2.1.1}Auricle}{4}
-\contentsline {subsection}{\numberline {2.1.2}Ear Canal}{5}
-\contentsline {subsection}{\numberline {2.1.3}Tympanic Membrane}{7}
-\contentsline {section}{\numberline {2.2}Medical Sign Physiology}{7}
-\contentsline {subsection}{\numberline {2.2.1}Core Temperature}{7}
-\contentsline {subsection}{\numberline {2.2.2}Heart Rate}{9}
-\contentsline {subsection}{\numberline {2.2.3}Respiratory Rate}{9}
-\contentsline {subsection}{\numberline {2.2.4}Blood Oxygen Saturation}{10}
-\contentsline {chapter}{\chapternumberline {3}Theory Literature Review}{11}
-\contentsline {section}{\numberline {3.1}Core Temperature}{11}
-\contentsline {subsection}{\numberline {3.1.1}Contact Thermometers}{12}
-\contentsline {subsubsection}{\numberline {3.1.1.1}Resistance Temperature Detector}{12}
-\contentsline {subsubsection}{\numberline {3.1.1.2}Thermocouple}{12}
-\contentsline {subsubsection}{\numberline {3.1.1.3}Thermistor}{12}
-\contentsline {subsubsection}{\numberline {3.1.1.4}Contact Thermometer Application}{13}
-\contentsline {subsection}{\numberline {3.1.2}Non-contact Thermometers}{13}
-\contentsline {subsection}{\numberline {3.1.3}Commercial Temperature Monitoring Devices}{14}
-\contentsline {section}{\numberline {3.2}Heart Rate}{16}
-\contentsline {subsection}{\numberline {3.2.1}Electrocardiography}{16}
-\contentsline {subsection}{\numberline {3.2.2}Photoplethysmography}{17}
-\contentsline {subsubsection}{\numberline {3.2.2.1}Work done by others in Ear PPG}{18}
-\contentsline {subsection}{\numberline {3.2.3}Ballistocardiography}{20}
-\contentsline {subsection}{\numberline {3.2.4}Other Heart Rate Methods}{21}
-\contentsline {section}{\numberline {3.3}Respiratory Rate}{22}
-\contentsline {subsection}{\numberline {3.3.1}Respiratory Rate Ear Sensors}{22}
-\contentsline {subsection}{\numberline {3.3.2}Respiratory related Heart Rate Characteristics}{22}
-\contentsline {section}{\numberline {3.4}Blood Oxygen Saturation}{23}
-\contentsline {subsection}{\numberline {3.4.1}Pulse Oximetry Theory}{24}
-\contentsline {subsection}{\numberline {3.4.2}Work done by others in ear pulse oximetry}{26}
-\contentsline {section}{\numberline {3.5}Electrical Brain Activity}{27}
-\contentsline {chapter}{\chapternumberline {4}Concept Selection}{28}
-\contentsline {section}{\numberline {4.1}Temperature}{28}
-\contentsline {subsection}{\numberline {4.1.1}Temperature measurement method}{28}
-\contentsline {subsubsection}{\numberline {4.1.1.1}Contact thermometers}{28}
-\contentsline {subsubsection}{\numberline {4.1.1.2}Non-contact Thermometers}{29}
-\contentsline {subsubsection}{\numberline {4.1.1.3}Temperature measurement method choice}{30}
-\contentsline {subsection}{\numberline {4.1.2}Temperature measurement sensor}{30}
-\contentsline {subsubsection}{\numberline {4.1.2.1}ST60 Micro}{30}
-\contentsline {subsubsection}{\numberline {4.1.2.2}TMP006}{31}
-\contentsline {subsubsection}{\numberline {4.1.2.3}Temperature measurement sensor choice}{31}
-\contentsline {section}{\numberline {4.2}Heart Rate}{31}
-\contentsline {subsection}{\numberline {4.2.1}Heart rate measurement method}{32}
-\contentsline {subsubsection}{\numberline {4.2.1.1}Ear ECG}{32}
-\contentsline {subsubsection}{\numberline {4.2.1.2}Ear PPG}{32}
-\contentsline {subsubsection}{\numberline {4.2.1.3}Ear BCG}{33}
-\contentsline {subsubsection}{\numberline {4.2.1.4}Phonocardiogram}{34}
-\contentsline {subsubsection}{\numberline {4.2.1.5}Heart rate method choice}{34}
-\contentsline {subsection}{\numberline {4.2.2}Heart rate measurement sensor}{35}
-\contentsline {subsubsection}{\numberline {4.2.2.1}Separate LEDs and photodetector}{35}
-\contentsline {subsubsection}{\numberline {4.2.2.2}NJL5501R}{35}
-\contentsline {subsubsection}{\numberline {4.2.2.3}MAX30100}{35}
-\contentsline {subsubsection}{\numberline {4.2.2.4}Heart rate sensor choice}{36}
-\contentsline {section}{\numberline {4.3}Respiratory Rate}{37}
-\contentsline {subsection}{\numberline {4.3.1}Respiratory rate measuring method}{37}
-\contentsline {subsubsection}{\numberline {4.3.1.1}Accelerometer}{37}
-\contentsline {subsubsection}{\numberline {4.3.1.2}Microphone}{37}
-\contentsline {subsubsection}{\numberline {4.3.1.3}Respiratory related heart rate characteristics}{38}
-\contentsline {subsubsection}{\numberline {4.3.1.4}Respiratory rate choice}{38}
-\contentsline {section}{\numberline {4.4}Blood oxygen saturation}{38}
-\contentsline {section}{\numberline {4.5}Final concept}{38}
-\contentsline {chapter}{\chapternumberline {5}Detailed Design}{40}
-\contentsline {section}{\numberline {5.1}Hardware}{40}
-\contentsline {subsection}{\numberline {5.1.1}Temperature sensor}{40}
-\contentsline {subsection}{\numberline {5.1.2}Pulse Oximeter}{42}
-\contentsline {subsection}{\numberline {5.1.3}Control and Communication Hardware}{44}
-\contentsline {section}{\numberline {5.2}Software}{46}
-\contentsline {subsection}{\numberline {5.2.1}Sensor Communication Software}{47}
-\contentsline {subsubsection}{\numberline {5.2.1.1}Sensor Configuration}{47}
-\contentsline {subsubsection}{\numberline {5.2.1.2}Reading data from sensors}{47}
-\contentsline {subsection}{\numberline {5.2.2}Temperature related software}{48}
-\contentsline {subsection}{\numberline {5.2.3}Calculating T\textsubscript {OBJ}}{48}
-\contentsline {subsection}{\numberline {5.2.4}PPG signal processing}{50}
-\contentsline {subsubsection}{\numberline {5.2.4.1}AC and DC separation}{51}
-\contentsline {subsubsection}{\numberline {5.2.4.2}Low-pass filter}{52}
-\contentsline {subsection}{\numberline {5.2.5}Beat Detection}{52}
-\contentsline {subsubsection}{\numberline {5.2.5.1}Heart- and Respiratory Rate Calculation}{55}
-\contentsline {subsection}{\numberline {5.2.6}SpO\textsubscript {2} Calculation}{56}
-\contentsline {subsection}{\numberline {5.2.7}Current Balancing}{57}
-\contentsline {subsection}{\numberline {5.2.8}Moving average SpO\textsubscript {2}}{58}
-\contentsline {subsection}{\numberline {5.2.9}PC Interface}{58}
-\contentsline {chapter}{\chapternumberline {6}Trial Period}{60}
-\contentsline {section}{\numberline {6.1}Participant Selection}{60}
-\contentsline {section}{\numberline {6.2}Benchmark Validation}{61}
-\contentsline {section}{\numberline {6.3}Method}{62}
-\contentsline {chapter}{\chapternumberline {7}Calibration}{65}
-\contentsline {section}{\numberline {7.1}Temperature Calibration}{65}
-\contentsline {subsection}{\numberline {7.1.1}Calibration group approach}{65}
-\contentsline {subsection}{\numberline {7.1.2}Intra-participant calibration approach}{66}
-\contentsline {section}{\numberline {7.2}SpO\textsubscript {2} Calibration}{66}
-\contentsline {chapter}{\chapternumberline {8}Results and Discussion}{67}
-\contentsline {section}{\numberline {8.1}Temperature Results}{67}
-\contentsline {subsection}{\numberline {8.1.1}Calibration Group Results}{67}
-\contentsline {subsection}{\numberline {8.1.2}Intra-participant Calibration Results}{68}
-\contentsline {subsection}{\numberline {8.1.3}Temperature Results Discussion}{70}
-\contentsline {section}{\numberline {8.2}Heart Rate Results}{71}
-\contentsline {subsection}{\numberline {8.2.1}Beat Detection Algorithm Evaluation Results}{71}
-\contentsline {subsubsection}{\numberline {8.2.1.1}PhysioNet Data Test}{72}
-\contentsline {subsubsection}{\numberline {8.2.1.2}Trial Data Test}{73}
-\contentsline {subsection}{\numberline {8.2.2}Beat Period and Average Heart Rate Results}{75}
-\contentsline {subsection}{\numberline {8.2.3}Heart Rate Results Discussion}{76}
-\contentsline {section}{\numberline {8.3}Respiratory Rate Results}{77}
-\contentsline {subsection}{\numberline {8.3.1}Respiratory Rate Discussion}{80}
-\contentsline {chapter}{Appendices}{81}
-\contentsline {chapter}{List of References}{82}
+\contentsline {chapter}{Contents}{vi}{section*.9}
+\contentsline {chapter}{List of Figures}{x}{section*.10}
+\contentsline {chapter}{List of Tables}{xiii}{section*.11}
+\contentsline {chapter}{Nomenclature}{xiv}{chapter*.12}
+\contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Aim and Objectives}{2}{section.1.1}
+\contentsline {section}{\numberline {1.2}Motivation}{2}{section.1.2}
+\contentsline {chapter}{\chapternumberline {2}Literature Review}{4}{chapter.2}
+\contentsline {section}{\numberline {2.1}Ear Anatomy}{4}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Auricle}{4}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Ear Canal}{5}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Tympanic Membrane}{6}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}Vital Sign Physiology}{7}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Core Temperature}{7}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Heart Rate}{8}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Respiratory Rate}{9}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Blood Oxygen Saturation}{9}{subsection.2.2.4}
+\contentsline {section}{\numberline {2.3}Vital Signs Measurement Theory}{10}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Core Temperature Measurement}{10}{subsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.1.1}Contact Thermometers}{10}{subsubsection.2.3.1.1}
+\contentsline {subsubsection}{\numberline {2.3.1.2}Non-contact Thermometers}{12}{subsubsection.2.3.1.2}
+\contentsline {subsection}{\numberline {2.3.2}Commercial Temperature Monitoring Devices}{14}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Heart Rate}{14}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Electrocardiography}{15}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Photoplethysmography}{16}{subsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.2.1}Work done by others in Ear PPG}{17}{subsubsection.2.4.2.1}
+\contentsline {subsection}{\numberline {2.4.3}Ballistocardiography}{19}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}Other Heart Rate Methods}{20}{subsection.2.4.4}
+\contentsline {section}{\numberline {2.5}Respiratory Rate}{21}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Respiratory Rate Ear Sensors}{21}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Respiratory related Heart Rate Characteristics}{22}{subsection.2.5.2}
+\contentsline {section}{\numberline {2.6}Blood Oxygen Saturation}{23}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Pulse Oximetry Theory}{23}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Work done by others in ear pulse oximetry}{26}{subsection.2.6.2}
+\contentsline {chapter}{\chapternumberline {3}Concept Selection}{27}{chapter.3}
+\contentsline {section}{\numberline {3.1}Temperature}{27}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Temperature measurement method}{27}{subsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1.1}Contact thermometers}{27}{subsubsection.3.1.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1.2}Non-contact Thermometers}{28}{subsubsection.3.1.1.2}
+\contentsline {subsubsection}{\numberline {3.1.1.3}Temperature measurement method choice}{29}{subsubsection.3.1.1.3}
+\contentsline {subsection}{\numberline {3.1.2}Temperature measurement sensor}{29}{subsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.2.1}ST60 Micro}{29}{subsubsection.3.1.2.1}
+\contentsline {subsubsection}{\numberline {3.1.2.2}TMP006}{30}{subsubsection.3.1.2.2}
+\contentsline {subsubsection}{\numberline {3.1.2.3}Temperature measurement sensor choice}{30}{subsubsection.3.1.2.3}
+\contentsline {section}{\numberline {3.2}Heart Rate}{31}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Heart rate measurement method}{31}{subsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.1.1}Ear ECG}{31}{subsubsection.3.2.1.1}
+\contentsline {subsubsection}{\numberline {3.2.1.2}Ear PPG}{31}{subsubsection.3.2.1.2}
+\contentsline {subsubsection}{\numberline {3.2.1.3}Ear BCG}{32}{subsubsection.3.2.1.3}
+\contentsline {subsubsection}{\numberline {3.2.1.4}Phonocardiogram}{33}{subsubsection.3.2.1.4}
+\contentsline {subsubsection}{\numberline {3.2.1.5}Heart rate method choice}{33}{subsubsection.3.2.1.5}
+\contentsline {subsection}{\numberline {3.2.2}Heart rate measurement sensor}{34}{subsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.2.1}Separate LEDs and photodetector}{34}{subsubsection.3.2.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2.2}NJL5501R}{34}{subsubsection.3.2.2.2}
+\contentsline {subsubsection}{\numberline {3.2.2.3}MAX30100}{35}{subsubsection.3.2.2.3}
+\contentsline {subsubsection}{\numberline {3.2.2.4}Heart rate sensor choice}{35}{subsubsection.3.2.2.4}
+\contentsline {section}{\numberline {3.3}Respiratory Rate}{36}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Respiratory rate measuring method}{36}{subsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.1.1}Accelerometer}{36}{subsubsection.3.3.1.1}
+\contentsline {subsubsection}{\numberline {3.3.1.2}Microphone}{36}{subsubsection.3.3.1.2}
+\contentsline {subsubsection}{\numberline {3.3.1.3}Respiratory related heart rate characteristics}{37}{subsubsection.3.3.1.3}
+\contentsline {subsubsection}{\numberline {3.3.1.4}Respiratory Rate Sensor Choice}{37}{subsubsection.3.3.1.4}
+\contentsline {section}{\numberline {3.4}Blood oxygen saturation}{38}{section.3.4}
+\contentsline {section}{\numberline {3.5}Final concept}{38}{section.3.5}
+\contentsline {chapter}{\chapternumberline {4}Detailed Design}{40}{chapter.4}
+\contentsline {section}{\numberline {4.1}Hardware}{40}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Temperature sensor}{40}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Pulse Oximeter}{42}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Control and Communication Hardware}{44}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Software}{46}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Sensor Communication Software}{47}{subsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.1.1}Sensor Configuration}{48}{subsubsection.4.2.1.1}
+\contentsline {subsubsection}{\numberline {4.2.1.2}Reading data from sensors}{48}{subsubsection.4.2.1.2}
+\contentsline {subsection}{\numberline {4.2.2}Temperature related software}{48}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Calculating T\textsubscript {OBJ}}{49}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}PPG signal processing}{50}{subsection.4.2.4}
+\contentsline {subsubsection}{\numberline {4.2.4.1}AC and DC separation}{51}{subsubsection.4.2.4.1}
+\contentsline {subsubsection}{\numberline {4.2.4.2}Low-pass filter}{52}{subsubsection.4.2.4.2}
+\contentsline {subsection}{\numberline {4.2.5}Beat Detection}{53}{subsection.4.2.5}
+\contentsline {subsubsection}{\numberline {4.2.5.1}Heart- and Respiratory Rate Calculation}{57}{subsubsection.4.2.5.1}
+\contentsline {subsection}{\numberline {4.2.6}SpO\textsubscript {2} Calculation}{58}{subsection.4.2.6}
+\contentsline {subsection}{\numberline {4.2.7}Current Balancing}{58}{subsection.4.2.7}
+\contentsline {subsection}{\numberline {4.2.8}Moving average SpO\textsubscript {2}}{60}{subsection.4.2.8}
+\contentsline {subsection}{\numberline {4.2.9}PC Interface}{60}{subsection.4.2.9}
+\contentsline {chapter}{\chapternumberline {5}Trial Period}{62}{chapter.5}
+\contentsline {section}{\numberline {5.1}Participant Selection}{62}{section.5.1}
+\contentsline {section}{\numberline {5.2}Benchmark Validation}{63}{section.5.2}
+\contentsline {section}{\numberline {5.3}Method}{64}{section.5.3}
+\contentsline {chapter}{\chapternumberline {6}Calibration}{67}{chapter.6}
+\contentsline {section}{\numberline {6.1}Temperature Calibration}{67}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Group Calibration Approach}{67}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Intra-participant calibration approach}{68}{subsection.6.1.2}
+\contentsline {section}{\numberline {6.2}SpO\textsubscript {2} Calibration}{68}{section.6.2}
+\contentsline {chapter}{\chapternumberline {7}Results and Discussion}{70}{chapter.7}
+\contentsline {section}{\numberline {7.1}Temperature Results}{71}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Group Calibration Results}{71}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Intra-participant Calibration Results}{72}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}Temperature Results Discussion}{73}{subsection.7.1.3}
+\contentsline {section}{\numberline {7.2}Heart Rate Results}{75}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Beat Detection Algorithm Evaluation Results}{75}{subsection.7.2.1}
+\contentsline {subsubsection}{\numberline {7.2.1.1}PhysioNet Data Test}{75}{subsubsection.7.2.1.1}
+\contentsline {subsubsection}{\numberline {7.2.1.2}Trial Data Test}{75}{subsubsection.7.2.1.2}
+\contentsline {subsection}{\numberline {7.2.2}Beat Period and Average Heart Rate Results}{77}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Heart Rate Results Discussion}{79}{subsection.7.2.3}
+\contentsline {section}{\numberline {7.3}Respiratory Rate Results}{79}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Respiratory Rate Discussion}{81}{subsection.7.3.1}
+\contentsline {section}{\numberline {7.4}SpO\textsubscript {2} Results}{82}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}SpO\textsubscript {2} Results Discussion}{83}{subsection.7.4.1}
+\contentsline {section}{\numberline {7.5}Results Summary}{84}{section.7.5}
+\contentsline {chapter}{\chapternumberline {8}Conclusion}{85}{chapter.8}
+\contentsline {section}{\numberline {8.1}Device development}{85}{section.8.1}
+\contentsline {section}{\numberline {8.2}Experimental Trial}{86}{section.8.2}
+\contentsline {section}{\numberline {8.3}Data Analysis and Results}{86}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Core Temperature}{86}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.2}Heart Rate}{86}{subsection.8.3.2}
+\contentsline {subsection}{\numberline {8.3.3}Respiratory Rate}{87}{subsection.8.3.3}
+\contentsline {subsection}{\numberline {8.3.4}SpO\textsubscript {2}}{87}{subsection.8.3.4}
+\contentsline {section}{\numberline {8.4}Suggestions for Future Work}{87}{section.8.4}
+\contentsline {section}{\numberline {8.5}Conclusion}{88}{section.8.5}
+\contentsline {chapter}{Appendices}{89}{section*.83}
+\contentsline {appendix}{\chapternumberline {A}Calculations}{90}{appendix.A}
+\contentsline {section}{\numberline {A.1}Ear-Monitor power supply}{90}{section.A.1}
+\contentsline {appendix}{\chapternumberline {B}Proof of Ethical Approval}{91}{appendix.B}
+\contentsline {appendix}{\chapternumberline {C}Data Tables}{92}{appendix.C}
+\contentsline {section}{\numberline {C.1}Temperature Results}{92}{section.C.1}
+\contentsline {section}{\numberline {C.2}PhysioNet Beat Detection Results}{93}{section.C.2}
+\contentsline {subsection}{\numberline {C.2.1}Respiratory Rate Results}{95}{subsection.C.2.1}
+\contentsline {subsection}{\numberline {C.2.2}Ball mass and inertia parameters}{95}{subsection.C.2.2}
+\contentsline {appendix}{\chapternumberline {D}Discrete Element Method Theory}{97}{appendix.D}
+\contentsline {section}{\numberline {D.1}Ball elements}{97}{section.D.1}
+\contentsline {subsection}{\numberline {D.1.1}Ball mass and inertia parameters}{97}{subsection.D.1.1}
+\contentsline {chapter}{List of References}{98}{section*.89}

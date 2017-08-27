@@ -8,59 +8,68 @@
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Anatomical structures of the auricle (Get source from: goo.gl/mmLnFx)\relax }}{5}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Structure of the ear (Drake et al: Gray's Anatomy for Students)\relax }}{6}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces The results from 20 studies with strong or fairly strong evidence of normal oral, rectal and tympanic temperature ($^{\circ }$C) in adult men and women are presented. Temperature is obtainable as mean value(bold lines), 1st and 3rd quartiles (unfilled bars) and range (thin lines).\relax }}{8}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Anatomical structures of the auricle\relax }}{5}{figure.caption.13}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Structure of the ear (Drake et al: Gray's Anatomy for Students)\relax }}{6}{figure.caption.14}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces The results from 20 studies reviewed by \cite {sund2002normal}\relax }}{8}{figure.caption.15}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Dominant radiation wavelength at \SI {37}{\celsius } using Planck's law\relax }}{13}{figure.caption.16}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Infrared thermometer diagram \citep {irTempSensors}\relax }}{13}{figure.caption.17}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces CAD model of the Degree from the Cusinuss website \citep {CosinussDegree}\relax }}{14}{figure.caption.18}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Ear-worn device developed by \cite {winokur2012wearable}\relax }}{15}{figure.caption.19}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces The two modes of Photoplethysmography \citep {tamura2014wearable}\relax }}{16}{figure.caption.20}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Basic operating principles of PPG \citep {tamura2014wearable}\relax }}{17}{figure.caption.21}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Wearable ear PPG device by \cite {poh2010motion}\relax }}{18}{figure.caption.22}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Comparing ear PPG to finger PPG and chest ECG \citep {da2010ear}\relax }}{19}{figure.caption.23}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Cosinuss One\textsuperscript \textregistered {} ear worn heard rate device \citep {CosinussOne}\relax }}{19}{figure.caption.24}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Device to measure in ear pulse waves due to the heart beat \citep {park2015wearable}\relax }}{20}{figure.caption.25}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Breathing detected through microphones inside the ear canal \citep {goverdovsky2016hearables}\relax }}{21}{figure.caption.26}
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Baseline oscillations in behind the ear BCG due to breathing \citep {da2010ear}\relax }}{22}{figure.caption.27}
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Absorption spectra of oxy- and deoxyhemoglobin\relax }}{23}{figure.caption.29}
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Bragi Dash\relax }}{26}{figure.caption.31}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Plot showing how Planck's law can be used to determine the dominant radiation wavelength at certain temperature\relax }}{14}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Infrared thermometer diagram (V Polyzoev et al: Demystifying Thermopile IR Temp Sensors)\relax }}{15}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces CAD model of the \textit {degree}$^{\circ }$ from the \textit {cosinuss}$^{\circ }$ website (www.cosinuss.com)\relax }}{15}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Ear-worn device developed by \cite {winokur2012wearable}\relax }}{16}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces The two modes of Photoplethysmography \citep {tamura2014wearable}\relax }}{17}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Basic operating principles of PPG \citep {tamura2014wearable}\relax }}{18}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Pulse oximetry diagram \citep {poh2010motion}\relax }}{19}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Pulse oximetry diagram \citep {da2010ear}\relax }}{20}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces https://www.cosinuss.com/en/products/one\relax }}{20}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Device to measure in ear pulse waves due to the heart beat \citep {park2015wearable}\relax }}{21}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Breathing detected through microphones inside the ear canal \citep {goverdovsky2016hearables}\relax }}{22}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Baseline osculations in behind the ear BCG due to breathing \citep {da2010ear}\relax }}{23}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Absorption spectra of oxy- and deoxyhemoglobin\relax }}{24}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces ST60Micro diagram from the datasheet\relax }}{30}{figure.caption.34}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces NJL5501R diagram from the datasheet\relax }}{34}{figure.caption.39}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces MAX30100 block diagram from the datasheet\relax }}{35}{figure.caption.40}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Ear-Monitor concept with components labelled\relax }}{39}{figure.caption.44}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces ST60Micro diagram from the datasheet\relax }}{31}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces NJL5501R diagram from the datasheet\relax }}{35}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces MAX30100 block diagram from the datasheet\relax }}{36}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces (Add caption and labels on image)\relax }}{39}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Flow of information in a typical telemedicine set-up\relax }}{40}{figure.caption.45}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces TMP006 PCB}}{41}{figure.caption.46}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces MAX30100 package diagram with required connections for operation.\relax }}{43}{figure.caption.47}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces (a) is the layout as designed on EAGLE PCB with the outline of the MAX30100 shown in black and (b) is the finished flexible PCB with copper tracks\relax }}{44}{figure.caption.48}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Block diagram of the Ear-Monitor's hardware components\relax }}{45}{figure.caption.49}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Ear probe with TMP006 visible\relax }}{46}{figure.caption.50}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Hardware of the Ear-Monitor\relax }}{46}{figure.caption.51}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Block diagram of the flow of information through the various software functions. Final calculated vital signs are shown in blue\relax }}{47}{figure.caption.52}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces How the software reads 16-bit values from the TMP006 registers\relax }}{47}{figure.caption.53}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Plot of the T\textsubscript {OBJ} equation with recommended calibration parameters over the operating temperature range of the Ear-Monitor\relax }}{50}{figure.caption.56}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces The raw PPG signal, $x_n$, is sent through AC and DC extraction and filtering functions\relax }}{51}{figure.caption.57}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces (a) the raw infrared signal contaminated by DC offset and drift and (b), the extracted AC component of the signal\relax }}{52}{figure.caption.58}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces (a) the AC component of the infrared signal before filtering and (b), after filtering\relax }}{53}{figure.caption.59}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Filtered AC component of PPG with important features labelled\relax }}{54}{figure.caption.60}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces (a) the AC component of the infrared signal before filtering and (b), after filtering\relax }}{55}{figure.caption.61}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces SSF with detected beats and threshold plotted.\relax }}{56}{figure.caption.62}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Peak detection example\relax }}{57}{figure.caption.63}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Plots of heartbeat periods and chest expansion.\relax }}{58}{figure.caption.64}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Plot showing the effect of the current balancing function implemented on the MAX30100 lowering the difference in detected light between red and infrared LED by adjusting the current to the infrared LED.\relax }}{59}{figure.caption.65}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Ear-Monitor user interface\relax }}{61}{figure.caption.66}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Flow of information in a typical telemedicine set-up\relax }}{40}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces (a) TMP006 pre-mounted boards and (b) the cut-out sensor segment with four connections labeled\relax }}{41}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces MAX30100 package diagram with required connections for operation.\relax }}{43}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces (a) is the layout as designed on EAGLE PCB with the outline of the MAX30100 shown in black and (b) is the finished flexible PCB with copper tracks (insert scale?)\relax }}{44}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Block digram for the Ear-Monitor's hardware components\relax }}{45}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces \relax }}{46}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Block diagram showing the flow of information through the various software functions. Final calculated medical signs are shown in blue\relax }}{46}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces How the software reads 16-bit values from the TMP006 registers\relax }}{47}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Plot of the the T\textsubscript {OBJ} equation with recommended calibration parameters over the operating temperature range of the Ear-Monitor\relax }}{50}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces The raw PPG signal, $x_n$, is sent through AC and DC extraction and filtering functions\relax }}{51}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces (a) the raw IR signal contaminated by DC offset and drift and (b), the extracted AC component of the signal\relax }}{51}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces (a) the AC component of the IR signal before filtering and (b), after filtering\relax }}{52}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Filtered AC component of PPG with important features labelled\relax }}{53}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces (a) the AC component of the IR signal before filtering and (b), after filtering\relax }}{54}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces SSF with detected beats and threshold plotted.\relax }}{55}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Plots of heart beat periods and chest expansion.\relax }}{56}
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Plot showing the effect of the current balancing function implemented on the MAX30100 lowering the difference in detected light between red and IR LED by adjusting the current to the IR LED.\relax }}{58}
-\contentsline {figure}{\numberline {5.18}{\ignorespaces Ear-Monitor user interface\relax }}{59}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Benchmark devices: (a) Nexus-10, (b) SureSigns VM1 and (c) EM 100-A\relax }}{63}{figure.caption.68}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Diagram showing how devices are connected to the participant during the recording session\relax }}{65}{figure.caption.69}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Recording session set-up with participant\relax }}{66}{figure.caption.70}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Benchmark devices: (a) Nexus-10, (b) SureSigns VM1 and (c) EM 100-A\relax }}{61}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Diagram showing how devices are connected to the participant during the recording session\relax }}{63}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Recording session set-up with participant\relax }}{64}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Temperature errors before and after calibration\relax }}{68}{figure.caption.71}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Temperature errors before and after calibration\relax }}{66}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Temperature through the Group calibration method: ET 100-A vs. Ear-Monitor\relax }}{72}{figure.caption.72}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Temperature through the Intra-participant calibration method: ET 100-A vs. Ear-Monitor\relax }}{73}{figure.caption.73}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Temperature errors of the Group calibration and Intra-participant calibration methods\relax }}{74}{figure.caption.74}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Plots of (a) the Ear-Monitor SSF with detected beats and (b) the Nexus-10 PPG signal with annotated beats\relax }}{76}{figure.caption.75}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Number of beats: Nexus-10 vs. Ear-Monitor\relax }}{77}{figure.caption.76}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Beat period: Nexus-10 vs. Ear-Monitor\relax }}{78}{figure.caption.77}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces 10-beat average heart rate: Nexus-10 vs. Ear-Monitor\relax }}{78}{figure.caption.78}
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Number of breaths detected: Nexus-10 vs. Ear-Monitor (Excluding outliers)\relax }}{81}{figure.caption.80}
+\contentsline {figure}{\numberline {7.9}{\ignorespaces SpO\textsubscript {2}: SureSigns VM1 vs. Ear-Monitor\relax }}{83}{figure.caption.81}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Temperature through Calibration Group: ET 100-A vs. Ear-Monitor\relax }}{68}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Temperature through Intra-participant Calibration: ET 100-A vs. Ear-Monitor\relax }}{69}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Temperature errors of Calibration group method and Intra-participant calibration method\relax }}{71}
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Plots of (a) the Ear-Monitor SSF with detected beats and (b) the Nexus-10 PPG signal with annotated beats\relax }}{73}
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Number of beats: Nexus-10 vs. Ear-Monitor\relax }}{75}
-\contentsline {figure}{\numberline {8.6}{\ignorespaces Beat period: Nexus-10 vs. Ear-Monitor\relax }}{76}
-\contentsline {figure}{\numberline {8.7}{\ignorespaces 10-beat average heart rate: Nexus-10 vs. Ear-Monitor\relax }}{76}
-\contentsline {figure}{\numberline {8.8}{\ignorespaces Number of breaths detected: Nexus-10 vs. Ear-Monitor\relax }}{79}
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {D.1}{\ignorespaces Ball Element Parameters\relax }}{97}{figure.caption.87}
